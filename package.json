@@ -1,0 +1,15 @@
+{
+  "name": "asia-explora",
+  "version": "1.0.0",
+  "description": "ASIA EXPLORA — Smart Tourism Information & Heritage Management",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node server/index.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "test:server": "node server/test_server.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

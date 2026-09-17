@@ -1,0 +1,2332 @@
+{
+  "countries": [
+    {
+      "id": "india",
+      "name": "India",
+      "code": "IN",
+      "continentRegion": "South Asia",
+      "capital": "New Delhi",
+      "description": "A land of epic heritage, vibrant cultural tapestries, sacred rivers, and millennia-old architectural marvels.",
+      "heroMedia": {
+        "type": "video",
+        "url": "https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-a-beautiful-river-surrounded-by-forest-42867-large.mp4",
+        "poster": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1600&q=80"
+      },
+      "flag": "🇮🇳",
+      "coordinates": [
+        20.5937,
+        78.9629
+      ],
+      "zoom": 5,
+      "bestSeason": "October to March",
+      "currency": "INR (₹)",
+      "languages": [
+        "Hindi",
+        "English",
+        "Tamil",
+        "Bengali",
+        "22 Official"
+      ],
+      "heritageCount": 42,
+      "popularActivities": [
+        "Temple Trails",
+        "Spiritual Pilgrimages",
+        "Tiger Safaris",
+        "Culinary Exploration",
+        "Himalayan Treks"
+      ],
+      "estimatedDailyBudget": "$35 - $120 / day",
+      "journeyScore": 95
+    },
+    {
+      "id": "japan",
+      "name": "Japan",
+      "code": "JP",
+      "continentRegion": "East Asia",
+      "capital": "Tokyo",
+      "description": "An intoxicating blend of hyper-modern neon metropolises and serene Zen temples nestled beneath Mount Fuji.",
+      "heroMedia": {
+        "type": "video",
+        "url": "https://assets.mixkit.co/videos/preview/mixkit-traditional-japanese-gate-in-a-forest-42878-large.mp4",
+        "poster": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1600&q=80"
+      },
+      "flag": "🇯🇵",
+      "coordinates": [
+        36.2048,
+        138.2529
+      ],
+      "zoom": 5,
+      "bestSeason": "March to May & September to November",
+      "currency": "JPY (¥)",
+      "languages": [
+        "Japanese"
+      ],
+      "heritageCount": 25,
+      "popularActivities": [
+        "Cherry Blossom Viewing",
+        "Tea Ceremonies",
+        "Shinkansen Journeys",
+        "Onsen Baths",
+        "Historic Castles"
+      ],
+      "estimatedDailyBudget": "$80 - $250 / day",
+      "journeyScore": 96
+    },
+    {
+      "id": "china",
+      "name": "China",
+      "code": "CN",
+      "continentRegion": "East Asia",
+      "capital": "Beijing",
+      "description": "One of the world's oldest civilizations featuring the Great Wall, mystical karst mountains, and the ancient Silk Road.",
+      "heroMedia": {
+        "type": "video",
+        "url": "https://assets.mixkit.co/videos/preview/mixkit-great-wall-of-china-under-the-sun-42930-large.mp4",
+        "poster": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1600&q=80"
+      },
+      "flag": "🇨🇳",
+      "coordinates": [
+        35.8617,
+        104.1954
+      ],
+      "zoom": 4,
+      "bestSeason": "April to May & September to October",
+      "currency": "CNY (¥)",
+      "languages": [
+        "Mandarin"
+      ],
+      "heritageCount": 57,
+      "popularActivities": [
+        "Great Wall Hiking",
+        "Yangtze River Cruise",
+        "Terracotta Warriors",
+        "Ancient Water Towns"
+      ],
+      "estimatedDailyBudget": "$50 - $180 / day",
+      "journeyScore": 94
+    },
+    {
+      "id": "thailand",
+      "name": "Thailand",
+      "code": "TH",
+      "continentRegion": "Southeast Asia",
+      "capital": "Bangkok",
+      "description": "The Kingdom of Smiles boasting ornate Buddhist temples, turquoise island paradises, and aromatic street cuisine.",
+      "heroMedia": {
+        "type": "video",
+        "url": "https://assets.mixkit.co/videos/preview/mixkit-tropical-beach-with-turquoise-water-and-palm-trees-42907-large.mp4",
+        "poster": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1600&q=80"
+      },
+      "flag": "🇹🇭",
+      "coordinates": [
+        15.87,
+        100.9925
+      ],
+      "zoom": 6,
+      "bestSeason": "November to February",
+      "currency": "THB (฿)",
+      "languages": [
+        "Thai"
+      ],
+      "heritageCount": 7,
+      "popularActivities": [
+        "Island Hopping",
+        "Floating Markets",
+        "Ayutthaya Ruins",
+        "Thai Cooking Classes",
+        "Elephant Sanctuaries"
+      ],
+      "estimatedDailyBudget": "$30 - $110 / day",
+      "journeyScore": 93
+    },
+    {
+      "id": "indonesia",
+      "name": "Indonesia",
+      "code": "ID",
+      "continentRegion": "Southeast Asia",
+      "capital": "Jakarta / Nusantara",
+      "description": "A breathtaking archipelago of over 17,000 islands with mystical volcanic calderas, ancient stone temples, and coral reefs.",
+      "heroMedia": {
+        "type": "video",
+        "url": "https://assets.mixkit.co/videos/preview/mixkit-bali-rice-terraces-at-sunrise-42918-large.mp4",
+        "poster": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=80"
+      },
+      "flag": "🇮🇩",
+      "coordinates": [
+        -0.7893,
+        113.9213
+      ],
+      "zoom": 5,
+      "bestSeason": "May to September",
+      "currency": "IDR (Rp)",
+      "languages": [
+        "Indonesian",
+        "Balinese"
+      ],
+      "heritageCount": 10,
+      "popularActivities": [
+        "Borobudur Sunrise",
+        "Volcano Treks",
+        "Scuba Diving",
+        "Traditional Balinese Dances",
+        "Komodo Island"
+      ],
+      "estimatedDailyBudget": "$25 - $95 / day",
+      "journeyScore": 92
+    },
+    {
+      "id": "south-korea",
+      "name": "South Korea",
+      "code": "KR",
+      "continentRegion": "East Asia",
+      "capital": "Seoul",
+      "description": "Where Joseon-dynasty royal palaces coexist with K-culture vibrancy, mountain temples, and futuristic smart cities.",
+      "heroMedia": {
+        "type": "video",
+        "url": "https://assets.mixkit.co/videos/preview/mixkit-seoul-cityscape-with-traffic-at-dusk-42939-large.mp4",
+        "poster": "https://images.unsplash.com/photo-1538485399081-7191377e8241?auto=format&fit=crop&w=1600&q=80"
+      },
+      "flag": "🇰🇷",
+      "coordinates": [
+        35.9078,
+        127.7669
+      ],
+      "zoom": 6,
+      "bestSeason": "September to November & April to June",
+      "currency": "KRW (₩)",
+      "languages": [
+        "Korean"
+      ],
+      "heritageCount": 16,
+      "popularActivities": [
+        "Palace Explorations",
+        "Hanok Village Strolls",
+        "K-Food Night Markets",
+        "Jeju Island Treks"
+      ],
+      "estimatedDailyBudget": "$70 - $200 / day",
+      "journeyScore": 92
+    },
+    {
+      "id": "vietnam",
+      "name": "Vietnam",
+      "code": "VN",
+      "continentRegion": "Southeast Asia",
+      "capital": "Hanoi",
+      "description": "Emerald rice terraces, dramatic limestone karsts of Ha Long Bay, lantern-lit ancient trading ports, and vibrant coffee culture.",
+      "heroMedia": {
+        "type": "video",
+        "url": "https://assets.mixkit.co/videos/preview/mixkit-limestone-mountains-in-a-lake-42888-large.mp4",
+        "poster": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1600&q=80"
+      },
+      "flag": "🇻🇳",
+      "coordinates": [
+        14.0583,
+        108.2772
+      ],
+      "zoom": 6,
+      "bestSeason": "February to April & August to October",
+      "currency": "VND (₫)",
+      "languages": [
+        "Vietnamese"
+      ],
+      "heritageCount": 8,
+      "popularActivities": [
+        "Ha Long Bay Cruising",
+        "Hoi An Lantern Festivals",
+        "Phong Nha Caving",
+        "Street Food Tours"
+      ],
+      "estimatedDailyBudget": "$25 - $80 / day",
+      "journeyScore": 91
+    },
+    {
+      "id": "malaysia",
+      "name": "Malaysia",
+      "code": "MY",
+      "continentRegion": "Southeast Asia",
+      "capital": "Kuala Lumpur",
+      "description": "Multicultural harmony where towering modern landmarks soar above ancient Borneo rainforests and heritage trading enclaves.",
+      "heroMedia": {
+        "type": "video",
+        "url": "https://assets.mixkit.co/videos/preview/mixkit-petronas-towers-in-kuala-lumpur-at-night-42936-large.mp4",
+        "poster": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1600&q=80"
+      },
+      "flag": "🇲🇾",
+      "coordinates": [
+        4.2105,
+        101.9758
+      ],
+      "zoom": 6,
+      "bestSeason": "March to October",
+      "currency": "MYR (RM)",
+      "languages": [
+        "Malay",
+        "English",
+        "Mandarin",
+        "Tamil"
+      ],
+      "heritageCount": 5,
+      "popularActivities": [
+        "Batu Caves Exploration",
+        "Penang Heritage & Food",
+        "Borneo Wildlife",
+        "Island Diving"
+      ],
+      "estimatedDailyBudget": "$35 - $110 / day",
+      "journeyScore": 90
+    },
+    {
+      "id": "singapore",
+      "name": "Singapore",
+      "code": "SG",
+      "continentRegion": "Southeast Asia",
+      "capital": "Singapore",
+      "description": "A visionary Garden City where cutting-edge sustainability merges with Peranakan heritage and world-class culinary mastery.",
+      "heroMedia": {
+        "type": "video",
+        "url": "https://assets.mixkit.co/videos/preview/mixkit-gardens-by-the-bay-in-singapore-42940-large.mp4",
+        "poster": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1600&q=80"
+      },
+      "flag": "🇸🇬",
+      "coordinates": [
+        1.3521,
+        103.8198
+      ],
+      "zoom": 11,
+      "bestSeason": "November to January & June to August",
+      "currency": "SGD ($)",
+      "languages": [
+        "English",
+        "Mandarin",
+        "Malay",
+        "Tamil"
+      ],
+      "heritageCount": 1,
+      "popularActivities": [
+        "Gardens by the Bay",
+        "Marina Bay Skyline",
+        "Chinatown & Little India",
+        "Hawker Food Trails"
+      ],
+      "estimatedDailyBudget": "$90 - $280 / day",
+      "journeyScore": 93
+    },
+    {
+      "id": "sri-lanka",
+      "name": "Sri Lanka",
+      "code": "LK",
+      "continentRegion": "South Asia",
+      "capital": "Colombo / Sri Jayawardenepura Kotte",
+      "description": "The Pearl of the Indian Ocean, rich in ancient rock citadels, emerald tea hills, wild leopards, and sacred Buddhist relics.",
+      "heroMedia": {
+        "type": "video",
+        "url": "https://assets.mixkit.co/videos/preview/mixkit-train-moving-through-a-tea-plantation-42934-large.mp4",
+        "poster": "https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?auto=format&fit=crop&w=1600&q=80"
+      },
+      "flag": "🇱🇰",
+      "coordinates": [
+        7.8731,
+        80.7718
+      ],
+      "zoom": 7,
+      "bestSeason": "December to April",
+      "currency": "LKR (Rs)",
+      "languages": [
+        "Sinhala",
+        "Tamil",
+        "English"
+      ],
+      "heritageCount": 8,
+      "popularActivities": [
+        "Sigiriya Rock Climb",
+        "Kandy Scenic Train",
+        "Yala Safari",
+        "Galle Dutch Fort"
+      ],
+      "estimatedDailyBudget": "$30 - $95 / day",
+      "journeyScore": 91
+    },
+    {
+      "id": "nepal",
+      "name": "Nepal",
+      "code": "NP",
+      "continentRegion": "South Asia",
+      "capital": "Kathmandu",
+      "description": "The rooftop of the world, home to Mount Everest, sacred pagoda squares, meditation retreats, and rhododendron valleys.",
+      "heroMedia": {
+        "type": "video",
+        "url": "https://assets.mixkit.co/videos/preview/mixkit-himalayan-mountains-under-a-clear-blue-sky-42921-large.mp4",
+        "poster": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1600&q=80"
+      },
+      "flag": "🇳🇵",
+      "coordinates": [
+        28.3949,
+        84.124
+      ],
+      "zoom": 7,
+      "bestSeason": "October to November & March to April",
+      "currency": "NPR (Rs)",
+      "languages": [
+        "Nepali"
+      ],
+      "heritageCount": 4,
+      "popularActivities": [
+        "Everest Base Camp Trek",
+        "Kathmandu Durbar Squares",
+        "Pokhara Lake Serenity",
+        "Lumbini Pilgrimage"
+      ],
+      "estimatedDailyBudget": "$25 - $75 / day",
+      "journeyScore": 92
+    },
+    {
+      "id": "bhutan",
+      "name": "Bhutan",
+      "code": "BT",
+      "continentRegion": "South Asia",
+      "capital": "Thimphu",
+      "description": "The mystical Land of the Thunder Dragon where Gross National Happiness and cliff-hanging monasteries preserve timeless tranquility.",
+      "heroMedia": {
+        "type": "video",
+        "url": "https://assets.mixkit.co/videos/preview/mixkit-monastery-in-the-himalayas-42925-large.mp4",
+        "poster": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1600&q=80"
+      },
+      "flag": "🇧🇹",
+      "coordinates": [
+        27.5142,
+        90.4336
+      ],
+      "zoom": 8,
+      "bestSeason": "March to May & September to November",
+      "currency": "BTN (Nu.)",
+      "languages": [
+        "Dzongkha"
+      ],
+      "heritageCount": 1,
+      "popularActivities": [
+        "Tiger's Nest Monastery Hike",
+        "Punakha Dzong Tour",
+        "Tshechu Festivals",
+        "Himalayan Passes"
+      ],
+      "estimatedDailyBudget": "$180 - $350 / day",
+      "journeyScore": 95
+    },
+    {
+      "id": "cambodia",
+      "name": "Cambodia",
+      "code": "KH",
+      "continentRegion": "Southeast Asia",
+      "capital": "Phnom Penh",
+      "description": "Home of the monumental Khmer Empire, where giant stone face towers and jungle-strangled temples whisper ancient secrets.",
+      "heroMedia": {
+        "type": "video",
+        "url": "https://assets.mixkit.co/videos/preview/mixkit-ancient-stone-temple-ruins-surrounded-by-trees-42931-large.mp4",
+        "poster": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80"
+      },
+      "flag": "🇰🇭",
+      "coordinates": [
+        12.5657,
+        104.991
+      ],
+      "zoom": 7,
+      "bestSeason": "November to March",
+      "currency": "KHR (៛) / USD",
+      "languages": [
+        "Khmer"
+      ],
+      "heritageCount": 4,
+      "popularActivities": [
+        "Angkor Wat Sunrise",
+        "Ta Prohm Roots Tour",
+        "Tonle Sap Floating Villages",
+        "Phnom Penh Royal Palace"
+      ],
+      "estimatedDailyBudget": "$25 - $80 / day",
+      "journeyScore": 93
+    },
+    {
+      "id": "maldives",
+      "name": "Maldives",
+      "code": "MV",
+      "continentRegion": "South Asia",
+      "capital": "Malé",
+      "description": "An ethereal constellation of tropical atolls surrounded by crystalline lagoons, overwater villas, and vibrant coral ecosystems.",
+      "heroMedia": {
+        "type": "video",
+        "url": "https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-overwater-bungalows-in-the-maldives-42901-large.mp4",
+        "poster": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1600&q=80"
+      },
+      "flag": "🇲🇻",
+      "coordinates": [
+        3.2028,
+        73.2207
+      ],
+      "zoom": 7,
+      "bestSeason": "November to April",
+      "currency": "MVR (Rf)",
+      "languages": [
+        "Dhivehi",
+        "English"
+      ],
+      "heritageCount": 1,
+      "popularActivities": [
+        "Overwater Retreats",
+        "Manta Ray Diving",
+        "Bioluminescent Beaches",
+        "Sunset Catamaran Cruises"
+      ],
+      "estimatedDailyBudget": "$120 - $500 / day",
+      "journeyScore": 94
+    },
+    {
+      "id": "philippines",
+      "name": "Philippines",
+      "code": "PH",
+      "continentRegion": "Southeast Asia",
+      "capital": "Manila",
+      "description": "An archipelago of 7,641 emerald islands with world-renowned lagoons, subterranean rivers, and centuries of Spanish baroque heritage.",
+      "heroMedia": {
+        "type": "video",
+        "url": "https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-a-tropical-island-with-cliffs-and-clear-water-42905-large.mp4",
+        "poster": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=1600&q=80"
+      },
+      "flag": "🇵🇭",
+      "coordinates": [
+        12.8797,
+        121.774
+      ],
+      "zoom": 6,
+      "bestSeason": "December to April",
+      "currency": "PHP (₱)",
+      "languages": [
+        "Filipino",
+        "English"
+      ],
+      "heritageCount": 6,
+      "popularActivities": [
+        "El Nido Island Hopping",
+        "Banaue Rice Terraces",
+        "Whale Shark Encounters",
+        "Intramuros Walking Tour"
+      ],
+      "estimatedDailyBudget": "$30 - $100 / day",
+      "journeyScore": 91
+    },
+    {
+      "id": "uae",
+      "name": "United Arab Emirates",
+      "code": "AE",
+      "continentRegion": "West Asia",
+      "capital": "Abu Dhabi",
+      "description": "A futuristic desert oasis where architectural titans, grand marble mosques, and Bedouin desert traditions unite.",
+      "heroMedia": {
+        "type": "video",
+        "url": "https://assets.mixkit.co/videos/preview/mixkit-burj-khalifa-in-dubai-at-dusk-42938-large.mp4",
+        "poster": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1600&q=80"
+      },
+      "flag": "🇦🇪",
+      "coordinates": [
+        23.4241,
+        53.8478
+      ],
+      "zoom": 7,
+      "bestSeason": "November to March",
+      "currency": "AED (د.إ)",
+      "languages": [
+        "Arabic",
+        "English"
+      ],
+      "heritageCount": 1,
+      "popularActivities": [
+        "Burj Khalifa Sky Deck",
+        "Sheikh Zayed Mosque",
+        "Desert Dune Bashing",
+        "Museum of the Future"
+      ],
+      "estimatedDailyBudget": "$100 - $350 / day",
+      "journeyScore": 92
+    },
+    {
+      "id": "saudi-arabia",
+      "name": "Saudi Arabia",
+      "code": "SA",
+      "continentRegion": "West Asia",
+      "capital": "Riyadh",
+      "description": "The historic cradle of Arabia featuring ancient Nabataean rock-cut tombs of Hegra, Al-Ula canyons, and the Red Sea.",
+      "heroMedia": {
+        "type": "video",
+        "url": "https://assets.mixkit.co/videos/preview/mixkit-rock-formations-in-a-desert-valley-42935-large.mp4",
+        "poster": "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=1600&q=80"
+      },
+      "flag": "🇸🇦",
+      "coordinates": [
+        23.8859,
+        45.0792
+      ],
+      "zoom": 5,
+      "bestSeason": "November to March",
+      "currency": "SAR (﷼)",
+      "languages": [
+        "Arabic"
+      ],
+      "heritageCount": 7,
+      "popularActivities": [
+        "Al-Ula Hegra Tombs",
+        "Historic Diriyah",
+        "Jeddah Al-Balad",
+        "Edge of the World Trek"
+      ],
+      "estimatedDailyBudget": "$80 - $260 / day",
+      "journeyScore": 90
+    },
+    {
+      "id": "turkey",
+      "name": "Turkey",
+      "code": "TR",
+      "continentRegion": "West Asia",
+      "capital": "Ankara",
+      "description": "The historic bridge between East and West, home to Byzantine domes, fairy chimneys of Cappadocia, and Ottoman bazaars.",
+      "heroMedia": {
+        "type": "video",
+        "url": "https://assets.mixkit.co/videos/preview/mixkit-hot-air-balloons-over-cappadocia-42928-large.mp4",
+        "poster": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1600&q=80"
+      },
+      "flag": "🇹🇷",
+      "coordinates": [
+        38.9637,
+        35.2433
+      ],
+      "zoom": 6,
+      "bestSeason": "April to May & September to November",
+      "currency": "TRY (₺)",
+      "languages": [
+        "Turkish"
+      ],
+      "heritageCount": 21,
+      "popularActivities": [
+        "Cappadocia Hot Air Balloon",
+        "Hagia Sophia Visit",
+        "Grand Bazaar Shopping",
+        "Pamukkale Thermal Pools"
+      ],
+      "estimatedDailyBudget": "$45 - $150 / day",
+      "journeyScore": 94
+    },
+    {
+      "id": "uzbekistan",
+      "name": "Uzbekistan",
+      "code": "UZ",
+      "continentRegion": "Central Asia",
+      "capital": "Tashkent",
+      "description": "The heart of the Silk Road glittering with turquoise-tiled madrasahs, soaring minarets, and the legendary city of Samarkand.",
+      "heroMedia": {
+        "type": "video",
+        "url": "https://assets.mixkit.co/videos/preview/mixkit-mosque-with-blue-domes-under-the-sun-42932-large.mp4",
+        "poster": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1600&q=80"
+      },
+      "flag": "🇺🇿",
+      "coordinates": [
+        41.3775,
+        64.5853
+      ],
+      "zoom": 6,
+      "bestSeason": "April to June & September to October",
+      "currency": "UZS (soʻm)",
+      "languages": [
+        "Uzbek",
+        "Russian"
+      ],
+      "heritageCount": 5,
+      "popularActivities": [
+        "Registan Square at Sunset",
+        "Bukhara Ancient Fortress",
+        "Khiva Walled City",
+        "Silk Road Bazaars"
+      ],
+      "estimatedDailyBudget": "$30 - $90 / day",
+      "journeyScore": 93
+    }
+  ],
+  "regions": [
+    {
+      "id": "tamil-nadu",
+      "countryCode": "IN",
+      "countryId": "india",
+      "name": "Tamil Nadu",
+      "capital": "Chennai",
+      "description": "The cradle of Dravidian civilization, celebrated for towering gopuram temples, classical Carnatic music, and coastal heritage.",
+      "media": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80",
+      "coordinates": [
+        11.1271,
+        78.6569
+      ],
+      "destinationsCount": 12
+    },
+    {
+      "id": "kerala",
+      "countryCode": "IN",
+      "countryId": "india",
+      "name": "Kerala",
+      "capital": "Thiruvananthapuram",
+      "description": "God's Own Country, famed for tranquil palm-fringed backwaters, Ayurvedic wellness retreats, and misty tea plantations of Munnar.",
+      "media": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80",
+      "coordinates": [
+        10.8505,
+        76.2711
+      ],
+      "destinationsCount": 10
+    },
+    {
+      "id": "rajasthan",
+      "countryCode": "IN",
+      "countryId": "india",
+      "name": "Rajasthan",
+      "capital": "Jaipur",
+      "description": "The land of Maharajas, colossal desert hill forts, opulent mirrored palaces, and kaleidoscopic desert festivals.",
+      "media": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1200&q=80",
+      "coordinates": [
+        27.0238,
+        74.2179
+      ],
+      "destinationsCount": 14
+    },
+    {
+      "id": "uttar-pradesh",
+      "countryCode": "IN",
+      "countryId": "india",
+      "name": "Uttar Pradesh",
+      "capital": "Lucknow",
+      "description": "Home of the immortal Taj Mahal, sacred ghats of Varanasi on the holy Ganges, and Mughal imperial citadels.",
+      "media": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=80",
+      "coordinates": [
+        26.8467,
+        80.9462
+      ],
+      "destinationsCount": 9
+    },
+    {
+      "id": "maharashtra",
+      "countryCode": "IN",
+      "countryId": "india",
+      "name": "Maharashtra",
+      "capital": "Mumbai",
+      "description": "From the rock-cut Buddhist frescoes of Ajanta & Ellora to the electrifying coastal energy of Mumbai and Sahyadri mountain fortresses.",
+      "media": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=1200&q=80",
+      "coordinates": [
+        19.7515,
+        75.7139
+      ],
+      "destinationsCount": 11
+    },
+    {
+      "id": "kansai",
+      "countryCode": "JP",
+      "countryId": "japan",
+      "name": "Kansai (Kyoto, Osaka, Nara)",
+      "capital": "Kyoto / Osaka",
+      "description": "Japan's cultural epicenter, housing thousands of Shinto shrines, historic geisha districts, and UNESCO imperial monuments.",
+      "media": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=80",
+      "coordinates": [
+        35.0116,
+        135.7681
+      ],
+      "destinationsCount": 15
+    },
+    {
+      "id": "kanto",
+      "countryCode": "JP",
+      "countryId": "japan",
+      "name": "Kanto (Tokyo & Mount Fuji)",
+      "capital": "Tokyo",
+      "description": "The futuristic metropolis of Tokyo framed by snow-capped Mount Fuji, ancient Asakusa Senso-ji, and cybernetic cityscapes.",
+      "media": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1200&q=80",
+      "coordinates": [
+        35.6762,
+        139.6503
+      ],
+      "destinationsCount": 18
+    },
+    {
+      "id": "northern-thailand",
+      "countryCode": "TH",
+      "countryId": "thailand",
+      "name": "Northern Thailand (Chiang Mai)",
+      "capital": "Chiang Mai",
+      "description": "Misty mountain jungles, Lanna Kingdom temples, artisanal hill-tribe culture, and ethical elephant sanctuaries.",
+      "media": "https://images.unsplash.com/photo-1512553353684-82a6abac253b?auto=format&fit=crop&w=1200&q=80",
+      "coordinates": [
+        18.7883,
+        98.9853
+      ],
+      "destinationsCount": 8
+    }
+  ],
+  "destinations": [
+    {
+      "id": "madurai",
+      "name": "Madurai & Meenakshi Amman",
+      "country": "India",
+      "countryCode": "IN",
+      "regionId": "tamil-nadu",
+      "regionName": "Tamil Nadu",
+      "category": "Heritage",
+      "coordinates": [
+        9.9195,
+        78.1193
+      ],
+      "tagline": "The 2,500-year-old Athens of the East",
+      "description": "One of the oldest continuously inhabited cities in the world, renowned for the colossal, rainbow-hued gopurams of the historic Meenakshi Sundareswarar Temple complex.",
+      "heroMedia": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1600&q=80",
+        "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-traditional-hindu-temple-at-sunset-42933-large.mp4"
+      },
+      "gallery": [
+        "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1609743522653-52354461eb27?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1621644827997-6a98cf7cb26b?auto=format&fit=crop&w=800&q=80"
+      ],
+      "whyVisit": "To witness living Dravidian temple architecture, thousand-pillar halls, night pooja processions, and authentic Chettinad culinary feasts.",
+      "bestTime": "October to March",
+      "crowdPrediction": {
+        "level": "Moderate Crowd",
+        "statusColor": "text-amber-400",
+        "score": 65,
+        "factors": "Peak during Chithirai Festival (April/May) and weekend temple darshan"
+      },
+      "estimatedBudget": {
+        "budget": "$25 - $40 / day",
+        "moderate": "$50 - $90 / day",
+        "luxury": "$120 - $250 / day",
+        "currency": "INR / USD"
+      },
+      "journeyScore": {
+        "total": 94,
+        "weather": 88,
+        "heritage": 99,
+        "culture": 98,
+        "accessibility": 90,
+        "budget": 95
+      },
+      "transportation": {
+        "nearestAirport": "Madurai International Airport (IXM) - 12 km",
+        "nearestRailway": "Madurai Junction (MDU) - 1.5 km",
+        "localTransit": "Prepaid auto-rickshaws, city buses, app-based cabs (Ola/Uber)",
+        "tips": "Walking is ideal around the concentric streets surrounding Meenakshi Temple."
+      },
+      "foodToTry": [
+        {
+          "name": "Kari Dosa",
+          "desc": "Crisp three-layered minced mutton dosa, Madurai's pride"
+        },
+        {
+          "name": "Jigarthanda",
+          "desc": "Legendary cooling beverage made with almond gum, condensed milk, and nannari syrup"
+        },
+        {
+          "name": "Parotta & Salna",
+          "desc": "Flaky layered flatbread soaked in aromatic spicy gravy"
+        }
+      ],
+      "heritageInfo": {
+        "era": "Classical Era (6th Century CE / 16th Century Nayak renovation)",
+        "architecture": "Dravidian Temple Architecture",
+        "unesco": false,
+        "significance": "Spiritual epicenter of classical Tamil culture with 14 gopurams reaching up to 52 meters."
+      },
+      "weatherByMonth": [
+        {
+          "month": "Jan",
+          "temp": 28,
+          "rainProb": 10,
+          "humidity": 60,
+          "crowd": "Moderate",
+          "recommended": true
+        },
+        {
+          "month": "Feb",
+          "temp": 31,
+          "rainProb": 8,
+          "humidity": 55,
+          "crowd": "Moderate",
+          "recommended": true
+        },
+        {
+          "month": "Mar",
+          "temp": 34,
+          "rainProb": 15,
+          "humidity": 50,
+          "crowd": "Low",
+          "recommended": true
+        },
+        {
+          "month": "Apr",
+          "temp": 37,
+          "rainProb": 25,
+          "humidity": 52,
+          "crowd": "High (Chithirai)",
+          "recommended": false
+        },
+        {
+          "month": "May",
+          "temp": 38,
+          "rainProb": 30,
+          "humidity": 58,
+          "crowd": "Moderate",
+          "recommended": false
+        },
+        {
+          "month": "Jun",
+          "temp": 36,
+          "rainProb": 20,
+          "humidity": 62,
+          "crowd": "Low",
+          "recommended": false
+        },
+        {
+          "month": "Jul",
+          "temp": 35,
+          "rainProb": 25,
+          "humidity": 65,
+          "crowd": "Low",
+          "recommended": false
+        },
+        {
+          "month": "Aug",
+          "temp": 34,
+          "rainProb": 35,
+          "humidity": 68,
+          "crowd": "Low",
+          "recommended": false
+        },
+        {
+          "month": "Sep",
+          "temp": 33,
+          "rainProb": 40,
+          "humidity": 70,
+          "crowd": "Low",
+          "recommended": false
+        },
+        {
+          "month": "Oct",
+          "temp": 31,
+          "rainProb": 65,
+          "humidity": 78,
+          "crowd": "Moderate",
+          "recommended": true
+        },
+        {
+          "month": "Nov",
+          "temp": 29,
+          "rainProb": 55,
+          "humidity": 80,
+          "crowd": "Moderate",
+          "recommended": true
+        },
+        {
+          "month": "Dec",
+          "temp": 28,
+          "rainProb": 20,
+          "humidity": 72,
+          "crowd": "High",
+          "recommended": true
+        }
+      ],
+      "virtualTourId": "tour-meenakshi",
+      "isHiddenGem": false
+    },
+    {
+      "id": "taj-mahal-agra",
+      "name": "Agra & The Taj Mahal",
+      "country": "India",
+      "countryCode": "IN",
+      "regionId": "uttar-pradesh",
+      "regionName": "Uttar Pradesh",
+      "category": "Heritage",
+      "coordinates": [
+        27.1751,
+        78.0421
+      ],
+      "tagline": "An immortal poem in ivory-white marble",
+      "description": "Commissioned in 1632 by the Mughal emperor Shah Jahan to house the tomb of his favorite wife Mumtaz Mahal, it stands as the jewel of Muslim art in India.",
+      "heroMedia": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1600&q=80",
+        "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-the-taj-mahal-42866-large.mp4"
+      },
+      "gallery": [
+        "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1585135497273-1a86b09fe70e?auto=format&fit=crop&w=800&q=80"
+      ],
+      "whyVisit": "To witness the world wonder glow soft pink at sunrise, explore the red sandstone Agra Fort, and wander the historic Mughal garden complexes.",
+      "bestTime": "October to March",
+      "crowdPrediction": {
+        "level": "Very High Crowd",
+        "statusColor": "text-red-400",
+        "score": 88,
+        "factors": "Always busy; sunrise slot offers lower crowds and ethereal lighting"
+      },
+      "estimatedBudget": {
+        "budget": "$30 - $50 / day",
+        "moderate": "$60 - $110 / day",
+        "luxury": "$150 - $400 / day",
+        "currency": "INR / USD"
+      },
+      "journeyScore": {
+        "total": 97,
+        "weather": 90,
+        "heritage": 100,
+        "culture": 96,
+        "accessibility": 95,
+        "budget": 92
+      },
+      "transportation": {
+        "nearestAirport": "Indira Gandhi International Airport, New Delhi (DEL) - 210 km via Yamuna Expressway",
+        "nearestRailway": "Agra Cantt (AGC) - Gatimaan Express connects from Delhi in 100 minutes",
+        "localTransit": "Electric auto-rickshaws, battery-operated golf carts in heritage zone, Uber",
+        "tips": "Taj Mahal is closed on Fridays. Book sunrise tickets online in advance."
+      },
+      "foodToTry": [
+        {
+          "name": "Agra Petha",
+          "desc": "Translucent candied ash gourd sweet available in flavors like Kesar and Paan"
+        },
+        {
+          "name": "Bedai & Jalebi",
+          "desc": "Puffy spiced lentil bread served with spicy potato curry and hot sweet spirals"
+        },
+        {
+          "name": "Mughlai Korma",
+          "desc": "Rich almond and cashew gravy infused with saffron and spices"
+        }
+      ],
+      "heritageInfo": {
+        "era": "Medieval Era (1631–1648 CE)",
+        "architecture": "Mughal Architecture with Pietra Dura marble inlay",
+        "unesco": true,
+        "significance": "UNESCO World Heritage Site & one of the New Seven Wonders of the World."
+      },
+      "weatherByMonth": [
+        {
+          "month": "Jan",
+          "temp": 21,
+          "rainProb": 5,
+          "humidity": 65,
+          "crowd": "Very High",
+          "recommended": true
+        },
+        {
+          "month": "Feb",
+          "temp": 25,
+          "rainProb": 6,
+          "humidity": 55,
+          "crowd": "Very High",
+          "recommended": true
+        },
+        {
+          "month": "Mar",
+          "temp": 32,
+          "rainProb": 8,
+          "humidity": 45,
+          "crowd": "High",
+          "recommended": true
+        },
+        {
+          "month": "Apr",
+          "temp": 38,
+          "rainProb": 10,
+          "humidity": 35,
+          "crowd": "Moderate",
+          "recommended": false
+        },
+        {
+          "month": "May",
+          "temp": 42,
+          "rainProb": 12,
+          "humidity": 30,
+          "crowd": "Low",
+          "recommended": false
+        },
+        {
+          "month": "Jun",
+          "temp": 41,
+          "rainProb": 28,
+          "humidity": 48,
+          "crowd": "Low",
+          "recommended": false
+        },
+        {
+          "month": "Jul",
+          "temp": 35,
+          "rainProb": 65,
+          "humidity": 75,
+          "crowd": "Moderate",
+          "recommended": false
+        },
+        {
+          "month": "Aug",
+          "temp": 33,
+          "rainProb": 70,
+          "humidity": 80,
+          "crowd": "Moderate",
+          "recommended": false
+        },
+        {
+          "month": "Sep",
+          "temp": 34,
+          "rainProb": 40,
+          "humidity": 72,
+          "crowd": "Moderate",
+          "recommended": true
+        },
+        {
+          "month": "Oct",
+          "temp": 33,
+          "rainProb": 10,
+          "humidity": 55,
+          "crowd": "High",
+          "recommended": true
+        },
+        {
+          "month": "Nov",
+          "temp": 28,
+          "rainProb": 5,
+          "humidity": 60,
+          "crowd": "Very High",
+          "recommended": true
+        },
+        {
+          "month": "Dec",
+          "temp": 23,
+          "rainProb": 5,
+          "humidity": 68,
+          "crowd": "Very High",
+          "recommended": true
+        }
+      ],
+      "virtualTourId": "tour-taj-mahal",
+      "isHiddenGem": false
+    },
+    {
+      "id": "kyoto-temples",
+      "name": "Kyoto Ancient Temples",
+      "country": "Japan",
+      "countryCode": "JP",
+      "regionId": "kansai",
+      "regionName": "Kansai",
+      "category": "Heritage",
+      "coordinates": [
+        35.0116,
+        135.7681
+      ],
+      "tagline": "Heart of thousand-year imperial Shinto & Zen serenity",
+      "description": "Former imperial capital of Japan for over a millennium, housing over 2,000 temples and shrines, including the shimmering Kinkaku-ji and 10,000 vermilion gates of Fushimi Inari.",
+      "heroMedia": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1600&q=80",
+        "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-traditional-japanese-gate-in-a-forest-42878-large.mp4"
+      },
+      "gallery": [
+        "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=800&q=80"
+      ],
+      "whyVisit": "To walk under glowing torii gates, meditate in dry Zen rock gardens of Ryoan-ji, and taste ceremonial Uji matcha tea.",
+      "bestTime": "March to May (Sakura) & October to November (Autumn foliage)",
+      "crowdPrediction": {
+        "level": "High Crowd",
+        "statusColor": "text-amber-500",
+        "score": 78,
+        "factors": "Extreme during Cherry Blossom week and mid-November Momiji"
+      },
+      "estimatedBudget": {
+        "budget": "$70 - $110 / day",
+        "moderate": "$140 - $220 / day",
+        "luxury": "$350 - $800 / day",
+        "currency": "JPY / USD"
+      },
+      "journeyScore": {
+        "total": 96,
+        "weather": 92,
+        "heritage": 99,
+        "culture": 99,
+        "accessibility": 98,
+        "budget": 82
+      },
+      "transportation": {
+        "nearestAirport": "Kansai International Airport (KIX) - 75 min on JR Haruka Express",
+        "nearestRailway": "Kyoto Station (Tokaido Shinkansen bullet train from Tokyo in 135 mins)",
+        "localTransit": "Kyoto City Subway, pristine bus network, electric rental bicycles",
+        "tips": "Purchase an IC card (ICOCA/Suica) for seamless contactless transit across trains and buses."
+      },
+      "foodToTry": [
+        {
+          "name": "Kaiseki Ryori",
+          "desc": "Multi-course seasonal haute cuisine reflecting nature and zen philosophy"
+        },
+        {
+          "name": "Yudofu",
+          "desc": "Delicate simmered tofu served in dashi broth with ginger and scallions"
+        },
+        {
+          "name": "Matcha Parfait",
+          "desc": "Layers of Uji green tea jelly, matcha ice cream, and mochi"
+        }
+      ],
+      "heritageInfo": {
+        "era": "Classical & Medieval Era (794–1868 CE Heian to Edo)",
+        "architecture": "Japanese Traditional Wooden Architecture & Shinto-Buddhist syncretism",
+        "unesco": true,
+        "significance": "Historic Monuments of Ancient Kyoto designated a UNESCO World Heritage site."
+      },
+      "weatherByMonth": [
+        {
+          "month": "Jan",
+          "temp": 5,
+          "rainProb": 20,
+          "humidity": 65,
+          "crowd": "Low",
+          "recommended": true
+        },
+        {
+          "month": "Feb",
+          "temp": 7,
+          "rainProb": 25,
+          "humidity": 62,
+          "crowd": "Low",
+          "recommended": true
+        },
+        {
+          "month": "Mar",
+          "temp": 11,
+          "rainProb": 35,
+          "humidity": 60,
+          "crowd": "High",
+          "recommended": true
+        },
+        {
+          "month": "Apr",
+          "temp": 16,
+          "rainProb": 40,
+          "humidity": 62,
+          "crowd": "Very High (Cherry Blossom)",
+          "recommended": true
+        },
+        {
+          "month": "May",
+          "temp": 21,
+          "rainProb": 45,
+          "humidity": 68,
+          "crowd": "High",
+          "recommended": true
+        },
+        {
+          "month": "Jun",
+          "temp": 24,
+          "rainProb": 65,
+          "humidity": 75,
+          "crowd": "Moderate (Rainy season)",
+          "recommended": false
+        },
+        {
+          "month": "Jul",
+          "temp": 29,
+          "rainProb": 60,
+          "humidity": 78,
+          "crowd": "Moderate (Gion Matsuri)",
+          "recommended": false
+        },
+        {
+          "month": "Aug",
+          "temp": 31,
+          "rainProb": 45,
+          "humidity": 74,
+          "crowd": "Low",
+          "recommended": false
+        },
+        {
+          "month": "Sep",
+          "temp": 26,
+          "rainProb": 50,
+          "humidity": 72,
+          "crowd": "Moderate",
+          "recommended": true
+        },
+        {
+          "month": "Oct",
+          "temp": 19,
+          "rainProb": 35,
+          "humidity": 68,
+          "crowd": "High",
+          "recommended": true
+        },
+        {
+          "month": "Nov",
+          "temp": 13,
+          "rainProb": 25,
+          "humidity": 66,
+          "crowd": "Very High (Autumn Leaves)",
+          "recommended": true
+        },
+        {
+          "month": "Dec",
+          "temp": 8,
+          "rainProb": 20,
+          "humidity": 65,
+          "crowd": "Moderate",
+          "recommended": true
+        }
+      ],
+      "virtualTourId": "tour-fushimi-inari",
+      "isHiddenGem": false
+    },
+    {
+      "id": "angkor-wat",
+      "name": "Angkor Wat Archaeological Park",
+      "country": "Cambodia",
+      "countryCode": "KH",
+      "regionId": "siem-reap",
+      "regionName": "Siem Reap",
+      "category": "Heritage",
+      "coordinates": [
+        13.4125,
+        103.867
+      ],
+      "tagline": "The supreme masterpiece of the Khmer Empire",
+      "description": "The largest religious monument on Earth, originally constructed as a Hindu temple for the god Vishnu before gradually transforming into a sacred Buddhist sanctuary.",
+      "heroMedia": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+        "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-ancient-stone-temple-ruins-surrounded-by-trees-42931-large.mp4"
+      },
+      "gallery": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=800&q=80"
+      ],
+      "whyVisit": "To marvel at bas-relief apsaras, watch the sun rise behind five iconic lotus towers, and explore tree-strangled Ta Prohm.",
+      "bestTime": "November to March",
+      "crowdPrediction": {
+        "level": "High Crowd",
+        "statusColor": "text-amber-500",
+        "score": 75,
+        "factors": "Early morning sunrise pool gathers hundreds; outer temples remain tranquil"
+      },
+      "estimatedBudget": {
+        "budget": "$25 - $45 / day",
+        "moderate": "$55 - $100 / day",
+        "luxury": "$160 - $350 / day",
+        "currency": "USD / KHR"
+      },
+      "journeyScore": {
+        "total": 95,
+        "weather": 89,
+        "heritage": 100,
+        "culture": 97,
+        "accessibility": 88,
+        "budget": 95
+      },
+      "transportation": {
+        "nearestAirport": "Siem Reap-Angkor International Airport (SAI) - 45 km",
+        "nearestRailway": "N/A (Buses and flights from Phnom Penh)",
+        "localTransit": "Dedicated tuk-tuks with English-speaking drivers, e-bikes",
+        "tips": "Hire a tuk-tuk driver for the full-day grand temple circuit."
+      },
+      "foodToTry": [
+        {
+          "name": "Fish Amok",
+          "desc": "Steamed curried catfish wrapped in banana leaves with lemongrass and coconut cream"
+        },
+        {
+          "name": "Nom Banh Chok",
+          "desc": "Khmer noodles bathed in green fish gravy topped with fresh herbs"
+        }
+      ],
+      "heritageInfo": {
+        "era": "Classical Era (12th Century CE)",
+        "architecture": "Khmer Temple Mountain style with sandstone carvings",
+        "unesco": true,
+        "significance": "Heart of the ancient Khmer civilization spanning 400 square kilometers."
+      },
+      "weatherByMonth": [
+        {
+          "month": "Jan",
+          "temp": 26,
+          "rainProb": 5,
+          "humidity": 62,
+          "crowd": "High",
+          "recommended": true
+        },
+        {
+          "month": "Feb",
+          "temp": 28,
+          "rainProb": 8,
+          "humidity": 60,
+          "crowd": "High",
+          "recommended": true
+        },
+        {
+          "month": "Mar",
+          "temp": 31,
+          "rainProb": 15,
+          "humidity": 62,
+          "crowd": "Moderate",
+          "recommended": true
+        },
+        {
+          "month": "Apr",
+          "temp": 34,
+          "rainProb": 25,
+          "humidity": 65,
+          "crowd": "High (Khmer New Year)",
+          "recommended": false
+        },
+        {
+          "month": "May",
+          "temp": 32,
+          "rainProb": 45,
+          "humidity": 75,
+          "crowd": "Low",
+          "recommended": false
+        },
+        {
+          "month": "Jun",
+          "temp": 31,
+          "rainProb": 60,
+          "humidity": 80,
+          "crowd": "Low",
+          "recommended": false
+        },
+        {
+          "month": "Jul",
+          "temp": 30,
+          "rainProb": 65,
+          "humidity": 82,
+          "crowd": "Low",
+          "recommended": false
+        },
+        {
+          "month": "Aug",
+          "temp": 30,
+          "rainProb": 70,
+          "humidity": 83,
+          "crowd": "Low",
+          "recommended": false
+        },
+        {
+          "month": "Sep",
+          "temp": 29,
+          "rainProb": 75,
+          "humidity": 85,
+          "crowd": "Low",
+          "recommended": false
+        },
+        {
+          "month": "Oct",
+          "temp": 28,
+          "rainProb": 60,
+          "humidity": 82,
+          "crowd": "Moderate",
+          "recommended": true
+        },
+        {
+          "month": "Nov",
+          "temp": 27,
+          "rainProb": 20,
+          "humidity": 72,
+          "crowd": "High",
+          "recommended": true
+        },
+        {
+          "month": "Dec",
+          "temp": 26,
+          "rainProb": 8,
+          "humidity": 65,
+          "crowd": "High",
+          "recommended": true
+        }
+      ],
+      "virtualTourId": "tour-angkor-wat",
+      "isHiddenGem": false
+    },
+    {
+      "id": "borobudur",
+      "name": "Borobudur Temple Compound",
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "regionId": "central-java",
+      "regionName": "Central Java",
+      "category": "Heritage",
+      "coordinates": [
+        -7.6079,
+        110.2038
+      ],
+      "tagline": "The world's grandest Buddhist pyramid surrounded by twin volcanoes",
+      "description": "Built in the 9th century during the reign of the Sailendra Dynasty, this colossal stepped pyramid features 504 Buddha statues and 72 perforated stupas.",
+      "heroMedia": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=80",
+        "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-bali-rice-terraces-at-sunrise-42918-large.mp4"
+      },
+      "gallery": [
+        "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80"
+      ],
+      "whyVisit": "To climb through three Buddhist cosmological tiers (Kamadhatu, Rupadhatu, Arupadhatu) against sunrise mists over Mount Merapi.",
+      "bestTime": "May to September",
+      "crowdPrediction": {
+        "level": "Moderate Crowd",
+        "statusColor": "text-amber-400",
+        "score": 62,
+        "factors": "Regulated visitor quotas keep temple terrace crowd manageable"
+      },
+      "estimatedBudget": {
+        "budget": "$30 - $55 / day",
+        "moderate": "$60 - $110 / day",
+        "luxury": "$160 - $350 / day",
+        "currency": "IDR / USD"
+      },
+      "journeyScore": {
+        "total": 93,
+        "weather": 90,
+        "heritage": 99,
+        "culture": 95,
+        "accessibility": 88,
+        "budget": 92
+      },
+      "transportation": {
+        "nearestAirport": "Yogyakarta International Airport (YIA) - 45 km",
+        "nearestRailway": "Yogyakarta Tugu Station (YK) - 38 km",
+        "localTransit": "Private car charters, tourist shuttle buses, Grab taxis",
+        "tips": "Book the special sunrise ticket for breathtaking morning light."
+      },
+      "foodToTry": [
+        {
+          "name": "Gudeg Jogja",
+          "desc": "Slow-braised young jackfruit sweetened with palm sugar and coconut milk"
+        },
+        {
+          "name": "Bakpia Pathok",
+          "desc": "Flaky round pastry stuffed with sweetened mung bean paste"
+        }
+      ],
+      "heritageInfo": {
+        "era": "Classical Era (c. 750–825 CE)",
+        "architecture": "Javanese Buddhist Stone Architecture (Andesite rock)",
+        "unesco": true,
+        "significance": "UNESCO World Heritage Site and the single largest Buddhist temple in existence."
+      },
+      "weatherByMonth": [
+        {
+          "month": "Jan",
+          "temp": 27,
+          "rainProb": 70,
+          "humidity": 82,
+          "crowd": "Low",
+          "recommended": false
+        },
+        {
+          "month": "Feb",
+          "temp": 27,
+          "rainProb": 65,
+          "humidity": 80,
+          "crowd": "Low",
+          "recommended": false
+        },
+        {
+          "month": "Mar",
+          "temp": 28,
+          "rainProb": 55,
+          "humidity": 78,
+          "crowd": "Moderate",
+          "recommended": true
+        },
+        {
+          "month": "Apr",
+          "temp": 29,
+          "rainProb": 40,
+          "humidity": 74,
+          "crowd": "Moderate",
+          "recommended": true
+        },
+        {
+          "month": "May",
+          "temp": 29,
+          "rainProb": 25,
+          "humidity": 70,
+          "crowd": "High (Vesak)",
+          "recommended": true
+        },
+        {
+          "month": "Jun",
+          "temp": 28,
+          "rainProb": 15,
+          "humidity": 66,
+          "crowd": "High",
+          "recommended": true
+        },
+        {
+          "month": "Jul",
+          "temp": 27,
+          "rainProb": 10,
+          "humidity": 64,
+          "crowd": "Very High",
+          "recommended": true
+        },
+        {
+          "month": "Aug",
+          "temp": 28,
+          "rainProb": 8,
+          "humidity": 62,
+          "crowd": "Very High",
+          "recommended": true
+        },
+        {
+          "month": "Sep",
+          "temp": 29,
+          "rainProb": 15,
+          "humidity": 65,
+          "crowd": "High",
+          "recommended": true
+        },
+        {
+          "month": "Oct",
+          "temp": 30,
+          "rainProb": 35,
+          "humidity": 70,
+          "crowd": "Moderate",
+          "recommended": true
+        },
+        {
+          "month": "Nov",
+          "temp": 29,
+          "rainProb": 55,
+          "humidity": 76,
+          "crowd": "Low",
+          "recommended": false
+        },
+        {
+          "month": "Dec",
+          "temp": 28,
+          "rainProb": 65,
+          "humidity": 80,
+          "crowd": "Moderate",
+          "recommended": false
+        }
+      ],
+      "virtualTourId": "tour-borobudur",
+      "isHiddenGem": false
+    },
+    {
+      "id": "shirakawa-go",
+      "name": "Shirakawa-go Historic Village",
+      "country": "Japan",
+      "countryCode": "JP",
+      "regionId": "chubu",
+      "regionName": "Gifu Prefecture",
+      "category": "Heritage",
+      "coordinates": [
+        36.2562,
+        136.9066
+      ],
+      "tagline": "Fairy-tale steep thatched gassho-zukuri mountain houses",
+      "description": "Tucked away in the snow-blanketed Hida mountains, Shirakawa-go features unique prayer-hands thatched farmhouse architecture built without nails to withstand heavy snowfall.",
+      "heroMedia": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1600&q=80"
+      },
+      "gallery": [
+        "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=800&q=80"
+      ],
+      "whyVisit": "Stay overnight in a 250-year-old wooden farmhouse, savor Hida beef sukiyaki, and view winter night illumination.",
+      "bestTime": "December to February (Snow illuminations) & October (Autumn)",
+      "crowdPrediction": {
+        "level": "Moderate Crowd",
+        "statusColor": "text-amber-400",
+        "score": 55,
+        "factors": "Special winter illumination nights require lottery reservations"
+      },
+      "estimatedBudget": {
+        "budget": "$80 - $130 / day",
+        "moderate": "$160 - $260 / day",
+        "luxury": "$350 - $600 / day",
+        "currency": "JPY / USD"
+      },
+      "journeyScore": {
+        "total": 92,
+        "weather": 86,
+        "heritage": 98,
+        "culture": 96,
+        "accessibility": 82,
+        "budget": 80
+      },
+      "transportation": {
+        "nearestAirport": "Komatsu Airport (KMQ) - 70 km",
+        "nearestRailway": "Takayama Station (JR Takayama Main Line) - 50 min via Nohi Express Bus",
+        "localTransit": "Village is entirely pedestrianized",
+        "tips": "Luggage storage is available at the Shirakawa-go bus terminal."
+      },
+      "foodToTry": [
+        {
+          "name": "Hida Beef Nigiri",
+          "desc": "A5 marbled beef lightly blowtorched on rice crackers with sweet soy"
+        },
+        {
+          "name": "Gohei Mochi",
+          "desc": "Skewered pounded rice coated in walnut and sweet miso glaze"
+        }
+      ],
+      "heritageInfo": {
+        "era": "Medieval to Modern Era (17th–19th Century)",
+        "architecture": "Gassho-zukuri ('constructed like hands in prayer') thatched timber framing",
+        "unesco": true,
+        "significance": "UNESCO World Heritage Site preserving ancient Japanese alpine communal life."
+      },
+      "weatherByMonth": [
+        {
+          "month": "Jan",
+          "temp": -2,
+          "rainProb": 75,
+          "humidity": 85,
+          "crowd": "High (Snow)",
+          "recommended": true
+        },
+        {
+          "month": "Feb",
+          "temp": -1,
+          "rainProb": 70,
+          "humidity": 82,
+          "crowd": "High",
+          "recommended": true
+        },
+        {
+          "month": "Mar",
+          "temp": 4,
+          "rainProb": 55,
+          "humidity": 75,
+          "crowd": "Low",
+          "recommended": true
+        },
+        {
+          "month": "Apr",
+          "temp": 11,
+          "rainProb": 45,
+          "humidity": 68,
+          "crowd": "Moderate (Cherry blossom)",
+          "recommended": true
+        },
+        {
+          "month": "May",
+          "temp": 17,
+          "rainProb": 40,
+          "humidity": 65,
+          "crowd": "Moderate",
+          "recommended": true
+        },
+        {
+          "month": "Jun",
+          "temp": 21,
+          "rainProb": 60,
+          "humidity": 78,
+          "crowd": "Low",
+          "recommended": false
+        },
+        {
+          "month": "Jul",
+          "temp": 25,
+          "rainProb": 65,
+          "humidity": 80,
+          "crowd": "Low",
+          "recommended": false
+        },
+        {
+          "month": "Aug",
+          "temp": 26,
+          "rainProb": 50,
+          "humidity": 78,
+          "crowd": "Low",
+          "recommended": false
+        },
+        {
+          "month": "Sep",
+          "temp": 21,
+          "rainProb": 55,
+          "humidity": 76,
+          "crowd": "Low",
+          "recommended": true
+        },
+        {
+          "month": "Oct",
+          "temp": 14,
+          "rainProb": 40,
+          "humidity": 72,
+          "crowd": "High (Fall foliage)",
+          "recommended": true
+        },
+        {
+          "month": "Nov",
+          "temp": 8,
+          "rainProb": 50,
+          "humidity": 75,
+          "crowd": "Moderate",
+          "recommended": true
+        },
+        {
+          "month": "Dec",
+          "temp": 1,
+          "rainProb": 75,
+          "humidity": 82,
+          "crowd": "High (First Snow)",
+          "recommended": true
+        }
+      ],
+      "virtualTourId": "tour-shirakawago",
+      "isHiddenGem": true,
+      "hiddenGemDiscoveryPct": 14
+    },
+    {
+      "id": "ziro-valley",
+      "name": "Ziro Valley & Apatani Plateau",
+      "country": "India",
+      "countryCode": "IN",
+      "regionId": "arunachal-pradesh",
+      "regionName": "Arunachal Pradesh",
+      "category": "Culture",
+      "coordinates": [
+        27.595,
+        93.834
+      ],
+      "tagline": "Pristine pine-clad basin of the sustainable Apatani tribe",
+      "description": "An idyllic plateau framed by mist-shrouded Himalayan foothills, celebrated for indigenous bamboo architecture, ingenious wet-rice paddy systems, and the open-air Ziro Music Festival.",
+      "heroMedia": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1600&q=80"
+      },
+      "gallery": [
+        "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80"
+      ],
+      "whyVisit": "To experience a living UNESCO-proposed cultural landscape where harmony between humans and pristine nature has thrived for centuries.",
+      "bestTime": "March to October (Ziro Festival in late September)",
+      "crowdPrediction": {
+        "level": "Low Crowd",
+        "statusColor": "text-emerald-400",
+        "score": 25,
+        "factors": "Except during annual music festival week, peaceful rural sanctuary"
+      },
+      "estimatedBudget": {
+        "budget": "$20 - $35 / day",
+        "moderate": "$45 - $80 / day",
+        "luxury": "$110 - $200 / day",
+        "currency": "INR / USD"
+      },
+      "journeyScore": {
+        "total": 90,
+        "weather": 88,
+        "heritage": 92,
+        "culture": 99,
+        "accessibility": 75,
+        "budget": 96
+      },
+      "transportation": {
+        "nearestAirport": "Hollongi Airport, Itanagar (HGI) - 115 km",
+        "nearestRailway": "Naharlagun Railway Station (NHLN) - 100 km",
+        "localTransit": "Shared Sumos, local homestay pickup",
+        "tips": "Inner Line Permit (ILP) required for Indian tourists; PAP for foreigners."
+      },
+      "foodToTry": [
+        {
+          "name": "Pika Pila",
+          "desc": "Traditional pickle made with pork fat, bamboo shoots, and fiery king chili"
+        },
+        {
+          "name": "Apong",
+          "desc": "Fermented organic millet or rice wine served in bamboo tumblers"
+        }
+      ],
+      "heritageInfo": {
+        "era": "Living Tribal Heritage (Ancient Ancestral Tradition)",
+        "architecture": "Organic Bamboo & Cane Stilt Houses (Nyibu architecture)",
+        "unesco": false,
+        "significance": "On UNESCO tentative list for outstanding sustainable agro-cultural landscape."
+      },
+      "weatherByMonth": [
+        {
+          "month": "Jan",
+          "temp": 12,
+          "rainProb": 15,
+          "humidity": 65,
+          "crowd": "Low",
+          "recommended": true
+        },
+        {
+          "month": "Feb",
+          "temp": 14,
+          "rainProb": 20,
+          "humidity": 62,
+          "crowd": "Low",
+          "recommended": true
+        },
+        {
+          "month": "Mar",
+          "temp": 18,
+          "rainProb": 30,
+          "humidity": 60,
+          "crowd": "Low",
+          "recommended": true
+        },
+        {
+          "month": "Apr",
+          "temp": 22,
+          "rainProb": 45,
+          "humidity": 68,
+          "crowd": "Low",
+          "recommended": true
+        },
+        {
+          "month": "May",
+          "temp": 24,
+          "rainProb": 55,
+          "humidity": 72,
+          "crowd": "Low",
+          "recommended": true
+        },
+        {
+          "month": "Jun",
+          "temp": 25,
+          "rainProb": 75,
+          "humidity": 82,
+          "crowd": "Low",
+          "recommended": false
+        },
+        {
+          "month": "Jul",
+          "temp": 25,
+          "rainProb": 80,
+          "humidity": 85,
+          "crowd": "Low",
+          "recommended": false
+        },
+        {
+          "month": "Aug",
+          "temp": 26,
+          "rainProb": 70,
+          "humidity": 82,
+          "crowd": "Low",
+          "recommended": false
+        },
+        {
+          "month": "Sep",
+          "temp": 24,
+          "rainProb": 40,
+          "humidity": 75,
+          "crowd": "High (Festival)",
+          "recommended": true
+        },
+        {
+          "month": "Oct",
+          "temp": 20,
+          "rainProb": 20,
+          "humidity": 68,
+          "crowd": "Moderate",
+          "recommended": true
+        },
+        {
+          "month": "Nov",
+          "temp": 16,
+          "rainProb": 10,
+          "humidity": 62,
+          "crowd": "Low",
+          "recommended": true
+        },
+        {
+          "month": "Dec",
+          "temp": 13,
+          "rainProb": 8,
+          "humidity": 60,
+          "crowd": "Low",
+          "recommended": true
+        }
+      ],
+      "virtualTourId": "tour-ziro",
+      "isHiddenGem": true,
+      "hiddenGemDiscoveryPct": 8
+    }
+  ],
+  "heritage": [
+    {
+      "id": "meenakshi-amman",
+      "name": "Arulmigu Meenakshi Sundareswarar Temple",
+      "destinationId": "madurai",
+      "country": "India",
+      "countryCode": "IN",
+      "location": "Madurai, Tamil Nadu",
+      "period": "Classical Era",
+      "exactEra": "6th–17th Century CE",
+      "architecture": "Dravidian Temple Architecture",
+      "unesco": false,
+      "significance": "Dedicated to Goddess Meenakshi (an avatar of Parvati) and her consort Sundareswarar (Shiva), it features 14 majestic gopurams encrusted with thousands of mythological figures.",
+      "historyTimeline": [
+        {
+          "year": "c. 6th Cent CE",
+          "event": "Founding mentioned in ancient Sangam literature."
+        },
+        {
+          "year": "1310 CE",
+          "event": "Ransacked during Malik Kafur's southern raid."
+        },
+        {
+          "year": "1559–1659 CE",
+          "event": "Restored and greatly expanded into present grandeur by the Nayak rulers."
+        },
+        {
+          "year": "1995 CE",
+          "event": "Extensive Maha Kumbhabhishekam restoration celebrating polychrome gopurams."
+        }
+      ],
+      "media": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80",
+      "virtualTourAvailable": true
+    },
+    {
+      "id": "taj-mahal",
+      "name": "The Taj Mahal",
+      "destinationId": "taj-mahal-agra",
+      "country": "India",
+      "countryCode": "IN",
+      "location": "Agra, Uttar Pradesh",
+      "period": "Medieval Era",
+      "exactEra": "1631–1648 CE",
+      "architecture": "Mughal Architecture (Persian, Indian, and Islamic fusion)",
+      "unesco": true,
+      "significance": "Universally admired masterpiece of world heritage, constructed using Makrana white marble inlaid with 28 varieties of precious and semi-precious stones.",
+      "historyTimeline": [
+        {
+          "year": "1631 CE",
+          "event": "Mumtaz Mahal passes away; Emperor Shah Jahan commissions the mausoleum."
+        },
+        {
+          "year": "1648 CE",
+          "event": "Main domed mausoleum completed by over 20,000 artisans."
+        },
+        {
+          "year": "1653 CE",
+          "event": "Surrounding complex, gardens, and mosque finalized."
+        },
+        {
+          "year": "1983 CE",
+          "event": "Inscribed as a UNESCO World Heritage Site."
+        }
+      ],
+      "media": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=80",
+      "virtualTourAvailable": true
+    },
+    {
+      "id": "fushimi-inari",
+      "name": "Fushimi Inari-Taisha Shrine",
+      "destinationId": "kyoto-temples",
+      "country": "Japan",
+      "countryCode": "JP",
+      "location": "Kyoto, Kansai",
+      "period": "Classical Era",
+      "exactEra": "711 CE (Early Heian Period)",
+      "architecture": "Shinto Shrine Architecture (Nagare-zukuri)",
+      "unesco": true,
+      "significance": "Head shrine of Inari, the Shinto kami of rice and agriculture. Celebrated for its Senbon Torii—over 10,000 vivid vermilion torii gates winding up sacred Mount Inari.",
+      "historyTimeline": [
+        {
+          "year": "711 CE",
+          "event": "Founded on Inariyama hill by the Hata clan."
+        },
+        {
+          "year": "816 CE",
+          "event": "Relocated to its present location at the request of monk Kukai."
+        },
+        {
+          "year": "1499 CE",
+          "event": "Main hall rebuilt following destruction during the Onin War."
+        },
+        {
+          "year": "1994 CE",
+          "event": "Designated as part of UNESCO Ancient Kyoto heritage."
+        }
+      ],
+      "media": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=80",
+      "virtualTourAvailable": true
+    },
+    {
+      "id": "angkor-wat-monument",
+      "name": "Angkor Wat Temple",
+      "destinationId": "angkor-wat",
+      "country": "Cambodia",
+      "countryCode": "KH",
+      "location": "Siem Reap",
+      "period": "Classical Era",
+      "exactEra": "1113–1150 CE",
+      "architecture": "Khmer Temple Mountain Style",
+      "unesco": true,
+      "significance": "Commissioned by King Suryavarman II, representing Mount Meru—the home of the devas in Hindu mythology—surrounded by a 5-kilometer-long moat.",
+      "historyTimeline": [
+        {
+          "year": "1113 CE",
+          "event": "King Suryavarman II begins construction as royal mausoleum for Vishnu."
+        },
+        {
+          "year": "Late 12th Cent",
+          "event": "Gradual transformation into a Theravada Buddhist temple complex."
+        },
+        {
+          "year": "1586 CE",
+          "event": "Visited by Portuguese friar Antonio da Magdalena who praised its miraculous design."
+        },
+        {
+          "year": "1992 CE",
+          "event": "Inscribed onto UNESCO World Heritage list."
+        }
+      ],
+      "media": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "virtualTourAvailable": true
+    },
+    {
+      "id": "borobudur-monument",
+      "name": "Borobudur Buddhist Stupa",
+      "destinationId": "borobudur",
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "location": "Magelang, Central Java",
+      "period": "Classical Era",
+      "exactEra": "c. 750–825 CE",
+      "architecture": "Javanese Buddhist Pyramid Architecture",
+      "unesco": true,
+      "significance": "Colossal stepped pyramid temple made of two million volcanic stone blocks representing the Buddhist path to enlightenment.",
+      "historyTimeline": [
+        {
+          "year": "778 CE",
+          "event": "Commenced under the Sailendra Dynasty."
+        },
+        {
+          "year": "14th Cent",
+          "event": "Abandoned following decline of Hindu-Buddhist kingdoms and volcanic eruptions."
+        },
+        {
+          "year": "1814 CE",
+          "event": "Rediscovered by Sir Thomas Stamford Raffles."
+        },
+        {
+          "year": "1991 CE",
+          "event": "Designated a UNESCO World Heritage Site following UNESCO restoration."
+        }
+      ],
+      "media": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=80",
+      "virtualTourAvailable": true
+    }
+  ],
+  "virtualTours": [
+    {
+      "id": "tour-meenakshi",
+      "title": "Meenakshi Sundareswarar Temple Hall of Thousand Pillars",
+      "heritageId": "meenakshi-amman",
+      "locationName": "Madurai, India",
+      "panoramaUrl": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=2500&q=90",
+      "audioGuideText": "Welcome to the Meenakshi Sundareswarar Temple. You stand before the sanctum where classical Dravidian craftsmanship reaches its zenith. Notice the thousand intricately carved granite pillars, each carved from a single piece of stone. If you look upwards, the ceiling is adorned with vibrant cosmological mandalas representing the cosmic dance of Shiva.",
+      "hotspots": [
+        {
+          "id": "hs-1",
+          "title": "South Gopuram",
+          "description": "The tallest tower reaching 51.9 meters high, featuring over 1,511 colorful stucco mythological figures.",
+          "coords": {
+            "x": 30,
+            "y": 40
+          }
+        },
+        {
+          "id": "hs-2",
+          "title": "Potramarai Kulam (Golden Lotus Tank)",
+          "description": "Sacred pond where devotees bathe. Legend states the Sangam academy judges tested literary works here.",
+          "coords": {
+            "x": 60,
+            "y": 70
+          }
+        },
+        {
+          "id": "hs-3",
+          "title": "Musical Granite Pillars",
+          "description": "Five carved pillars near the northern tower that produce distinct Carnatic musical notes when gently struck.",
+          "coords": {
+            "x": 75,
+            "y": 35
+          }
+        }
+      ]
+    },
+    {
+      "id": "tour-taj-mahal",
+      "title": "Taj Mahal Inner Charbagh & Mausoleum Platform",
+      "heritageId": "taj-mahal",
+      "locationName": "Agra, India",
+      "panoramaUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=2500&q=90",
+      "audioGuideText": "You are standing on the marble plinth of the Taj Mahal. The symmetry is mathematically flawless from every angle. Notice how the four surrounding minarets lean outward by a fraction of a degree—an intentional structural design to ensure that in the event of an earthquake, they would fall away from the sacred tomb.",
+      "hotspots": [
+        {
+          "id": "hs-taj-1",
+          "title": "Central Marble Dome",
+          "description": "Rising 35 meters high, the onion dome is crowned with a gilded lotus finial blending Hindu and Persian motifs.",
+          "coords": {
+            "x": 50,
+            "y": 25
+          }
+        },
+        {
+          "id": "hs-taj-2",
+          "title": "Pietra Dura Inlay Panels",
+          "description": "Delicate floral scrollwork crafted with lapis lazuli, jade, turquoise, and carnelian inlaid into white Makrana marble.",
+          "coords": {
+            "x": 42,
+            "y": 60
+          }
+        },
+        {
+          "id": "hs-taj-3",
+          "title": "Yamuna River Promenade",
+          "description": "The northern terrace looks out over the sacred Yamuna river, offering panoramic reflections at twilight.",
+          "coords": {
+            "x": 80,
+            "y": 55
+          }
+        }
+      ]
+    },
+    {
+      "id": "tour-fushimi-inari",
+      "title": "Fushimi Inari Senbon Torii Path",
+      "heritageId": "fushimi-inari",
+      "locationName": "Kyoto, Japan",
+      "panoramaUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=2500&q=90",
+      "audioGuideText": "Step into the vermilion tunnel of Fushimi Inari-Taisha. The distinctive orange-red hue, known as shu-iro, is believed to repel evil spirits and preserve the sacred cedar wood. Look closely at the black calligraphy carved onto each pillar: these are the names and dates of individuals and companies who dedicated each gate as a prayer for prosperity.",
+      "hotspots": [
+        {
+          "id": "hs-fi-1",
+          "title": "Kitsune Fox Messenger",
+          "description": "Stone fox statues holding the key to the rice granary in their mouths, serving as messengers of the kami Inari.",
+          "coords": {
+            "x": 25,
+            "y": 65
+          }
+        },
+        {
+          "id": "hs-fi-2",
+          "title": "Senbon Torii Archways",
+          "description": "Dense corridor of thousands of torii gates creating an enchanting tunnel of light and shadow.",
+          "coords": {
+            "x": 50,
+            "y": 40
+          }
+        },
+        {
+          "id": "hs-fi-3",
+          "title": "Omokaru Stone",
+          "description": "Make a wish and lift the stone lantern top. If it feels lighter than anticipated, your wish will soon be fulfilled.",
+          "coords": {
+            "x": 75,
+            "y": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "tour-angkor-wat",
+      "title": "Angkor Wat Central Sanctuary & Moat Causeway",
+      "heritageId": "angkor-wat-monument",
+      "locationName": "Siem Reap, Cambodia",
+      "panoramaUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2500&q=90",
+      "audioGuideText": "Welcome to Angkor Wat. As you cross the sandstone causeway spanning the sacred moat, you enter a microcosm of the Hindu universe. The outer moat symbolizes the mythical cosmic ocean, while the five soaring central towers represent the five peaks of holy Mount Meru.",
+      "hotspots": [
+        {
+          "id": "hs-aw-1",
+          "title": "Churning of the Ocean of Milk",
+          "description": "A 49-meter bas-relief carving depicting 88 devas and 92 asuras churning the cosmic ocean to release the elixir of immortality.",
+          "coords": {
+            "x": 35,
+            "y": 55
+          }
+        },
+        {
+          "id": "hs-aw-2",
+          "title": "Central Lotus Tower",
+          "description": "The supreme sanctum soaring 65 meters above ground level, originally enshrining Vishnu.",
+          "coords": {
+            "x": 50,
+            "y": 30
+          }
+        }
+      ]
+    }
+  ],
+  "badges": [
+    {
+      "id": "badge-asia-explorer",
+      "name": "Asia Explorer",
+      "icon": "🌏",
+      "description": "Stamp 3 different Asian countries in your Travel Passport",
+      "xpReward": 150,
+      "requiredCount": 3,
+      "category": "country"
+    },
+    {
+      "id": "badge-heritage-hunter",
+      "name": "Heritage Hunter",
+      "icon": "🏛",
+      "description": "Explore 3 ancient heritage sites and read their historical timelines",
+      "xpReward": 200,
+      "requiredCount": 3,
+      "category": "heritage"
+    },
+    {
+      "id": "badge-virtual-voyager",
+      "name": "Virtual Voyager",
+      "icon": "🕶",
+      "description": "Complete 2 immersive 360° virtual tours with audio guides",
+      "xpReward": 250,
+      "requiredCount": 2,
+      "category": "virtualTour"
+    },
+    {
+      "id": "badge-nature-seeker",
+      "name": "Nature Seeker",
+      "icon": "🌿",
+      "description": "Discover off-the-beaten-path hidden gems of Asia",
+      "xpReward": 180,
+      "requiredCount": 2,
+      "category": "nature"
+    },
+    {
+      "id": "badge-master-planner",
+      "name": "Master Trip Architect",
+      "icon": "✨",
+      "description": "Generate and save a personalized AI travel journey",
+      "xpReward": 300,
+      "requiredCount": 1,
+      "category": "trip"
+    }
+  ],
+  "users": [
+    {
+      "id": "admin-1",
+      "name": "Asia Explora Admin",
+      "email": "admin@asiaexplora.com",
+      "passwordHash": "$2a$10$wT0l0.7C1sCqfVb2vW9.1e92d7GzZlB9C0h8R0W1y.T4a7C2sCqfV",
+      "role": "admin",
+      "xp": 1250,
+      "passportStamps": [
+        "IN",
+        "JP",
+        "KH"
+      ],
+      "unlockedBadges": [
+        "badge-asia-explorer",
+        "badge-heritage-hunter"
+      ],
+      "savedTrips": []
+    }
+  ],
+  "trips": []
+}
