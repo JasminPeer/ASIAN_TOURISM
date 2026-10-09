@@ -13,6 +13,7 @@ import {
   Compass
 } from 'lucide-react';
 import { Breadcrumbs } from '../components/Breadcrumbs';
+import { api } from '../services/api';
 
 export const HistoricalErasPage = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -34,8 +35,7 @@ export const HistoricalErasPage = () => {
 
   const fetchEras = async () => {
     try {
-      const res = await fetch('/api/heritage/eras');
-      const data = await res.json();
+      const data = await api.getHeritageEras();
       if (Array.isArray(data) && data.length > 0) {
         setEras(data);
         if (!selectedEra) setSelectedEra(data[0].id);
@@ -48,8 +48,7 @@ export const HistoricalErasPage = () => {
   const fetchMonumentsForEra = async (eraId) => {
     setLoading(true);
     try {
-      const res = await fetch(`/api/heritage?era=${encodeURIComponent(eraId)}`);
-      const data = await res.json();
+      const data = await api.getHeritage({ era: eraId });
       setMonuments(Array.isArray(data) ? data : []);
     } catch (err) {
       console.error("Failed to load monuments for era:", err);

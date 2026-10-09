@@ -15,6 +15,7 @@ import {
   AlertTriangle
 } from 'lucide-react';
 import { Breadcrumbs } from '../components/Breadcrumbs';
+import { api } from '../services/api';
 
 export const DestinationsPage = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -49,13 +50,12 @@ export const DestinationsPage = () => {
   const fetchDestinations = async () => {
     setLoading(true);
     try {
-      let url = '/api/destinations?';
-      if (selectedCategory !== 'All') url += `category=${encodeURIComponent(selectedCategory)}&`;
-      if (selectedCrowd !== 'All') url += `crowd=${encodeURIComponent(selectedCrowd)}&`;
-      if (activeTab === 'month') url += `month=${encodeURIComponent(selectedMonth)}&`;
-      
-      const res = await fetch(url);
-      const data = await res.json();
+      const params = {};
+      if (selectedCategory !== 'All') params.category = selectedCategory;
+      if (selectedCrowd !== 'All') params.crowd = selectedCrowd;
+      if (activeTab === 'month') params.month = selectedMonth;
+
+      const data = await api.getDestinations(params);
       setDestinations(Array.isArray(data) ? data : []);
     } catch (err) {
       console.error("Failed to load destinations:", err);
@@ -66,8 +66,7 @@ export const DestinationsPage = () => {
 
   const fetchMonthlyRecommendations = async (m) => {
     try {
-      const res = await fetch(`/api/destinations/recommendations?month=${encodeURIComponent(m)}`);
-      const data = await res.json();
+      const data = await api.getMonthlyRecommendations(m);
       setRecommendations(data);
     } catch (err) {
       console.error("Failed to load monthly recommendations:", err);

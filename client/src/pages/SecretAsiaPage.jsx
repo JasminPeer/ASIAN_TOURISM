@@ -12,6 +12,7 @@ import {
   Navigation
 } from 'lucide-react';
 import { Breadcrumbs } from '../components/Breadcrumbs';
+import { api } from '../services/api';
 
 export const SecretAsiaPage = () => {
   const [gems, setGems] = useState([]);
@@ -25,8 +26,7 @@ export const SecretAsiaPage = () => {
   const fetchHiddenGems = async () => {
     setLoading(true);
     try {
-      const res = await fetch('/api/destinations?isHiddenGem=true');
-      const data = await res.json();
+      const data = await api.getDestinations({ isHiddenGem: true });
       setGems(Array.isArray(data) ? data : []);
     } catch (err) {
       console.error("Failed to load secret gems:", err);

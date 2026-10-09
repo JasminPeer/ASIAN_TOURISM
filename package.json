@@ -6,7 +6,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "node server/index.js",
     "client": "npm --prefix client run dev",
-    "build": "npm --prefix client run build",
+    "build": "npm --prefix client run build && node -e \"const fs=require('fs'); if(fs.existsSync('client/dist')){fs.cpSync('client/dist','dist',{recursive:true});}\"",
     "test:server": "node server/test_server.js"
   },
   "devDependencies": {

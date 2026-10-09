@@ -19,6 +19,7 @@ import {
   Sun
 } from 'lucide-react';
 import { Breadcrumbs } from '../components/Breadcrumbs';
+import { api } from '../services/api';
 
 export const CategoryExplorePage = () => {
   const { category = 'nature' } = useParams();
@@ -75,8 +76,7 @@ export const CategoryExplorePage = () => {
   const fetchDestinations = async () => {
     setLoading(true);
     try {
-      const res = await fetch('/api/destinations');
-      const data = await res.json();
+      const data = await api.getDestinations();
       setDestinations(Array.isArray(data) ? data : []);
     } catch (err) {
       console.error("Failed to load destinations:", err);
