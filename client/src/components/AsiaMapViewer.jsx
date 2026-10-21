@@ -169,6 +169,9 @@ export const AsiaMapViewer = ({ isFullPage = false }) => {
 
         destMarker.on('click', () => {
           setSelectedDestination(dest);
+          if (mapInstanceRef.current && dest.coordinates) {
+            mapInstanceRef.current.flyTo(dest.coordinates, 13, { duration: 1.2 });
+          }
         });
 
         destMarker.on('mouseover', () => {
@@ -177,6 +180,40 @@ export const AsiaMapViewer = ({ isFullPage = false }) => {
 
         markersGroup.addLayer(destMarker);
       });
+
+      // If a destination is selected, draw its exploration route ("Way not point")
+      if (selectedDestination && selectedDestination.coordinates) {
+        const waypoints = (selectedDestination.placesInside && selectedDestination.placesInside.length > 0)
+          ? selectedDestination.placesInside.map(p => p.coordinates || [
+              selectedDestination.coordinates[0],
+              selectedDestination.coordinates[1]
+            ])
+          : [
+              [selectedDestination.coordinates[0] - 0.005, selectedDestination.coordinates[1] - 0.004],
+              selectedDestination.coordinates,
+              [selectedDestination.coordinates[0] + 0.006, selectedDestination.coordinates[1] + 0.005],
+              [selectedDestination.coordinates[0] + 0.003, selectedDestination.coordinates[1] + 0.009]
+            ];
+
+        // Draw glowing connected trail line
+        L.polyline(waypoints, {
+          color: '#38bdf8',
+          weight: 4,
+          dashArray: '6, 8',
+          opacity: 0.95
+        }).addTo(markersGroup);
+
+        // Place numbered waypoint stops along the trail
+        waypoints.forEach((pt, idx) => {
+          const wpMarker = L.divIcon({
+            className: 'mini-trail-wp',
+            html: `<div style="width:20px;height:20px;border-radius:50%;background:#10b981;border:2px solid #fff;color:#fff;font-size:10px;font-weight:bold;display:flex;align-items:center;justify-content:center;box-shadow:0 0 10px #10b981;">${idx + 1}</div>`,
+            iconSize: [20, 20],
+            iconAnchor: [10, 10]
+          });
+          markersGroup.addLayer(L.marker(pt, { icon: wpMarker }));
+        });
+      }
     }
   }, [countries, destinations, regions, selectedCountry, selectedRegion, selectedDestination]);
 

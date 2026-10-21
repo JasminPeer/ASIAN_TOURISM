@@ -30,6 +30,7 @@ import {
 import { api } from '../services/api';
 import { usePassport } from '../context/PassportContext';
 import { Breadcrumbs } from '../components/Breadcrumbs';
+import { DestinationTrailMap } from '../components/DestinationTrailMap';
 
 export const DestinationDetailPage = () => {
   const { id } = useParams();
@@ -336,6 +337,9 @@ export const DestinationDetailPage = () => {
             </div>
           </div>
         </div>
+
+        {/* Interactive Waypoint Route & 360° Street View Trail ("Way Not Point") */}
+        <DestinationTrailMap destination={destination} />
 
         {/* 12-Month Detailed Climate & Crowd Profile */}
         {destination.weatherByMonth?.length > 0 && (

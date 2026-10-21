@@ -1941,6 +1941,1728 @@ export const regionsData = [
 
 export const destinationsData = [
   {
+    "id": "baa-atoll",
+    "name": "Baa Atoll (UNESCO Coral Biosphere & Hanifaru Bay)",
+    "country": "Maldives",
+    "countryCode": "MV",
+    "regionId": "baa-atoll-maldives",
+    "regionName": "Baa Atoll",
+    "category": "Islands & Beaches",
+    "coordinates": [
+      5.1333,
+      72.9667
+    ],
+    "tagline": "World's largest gathering of manta rays and whale sharks in crystalline coral lagoons",
+    "description": "Designated a UNESCO World Biosphere Reserve, Baa Atoll supports one of the richest coral reef ecosystems on the planet, featuring Hanifaru Bay where hundreds of giant reef manta rays gather for synchronous filter-feeding.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=75"
+    },
+    "gallery": [
+      "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=800&q=75"
+    ],
+    "whyVisit": "To snorkel alongside dozens of gentle manta rays, sleep in overwater wooden bungalows, and dive untouched outer coral walls.",
+    "bestTime": "November to April (Dry Season) / June to November (Manta Peak)",
+    "crowdPrediction": {
+      "level": "Untouched & Serene",
+      "statusColor": "text-emerald-400",
+      "score": 18,
+      "factors": "Strict marine park regulations protect marine life"
+    },
+    "estimatedBudget": {
+      "budget": "$70 - $110 / day (Local Guesthouse)",
+      "moderate": "$180 - $350 / day",
+      "luxury": "$600 - $1,500+ / day",
+      "currency": "MVR / USD"
+    },
+    "journeyScore": {
+      "total": 97,
+      "weather": 96,
+      "heritage": 90,
+      "culture": 89,
+      "accessibility": 84,
+      "budget": 82
+    },
+    "transportation": {
+      "nearestAirport": "Velana International Airport, Male (MLE) - 120 km",
+      "localTransit": "Twin-otter seaplanes, motorized dhonis, speedboats",
+      "tips": "Hanifaru Bay is snorkel-only (scuba tanks are banned) to ensure manta feeding patterns remain undisturbed."
+    },
+    "placesInside": [
+      {
+        "id": "baa-1",
+        "name": "Hanifaru Bay Manta Feeding Sanctuary",
+        "category": "Marine Sanctuary",
+        "coordinates": [
+          5.1725,
+          73.148
+        ],
+        "description": "A funnel-shaped reef where plankton blooms attract massive gatherings of up to 100 reef mantas and whale sharks.",
+        "timeToSpend": "2 hours",
+        "photo": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=600&q=75",
+        "tips": "Visit during the full or new moon between June and November for peak plankton density."
+      },
+      {
+        "id": "baa-2",
+        "name": "Dharavandhoo Island & Coral House Reef",
+        "category": "Inhabited Island",
+        "coordinates": [
+          5.1585,
+          73.129
+        ],
+        "description": "Charming local island with sandy streets, traditional coral stone homes, and affordable boutique dive lodges.",
+        "timeToSpend": "Half day",
+        "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=75",
+        "tips": "Rent snorkel gear and explore the vibrant drop-off reef directly from the public bikini beach."
+      }
+    ],
+    "localGuide": {
+      "transitOptions": "30-minute scenic Trans Maldivian Airways seaplane from Male.",
+      "nearbyHotels": [
+        {
+          "name": "Soneva Fushi",
+          "priceCategory": "Eco Luxury Resort",
+          "distance": "Kunfunadhoo Island",
+          "rating": 5,
+          "facilities": [
+            "Observatory",
+            "Private pool overwater villas"
+          ],
+          "samplePrice": "$1,400/night"
+        },
+        {
+          "name": "Lvis Blancura Hotel",
+          "priceCategory": "Island Boutique",
+          "distance": "Dharavandhoo Beach",
+          "rating": 4.8,
+          "facilities": [
+            "Bikini beach access",
+            "Manta tour desk"
+          ],
+          "samplePrice": "$95/night"
+        }
+      ],
+      "nearbyRestaurants": [
+        {
+          "name": "Fresh in the Garden",
+          "cuisine": "Organic Farm-to-Table",
+          "priceLevel": "Luxury",
+          "popularDishes": [
+            "Reef Fish Ceviche",
+            "Herb-Crusted Yellowfin Tuna",
+            "Coconut Sorbet"
+          ]
+        }
+      ],
+      "mustTryFood": [
+        "Mas Huni (Smoked shredded tuna with grated coconut and chili)",
+        "Warm freshly baked Roshi flatbreads",
+        "Grilled sweet ocean lobster"
+      ]
+    },
+    "transportComparison": [
+      {
+        "mode": "Trans Maldivian Seaplane",
+        "costRange": "$350 - $480 return",
+        "duration": "30 mins",
+        "comfort": "Ultimate Aerial"
+      },
+      {
+        "mode": "Domestic Flight to Dharavandhoo Airport",
+        "costRange": "$160 - $220 return",
+        "duration": "25 mins",
+        "comfort": "Very High"
+      }
+    ],
+    "heritageInfo": {
+      "era": "UNESCO Biosphere Reserve (2011)",
+      "historicalEra": "Living Marine Ecosystem",
+      "architecture": "Coral Atoll Geomorphology & Water Villas",
+      "unesco": true,
+      "significance": "Globally significant marine biodiversity hotspot supporting 250 species of corals and 1,200 species of fish."
+    },
+    "weatherByMonth": [
+      {
+        "month": "Jan",
+        "temp": 28,
+        "rainProb": 15,
+        "humidity": 75,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 98,
+        "recommended": true
+      },
+      {
+        "month": "Feb",
+        "temp": 29,
+        "rainProb": 10,
+        "humidity": 72,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 99,
+        "recommended": true
+      },
+      {
+        "month": "Mar",
+        "temp": 30,
+        "rainProb": 12,
+        "humidity": 70,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 98,
+        "recommended": true
+      },
+      {
+        "month": "Apr",
+        "temp": 31,
+        "rainProb": 20,
+        "humidity": 72,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 95,
+        "recommended": true
+      },
+      {
+        "month": "May",
+        "temp": 30,
+        "rainProb": 50,
+        "humidity": 78,
+        "crowd": "Low Crowd 🟢",
+        "weatherScore": 84,
+        "recommended": true
+      },
+      {
+        "month": "Jun",
+        "temp": 29,
+        "rainProb": 55,
+        "humidity": 80,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 86,
+        "recommended": true
+      },
+      {
+        "month": "Jul",
+        "temp": 29,
+        "rainProb": 55,
+        "humidity": 80,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 86,
+        "recommended": true
+      },
+      {
+        "month": "Aug",
+        "temp": 29,
+        "rainProb": 50,
+        "humidity": 79,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 87,
+        "recommended": true
+      },
+      {
+        "month": "Sep",
+        "temp": 29,
+        "rainProb": 50,
+        "humidity": 79,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 87,
+        "recommended": true
+      },
+      {
+        "month": "Oct",
+        "temp": 28,
+        "rainProb": 52,
+        "humidity": 80,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 85,
+        "recommended": true
+      },
+      {
+        "month": "Nov",
+        "temp": 28,
+        "rainProb": 35,
+        "humidity": 76,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 92,
+        "recommended": true
+      },
+      {
+        "month": "Dec",
+        "temp": 28,
+        "rainProb": 25,
+        "humidity": 75,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 94,
+        "recommended": true
+      }
+    ],
+    "weatherAlerts": {
+      "hasAlert": false,
+      "condition": "Warm Turquoise Waters (29°C)",
+      "advisory": "Calm underwater visibility up to 30 meters.",
+      "indoorAlternatives": [
+        "Underwater Spa & Observatory"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "National Day (Gaumee Dhuvas)",
+        "timing": "November",
+        "desc": "Traditional Boduberu drum dances and festive marine boat parades."
+      }
+    ],
+    "virtualTourId": "tour-baa",
+    "isHiddenGem": false
+  },
+  {
+    "id": "ha-long-bay",
+    "name": "Ha Long Bay (Emerald Waters & Karst Spires)",
+    "country": "Vietnam",
+    "countryCode": "VN",
+    "regionId": "quang-ninh-vietnam",
+    "regionName": "Quang Ninh Province",
+    "category": "Nature",
+    "coordinates": [
+      20.9101,
+      107.1839
+    ],
+    "tagline": "Over 1,600 towering limestone pillars rising dramatically from turquoise Gulf waters",
+    "description": "A UNESCO World Heritage marvel in northeast Vietnam, Ha Long Bay ('Descending Dragon') is renowned for emerald waters, colossal karst limestone pinnacles draped in tropical rainforest, and hidden cavern grottos.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75"
+    },
+    "gallery": [
+      "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75"
+    ],
+    "whyVisit": "To sleep aboard a traditional wooden junk boat, kayak through hidden sea caves into quiet lagoons, and watch misty sunrises over limestone islands.",
+    "bestTime": "March to May & September to November",
+    "crowdPrediction": {
+      "level": "Moderate Crowd",
+      "statusColor": "text-amber-400",
+      "score": 60,
+      "factors": "High boat traffic during midday; peaceful overnight cruises"
+    },
+    "estimatedBudget": {
+      "budget": "$30 - $45 / day",
+      "moderate": "$65 - $120 / day",
+      "luxury": "$180 - $350 / day",
+      "currency": "VND / USD"
+    },
+    "journeyScore": {
+      "total": 96,
+      "weather": 93,
+      "heritage": 98,
+      "culture": 92,
+      "accessibility": 94,
+      "budget": 96
+    },
+    "transportation": {
+      "nearestAirport": "Van Don International Airport (VDO) - 50 km / Hanoi Noi Bai (HAN) - 150 km",
+      "localTransit": "Overnight cruise ships, day tenders, sea kayaks, bamboo rowboats",
+      "tips": "Opt for a 2-night/3-day cruise that ventures further into less-visited Bai Tu Long Bay or Lan Ha Bay."
+    },
+    "placesInside": [
+      {
+        "id": "hl-1",
+        "name": "Sung Sot (Surprise) Cave",
+        "category": "Limestone Cavern",
+        "coordinates": [
+          20.8525,
+          107.089
+        ],
+        "description": "The largest and most spectacular cavern in the bay, featuring two vast chambers filled with thousands of stalactites resembling royal chandeliers.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=600&q=75",
+        "tips": "Climb the stone steps to the cave exit for an iconic bird's-eye harbor view."
+      },
+      {
+        "id": "hl-2",
+        "name": "Luon Cave Sea Kayak Lagoon",
+        "category": "Sea Arch & Hidden Lagoon",
+        "coordinates": [
+          20.845,
+          107.098
+        ],
+        "description": "A water-level tunnel passable only by small kayak or bamboo boat that opens into a tranquil enclosed circular lagoon inhabited by golden monkeys.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=75",
+        "tips": "Look out for families of wild rhesus macaques along the sheer cliff faces."
+      },
+      {
+        "id": "hl-3",
+        "name": "Ti Top Island Beach & Summit",
+        "category": "Island Vista",
+        "coordinates": [
+          20.8585,
+          107.0815
+        ],
+        "description": "Small crescent sandy beach with a 400-step stone path leading to a pagoda gazebo with 360-degree views across the entire bay.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=600&q=75",
+        "tips": "Best climbed in the late afternoon just before sunset."
+      }
+    ],
+    "localGuide": {
+      "transitOptions": "2.5-hour modern highway limousine bus from Hanoi Old Quarter.",
+      "nearbyHotels": [
+        {
+          "name": "Paradise Peak Cruise",
+          "priceCategory": "Luxury Overnight Cruise",
+          "distance": "Ha Long Bay Waters",
+          "rating": 4.9,
+          "facilities": [
+            "Private balcony cabins",
+            "Onboard spa & cooking classes"
+          ],
+          "samplePrice": "$280/night all-inclusive"
+        },
+        {
+          "name": "Vinpearl Resort & Spa Ha Long",
+          "priceCategory": "Island Resort",
+          "distance": "Reu Island",
+          "rating": 4.7,
+          "facilities": [
+            "Private island",
+            "3 private beaches"
+          ],
+          "samplePrice": "$130/night"
+        }
+      ],
+      "nearbyRestaurants": [
+        {
+          "name": "Cua Vang Restaurant",
+          "cuisine": "Seafood Specialist",
+          "priceLevel": "Moderate",
+          "popularDishes": [
+            "Claypot Mud Crab",
+            "Grilled Ha Long Squid Patties (Cha Muc)",
+            "Steamed Clams with Lemongrass"
+          ]
+        }
+      ],
+      "mustTryFood": [
+        "Chả Mực (Crispy Ha Long hand-pounded squid cakes)",
+        "Fresh spring rolls with sweet chili dip",
+        "Hot bowl of Phở Bò enjoyed on the morning deck"
+      ]
+    },
+    "transportComparison": [
+      {
+        "mode": "Express Limousine Van from Hanoi",
+        "costRange": "$15 - $22",
+        "duration": "2.5 hours",
+        "comfort": "Very High"
+      },
+      {
+        "mode": "Seaplane Flight from Hanoi (Hai Au Aviation)",
+        "costRange": "$120 - $180",
+        "duration": "45 mins",
+        "comfort": "Ultimate Aerial"
+      }
+    ],
+    "heritageInfo": {
+      "era": "Geological Evolution (500 Million Years)",
+      "historicalEra": "Geological & UNESCO Natural Wonder",
+      "architecture": "Natural Karst Geomorphology",
+      "unesco": true,
+      "significance": "Spectacular marine-drowned tower karst landscape of global scientific and aesthetic significance."
+    },
+    "weatherByMonth": [
+      {
+        "month": "Jan",
+        "temp": 18,
+        "rainProb": 25,
+        "humidity": 75,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 82,
+        "recommended": true
+      },
+      {
+        "month": "Feb",
+        "temp": 19,
+        "rainProb": 30,
+        "humidity": 80,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 80,
+        "recommended": true
+      },
+      {
+        "month": "Mar",
+        "temp": 22,
+        "rainProb": 35,
+        "humidity": 82,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 88,
+        "recommended": true
+      },
+      {
+        "month": "Apr",
+        "temp": 26,
+        "rainProb": 40,
+        "humidity": 80,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 94,
+        "recommended": true
+      },
+      {
+        "month": "May",
+        "temp": 29,
+        "rainProb": 45,
+        "humidity": 78,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 92,
+        "recommended": true
+      },
+      {
+        "month": "Jun",
+        "temp": 31,
+        "rainProb": 65,
+        "humidity": 82,
+        "crowd": "Low Crowd 🟢",
+        "weatherScore": 80,
+        "recommended": false
+      },
+      {
+        "month": "Jul",
+        "temp": 31,
+        "rainProb": 70,
+        "humidity": 84,
+        "crowd": "Low Crowd 🟢",
+        "weatherScore": 78,
+        "recommended": false
+      },
+      {
+        "month": "Aug",
+        "temp": 30,
+        "rainProb": 75,
+        "humidity": 85,
+        "crowd": "Low Crowd 🟢",
+        "weatherScore": 75,
+        "recommended": false
+      },
+      {
+        "month": "Sep",
+        "temp": 29,
+        "rainProb": 50,
+        "humidity": 78,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 91,
+        "recommended": true
+      },
+      {
+        "month": "Oct",
+        "temp": 26,
+        "rainProb": 30,
+        "humidity": 72,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 97,
+        "recommended": true
+      },
+      {
+        "month": "Nov",
+        "temp": 23,
+        "rainProb": 20,
+        "humidity": 68,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 96,
+        "recommended": true
+      },
+      {
+        "month": "Dec",
+        "temp": 19,
+        "rainProb": 20,
+        "humidity": 70,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 89,
+        "recommended": true
+      }
+    ],
+    "weatherAlerts": {
+      "hasAlert": false,
+      "condition": "Pleasant Emerald Waters",
+      "advisory": "Optimal cruising conditions with gentle sea breezes.",
+      "indoorAlternatives": [
+        "Quang Ninh Museum & Library"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Ha Long Carnival",
+        "timing": "Late April",
+        "desc": "Colorful street parades, floating laser displays, and vibrant cultural dances along the coastline."
+      }
+    ],
+    "virtualTourId": "tour-halong",
+    "isHiddenGem": false
+  },
+  {
+    "id": "paro-taktsang",
+    "name": "Paro Taktsang (Tiger's Nest Cliffside Monastery)",
+    "country": "Bhutan",
+    "countryCode": "BT",
+    "regionId": "paro-bhutan",
+    "regionName": "Paro Valley",
+    "category": "Heritage",
+    "coordinates": [
+      27.4919,
+      89.3635
+    ],
+    "tagline": "Sacred Himalayan monastery clinging precariously to a sheer 900m granite cliff",
+    "description": "Bhutan's most iconic sacred sanctuary, founded in 1692 around the Taktsang Senge Samdup cave where Guru Padmasambhava is said to have meditated for three years, three months, and three days in the 8th century.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=75"
+    },
+    "gallery": [
+      "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=75"
+    ],
+    "whyVisit": "To trek through pine and rhododendron forests draped with prayer flags and stand before a sacred cliff-face sanctuary suspended above the clouds.",
+    "bestTime": "March to May & September to November",
+    "crowdPrediction": {
+      "level": "Untouched & Serene",
+      "statusColor": "text-emerald-400",
+      "score": 20,
+      "factors": "Strict Bhutanese sustainable tourism quota ensures tranquility"
+    },
+    "estimatedBudget": {
+      "budget": "$150 - $200 / day",
+      "moderate": "$250 - $350 / day",
+      "luxury": "$500+ / day",
+      "currency": "BTN / USD"
+    },
+    "journeyScore": {
+      "total": 98,
+      "weather": 96,
+      "heritage": 100,
+      "culture": 100,
+      "accessibility": 79,
+      "budget": 85
+    },
+    "transportation": {
+      "nearestAirport": "Paro International Airport (PBH) - 15 km",
+      "localTransit": "Licensed tour vehicles, mountain walking trails, horseback assistance for lower stretch",
+      "tips": "The 4-5 hour round-trip hike ascends 900 vertical meters. Wear sturdy walking boots and carry trekking poles."
+    },
+    "placesInside": [
+      {
+        "id": "tak-1",
+        "name": "Prayer Flag Ridge & Cafeteria Viewpoint",
+        "category": "Midway Vista",
+        "coordinates": [
+          27.488,
+          89.361
+        ],
+        "description": "The halfway rest point offering traditional Bhutanese butter tea and direct panoramic views of the monastery across the chasm.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=600&q=75",
+        "tips": "Turn the giant prayer wheels powered by rushing mountain streams."
+      },
+      {
+        "id": "tak-2",
+        "name": "Sacred Waterfall Chasm & Bridge",
+        "category": "Natural Sacred Spot",
+        "coordinates": [
+          27.491,
+          89.3625
+        ],
+        "description": "A dramatic wooden suspension footbridge passing right next to a 60-meter plunging mountain waterfall.",
+        "timeToSpend": "20 mins",
+        "photo": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=600&q=75",
+        "tips": "Feel the refreshing glacier mist before the final steps to the monastery portal."
+      },
+      {
+        "id": "tak-3",
+        "name": "Guru Rinpoche Meditation Caves & Inner Shrines",
+        "category": "Inner Sanctum",
+        "coordinates": [
+          27.4919,
+          89.3635
+        ],
+        "description": "Four interconnected temple sanctuaries housing gold-leaf statues, sacred thangkas, and the butter-lamp lit meditation cave.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=600&q=75",
+        "tips": "Shoes, cameras, and phones must be safely deposited at the security entrance."
+      }
+    ],
+    "localGuide": {
+      "transitOptions": "25-minute drive from Paro town center through blue pine forests.",
+      "nearbyHotels": [
+        {
+          "name": "Amankora Paro",
+          "priceCategory": "Ultra Luxury",
+          "distance": "Paro Pine Valley",
+          "rating": 5,
+          "facilities": [
+            "Traditional hot stone baths",
+            "Forest-view suites"
+          ],
+          "samplePrice": "$1,100/night"
+        },
+        {
+          "name": "Naksel Boutique Hotel & Spa",
+          "priceCategory": "Heritage Luxury",
+          "distance": "Near Taktsang base",
+          "rating": 4.8,
+          "facilities": [
+            "Sweeping mountain views",
+            "Traditional mud-brick architecture"
+          ],
+          "samplePrice": "$220/night"
+        }
+      ],
+      "nearbyRestaurants": [
+        {
+          "name": "Sonam Trophel Restaurant",
+          "cuisine": "Authentic Bhutanese",
+          "priceLevel": "Moderate",
+          "popularDishes": [
+            "Ema Datshi (Chili & Yak Cheese)",
+            "Kewa Datshi",
+            "Red Rice"
+          ]
+        }
+      ],
+      "mustTryFood": [
+        "Ema Datshi served with nutty Himalayan red rice",
+        "Momo dumplings stuffed with fresh yak cheese and herbs",
+        "Traditional Suja salted butter tea"
+      ]
+    },
+    "transportComparison": [
+      {
+        "mode": "Licensed Private Tour Vehicle",
+        "costRange": "Included in SDF Tour",
+        "duration": "25 mins",
+        "comfort": "High"
+      }
+    ],
+    "heritageInfo": {
+      "era": "Vajrayana Buddhist Antiquity (1692 CE)",
+      "historicalEra": "Living Heritage",
+      "architecture": "Tibetan Dzong-Style Granite & Timber Cliff Architecture",
+      "unesco": false,
+      "significance": "Spiritual heart of Bhutan and sacred pilgrimage focal point of Himalayan Buddhism."
+    },
+    "weatherByMonth": [
+      {
+        "month": "Jan",
+        "temp": 8,
+        "rainProb": 10,
+        "humidity": 55,
+        "crowd": "Low Crowd 🟢",
+        "weatherScore": 84,
+        "recommended": true
+      },
+      {
+        "month": "Feb",
+        "temp": 10,
+        "rainProb": 15,
+        "humidity": 52,
+        "crowd": "Low Crowd 🟢",
+        "weatherScore": 88,
+        "recommended": true
+      },
+      {
+        "month": "Mar",
+        "temp": 14,
+        "rainProb": 20,
+        "humidity": 50,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 94,
+        "recommended": true
+      },
+      {
+        "month": "Apr",
+        "temp": 17,
+        "rainProb": 30,
+        "humidity": 55,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 97,
+        "recommended": true
+      },
+      {
+        "month": "May",
+        "temp": 19,
+        "rainProb": 40,
+        "humidity": 62,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 92,
+        "recommended": true
+      },
+      {
+        "month": "Jun",
+        "temp": 21,
+        "rainProb": 65,
+        "humidity": 75,
+        "crowd": "Low Crowd 🟢",
+        "weatherScore": 75,
+        "recommended": false
+      },
+      {
+        "month": "Jul",
+        "temp": 22,
+        "rainProb": 80,
+        "humidity": 82,
+        "crowd": "Low Crowd 🟢",
+        "weatherScore": 68,
+        "recommended": false
+      },
+      {
+        "month": "Aug",
+        "temp": 22,
+        "rainProb": 75,
+        "humidity": 80,
+        "crowd": "Low Crowd 🟢",
+        "weatherScore": 70,
+        "recommended": false
+      },
+      {
+        "month": "Sep",
+        "temp": 20,
+        "rainProb": 45,
+        "humidity": 70,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 90,
+        "recommended": true
+      },
+      {
+        "month": "Oct",
+        "temp": 16,
+        "rainProb": 15,
+        "humidity": 60,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 99,
+        "recommended": true
+      },
+      {
+        "month": "Nov",
+        "temp": 12,
+        "rainProb": 8,
+        "humidity": 55,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 96,
+        "recommended": true
+      },
+      {
+        "month": "Dec",
+        "temp": 9,
+        "rainProb": 8,
+        "humidity": 54,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 88,
+        "recommended": true
+      }
+    ],
+    "weatherAlerts": {
+      "hasAlert": false,
+      "condition": "Clear High Mountain Breeze",
+      "advisory": "Sunny days and cool crisp mountain air.",
+      "indoorAlternatives": [
+        "National Museum of Bhutan (Ta Dzong)"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Paro Tshechu",
+        "timing": "March / April",
+        "desc": "Magnificent multi-day mask dance festival unfurling the giant sacred Guru Thangka."
+      }
+    ],
+    "virtualTourId": "tour-taktsang",
+    "isHiddenGem": false
+  },
+  {
+    "id": "pokhara-annapurna",
+    "name": "Pokhara & Phewa Lake (Annapurna Mountain Gate)",
+    "country": "Nepal",
+    "countryCode": "NP",
+    "regionId": "gandaki-nepal",
+    "regionName": "Gandaki Province",
+    "category": "Nature",
+    "coordinates": [
+      28.2096,
+      83.9856
+    ],
+    "tagline": "Serene Himalayan reflection lake beneath the sacred fishtail peak of Machapuchare",
+    "description": "The adventure and relaxation capital of Nepal. Pokhara sits beside serene Phewa Lake, reflecting the snow-clad 8,000-meter peaks of the Annapurna massif, Dhaulagiri, and Machapuchare.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75"
+    },
+    "gallery": [
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
+    ],
+    "whyVisit": "To paddle colorful wooden doonga boats on Phewa Lake, paraglide beside snow peaks from Sarangkot, and hike to the gleaming World Peace Pagoda.",
+    "bestTime": "September to November & March to May",
+    "crowdPrediction": {
+      "level": "Low Crowd",
+      "statusColor": "text-emerald-400",
+      "score": 32,
+      "factors": "Peaceful lakeside atmosphere"
+    },
+    "estimatedBudget": {
+      "budget": "$20 - $35 / day",
+      "moderate": "$40 - $75 / day",
+      "luxury": "$100 - $200 / day",
+      "currency": "NPR / USD"
+    },
+    "journeyScore": {
+      "total": 97,
+      "weather": 95,
+      "heritage": 93,
+      "culture": 96,
+      "accessibility": 88,
+      "budget": 99
+    },
+    "transportation": {
+      "nearestAirport": "Pokhara Regional International Airport (PKR) - 4 km",
+      "localTransit": "Rowboats, local taxis, bicycle rentals, hiking footpaths",
+      "tips": "Wake up at 5:00 AM for the Sarangkot sunrise viewpoint when the snowy peaks turn glowing gold."
+    },
+    "placesInside": [
+      {
+        "id": "pok-1",
+        "name": "Phewa Lake & Tal Barahi Island Temple",
+        "category": "Sacred Lake",
+        "coordinates": [
+          28.2125,
+          83.9555
+        ],
+        "description": "Tranquil freshwater lake with a two-story pagoda shrine nestled on an island in the middle of the waters.",
+        "timeToSpend": "2 hours",
+        "photo": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=75",
+        "tips": "Rent a private wooden boat with an oarsman or paddle yourself across the mirror surface."
+      },
+      {
+        "id": "pok-2",
+        "name": "Sarangkot Sunrise Himalayan Vista",
+        "category": "Panoramic Mountain Ridge",
+        "coordinates": [
+          28.2439,
+          83.9486
+        ],
+        "description": "At 1,600 meters, this high ridge provides unmatched unobstructed sunburst views over the Annapurna range.",
+        "timeToSpend": "2 hours",
+        "photo": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=75",
+        "tips": "One of the top tandem paragliding launch spots in the world."
+      },
+      {
+        "id": "pok-3",
+        "name": "World Peace Pagoda (Shanti Stupa)",
+        "category": "Buddhist Monument",
+        "coordinates": [
+          28.2008,
+          83.9442
+        ],
+        "description": "Brilliant white dome stupa standing high atop Anadu Hill, constructed by Japanese Buddhist monks to inspire universal harmony.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=75",
+        "tips": "Combine with a scenic 1-hour forest hike starting from the southern shore of Phewa Lake."
+      }
+    ],
+    "localGuide": {
+      "transitOptions": "25-minute scenic mountain flight from Kathmandu or 6-hour deluxe tourist coach.",
+      "nearbyHotels": [
+        {
+          "name": "Temple Tree Resort & Spa",
+          "priceCategory": "Boutique Resort",
+          "distance": "Lakeside center",
+          "rating": 4.8,
+          "facilities": [
+            "Swimming pool",
+            "Traditional stone architecture"
+          ],
+          "samplePrice": "$95/night"
+        },
+        {
+          "name": "Fish Tail Lodge",
+          "priceCategory": "Heritage Lodge",
+          "distance": "Lakefront peninsula",
+          "rating": 4.7,
+          "facilities": [
+            "Accessed via private rope-pulled shuttle raft"
+          ],
+          "samplePrice": "$160/night"
+        }
+      ],
+      "nearbyRestaurants": [
+        {
+          "name": "Moondance Restaurant",
+          "cuisine": "Himalayan & Western",
+          "priceLevel": "Moderate",
+          "popularDishes": [
+            "Lemon Rosemary Chicken",
+            "Fresh Lake Trout",
+            "Apple Pie"
+          ]
+        },
+        {
+          "name": "Tibetan Kitchen",
+          "cuisine": "Tibetan & Nepali",
+          "priceLevel": "Budget",
+          "popularDishes": [
+            "Steamed Buff Momos",
+            "Thukpa Noodle Soup",
+            "Butter Tea"
+          ]
+        }
+      ],
+      "mustTryFood": [
+        "Fresh steamed Himalayan momos with fiery sesame chutney",
+        "Thakali Dal Bhat set with organic ghee",
+        "Nepali Mustang spiced apple crumble"
+      ]
+    },
+    "transportComparison": [
+      {
+        "mode": "Domestic Mountain Flight from Kathmandu",
+        "costRange": "$80 - $110",
+        "duration": "25 mins",
+        "comfort": "Very High & Aerial"
+      },
+      {
+        "mode": "Tourist AC Deluxe Coach",
+        "costRange": "$10 - $15",
+        "duration": "6 hours",
+        "comfort": "Moderate"
+      }
+    ],
+    "heritageInfo": {
+      "era": "Living Himalayan Heritage",
+      "historicalEra": "Living Heritage",
+      "architecture": "Gurung & Newari Himalayan Timber Vernacular",
+      "unesco": false,
+      "significance": "Crucial historic staging post on the salt trading routes connecting Tibet and the Gangetic plains."
+    },
+    "weatherByMonth": [
+      {
+        "month": "Jan",
+        "temp": 15,
+        "rainProb": 10,
+        "humidity": 60,
+        "crowd": "Low Crowd 🟢",
+        "weatherScore": 88,
+        "recommended": true
+      },
+      {
+        "month": "Feb",
+        "temp": 18,
+        "rainProb": 15,
+        "humidity": 55,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 92,
+        "recommended": true
+      },
+      {
+        "month": "Mar",
+        "temp": 23,
+        "rainProb": 20,
+        "humidity": 50,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 97,
+        "recommended": true
+      },
+      {
+        "month": "Apr",
+        "temp": 26,
+        "rainProb": 30,
+        "humidity": 52,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 96,
+        "recommended": true
+      },
+      {
+        "month": "May",
+        "temp": 27,
+        "rainProb": 45,
+        "humidity": 62,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 87,
+        "recommended": true
+      },
+      {
+        "month": "Jun",
+        "temp": 27,
+        "rainProb": 75,
+        "humidity": 80,
+        "crowd": "Low Crowd 🟢",
+        "weatherScore": 70,
+        "recommended": false
+      },
+      {
+        "month": "Jul",
+        "temp": 26,
+        "rainProb": 90,
+        "humidity": 88,
+        "crowd": "Low Crowd 🟢",
+        "weatherScore": 62,
+        "recommended": false
+      },
+      {
+        "month": "Aug",
+        "temp": 26,
+        "rainProb": 88,
+        "humidity": 86,
+        "crowd": "Low Crowd 🟢",
+        "weatherScore": 65,
+        "recommended": false
+      },
+      {
+        "month": "Sep",
+        "temp": 26,
+        "rainProb": 50,
+        "humidity": 75,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 86,
+        "recommended": true
+      },
+      {
+        "month": "Oct",
+        "temp": 23,
+        "rainProb": 15,
+        "humidity": 65,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 99,
+        "recommended": true
+      },
+      {
+        "month": "Nov",
+        "temp": 19,
+        "rainProb": 8,
+        "humidity": 62,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 98,
+        "recommended": true
+      },
+      {
+        "month": "Dec",
+        "temp": 16,
+        "rainProb": 8,
+        "humidity": 60,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 91,
+        "recommended": true
+      }
+    ],
+    "weatherAlerts": {
+      "hasAlert": false,
+      "condition": "Crisp Himalayan Blue Sky",
+      "advisory": "Exceptional mountain clarity; peak trekking season active.",
+      "indoorAlternatives": [
+        "International Mountain Museum"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Tihar (Festival of Lights)",
+        "timing": "Late October / November",
+        "desc": "Illuminating homes with oil lamps, marigold flower garlands, and honoring birds and animals."
+      }
+    ],
+    "virtualTourId": "tour-pokhara",
+    "isHiddenGem": false
+  },
+  {
+    "id": "ella-gap",
+    "name": "Ella Scenic Mountain Gap & Nine Arch Bridge",
+    "country": "Sri Lanka",
+    "countryCode": "LK",
+    "regionId": "uva-sri-lanka",
+    "regionName": "Uva Province",
+    "category": "Nature",
+    "coordinates": [
+      6.8667,
+      81.0466
+    ],
+    "tagline": "Misty highland tea ridges, colonial viaducts & thundering cascading waterfalls",
+    "description": "Perched at 1,041 meters in the central highlands, Ella is famed for the iconic colonial Nine Arch Bridge curved amidst green tea plantations, panoramic hikes up Ella Rock and Little Adam's Peak, and Ravana Falls.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1546708973-b339540b5162?auto=format&fit=crop&w=1200&q=75"
+    },
+    "gallery": [
+      "https://images.unsplash.com/photo-1546708973-b339540b5162?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1588258524675-c618337cb0b5?auto=format&fit=crop&w=800&q=75"
+    ],
+    "whyVisit": "To ride the world's most scenic blue highland train, watch steam engines cross the Nine Arch Bridge, and hike through Ceylon tea estates.",
+    "bestTime": "January to May",
+    "crowdPrediction": {
+      "level": "Moderate Crowd",
+      "statusColor": "text-amber-400",
+      "score": 50,
+      "factors": "Popular highland stop, relaxed mountain vibe"
+    },
+    "estimatedBudget": {
+      "budget": "$20 - $35 / day",
+      "moderate": "$45 - $80 / day",
+      "luxury": "$110 - $220 / day",
+      "currency": "LKR / USD"
+    },
+    "journeyScore": {
+      "total": 95,
+      "weather": 96,
+      "heritage": 90,
+      "culture": 92,
+      "accessibility": 86,
+      "budget": 98
+    },
+    "transportation": {
+      "nearestAirport": "Mattala Rajapaksa International (HRI) - 85 km",
+      "nearestRailway": "Ella Railway Station (in town center)",
+      "localTransit": "Tuk-tuks, walking trails, scooter rentals",
+      "tips": "Book the Kandy to Ella blue train observation saloon or 2nd class reserved seats weeks in advance."
+    },
+    "placesInside": [
+      {
+        "id": "ella-1",
+        "name": "Nine Arch Bridge (Bridge in the Sky)",
+        "category": "Colonial Viaduct",
+        "coordinates": [
+          6.8767,
+          81.0608
+        ],
+        "description": "Stunning 24-meter-high stone viaduct built entirely of solid bricks and rock without a single piece of steel in 1921.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1546708973-b339540b5162?auto=format&fit=crop&w=600&q=75",
+        "tips": "Catch the blue passenger train crossing at approximately 9:20 AM and 11:50 AM."
+      },
+      {
+        "id": "ella-2",
+        "name": "Little Adam's Peak (Punchi Sri Pada)",
+        "category": "Mountain Trail",
+        "coordinates": [
+          6.8622,
+          81.0558
+        ],
+        "description": "Gentle 45-minute summit trail through emerald tea bushes offering panoramic views across the Ella Gap canyon.",
+        "timeToSpend": "2 hours",
+        "photo": "https://images.unsplash.com/photo-1588258524675-c618337cb0b5?auto=format&fit=crop&w=600&q=75",
+        "tips": "Spectacular for sunrise when mist drifts between the mountain defiles."
+      },
+      {
+        "id": "ella-3",
+        "name": "Ravana Falls & Cave",
+        "category": "Waterfall Sanctuary",
+        "coordinates": [
+          6.8406,
+          81.0531
+        ],
+        "description": "A majestic 25-meter tiered cascade linked to the ancient Ramayana epic legends.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1546708973-b339540b5162?auto=format&fit=crop&w=600&q=75",
+        "tips": "Enjoy freshly roasted sweet corn and king coconut water from local roadside vendors."
+      }
+    ],
+    "localGuide": {
+      "transitOptions": "Take the legendary 6-hour mountain train from Kandy or Nuwara Eliya.",
+      "nearbyHotels": [
+        {
+          "name": "98 Acres Resort & Spa",
+          "priceCategory": "Luxury Chalet",
+          "distance": "Little Adam's Peak ridge",
+          "rating": 4.9,
+          "facilities": [
+            "Helipad",
+            "Panoramic tea valley view chalets"
+          ],
+          "samplePrice": "$240/night"
+        },
+        {
+          "name": "Chillville View Point",
+          "priceCategory": "Eco Lodge",
+          "distance": "1.5 km from Ella Station",
+          "rating": 4.6,
+          "facilities": [
+            "Valley view balconies",
+            "Free breakfast"
+          ],
+          "samplePrice": "$55/night"
+        }
+      ],
+      "nearbyRestaurants": [
+        {
+          "name": "Cafe Chill",
+          "cuisine": "Fusion & Sri Lankan",
+          "priceLevel": "Moderate",
+          "popularDishes": [
+            "Black Pork Curry",
+            "Clay Pot Rice",
+            "Passion Fruit Mojito"
+          ]
+        },
+        {
+          "name": "Matey Hut",
+          "cuisine": "Traditional Home Cooked",
+          "priceLevel": "Budget",
+          "popularDishes": [
+            "Cooking Class Curries",
+            "Pumpkin Coconut Curry",
+            "Roti Rolls"
+          ]
+        }
+      ],
+      "mustTryFood": [
+        "Ella black pepper pork curry",
+        "Freshly picked highland Ceylon black tea",
+        "Spicy vegetable roti"
+      ]
+    },
+    "transportComparison": [
+      {
+        "mode": "Highland Blue Scenic Train",
+        "costRange": "$2 - $8",
+        "duration": "6 hours",
+        "comfort": "High & Scenic"
+      },
+      {
+        "mode": "Private Taxi via Nuwara Eliya",
+        "costRange": "$60 - $80",
+        "duration": "4.5 hours",
+        "comfort": "Very High"
+      }
+    ],
+    "heritageInfo": {
+      "era": "Colonial British Ceylon (1890s–1920s)",
+      "historicalEra": "Modern Industrial Era",
+      "architecture": "British Highland Engineering & Stone Viaducts",
+      "unesco": false,
+      "significance": "Celebrated marvel of high-altitude mountain railway engineering."
+    },
+    "weatherByMonth": [
+      {
+        "month": "Jan",
+        "temp": 22,
+        "rainProb": 25,
+        "humidity": 65,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 94,
+        "recommended": true
+      },
+      {
+        "month": "Feb",
+        "temp": 23,
+        "rainProb": 20,
+        "humidity": 62,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 97,
+        "recommended": true
+      },
+      {
+        "month": "Mar",
+        "temp": 24,
+        "rainProb": 25,
+        "humidity": 60,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 95,
+        "recommended": true
+      },
+      {
+        "month": "Apr",
+        "temp": 24,
+        "rainProb": 40,
+        "humidity": 68,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 88,
+        "recommended": true
+      },
+      {
+        "month": "May",
+        "temp": 23,
+        "rainProb": 35,
+        "humidity": 70,
+        "crowd": "Low Crowd 🟢",
+        "weatherScore": 86,
+        "recommended": true
+      },
+      {
+        "month": "Jun",
+        "temp": 22,
+        "rainProb": 30,
+        "humidity": 68,
+        "crowd": "Low Crowd 🟢",
+        "weatherScore": 89,
+        "recommended": true
+      },
+      {
+        "month": "Jul",
+        "temp": 22,
+        "rainProb": 28,
+        "humidity": 67,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 90,
+        "recommended": true
+      },
+      {
+        "month": "Aug",
+        "temp": 22,
+        "rainProb": 28,
+        "humidity": 66,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 90,
+        "recommended": true
+      },
+      {
+        "month": "Sep",
+        "temp": 22,
+        "rainProb": 35,
+        "humidity": 68,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 87,
+        "recommended": true
+      },
+      {
+        "month": "Oct",
+        "temp": 21,
+        "rainProb": 65,
+        "humidity": 80,
+        "crowd": "Low Crowd 🟢",
+        "weatherScore": 74,
+        "recommended": false
+      },
+      {
+        "month": "Nov",
+        "temp": 21,
+        "rainProb": 60,
+        "humidity": 78,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 78,
+        "recommended": false
+      },
+      {
+        "month": "Dec",
+        "temp": 21,
+        "rainProb": 45,
+        "humidity": 72,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 89,
+        "recommended": true
+      }
+    ],
+    "weatherAlerts": {
+      "hasAlert": false,
+      "condition": "Cool Highland Mist",
+      "advisory": "Brisk morning winds; bring a light fleece jacket for hikes.",
+      "indoorAlternatives": [
+        "Halpewatte Tea Factory Tasting Room"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Sinhala & Tamil New Year (Aluth Avurudda)",
+        "timing": "Mid-April",
+        "desc": "Traditional sweet oil cake feasts (Kokis) and highland community games."
+      }
+    ],
+    "virtualTourId": "tour-ella",
+    "isHiddenGem": true,
+    "hiddenGemDiscoveryPct": 22
+  },
+  {
+    "id": "sigiriya",
+    "name": "Sigiriya Lion Rock Citadel & Water Gardens",
+    "country": "Sri Lanka",
+    "countryCode": "LK",
+    "regionId": "central-sri-lanka",
+    "regionName": "Central Province",
+    "category": "Heritage",
+    "coordinates": [
+      7.957,
+      80.7603
+    ],
+    "tagline": "Ancient 5th-century fortress palace perched atop a 200m monolithic granite column",
+    "description": "Built by King Kashyapa in 477 CE, Sigiriya is a masterpiece of ancient urban planning, hydraulic water gardens, mirror-polished walls, and vivid 1,500-year-old celestial maiden frescoes.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?auto=format&fit=crop&w=1200&q=75"
+    },
+    "gallery": [
+      "https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=75"
+    ],
+    "whyVisit": "To climb through the colossal sculpted Lion's Paws gateway, marvel at the ancient frescoes, and gaze across emerald jungle canopies.",
+    "bestTime": "December to April",
+    "crowdPrediction": {
+      "level": "Moderate Crowd",
+      "statusColor": "text-amber-400",
+      "score": 55,
+      "factors": "Pleasant mornings, busy midday"
+    },
+    "estimatedBudget": {
+      "budget": "$25 - $40 / day",
+      "moderate": "$55 - $100 / day",
+      "luxury": "$140 - $260 / day",
+      "currency": "LKR / USD"
+    },
+    "journeyScore": {
+      "total": 96,
+      "weather": 94,
+      "heritage": 99,
+      "culture": 96,
+      "accessibility": 88,
+      "budget": 97
+    },
+    "transportation": {
+      "nearestAirport": "Bandaranaike International Airport, Colombo (CMB) - 145 km",
+      "nearestRailway": "Habarana Railway Station - 15 km",
+      "localTransit": "Tuk-tuks, rental scooters, guided walking trails",
+      "tips": "Begin your ascent at 6:30 AM to beat the tropical heat and experience sunrise over the central plains."
+    },
+    "placesInside": [
+      {
+        "id": "sig-1",
+        "name": "Royal Water Gardens & Fountains",
+        "category": "Ancient Engineering",
+        "coordinates": [
+          7.9555,
+          80.758
+        ],
+        "description": "Intricate symmetrical aquatic courtyards with gravity-fed fountains that still operate after 1,500 years during the rains.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?auto=format&fit=crop&w=600&q=75",
+        "tips": "Notice the underground terracotta conduit channels."
+      },
+      {
+        "id": "sig-2",
+        "name": "Sigiriya Frescoes Gallery",
+        "category": "Ancient Art",
+        "coordinates": [
+          7.9568,
+          80.7595
+        ],
+        "description": "Sensuous 5th-century tempera paintings of heavenly nymphs (Apsaras) preserved under a natural rock overhang.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=600&q=75",
+        "tips": "Photography with flash is strictly prohibited to preserve natural pigments."
+      },
+      {
+        "id": "sig-3",
+        "name": "Lion's Paw Terrace",
+        "category": "Architectural Wonder",
+        "coordinates": [
+          7.9572,
+          80.7601
+        ],
+        "description": "The dramatic midway terrace featuring two gargantuan carved granite paws that once supported an entire lion colossus.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?auto=format&fit=crop&w=600&q=75",
+        "tips": "Hydrate well before tackling the final vertical iron staircase to the summit."
+      },
+      {
+        "id": "sig-4",
+        "name": "Sky Palace Summit & Royal Pool",
+        "category": "Imperial Ruins",
+        "coordinates": [
+          7.9575,
+          80.7605
+        ],
+        "description": "The 1.6-hectare summit plateau housing the ruins of Kashyapa's royal palace, throne, and stone-cut bath overlooking endless forests.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?auto=format&fit=crop&w=600&q=75",
+        "tips": "Take in the 360-degree panorama of Pidurangala Rock and misty lake reservoirs."
+      }
+    ],
+    "localGuide": {
+      "transitOptions": "3-hour private AC car or scenic express train from Colombo to Habarana.",
+      "nearbyHotels": [
+        {
+          "name": "Aliya Resort & Spa",
+          "priceCategory": "Luxury Resort",
+          "distance": "4 km from Rock",
+          "rating": 4.8,
+          "facilities": [
+            "Infinity pool facing Sigiriya",
+            "Ayurvedic wellness center"
+          ],
+          "samplePrice": "$120/night"
+        },
+        {
+          "name": "Water Garden Sigiriya",
+          "priceCategory": "Boutique Villa",
+          "distance": "2 km from Rock",
+          "rating": 4.9,
+          "facilities": [
+            "Private plunge pools",
+            "Water garden views"
+          ],
+          "samplePrice": "$280/night"
+        }
+      ],
+      "nearbyRestaurants": [
+        {
+          "name": "Rithu Restaurant",
+          "cuisine": "Authentic Sri Lankan",
+          "priceLevel": "Budget",
+          "popularDishes": [
+            "Claypot Rice & Curry (10 curries)",
+            "Kottu Roti",
+            "Pol Sambol"
+          ]
+        },
+        {
+          "name": "Kenoli Restaurant",
+          "cuisine": "Sri Lankan & Asian",
+          "priceLevel": "Moderate",
+          "popularDishes": [
+            "Devilled Prawns",
+            "String Hoppers with Kiri Hodi",
+            "Fresh Papaya Juice"
+          ]
+        }
+      ],
+      "mustTryFood": [
+        "Traditional Sri Lankan Rice & 7-Curry feast",
+        "Crispy Hoppers with sunny-side egg",
+        "Sweet Watalappan spiced coconut pudding"
+      ]
+    },
+    "transportComparison": [
+      {
+        "mode": "Express Train to Habarana + Tuk-tuk",
+        "costRange": "$4 - $12",
+        "duration": "4 hours",
+        "comfort": "High"
+      },
+      {
+        "mode": "Private Chauffeur Car from Colombo",
+        "costRange": "$55 - $75",
+        "duration": "3 hours",
+        "comfort": "Very High"
+      }
+    ],
+    "heritageInfo": {
+      "era": "Anuradhapura Period (477–495 CE)",
+      "historicalEra": "Classical Golden Age",
+      "architecture": "Monolithic Rock Citadel & Hydraulic Gardens",
+      "unesco": true,
+      "significance": "One of the best-preserved examples of ancient Asian urban planning."
+    },
+    "weatherByMonth": [
+      {
+        "month": "Jan",
+        "temp": 28,
+        "rainProb": 20,
+        "humidity": 68,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 95,
+        "recommended": true
+      },
+      {
+        "month": "Feb",
+        "temp": 30,
+        "rainProb": 15,
+        "humidity": 65,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 96,
+        "recommended": true
+      },
+      {
+        "month": "Mar",
+        "temp": 32,
+        "rainProb": 18,
+        "humidity": 64,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 93,
+        "recommended": true
+      },
+      {
+        "month": "Apr",
+        "temp": 33,
+        "rainProb": 35,
+        "humidity": 70,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 86,
+        "recommended": true
+      },
+      {
+        "month": "May",
+        "temp": 32,
+        "rainProb": 45,
+        "humidity": 75,
+        "crowd": "Low Crowd 🟢",
+        "weatherScore": 80,
+        "recommended": false
+      },
+      {
+        "month": "Jun",
+        "temp": 31,
+        "rainProb": 30,
+        "humidity": 72,
+        "crowd": "Low Crowd 🟢",
+        "weatherScore": 84,
+        "recommended": true
+      },
+      {
+        "month": "Jul",
+        "temp": 31,
+        "rainProb": 28,
+        "humidity": 70,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 86,
+        "recommended": true
+      },
+      {
+        "month": "Aug",
+        "temp": 31,
+        "rainProb": 25,
+        "humidity": 68,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 88,
+        "recommended": true
+      },
+      {
+        "month": "Sep",
+        "temp": 31,
+        "rainProb": 35,
+        "humidity": 70,
+        "crowd": "Low Crowd 🟢",
+        "weatherScore": 84,
+        "recommended": true
+      },
+      {
+        "month": "Oct",
+        "temp": 30,
+        "rainProb": 65,
+        "humidity": 82,
+        "crowd": "Low Crowd 🟢",
+        "weatherScore": 72,
+        "recommended": false
+      },
+      {
+        "month": "Nov",
+        "temp": 29,
+        "rainProb": 60,
+        "humidity": 80,
+        "crowd": "Moderate 🟡",
+        "weatherScore": 75,
+        "recommended": false
+      },
+      {
+        "month": "Dec",
+        "temp": 28,
+        "rainProb": 40,
+        "humidity": 74,
+        "crowd": "Peak Crowd 🔴",
+        "weatherScore": 90,
+        "recommended": true
+      }
+    ],
+    "weatherAlerts": {
+      "hasAlert": false,
+      "condition": "Sunny & Gentle Breeze",
+      "advisory": "Clear climbing conditions; carry a sun hat and drinking water.",
+      "indoorAlternatives": [
+        "Sigiriya Archaeological Museum"
+      ]
+    },
+    "festivals": [
+      {
+        "name": "Vesak Poya Festival of Lights",
+        "timing": "May Full Moon",
+        "desc": "Illuminating shrines, giant paper lanterns, and free community food stalls across the region."
+      }
+    ],
+    "virtualTourId": "tour-sigiriya",
+    "isHiddenGem": false
+  },
+  {
     "id": "gokarna",
     "name": "Gokarna (Sacred Om Beach & Rocky Cliffs)",
     "country": "India",
@@ -11475,6 +13197,7 @@ export const virtualToursData = [
   {
     "id": "tour-meenakshi",
     "title": "Meenakshi Sundareswarar Temple Hall of 1,000 Pillars",
+    "coordinates": [9.9195, 78.1193],
     "heritageId": "meenakshi-amman",
     "locationName": "Madurai, Tamil Nadu, India",
     "panoramaUrl": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=2500&q=90",
@@ -11512,6 +13235,7 @@ export const virtualToursData = [
   {
     "id": "tour-taj-mahal",
     "title": "The Taj Mahal Charbagh & Marble Plinth",
+    "coordinates": [27.1751, 78.0421],
     "heritageId": "taj-mahal",
     "locationName": "Agra, Uttar Pradesh, India",
     "panoramaUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=2500&q=90",
@@ -11549,6 +13273,7 @@ export const virtualToursData = [
   {
     "id": "tour-fushimi-inari",
     "title": "Fushimi Inari Senbon Torii Corridor",
+    "coordinates": [34.9671, 135.7727],
     "heritageId": "fushimi-inari",
     "locationName": "Kyoto, Kansai, Japan",
     "panoramaUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=2500&q=90",
@@ -11577,6 +13302,7 @@ export const virtualToursData = [
   {
     "id": "tour-angkor-wat",
     "title": "Angkor Wat Central Lotus Sanctuary & Moat",
+    "coordinates": [13.4125, 103.867],
     "heritageId": "angkor-wat-monument",
     "locationName": "Siem Reap, Cambodia",
     "panoramaUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2500&q=90",
@@ -11605,6 +13331,7 @@ export const virtualToursData = [
   {
     "id": "tour-borobudur",
     "title": "Borobudur Stupa Terraces Over Mount Merapi",
+    "coordinates": [-7.6079, 110.2038],
     "heritageId": "borobudur-monument",
     "locationName": "Central Java, Indonesia",
     "panoramaUrl": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=2500&q=90",
@@ -11633,6 +13360,7 @@ export const virtualToursData = [
   {
     "id": "tour-great-wall",
     "title": "Great Wall of China Watchtower Ridge",
+    "coordinates": [40.4319, 116.5704],
     "heritageId": "beijing-forbidden-city",
     "locationName": "Mutianyu, Beijing, China",
     "panoramaUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=2500&q=90",
@@ -11652,6 +13380,7 @@ export const virtualToursData = [
   {
     "id": "tour-petra",
     "title": "Petra Siq Chasm & Treasury Facade",
+    "coordinates": [30.3285, 35.4444],
     "heritageId": "petra-treasury",
     "locationName": "Petra, Jordan",
     "panoramaUrl": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=2500&q=90",

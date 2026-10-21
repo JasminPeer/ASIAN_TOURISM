@@ -35,9 +35,7 @@ export const CountryDetailPage = () => {
       try {
         const data = await api.getCountry(id);
         setCountry(data);
-        if (data?.regions?.length > 0) {
-          setSelectedRegionId(data.regions[0].id);
-        }
+        setSelectedRegionId(null);
       } catch (err) {
         console.error("Failed to load country:", err);
       } finally {
@@ -246,58 +244,72 @@ export const CountryDetailPage = () => {
             <span>Destinations in {selectedRegionId ? activeRegion?.name : country.name}</span>
           </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredDestinations?.map((dest) => (
-              <div
-                key={dest.id}
-                className="group rounded-3xl overflow-hidden glass-panel border border-white/10 hover:border-ocean-400/40 transition-all duration-300 flex flex-col justify-between"
+          {(!filteredDestinations || filteredDestinations.length === 0) ? (
+            <div className="text-center py-12 bg-white/5 rounded-3xl border border-white/10 p-6">
+              <Compass className="w-10 h-10 text-slate-500 mx-auto mb-2" />
+              <h4 className="font-bold text-white text-base">Explore All {country.name} Highlights</h4>
+              <p className="text-xs text-slate-400 mt-1 mb-4">No destinations match this specific subregion filter.</p>
+              <button 
+                onClick={() => setSelectedRegionId(null)} 
+                className="px-5 py-2.5 rounded-xl bg-ocean-600 hover:bg-ocean-500 text-white text-xs font-bold transition-colors shadow-glow-blue"
               >
-                <div className="relative h-52 overflow-hidden">
-                  <img
-                    src={dest.heroMedia?.url || dest.gallery?.[0]}
-                    alt={dest.name}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                  <div className="absolute top-3 left-3 px-2.5 py-1 rounded-full text-[10px] font-bold bg-black/60 backdrop-blur-md text-emerald-300 border border-emerald-400/30">
-                    {dest.category}
-                  </div>
-                  <div className="absolute bottom-3 right-3 px-2 py-1 rounded-xl bg-black/70 backdrop-blur-md text-xs font-bold text-white">
-                    Score: {dest.journeyScore?.total || 94}/100
-                  </div>
-                </div>
-
-                <div className="p-6 flex-1 flex flex-col justify-between">
-                  <div>
-                    <h3 className="font-display font-bold text-xl text-white mb-1.5 group-hover:text-ocean-300 transition-colors">
-                      {dest.name}
-                    </h3>
-                    <p className="text-xs text-slate-300 line-clamp-2 mb-4">
-                      {dest.description}
-                    </p>
-
-                    <div className="p-3 rounded-xl bg-white/[0.03] border border-white/5 text-[11px] text-slate-300 space-y-1 mb-4">
-                      <div className="flex justify-between">
-                        <span className="text-slate-400">Best Season:</span>
-                        <span className="font-semibold text-amber-300">{dest.bestTime?.split('&')[0]}</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="text-slate-400">Budget:</span>
-                        <span className="font-semibold text-emerald-300">{dest.estimatedBudget?.budget}</span>
-                      </div>
+                View All {country.name} Destinations ({country.destinations?.length || 0})
+              </button>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {filteredDestinations.map((dest) => (
+                <div
+                  key={dest.id}
+                  className="group rounded-3xl overflow-hidden glass-panel border border-white/10 hover:border-ocean-400/40 transition-all duration-300 flex flex-col justify-between"
+                >
+                  <div className="relative h-52 overflow-hidden">
+                    <img
+                      src={dest.heroMedia?.url || dest.gallery?.[0]}
+                      alt={dest.name}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                    <div className="absolute top-3 left-3 px-2.5 py-1 rounded-full text-[10px] font-bold bg-black/60 backdrop-blur-md text-emerald-300 border border-emerald-400/30">
+                      {dest.category}
+                    </div>
+                    <div className="absolute bottom-3 right-3 px-2 py-1 rounded-xl bg-black/70 backdrop-blur-md text-xs font-bold text-white">
+                      Score: {dest.journeyScore?.total || 94}/100
                     </div>
                   </div>
 
-                  <Link
-                    to={`/destination/${dest.id}`}
-                    className="inline-flex items-center justify-between w-full px-4 py-2.5 rounded-xl bg-ocean-600/30 hover:bg-ocean-600 border border-ocean-400/30 text-white text-xs font-bold transition-all"
-                  >
-                    <span>Explore Destination</span>
-                    <ArrowRight className="w-4 h-4" />
-                  </Link>
+                  <div className="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                      <h3 className="font-display font-bold text-xl text-white mb-1.5 group-hover:text-ocean-300 transition-colors">
+                        {dest.name}
+                      </h3>
+                      <p className="text-xs text-slate-300 line-clamp-2 mb-4">
+                        {dest.description}
+                      </p>
+
+                      <div className="p-3 rounded-xl bg-white/[0.03] border border-white/5 text-[11px] text-slate-300 space-y-1 mb-4">
+                        <div className="flex justify-between">
+                          <span className="text-slate-400">Best Season:</span>
+                          <span className="font-semibold text-amber-300">{dest.bestTime?.split('&')[0]}</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-slate-400">Budget:</span>
+                          <span className="font-semibold text-emerald-300">{dest.estimatedBudget?.budget}</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <Link
+                      to={`/destination/${dest.id}`}
+                      className="inline-flex items-center justify-between w-full px-4 py-2.5 rounded-xl bg-ocean-600/30 hover:bg-ocean-600 border border-ocean-400/30 text-white text-xs font-bold transition-all"
+                    >
+                      <span>Explore Destination</span>
+                      <ArrowRight className="w-4 h-4" />
+                    </Link>
+                  </div>
                 </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Heritage Sites Section */}
