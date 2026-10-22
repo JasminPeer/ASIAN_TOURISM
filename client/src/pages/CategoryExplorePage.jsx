@@ -20,6 +20,7 @@ import {
 } from 'lucide-react';
 import { Breadcrumbs } from '../components/Breadcrumbs';
 import { api } from '../services/api';
+import { optimizeImage } from '../utils/imageOptimizer';
 
 export const CategoryExplorePage = () => {
   const { category = 'nature' } = useParams();
@@ -224,7 +225,7 @@ export const CategoryExplorePage = () => {
               >
                 <div className="relative h-60 overflow-hidden bg-slate-900">
                   <img
-                    src={dest.heroMedia?.url}
+                    src={optimizeImage(dest.heroMedia?.url, { width: 500, quality: 70 })}
                     alt={dest.name}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     loading="lazy"

@@ -13,6 +13,7 @@ import {
 } from 'lucide-react';
 import { Breadcrumbs } from '../components/Breadcrumbs';
 import { api } from '../services/api';
+import { optimizeImage } from '../utils/imageOptimizer';
 
 export const SecretAsiaPage = () => {
   const [gems, setGems] = useState([]);
@@ -115,7 +116,7 @@ export const SecretAsiaPage = () => {
               >
                 <div className="relative h-64 overflow-hidden bg-slate-900">
                   <img
-                    src={gem.heroMedia?.url}
+                    src={optimizeImage(gem.heroMedia?.url, { width: 500, quality: 70 })}
                     alt={gem.name}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     loading="lazy"

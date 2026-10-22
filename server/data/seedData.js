@@ -569,7 +569,7 @@ export const destinationsData = [
     "description": "Bhutan's most iconic sacred sanctuary, founded in 1692 around the Taktsang Senge Samdup cave where Guru Padmasambhava is said to have meditated for three years, three months, and three days in the 8th century.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=75"
@@ -845,11 +845,11 @@ export const destinationsData = [
     "description": "The adventure and relaxation capital of Nepal. Pokhara sits beside serene Phewa Lake, reflecting the snow-clad 8,000-meter peaks of the Annapurna massif, Dhaulagiri, and Machapuchare.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1585409677983-0f6c41ca0c3b?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
+      "https://images.unsplash.com/photo-1585409677983-0f6c41ca0c3b?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To paddle colorful wooden doonga boats on Phewa Lake, paraglide beside snow peaks from Sarangkot, and hike to the gleaming World Peace Pagoda.",
     "bestTime": "September to November & March to May",
@@ -1739,7 +1739,7 @@ export const destinationsData = [
     "description": "An authentic, peaceful counterpoint to Goa. Gokarna blends millennia-old Shaivite pilgrimage shrines with pristine crescent-shaped bays named Om Beach, Kudle Beach, and Half Moon Beach bordered by dramatic laterite cliffs.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75"
@@ -2025,7 +2025,7 @@ export const destinationsData = [
     "description": "Tucked inside the rugged snow-country valleys of the Japanese Alps, Shirakawa-go is famous for its steep pitched-roof farmhouses called 'Gassho-zukuri' (hands clasped in prayer), constructed entirely without nails to shed heavy alpine winter snows.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=800&q=75",
@@ -2330,7 +2330,7 @@ export const destinationsData = [
     "description": "Nestled in the lower sub-Himalayan ranges of Arunachal Pradesh, Ziro is a UNESCO tentative heritage landscape famed for its ingenious wet-rice fish agricultural systems, bamboo groves, misty pine hills, and tranquil tribal villages.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
@@ -2622,11 +2622,11 @@ export const destinationsData = [
     "description": "One of the oldest continuously inhabited cities on earth, centered around the colossal polychrome gopurams of the sacred Meenakshi Sundareswarar Temple complex.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=75",
-      "https://images.unsplash.com/photo-1609743522653-52354461eb27?auto=format&fit=crop&w=800&q=75"
+      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To experience living ancient Dravidian temple rituals, thousand-pillar granite halls, night pooja processions, and authentic Chettinad feasts.",
     "bestTime": "October to March",
@@ -2945,7 +2945,7 @@ export const destinationsData = [
     "description": "The cosmopolitan capital of Tamil Nadu, renowned for Marina Beach—the world's second-longest urban beach—Mylapore's 7th-century Kapaleeshwarar Temple, and the Carnatic Music Season.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=75"
@@ -3254,9 +3254,10 @@ export const destinationsData = [
     "description": "Built in 1010 CE by Emperor Raja Raja Chola I, this UNESCO World Heritage monument features an 80-tonne single granite block crowning a 66-meter monolithic vimana tower.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1609766418204-94aae0ecfddc?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
+      "https://images.unsplash.com/photo-1609766418204-94aae0ecfddc?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness one of the greatest engineering feats of human history, where shadow never touches the base at noon, and admire ancient Chola fresco paintings.",
@@ -3546,9 +3547,10 @@ export const destinationsData = [
     "description": "UNESCO World Heritage ancient port city of the Pallava kings, celebrated for the Shore Temple braving sea waves, the monolithic Pancha Rathas, and Arjuna's Penance—the world's largest open-air rock bas-relief.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
+      "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To admire 1,300-year-old rock-cut elephants and chariots carved directly from granite boulders right beside rolling ocean waves.",
@@ -3851,7 +3853,7 @@ export const destinationsData = [
     "description": "Nestled at 2,240 meters amidst the Blue Mountains (Nilgiris), featuring the UNESCO steam-powered rack-and-pinion Nilgiri Mountain Toy Train, rolling tea estates, and botanical gardens.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=75"
@@ -4156,7 +4158,7 @@ export const destinationsData = [
     "description": "Perched at 2,133 meters, famed for its star-shaped central lake, dense pine forest canopies, mist-veiled Pillar Rocks cliffs, and the rare Kurinji flower blooming once every 12 years.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=75"
@@ -4462,7 +4464,7 @@ export const destinationsData = [
     "description": "Located on Pamban Island connected to mainland India by the historic marine railway bridge, renowned for the world's longest temple corridor with 1,212 carved pillars and 22 sacred teertham bathing wells.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=75"
@@ -4766,7 +4768,7 @@ export const destinationsData = [
     "description": "The dramatic convergence of three oceans: the Arabian Sea, Indian Ocean, and Bay of Bengal, famous for simultaneous sunset and moonrise over the water, and the 133-foot Thiruvalluvar stone colossus.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=75"
@@ -5072,10 +5074,11 @@ export const destinationsData = [
     "description": "Commissioned in 1632 by Mughal Emperor Shah Jahan, it stands as the jewel of Muslim art in India, with pietra dura gemstone inlays and symmetric Mughal charbagh gardens.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=75"
+      "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the world wonder shimmer pink at sunrise, explore the red sandstone Agra Fort, and taste world-famous Agra petha.",
     "bestTime": "October to March",
@@ -5379,10 +5382,11 @@ export const destinationsData = [
     "description": "Capital of Rajasthan, famed for the honeycomb façade of Hawa Mahal, the lakeside hilltop Amer Fort with its mirrored Sheesh Mahal, and UNESCO Jantar Mantar.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=800&q=75"
+      "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To climb the ramparts of Amer Fort, shop for block-printed textiles in Johari Bazaar, and photograph the pastel pink city gates.",
     "bestTime": "October to March",
@@ -5688,10 +5692,11 @@ export const destinationsData = [
     "description": "One of the oldest living cities in the world, sacred to Shiva, where 88 stone ghats meet the holy Ganga, illuminated each evening by the synchronized brass lamps of the Ganga Aarti.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=75"
+      "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To experience a sunrise rowing boat along the misty Ganges, witness the celestial evening Aarti at Dashashwamedh Ghat, and visit Sarnath where Buddha gave his first sermon.",
     "bestTime": "October to March",
@@ -5994,10 +5999,11 @@ export const destinationsData = [
     "description": "Former imperial capital of Japan for over a millennium, housing over 2,000 temples and shrines, including the shimmering Kinkaku-ji and 10,000 vermilion gates of Fushimi Inari.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=75"
+      "https://images.unsplash.com/photo-1478436127897-769e00d0c715?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To walk under glowing torii gates, meditate in dry Zen rock gardens of Ryoan-ji, and taste ceremonial Uji matcha tea.",
     "bestTime": "March to May (Sakura) & October to November (Momiji)",
@@ -6299,10 +6305,11 @@ export const destinationsData = [
     "description": "The world's most populous and impeccably organized metropolis, combining 7th-century Senso-ji temple in Asakusa with the world's busiest Shibuya Scramble crossing and Tsukiji sushi markets.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=800&q=75"
+      "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To experience TeamLab Borderless immersive digital art, cross the neon crossing in Shibuya, and savor omakase sushi at 6 AM in Toyosu.",
     "bestTime": "March to May & September to November",
@@ -6605,10 +6612,11 @@ export const destinationsData = [
     "description": "Rising 3,776 meters as Japan's highest peak, Mount Fuji has been worshipped as a sacred kami mountain and painted by Hokusai. The Five Lakes below offer iconic mirror reflections and hot spring onsens.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=800&q=75"
+      "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To view Fuji reflected on Lake Kawaguchiko framed by cherry blossoms or maple leaves, and soak in an open-air hot spring.",
     "bestTime": "November to February (Best snow cone visibility) & July–August (Climbing season)",
@@ -6887,7 +6895,7 @@ export const destinationsData = [
     "description": "Built in the early 12th century by King Suryavarman II as the state temple and capital city, Angkor Wat symbolizes Mount Meru—the home of the gods—surrounded by a 5-kilometer-long moat and adorned with bas-relief apsara dancers.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=75"
@@ -7192,7 +7200,7 @@ export const destinationsData = [
     "description": "Constructed in the 9th century by the Sailendra Dynasty, Borobudur rises in nine stacked stone terraces crowned by 72 perforated stupas, with 504 Buddha statues gazing across the volcanic valley of Kedu.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=75"
@@ -7488,10 +7496,11 @@ export const destinationsData = [
     "description": "The world's largest palatial complex spanning 980 surviving wooden buildings and 8,700 bays, housing 24 emperors, crowned by golden glazed roof tiles and vermilion walls.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=800&q=75"
+      "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To walk through the Meridian Gate into the Hall of Supreme Harmony, stroll the Jingshan Park hill overlooking the sea of gold roofs, and taste authentic Peking roast duck.",
     "bestTime": "April to May & September to October (Golden Autumn)",
@@ -7792,9 +7801,10 @@ export const destinationsData = [
     "description": "One of the greatest engineering wonders of civilization, the Mutianyu section features 22 watchtowers winding through lush pine forests, accessible by cable car and thrilling alpine toboggan.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
+      "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To hike along ancient granite watchtowers stretching across green mountain crests and ride the toboggan slide down the valley.",
@@ -8077,7 +8087,7 @@ export const destinationsData = [
     "description": "Carved directly into the vibrant pink sandstone cliffs by the Nabataean civilization over 2,000 years ago, hidden at the end of the narrow Siq canyon chasm.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75"
@@ -8374,7 +8384,7 @@ export const destinationsData = [
     "description": "India's vibrant capital, where ancient minarets like Qutub Minar, Mughal sandstone masterpieces like Humayun's Tomb, and colonial Lutyens boulevards meet world-class street food.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=800&q=75"
     },
     "whyVisit": "To explore 3 distinct UNESCO World Heritage sites, walk Chandni Chowk's historic spice markets, and tour the National Museum.",
     "bestTime": "October to March",
@@ -8653,6 +8663,10 @@ export const destinationsData = [
         "photo": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=1200&q=75",
         "tips": "Support authentic generational craftspeople directly."
       }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=75"
     ]
   },
   {
@@ -8671,7 +8685,7 @@ export const destinationsData = [
     "description": "Glide on traditional thatched Kettuvallam houseboats along emerald backwater canals in Alleppey, and ascend into the cool, misty tea estates of Munnar.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=75"
     },
     "whyVisit": "To unwind on tranquil waterways, experience authentic Ayurvedic rejuvenation massages, and watch traditional Kathakali martial dance.",
     "bestTime": "September to March",
@@ -8949,6 +8963,10 @@ export const destinationsData = [
         "photo": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=75",
         "tips": "Support authentic generational craftspeople directly."
       }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75"
     ]
   },
   {
@@ -8967,7 +8985,7 @@ export const destinationsData = [
     "description": "India's beach paradise, featuring golden coconut-fringed sands, Portuguese colonial villas of Fontainhas, and UNESCO baroque churches of Old Goa.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=800&q=75"
     },
     "whyVisit": "To relax on pristine southern beaches (Palolem, Agonda), visit Basilica of Bom Jesus, and dine on fiery Goan fish curries.",
     "bestTime": "November to March",
@@ -9244,6 +9262,10 @@ export const destinationsData = [
         "photo": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=75",
         "tips": "Support authentic generational craftspeople directly."
       }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75"
     ]
   },
   {
@@ -9262,7 +9284,7 @@ export const destinationsData = [
     "description": "A pulsating coastal metropolis housing the UNESCO Victorian Gothic & Art Deco ensemble, the historic Gateway of India, Marine Drive's Queen's Necklace, and Bollywood.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=800&q=75"
     },
     "whyVisit": "To ride the historic sea ferries past the Gateway of India, visit Elephanta Caves, and walk along the Marine Drive sunset promenade.",
     "bestTime": "November to February",
@@ -9529,6 +9551,10 @@ export const destinationsData = [
         "photo": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=1200&q=75",
         "tips": "Support authentic generational craftspeople directly."
       }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=75"
     ]
   },
   {
@@ -9547,7 +9573,7 @@ export const destinationsData = [
     "description": "Framed by snow-capped Himalayan peaks, featuring intricately carved wooden houseboats on Dal Lake, floating vegetable markets, and Gulmarg's high-altitude gondola.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=800&q=75"
     },
     "whyVisit": "To glide silently on a vibrant Shikara boat through lotus pads, ski or ride the gondola in Gulmarg, and sip aromatic saffron Kahwa.",
     "bestTime": "April to October (Spring/Summer) & December to February (Snow)",
@@ -9828,6 +9854,10 @@ export const destinationsData = [
         "photo": "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1200&q=75",
         "tips": "Support authentic generational craftspeople directly."
       }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ]
   },
   {
@@ -9846,7 +9876,7 @@ export const destinationsData = [
     "description": "Famed for its motto 'kuidaore' (eat until you drop), the neon Glico Man over Dotonbori canal, five-story Osaka Castle, and warm outgoing local culture.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1590559899731-a3f07b743759?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1590559899731-a372886f0578?auto=format&fit=crop&w=800&q=75"
     },
     "whyVisit": "To eat sizzling piping-hot Takoyaki by the canal, visit the majestic moated Osaka Castle, and explore lively nightlife in Namba.",
     "bestTime": "March to May & October to November",
@@ -10122,6 +10152,10 @@ export const destinationsData = [
         "photo": "https://images.unsplash.com/photo-1590559899731-a3f07b743759?auto=format&fit=crop&w=1200&q=75",
         "tips": "Support authentic generational craftspeople directly."
       }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1590559899731-a372886f0578?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=800&q=75"
     ]
   },
   {
@@ -10140,7 +10174,7 @@ export const destinationsData = [
     "description": "Home to Todai-ji—the world's largest wooden building housing a colossal 15-meter bronze Buddha—and over 1,200 free-roaming sacred Shinto deer in Nara Park.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1528164344705-475426879c0d?auto=format&fit=crop&w=800&q=75"
     },
     "whyVisit": "To feed deer crackers (shika-senbei) to polite bowing deer and gaze up at the colossal Daibutsu bronze Buddha in Todai-ji.",
     "bestTime": "March to May & October to November",
@@ -10395,6 +10429,10 @@ export const destinationsData = [
         "photo": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=1200&q=75",
         "tips": "Support authentic generational craftspeople directly."
       }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1528164344705-475426879c0d?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=75"
     ]
   },
   {
@@ -10413,7 +10451,7 @@ export const destinationsData = [
     "description": "From the solemn Atomic Bomb Dome and Peace Memorial Park in Hiroshima to the vermilion Grand Torii Gate of Itsukushima Shrine rising majestically from the Seto Inland Sea.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=800&q=75"
     },
     "whyVisit": "To ring the Peace Bell, fold a paper crane, and watch the high-tide sea mirror beneath Miyajima's floating torii gate at sunset.",
     "bestTime": "March to May & September to November",
@@ -10667,6 +10705,10 @@ export const destinationsData = [
         "photo": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=75",
         "tips": "Support authentic generational craftspeople directly."
       }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=75"
     ]
   },
   {
@@ -10685,7 +10727,7 @@ export const destinationsData = [
     "description": "Japan's northern wilderness, famed for powdery Niseko ski slopes, Sapporo Snow Festival giant ice sculptures, Furano's rolling purple lavender hills, and steaming volcanic onsens.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?auto=format&fit=crop&w=800&q=75"
     },
     "whyVisit": "To taste legendary fresh snow crab and soup curry, soak in outdoor hot springs surrounded by snow, and stroll lavender meadows in summer.",
     "bestTime": "December to March (Winter Snow) & June to August (Summer Flowers)",
@@ -10942,6 +10984,10 @@ export const destinationsData = [
         "photo": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=1200&q=75",
         "tips": "Support authentic generational craftspeople directly."
       }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=800&q=75"
     ]
   },
   {
@@ -10960,7 +11006,7 @@ export const destinationsData = [
     "description": "A breathtaking contrast between colonial neoclassical architecture along The Bund and the sci-fi supertall towers of Pudong, classical Ming Dynasty Yu Garden, and French Concession lanes.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1538428494232-9c0d8a3ab403?auto=format&fit=crop&w=800&q=75"
     },
     "whyVisit": "To cruise the Huangpu River beneath illuminated skyscrapers, sample steaming soup dumplings (Xiaolongbao), and wander tree-shaded shikumen alleys.",
     "bestTime": "March to May & September to November",
@@ -11218,6 +11264,10 @@ export const destinationsData = [
         "photo": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=75",
         "tips": "Support authentic generational craftspeople directly."
       }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1538428494232-9c0d8a3ab403?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=800&q=75"
     ]
   },
   {
@@ -11236,7 +11286,7 @@ export const destinationsData = [
     "description": "The ancient eastern terminus of the Silk Road, guarded by the 8,000-man Terracotta Army of Qin Shi Huang, a fully intact 14-kilometer Ming city wall, and vibrant Muslim Quarter.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1599837565318-67429bde7162?auto=format&fit=crop&w=800&q=75"
     },
     "whyVisit": "To cycle along the top of the ancient 14km fortified stone city wall and stand face-to-face with the life-sized Terracotta Warriors.",
     "bestTime": "April to May & September to October",
@@ -11492,6 +11542,10 @@ export const destinationsData = [
         "photo": "https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?auto=format&fit=crop&w=1200&q=75",
         "tips": "Support authentic generational craftspeople directly."
       }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1599837565318-67429bde7162?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=800&q=75"
     ]
   },
   {
@@ -11510,7 +11564,7 @@ export const destinationsData = [
     "description": "Celebrated in Chinese scrolls as 'the finest scenery under heaven' (桂林山水甲天下), featuring jade-green Li River waters winding past thousands of limestone karst pillars and cormorant fishermen.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1513415564515-763d91423bdd?auto=format&fit=crop&w=800&q=75"
     },
     "whyVisit": "To cruise the Li River on a bamboo raft, cycle through the Moon Hill karst countryside, and watch the Impression Sanjie Liu open-air light show.",
     "bestTime": "April to October",
@@ -11766,6 +11820,10 @@ export const destinationsData = [
         "photo": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
         "tips": "Support authentic generational craftspeople directly."
       }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1513415564515-763d91423bdd?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=800&q=75"
     ]
   },
   {
@@ -11784,7 +11842,7 @@ export const destinationsData = [
     "description": "Over 3,000 towering quartz-sandstone pillars soaring into sea of clouds, inspiration for the floating Hallelujah Mountains in James Cameron's Avatar, featuring the Bailong Glass Elevator.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=75"
     },
     "whyVisit": "To ride the world's tallest outdoor glass elevator (326m) up the cliff face and cross the transparent Grand Canyon Glass Bridge.",
     "bestTime": "April to May & September to November",
@@ -12039,6 +12097,10 @@ export const destinationsData = [
         "photo": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
         "tips": "Support authentic generational craftspeople directly."
       }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=800&q=75"
     ]
   },
   {
@@ -12057,7 +12119,7 @@ export const destinationsData = [
     "description": "Thailand's electrifying capital: the shimmering golden chedis of the Grand Palace and Wat Phra Kaew (Emerald Buddha), porcelain spires of Wat Arun, and Chao Phraya river express boats.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=800&q=75"
     },
     "whyVisit": "To marvel at the Reclining Buddha at Wat Pho, cruise the canals on a longtail boat, and eat Michelin street food on Yaowarat road.",
     "bestTime": "November to February (Cool Season)",
@@ -12332,6 +12394,10 @@ export const destinationsData = [
         "photo": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1200&q=75",
         "tips": "Support authentic generational craftspeople directly."
       }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&w=800&q=75"
     ]
   },
   {
@@ -12350,7 +12416,7 @@ export const destinationsData = [
     "description": "Thailand's largest island, boasting white sandy coves (Kata, Nai Harn), colorful Sino-Portuguese heritage shophouses in Old Phuket Town, and day trips to Phi Phi Islands.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75"
     },
     "whyVisit": "To snorkel in crystal-clear turquoise waters of Maya Bay, enjoy cliffside sunset cocktails at Promthep Cape, and explore Phuket Old Town street murals.",
     "bestTime": "November to April (Dry Sunny Season)",
@@ -12617,6 +12683,10 @@ export const destinationsData = [
         "photo": "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?auto=format&fit=crop&w=1200&q=75",
         "tips": "Support authentic generational craftspeople directly."
       }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=800&q=75"
     ]
   },
   {
@@ -12635,7 +12705,7 @@ export const destinationsData = [
     "description": "An island city bounded by three rivers, home to the atmospheric red-brick ruins of royal monasteries, the iconic Buddha head entwined in banyan tree roots at Wat Mahathat, and Wat Chaiwatthanaram.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&w=800&q=75"
     },
     "whyVisit": "To cycle through towering weathered prangs and chedis and take a sunset river cruise watching temples illuminated in gold.",
     "bestTime": "November to February",
@@ -12889,6 +12959,10 @@ export const destinationsData = [
         "photo": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
         "tips": "Support authentic generational craftspeople directly."
       }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=800&q=75"
     ]
   },
   {
@@ -12908,10 +12982,10 @@ export const destinationsData = [
     "description": "Hagia Sophia & Blue Mosque Sultanahmet is a renowned sanctuary in Türkiye celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Hagia Sophia & Blue Mosque Sultanahmet.",
@@ -13187,10 +13261,10 @@ export const destinationsData = [
     "description": "Cappadocia Fairy Chimneys & Goreme Valley is a renowned sanctuary in Türkiye celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Cappadocia Fairy Chimneys & Goreme Valley.",
@@ -13466,10 +13540,10 @@ export const destinationsData = [
     "description": "Ephesus Ancient Greco-Roman City & Celsus Library is a renowned sanctuary in Türkiye celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Ephesus Ancient Greco-Roman City & Celsus Library.",
@@ -13745,10 +13819,10 @@ export const destinationsData = [
     "description": "Pamukkale Travertine Thermal Terraces & Hierapolis is a renowned sanctuary in Türkiye celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Pamukkale Travertine Thermal Terraces & Hierapolis.",
@@ -14024,10 +14098,10 @@ export const destinationsData = [
     "description": "Sumela Monastery (Black Sea Cliff Hermitage) is a renowned sanctuary in Türkiye celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Sumela Monastery (Black Sea Cliff Hermitage).",
@@ -14303,10 +14377,10 @@ export const destinationsData = [
     "description": "Petra Al-Khazneh Rose Treasury & Monastery is a renowned sanctuary in Jordan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Petra Al-Khazneh Rose Treasury & Monastery.",
@@ -14582,10 +14656,10 @@ export const destinationsData = [
     "description": "Wadi Rum (Valley of the Moon & Bedouin Desert) is a renowned sanctuary in Jordan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Wadi Rum (Valley of the Moon & Bedouin Desert).",
@@ -14861,10 +14935,10 @@ export const destinationsData = [
     "description": "Dead Sea Lowest Elevation on Earth & Salt Formations is a renowned sanctuary in Jordan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Dead Sea Lowest Elevation on Earth & Salt Formations.",
@@ -15140,10 +15214,10 @@ export const destinationsData = [
     "description": "Jerash Roman Decapolis Oval Forum is a renowned sanctuary in Jordan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Jerash Roman Decapolis Oval Forum.",
@@ -15419,10 +15493,10 @@ export const destinationsData = [
     "description": "Mount Nebo & Madaba Mosaic Map is a renowned sanctuary in Jordan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Mount Nebo & Madaba Mosaic Map.",
@@ -15698,10 +15772,10 @@ export const destinationsData = [
     "description": "Sultan Qaboos Grand Mosque Muscat is a renowned sanctuary in Oman celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Sultan Qaboos Grand Mosque Muscat.",
@@ -15977,10 +16051,10 @@ export const destinationsData = [
     "description": "Wahiba Sands (Sharqiya Golden Dunes) is a renowned sanctuary in Oman celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Wahiba Sands (Sharqiya Golden Dunes).",
@@ -16256,10 +16330,10 @@ export const destinationsData = [
     "description": "Nizwa Fort & Traditional Friday Goat Market is a renowned sanctuary in Oman celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Nizwa Fort & Traditional Friday Goat Market.",
@@ -16535,10 +16609,10 @@ export const destinationsData = [
     "description": "Wadi Shab Emerald Canyon & Hidden Cave Waterfall is a renowned sanctuary in Oman celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Wadi Shab Emerald Canyon & Hidden Cave Waterfall.",
@@ -16814,10 +16888,10 @@ export const destinationsData = [
     "description": "Jebel Akhdar (The Green Mountain Terraced Orchards) is a renowned sanctuary in Oman celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Jebel Akhdar (The Green Mountain Terraced Orchards).",
@@ -17093,10 +17167,10 @@ export const destinationsData = [
     "description": "Museum of Islamic Art Doha Corniche is a renowned sanctuary in Qatar celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Museum of Islamic Art Doha Corniche.",
@@ -17372,10 +17446,10 @@ export const destinationsData = [
     "description": "Souq Waqif Heritage Market & Falcon Hospital is a renowned sanctuary in Qatar celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Souq Waqif Heritage Market & Falcon Hospital.",
@@ -17651,10 +17725,10 @@ export const destinationsData = [
     "description": "Khor Al Adaid (The Inland Sea) is a renowned sanctuary in Qatar celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Khor Al Adaid (The Inland Sea).",
@@ -17930,10 +18004,10 @@ export const destinationsData = [
     "description": "Katara Cultural Village & Greek Amphitheatre is a renowned sanctuary in Qatar celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Katara Cultural Village & Greek Amphitheatre.",
@@ -18209,10 +18283,10 @@ export const destinationsData = [
     "description": "Kuwait Towers & Arabian Gulf Promenade is a renowned sanctuary in Kuwait celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Kuwait Towers & Arabian Gulf Promenade.",
@@ -18488,10 +18562,10 @@ export const destinationsData = [
     "description": "The Grand Mosque of Kuwait is a renowned sanctuary in Kuwait celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of The Grand Mosque of Kuwait.",
@@ -18767,10 +18841,10 @@ export const destinationsData = [
     "description": "Souk Al-Mubarakiya Historic Spice Market is a renowned sanctuary in Kuwait celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Souk Al-Mubarakiya Historic Spice Market.",
@@ -19046,10 +19120,10 @@ export const destinationsData = [
     "description": "Failaka Island Ancient Dilmun & Hellenistic Ruins is a renowned sanctuary in Kuwait celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Failaka Island Ancient Dilmun & Hellenistic Ruins.",
@@ -19325,10 +19399,10 @@ export const destinationsData = [
     "description": "Qal'at al-Bahrain (Ancient Dilmun Fort) is a renowned sanctuary in Bahrain celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Qal'at al-Bahrain (Ancient Dilmun Fort).",
@@ -19604,10 +19678,10 @@ export const destinationsData = [
     "description": "Al Fateh Grand Mosque Manama is a renowned sanctuary in Bahrain celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Al Fateh Grand Mosque Manama.",
@@ -19883,10 +19957,10 @@ export const destinationsData = [
     "description": "Tree of Life (Shajarat-al-Hayah Desert Wonder) is a renowned sanctuary in Bahrain celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Tree of Life (Shajarat-al-Hayah Desert Wonder).",
@@ -20162,10 +20236,10 @@ export const destinationsData = [
     "description": "Bab Al Bahrain & Historic Pearling Path is a renowned sanctuary in Bahrain celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Bab Al Bahrain & Historic Pearling Path.",
@@ -20441,10 +20515,10 @@ export const destinationsData = [
     "description": "Baalbek Roman Temple of Bacchus & Jupiter is a renowned sanctuary in Lebanon celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Baalbek Roman Temple of Bacchus & Jupiter.",
@@ -20720,10 +20794,10 @@ export const destinationsData = [
     "description": "Jeita Grotto (Subterranean Limestone Caverns) is a renowned sanctuary in Lebanon celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Jeita Grotto (Subterranean Limestone Caverns).",
@@ -20999,10 +21073,10 @@ export const destinationsData = [
     "description": "Byblos (Jbeil Ancient Phoenician Port) is a renowned sanctuary in Lebanon celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Byblos (Jbeil Ancient Phoenician Port).",
@@ -21278,10 +21352,10 @@ export const destinationsData = [
     "description": "Cedars of God (Horsh Arz el-Rab Bcharre) is a renowned sanctuary in Lebanon celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Cedars of God (Horsh Arz el-Rab Bcharre).",
@@ -21557,10 +21631,10 @@ export const destinationsData = [
     "description": "Pigeon Rocks (Raouche) & Beirut Corniche is a renowned sanctuary in Lebanon celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Pigeon Rocks (Raouche) & Beirut Corniche.",
@@ -21836,10 +21910,10 @@ export const destinationsData = [
     "description": "Nasir al-Mulk (The Pink Mosque Shiraz) is a renowned sanctuary in Iran celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Nasir al-Mulk (The Pink Mosque Shiraz).",
@@ -22115,10 +22189,10 @@ export const destinationsData = [
     "description": "Persepolis Ceremonial Capital of Achaemenid Empire is a renowned sanctuary in Iran celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Persepolis Ceremonial Capital of Achaemenid Empire.",
@@ -22394,10 +22468,10 @@ export const destinationsData = [
     "description": "Naqsh-e Jahan Square & Shah Mosque Isfahan is a renowned sanctuary in Iran celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Naqsh-e Jahan Square & Shah Mosque Isfahan.",
@@ -22673,10 +22747,10 @@ export const destinationsData = [
     "description": "Yazd Historic Adobe Desert City & Windcatchers is a renowned sanctuary in Iran celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Yazd Historic Adobe Desert City & Windcatchers.",
@@ -22952,10 +23026,10 @@ export const destinationsData = [
     "description": "Golestan Palace Tehran (Qajar Royal Dynasty) is a renowned sanctuary in Iran celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Golestan Palace Tehran (Qajar Royal Dynasty).",
@@ -23231,10 +23305,10 @@ export const destinationsData = [
     "description": "Ziggurat of Ur (Mesopotamian Sumerian Temple) is a renowned sanctuary in Iraq celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Ziggurat of Ur (Mesopotamian Sumerian Temple).",
@@ -23510,10 +23584,10 @@ export const destinationsData = [
     "description": "Ancient Babylon & Ishtar Gate Processional Way is a renowned sanctuary in Iraq celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Ancient Babylon & Ishtar Gate Processional Way.",
@@ -23789,10 +23863,10 @@ export const destinationsData = [
     "description": "Erbil Citadel (Continuous 6,000-Year Settlement) is a renowned sanctuary in Iraq celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Erbil Citadel (Continuous 6,000-Year Settlement).",
@@ -24068,10 +24142,10 @@ export const destinationsData = [
     "description": "Great Mosque of Samarra Spiral Minaret (Malwiya) is a renowned sanctuary in Iraq celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Great Mosque of Samarra Spiral Minaret (Malwiya).",
@@ -24347,10 +24421,10 @@ export const destinationsData = [
     "description": "The Ahwar of Southern Iraq (Mesopotamian Marshes) is a renowned sanctuary in Iraq celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of The Ahwar of Southern Iraq (Mesopotamian Marshes).",
@@ -24626,10 +24700,10 @@ export const destinationsData = [
     "description": "Khor Virap Monastery & Mount Ararat is a renowned sanctuary in Armenia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Khor Virap Monastery & Mount Ararat.",
@@ -24905,10 +24979,10 @@ export const destinationsData = [
     "description": "Geghard Cave Monastery & Upper Azat Valley is a renowned sanctuary in Armenia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Geghard Cave Monastery & Upper Azat Valley.",
@@ -25184,10 +25258,10 @@ export const destinationsData = [
     "description": "Lake Sevan High Alpine Jewel & Sevanavank is a renowned sanctuary in Armenia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Lake Sevan High Alpine Jewel & Sevanavank.",
@@ -25463,10 +25537,10 @@ export const destinationsData = [
     "description": "Tatev Monastery & Wings of Tatev Aerial Tramway is a renowned sanctuary in Armenia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Tatev Monastery & Wings of Tatev Aerial Tramway.",
@@ -25742,10 +25816,10 @@ export const destinationsData = [
     "description": "Garni Greco-Roman Sun Temple is a renowned sanctuary in Armenia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Garni Greco-Roman Sun Temple.",
@@ -26021,10 +26095,10 @@ export const destinationsData = [
     "description": "Flame Towers & Baku Seaside Boulevard is a renowned sanctuary in Azerbaijan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Flame Towers & Baku Seaside Boulevard.",
@@ -26300,10 +26374,10 @@ export const destinationsData = [
     "description": "Gobustan Rock Art & Mud Volcanoes is a renowned sanctuary in Azerbaijan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Gobustan Rock Art & Mud Volcanoes.",
@@ -26579,10 +26653,10 @@ export const destinationsData = [
     "description": "Sheki Khan Palace (Shebeke Stained Glass) is a renowned sanctuary in Azerbaijan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Sheki Khan Palace (Shebeke Stained Glass).",
@@ -26858,10 +26932,10 @@ export const destinationsData = [
     "description": "Ateshgah Fire Temple of Baku & Yanar Dag is a renowned sanctuary in Azerbaijan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Ateshgah Fire Temple of Baku & Yanar Dag.",
@@ -27137,10 +27211,10 @@ export const destinationsData = [
     "description": "Old City (Icherisheher) & Maiden Tower is a renowned sanctuary in Azerbaijan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Old City (Icherisheher) & Maiden Tower.",
@@ -27416,10 +27490,10 @@ export const destinationsData = [
     "description": "Gergeti Trinity Church Mount Kazbegi is a renowned sanctuary in Georgia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Gergeti Trinity Church Mount Kazbegi.",
@@ -27695,10 +27769,10 @@ export const destinationsData = [
     "description": "Old Tbilisi Sulfur Baths & Narikala Fortress is a renowned sanctuary in Georgia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Old Tbilisi Sulfur Baths & Narikala Fortress.",
@@ -27974,10 +28048,10 @@ export const destinationsData = [
     "description": "Uplistsikhe Ancient Rock-Cut Silk Road Town is a renowned sanctuary in Georgia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Uplistsikhe Ancient Rock-Cut Silk Road Town.",
@@ -28253,10 +28327,10 @@ export const destinationsData = [
     "description": "Svaneti Defensive Towers (Mestia & Ushguli) is a renowned sanctuary in Georgia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Svaneti Defensive Towers (Mestia & Ushguli).",
@@ -28532,10 +28606,10 @@ export const destinationsData = [
     "description": "Sighnaghi City of Love & Kakheti Wine Cradle is a renowned sanctuary in Georgia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Sighnaghi City of Love & Kakheti Wine Cradle.",
@@ -28811,10 +28885,10 @@ export const destinationsData = [
     "description": "Charyn Canyon (Valley of Castles) is a renowned sanctuary in Kazakhstan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Charyn Canyon (Valley of Castles).",
@@ -29090,10 +29164,10 @@ export const destinationsData = [
     "description": "Kaindy Lake (Sunken Birch Forest & Kolsai) is a renowned sanctuary in Kazakhstan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Kaindy Lake (Sunken Birch Forest & Kolsai).",
@@ -29369,10 +29443,10 @@ export const destinationsData = [
     "description": "Medeu High-Altitude Rink & Shymbulak Ski Resort is a renowned sanctuary in Kazakhstan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Medeu High-Altitude Rink & Shymbulak Ski Resort.",
@@ -29648,10 +29722,10 @@ export const destinationsData = [
     "description": "Baiterek Monument & Astana Futurist Capital is a renowned sanctuary in Kazakhstan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Baiterek Monument & Astana Futurist Capital.",
@@ -29927,10 +30001,10 @@ export const destinationsData = [
     "description": "Mausoleum of Khoja Ahmed Yasawi Turkistan is a renowned sanctuary in Kazakhstan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Mausoleum of Khoja Ahmed Yasawi Turkistan.",
@@ -30206,10 +30280,10 @@ export const destinationsData = [
     "description": "Issyk-Kul Lake (Warm Alpine Pearl of Central Asia) is a renowned sanctuary in Kyrgyzstan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Issyk-Kul Lake (Warm Alpine Pearl of Central Asia).",
@@ -30485,10 +30559,10 @@ export const destinationsData = [
     "description": "Ala Archa National Park Glacier Canyon is a renowned sanctuary in Kyrgyzstan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Ala Archa National Park Glacier Canyon.",
@@ -30764,10 +30838,10 @@ export const destinationsData = [
     "description": "Song-Kul High Mountain Pasture & Nomad Yurts is a renowned sanctuary in Kyrgyzstan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Song-Kul High Mountain Pasture & Nomad Yurts.",
@@ -31043,10 +31117,10 @@ export const destinationsData = [
     "description": "Tash Rabat Ancient Silk Road Stone Caravanserai is a renowned sanctuary in Kyrgyzstan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Tash Rabat Ancient Silk Road Stone Caravanserai.",
@@ -31322,10 +31396,10 @@ export const destinationsData = [
     "description": "Sulaiman-Too Sacred Mountain Osh is a renowned sanctuary in Kyrgyzstan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Sulaiman-Too Sacred Mountain Osh.",
@@ -31601,10 +31675,10 @@ export const destinationsData = [
     "description": "Pamir Highway (M41 Roof of the World Road Trip) is a renowned sanctuary in Tajikistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Pamir Highway (M41 Roof of the World Road Trip).",
@@ -31880,10 +31954,10 @@ export const destinationsData = [
     "description": "Iskanderkul Alpine Lake of Alexander the Great is a renowned sanctuary in Tajikistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Iskanderkul Alpine Lake of Alexander the Great.",
@@ -32159,10 +32233,10 @@ export const destinationsData = [
     "description": "Fann Mountains & Seven Lakes (Haft Kul) is a renowned sanctuary in Tajikistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Fann Mountains & Seven Lakes (Haft Kul).",
@@ -32438,10 +32512,10 @@ export const destinationsData = [
     "description": "Wakhan Corridor & Yamchun Silk Road Fortress is a renowned sanctuary in Tajikistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Wakhan Corridor & Yamchun Silk Road Fortress.",
@@ -32717,10 +32791,10 @@ export const destinationsData = [
     "description": "Khujand Ancient Citadel & Panjshanbe Bazaar is a renowned sanctuary in Tajikistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Khujand Ancient Citadel & Panjshanbe Bazaar.",
@@ -32996,10 +33070,10 @@ export const destinationsData = [
     "description": "Darvaza Gas Crater (The Door to Hell) is a renowned sanctuary in Turkmenistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Darvaza Gas Crater (The Door to Hell).",
@@ -33275,10 +33349,10 @@ export const destinationsData = [
     "description": "Ashgabat White Marble Capital of World Records is a renowned sanctuary in Turkmenistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Ashgabat White Marble Capital of World Records.",
@@ -33554,10 +33628,10 @@ export const destinationsData = [
     "description": "Ancient Merv (UNESCO Silk Road Metropolis) is a renowned sanctuary in Turkmenistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Ancient Merv (UNESCO Silk Road Metropolis).",
@@ -33833,10 +33907,10 @@ export const destinationsData = [
     "description": "Kunya-Urgench Khwarazmian Ancient Minarets is a renowned sanctuary in Turkmenistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Kunya-Urgench Khwarazmian Ancient Minarets.",
@@ -34112,10 +34186,10 @@ export const destinationsData = [
     "description": "Lake Baikal Blue Ice & Olkhon Island is a renowned sanctuary in Russia (Siberia & Far East) celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Lake Baikal Blue Ice & Olkhon Island.",
@@ -34391,10 +34465,10 @@ export const destinationsData = [
     "description": "Kamchatka Volcanoes & Valley of Geysers is a renowned sanctuary in Russia (Siberia & Far East) celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Kamchatka Volcanoes & Valley of Geysers.",
@@ -34670,10 +34744,10 @@ export const destinationsData = [
     "description": "Altai Golden Mountains & Mount Belukha is a renowned sanctuary in Russia (Siberia & Far East) celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Altai Golden Mountains & Mount Belukha.",
@@ -34949,10 +35023,10 @@ export const destinationsData = [
     "description": "Lena Pillars Natural Stone Colonnade (Yakutia) is a renowned sanctuary in Russia (Siberia & Far East) celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Lena Pillars Natural Stone Colonnade (Yakutia).",
@@ -35228,10 +35302,10 @@ export const destinationsData = [
     "description": "Vladivostok Golden Horn Bay Pacific Gateway is a renowned sanctuary in Russia (Siberia & Far East) celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Vladivostok Golden Horn Bay Pacific Gateway.",
@@ -35507,10 +35581,10 @@ export const destinationsData = [
     "description": "Ancient Palmyra Queen Zenobia Roman Colonades is a renowned sanctuary in Syria celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Ancient Palmyra Queen Zenobia Roman Colonades.",
@@ -35786,10 +35860,10 @@ export const destinationsData = [
     "description": "Umayyad Mosque & Old Damascus Citadel is a renowned sanctuary in Syria celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Umayyad Mosque & Old Damascus Citadel.",
@@ -36065,10 +36139,10 @@ export const destinationsData = [
     "description": "Krak des Chevaliers Crusader Castle Fortress is a renowned sanctuary in Syria celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Krak des Chevaliers Crusader Castle Fortress.",
@@ -36344,10 +36418,10 @@ export const destinationsData = [
     "description": "Ancient City of Aleppo & Citadel is a renowned sanctuary in Syria celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Ancient City of Aleppo & Citadel.",
@@ -36623,10 +36697,10 @@ export const destinationsData = [
     "description": "Bosra Roman Theatre Black Basalt Amphitheatre is a renowned sanctuary in Syria celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Bosra Roman Theatre Black Basalt Amphitheatre.",
@@ -36902,10 +36976,10 @@ export const destinationsData = [
     "description": "Shibam (Manhattan of the Desert 500-Year Mud Skyscrapers) is a renowned sanctuary in Yemen celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Shibam (Manhattan of the Desert 500-Year Mud Skyscrapers).",
@@ -37181,10 +37255,10 @@ export const destinationsData = [
     "description": "Socotra Island Dragon's Blood Tree Alien Biosphere is a renowned sanctuary in Yemen celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Socotra Island Dragon's Blood Tree Alien Biosphere.",
@@ -37460,10 +37534,10 @@ export const destinationsData = [
     "description": "Old Walled City of Sana'a Gingerbread Architecture is a renowned sanctuary in Yemen celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Old Walled City of Sana'a Gingerbread Architecture.",
@@ -37739,10 +37813,10 @@ export const destinationsData = [
     "description": "Dar al-Hajar (Rock Palace of Wadi Dhahr) is a renowned sanctuary in Yemen celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Dar al-Hajar (Rock Palace of Wadi Dhahr).",
@@ -38018,10 +38092,10 @@ export const destinationsData = [
     "description": "Kawkaban Mountain Fortress & Thula is a renowned sanctuary in Yemen celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Kawkaban Mountain Fortress & Thula.",
@@ -38297,10 +38371,10 @@ export const destinationsData = [
     "description": "Old City of Jerusalem (Western Wall & Mount Zion) is a renowned sanctuary in Israel celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Old City of Jerusalem (Western Wall & Mount Zion).",
@@ -38576,10 +38650,10 @@ export const destinationsData = [
     "description": "Tel Aviv White City Bauhaus & Mediterranean Coast is a renowned sanctuary in Israel celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Tel Aviv White City Bauhaus & Mediterranean Coast.",
@@ -38855,10 +38929,10 @@ export const destinationsData = [
     "description": "Masada Dead Sea Cliff Fortress & Herodian Palace is a renowned sanctuary in Israel celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Masada Dead Sea Cliff Fortress & Herodian Palace.",
@@ -39134,10 +39208,10 @@ export const destinationsData = [
     "description": "Bahai Gardens & Golden Dome Mount Carmel Haifa is a renowned sanctuary in Israel celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Bahai Gardens & Golden Dome Mount Carmel Haifa.",
@@ -39413,10 +39487,10 @@ export const destinationsData = [
     "description": "Sea of Galilee & Ancient Capernaum is a renowned sanctuary in Israel celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Sea of Galilee & Ancient Capernaum.",
@@ -39692,10 +39766,10 @@ export const destinationsData = [
     "description": "Church of the Nativity & Manger Square Bethlehem is a renowned sanctuary in Palestine celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Church of the Nativity & Manger Square Bethlehem.",
@@ -39971,10 +40045,10 @@ export const destinationsData = [
     "description": "Old City of Hebron (Al-Khalil) & Ibrahimi Mosque is a renowned sanctuary in Palestine celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Old City of Hebron (Al-Khalil) & Ibrahimi Mosque.",
@@ -40250,10 +40324,10 @@ export const destinationsData = [
     "description": "Jericho Ancient Oasis & Mount of Temptation is a renowned sanctuary in Palestine celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Jericho Ancient Oasis & Mount of Temptation.",
@@ -40529,10 +40603,10 @@ export const destinationsData = [
     "description": "Nablus Old City & Khan al-Tujjar Spice Souq is a renowned sanctuary in Palestine celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Nablus Old City & Khan al-Tujjar Spice Souq.",
@@ -40808,11 +40882,11 @@ export const destinationsData = [
     "description": "Over 2,200 terracotta and gold spires rising from misty dry plains",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Over 2,200 terracotta and gold spires rising from misty dry plains",
@@ -41067,11 +41141,11 @@ export const destinationsData = [
     "description": "Serene highland lake with leg-rowing fishermen and floating organic tomato gardens",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Serene highland lake with leg-rowing fishermen and floating organic tomato gardens",
@@ -41313,11 +41387,11 @@ export const destinationsData = [
     "description": "99-meter golden stupa adorned with 5,448 diamonds and 2,317 rubies",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "99-meter golden stupa adorned with 5,448 diamonds and 2,317 rubies",
@@ -41559,11 +41633,11 @@ export const destinationsData = [
     "description": "Last royal capital of the Burmese monarchy and the world's longest teak bridge",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Last royal capital of the Burmese monarchy and the world's longest teak bridge",
@@ -41805,11 +41879,11 @@ export const destinationsData = [
     "description": "Unspoiled 7-kilometer crescent of turquoise ocean and fresh Andaman lobster shacks",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Unspoiled 7-kilometer crescent of turquoise ocean and fresh Andaman lobster shacks",
@@ -42051,11 +42125,11 @@ export const destinationsData = [
     "description": "Joseon Dynasty grand throne hall framed by Mount Bugak and traditional wooden Hanoks",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1538485399081-7191377e8241?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1538485399081-7191377e8241?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1538485399081-7191377e8241?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1538485399081-7191377e8241?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1538485399081-7191377e8241?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Joseon Dynasty grand throne hall framed by Mount Bugak and traditional wooden Hanoks",
@@ -42310,11 +42384,11 @@ export const destinationsData = [
     "description": "UNESCO World Natural Heritage volcanic shield with giant lava tubes and female Haenyeo divers",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "UNESCO World Natural Heritage volcanic shield with giant lava tubes and female Haenyeo divers",
@@ -42556,11 +42630,11 @@ export const destinationsData = [
     "description": "Pastel-colored hillside art terraces, Haeundae beach skyline, and Jagalchi seafood market",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Pastel-colored hillside art terraces, Haeundae beach skyline, and Jagalchi seafood market",
@@ -42802,11 +42876,11 @@ export const destinationsData = [
     "description": "Royal grassy tumuli tombs, Bulguksa Temple, and 7th-century Cheomseongdae Observatory",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Royal grassy tumuli tombs, Bulguksa Temple, and 7th-century Cheomseongdae Observatory",
@@ -43048,11 +43122,11 @@ export const destinationsData = [
     "description": "The world's most heavily guarded border and living testament to Cold War history",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "The world's most heavily guarded border and living testament to Cold War history",
@@ -43294,11 +43368,11 @@ export const destinationsData = [
     "description": "Grand socialist monumental architecture along the Taedong River",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Grand socialist monumental architecture along the Taedong River",
@@ -43540,11 +43614,11 @@ export const destinationsData = [
     "description": "Mythical volcanic caldera lake at 2,744m on the Sino-Korean border",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Mythical volcanic caldera lake at 2,744m on the Sino-Korean border",
@@ -43786,11 +43860,11 @@ export const destinationsData = [
     "description": "Ancient capital of the Koryo Dynasty with intact Confucian Academy and royal tombs",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Ancient capital of the Koryo Dynasty with intact Confucian Academy and royal tombs",
@@ -44032,11 +44106,11 @@ export const destinationsData = [
     "description": "Famous scenic mountain of 12,000 jagged granite peaks and crystal waterfalls",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Famous scenic mountain of 12,000 jagged granite peaks and crystal waterfalls",
@@ -44278,11 +44352,11 @@ export const destinationsData = [
     "description": "300-meter golden sand dunes that rumble with the desert winds",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "300-meter golden sand dunes that rumble with the desert winds",
@@ -44524,11 +44598,11 @@ export const destinationsData = [
     "description": "Pristine alpine freshwater lake containing 70% of Mongolia's fresh water",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Pristine alpine freshwater lake containing 70% of Mongolia's fresh water",
@@ -44770,11 +44844,11 @@ export const destinationsData = [
     "description": "Capital of the Mongol Empire founded by Genghis Khan in 1220 CE",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Capital of the Mongol Empire founded by Genghis Khan in 1220 CE",
@@ -45016,11 +45090,11 @@ export const destinationsData = [
     "description": "Granite rock sculptures, larch forests, and Genghis Khan Giant Equestrian Statue",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Granite rock sculptures, larch forests, and Genghis Khan Giant Equestrian Statue",
@@ -45262,11 +45336,11 @@ export const destinationsData = [
     "description": "50-meter solar Supertrees, Cloud Forest misty mountain, and Flower Dome",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "50-meter solar Supertrees, Cloud Forest misty mountain, and Flower Dome",
@@ -45508,11 +45582,11 @@ export const destinationsData = [
     "description": "Tang Dynasty style Buddhist temple housing sacred tooth relic and hawker streets",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Tang Dynasty style Buddhist temple housing sacred tooth relic and hawker streets",
@@ -45754,11 +45828,11 @@ export const destinationsData = [
     "description": "Tropical island haven with Palawan suspension bridge and Universal Studios",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Tropical island haven with Palawan suspension bridge and Universal Studios",
@@ -46000,11 +46074,11 @@ export const destinationsData = [
     "description": "165-year-old tropical botanical garden housing the National Orchid Garden",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "165-year-old tropical botanical garden housing the National Orchid Garden",
@@ -46246,11 +46320,11 @@ export const destinationsData = [
     "description": "World's tallest indoor waterfall cascading 40 meters through a multi-story forest dome",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "World's tallest indoor waterfall cascading 40 meters through a multi-story forest dome",
@@ -46492,11 +46566,11 @@ export const destinationsData = [
     "description": "452-meter twin skyscrapers inspired by Islamic geometric motifs",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "452-meter twin skyscrapers inspired by Islamic geometric motifs",
@@ -46738,11 +46812,11 @@ export const destinationsData = [
     "description": "42.7m golden statue of Lord Murugan and 272 vibrant rainbow limestone cave steps",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "42.7m golden statue of Lord Murugan and 272 vibrant rainbow limestone cave steps",
@@ -46984,11 +47058,11 @@ export const destinationsData = [
     "description": "Colonial shophouses, clan jetties, and world-famous street food hawker culture",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Colonial shophouses, clan jetties, and world-famous street food hawker culture",
@@ -47230,11 +47304,11 @@ export const destinationsData = [
     "description": "Curved 125m pedestrian cable-stayed bridge suspended 660m above Machinchang rainforest",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Curved 125m pedestrian cable-stayed bridge suspended 660m above Machinchang rainforest",
@@ -47476,11 +47550,11 @@ export const destinationsData = [
     "description": "4,095-meter granite peak crowned with pitcher plants and cloud forests",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "4,095-meter granite peak crowned with pitcher plants and cloud forests",
@@ -47722,11 +47796,11 @@ export const destinationsData = [
     "description": "Towering black limestone karst cliffs framing hidden turquoise lagoons",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Towering black limestone karst cliffs framing hidden turquoise lagoons",
@@ -47968,11 +48042,11 @@ export const destinationsData = [
     "description": "2,000-year-old stone and mud terraces carved by the indigenous Ifugao people",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "2,000-year-old stone and mud terraces carved by the indigenous Ifugao people",
@@ -48214,11 +48288,11 @@ export const destinationsData = [
     "description": "Powdery white silica sand and vibrant Paraw sunset sailing",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Powdery white silica sand and vibrant Paraw sunset sailing",
@@ -48460,11 +48534,11 @@ export const destinationsData = [
     "description": "Over 1,260 symmetrical conical grass mounds that turn cocoa brown in the dry season",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Over 1,260 symmetrical conical grass mounds that turn cocoa brown in the dry season",
@@ -48706,11 +48780,11 @@ export const destinationsData = [
     "description": "16th-century Spanish colonial fortified citadel and San Agustin Church",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "16th-century Spanish colonial fortified citadel and San Agustin Church",
@@ -48952,11 +49026,11 @@ export const destinationsData = [
     "description": "Morning saffron-robed alms giving, golden Wat Xieng Thong, and night markets",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1540611025311-01df3cef54b5?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1540611025311-01df3cef54b5?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1540611025311-01df3cef54b5?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1540611025311-01df3cef54b5?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1540611025311-01df3cef54b5?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Morning saffron-robed alms giving, golden Wat Xieng Thong, and night markets",
@@ -49198,11 +49272,11 @@ export const destinationsData = [
     "description": "Spectacular three-tiered cascade spilling into natural turquoise limestone pools",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Spectacular three-tiered cascade spilling into natural turquoise limestone pools",
@@ -49444,11 +49518,11 @@ export const destinationsData = [
     "description": "Thousands of mysterious prehistoric stone jars scattered across the highlands",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Thousands of mysterious prehistoric stone jars scattered across the highlands",
@@ -49690,11 +49764,11 @@ export const destinationsData = [
     "description": "Majestic limestone karst pinnacles, cave tubing, and hot air ballooning",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Majestic limestone karst pinnacles, cave tubing, and hot air ballooning",
@@ -49936,11 +50010,11 @@ export const destinationsData = [
     "description": "Pre-Angkorian Khmer sanctuary complex dating back to the 5th century at Mount Phu Kao",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Pre-Angkorian Khmer sanctuary complex dating back to the 5th century at Mount Phu Kao",
@@ -50182,11 +50256,11 @@ export const destinationsData = [
     "description": "Golden-domed Islamic sanctuary surrounded by an artificial lagoon and 16th-century stone barge",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Golden-domed Islamic sanctuary surrounded by an artificial lagoon and 16th-century stone barge",
@@ -50428,11 +50502,11 @@ export const destinationsData = [
     "description": "Historic water settlement of 30,000 people living in wooden houses on stilts over the Brunei River",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Historic water settlement of 30,000 people living in wooden houses on stilts over the Brunei River",
@@ -50674,11 +50748,11 @@ export const destinationsData = [
     "description": "Untouched pristine Bornean rainforest with a 60-meter metal canopy walkway",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Untouched pristine Bornean rainforest with a 60-meter metal canopy walkway",
@@ -50920,11 +50994,11 @@ export const destinationsData = [
     "description": "Brunei's largest mosque crowned with 29 golden domes commemorating the 29th Sultan",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Brunei's largest mosque crowned with 29 golden domes commemorating the 29th Sultan",
@@ -51166,11 +51240,11 @@ export const destinationsData = [
     "description": "Recorded highest average reef fish diversity in the world by Conservation International",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Recorded highest average reef fish diversity in the world by Conservation International",
@@ -51412,11 +51486,11 @@ export const destinationsData = [
     "description": "27-meter bronze statue of Christ atop a peninsula overlooking the turquoise Ombai Strait",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "27-meter bronze statue of Christ atop a peninsula overlooking the turquoise Ombai Strait",
@@ -51658,11 +51732,11 @@ export const destinationsData = [
     "description": "Highest peak in Timor-Leste (2,986m) crowned with a white statue of the Virgin Mary",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Highest peak in Timor-Leste (2,986m) crowned with a white statue of the Virgin Mary",
@@ -51904,11 +51978,11 @@ export const destinationsData = [
     "description": "Uninhabited sacred island with powdery white sands and crystal coral shallows",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=75",
+      "url": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=800&q=75",
       "poster": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "Uninhabited sacred island with powdery white sands and crystal coral shallows",
@@ -52153,7 +52227,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Badshahi Mosque & Lahore Fort (UNESCO Citadel).",
@@ -52432,7 +52506,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Hunza Valley & Rakaposhi Peak (Karakoram).",
@@ -52711,7 +52785,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Mohenjo-daro (Mound of the Dead).",
@@ -52990,7 +53064,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Taxila Ancient Buddhist University & Stupas.",
@@ -53269,7 +53343,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Fairy Meadows & Nanga Parbat Base Camp.",
@@ -53548,7 +53622,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1585135497273-1a86b09fe70e?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Sundarbans National Mangrove Tiger Sanctuary.",
@@ -53827,7 +53901,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Ahsan Manzil (Pink Palace) & Lalbagh Fort.",
@@ -54106,7 +54180,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Srimangal (Tea Capital & Lawachara Forest).",
@@ -54385,7 +54459,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Sixty Dome Mosque (Shait Gumbad Bagerhat).",
@@ -54664,7 +54738,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Cox's Bazar (World's Longest Natural Sea Beach).",
@@ -54940,10 +55014,10 @@ export const destinationsData = [
     "description": "Band-e Amir Turquoise National Lakes is a renowned sanctuary in Afghanistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Band-e Amir Turquoise National Lakes.",
@@ -55219,10 +55293,10 @@ export const destinationsData = [
     "description": "Blue Mosque of Mazar-i-Sharif (Rawze-e-Sharif) is a renowned sanctuary in Afghanistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Blue Mosque of Mazar-i-Sharif (Rawze-e-Sharif).",
@@ -55498,10 +55572,10 @@ export const destinationsData = [
     "description": "Herat Citadel (Qala Ikhtyaruddin) is a renowned sanctuary in Afghanistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Herat Citadel (Qala Ikhtyaruddin).",
@@ -55777,10 +55851,10 @@ export const destinationsData = [
     "description": "Minaret of Jam (UNESCO Mountain Monument) is a renowned sanctuary in Afghanistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Minaret of Jam (UNESCO Mountain Monument).",
@@ -56056,10 +56130,10 @@ export const destinationsData = [
     "description": "Bamiyan Valley Cultural Landscape is a renowned sanctuary in Afghanistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Bamiyan Valley Cultural Landscape.",
@@ -56338,7 +56412,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Burj Khalifa & Downtown Dubai Marina.",
@@ -56617,7 +56691,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1546412414-e1885259563a?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Sheikh Zayed Grand Mosque Abu Dhabi.",
@@ -56896,7 +56970,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Louvre Abu Dhabi (Saadiyat Cultural District).",
@@ -57175,7 +57249,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Al Ain Oasis & Jebel Hafeet (UNESCO).",
@@ -57454,7 +57528,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1578895101408-1a36b834405b?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Hatta Mountains & Turquoise Dam Reservoir.",
@@ -57733,7 +57807,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of AlUla Hegra (Mada'in Salih UNESCO Tombs).",
@@ -58012,7 +58086,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1578895101408-1a36b834405b?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Historic Al-Balad (Old Jeddah UNESCO District).",
@@ -58291,7 +58365,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Edge of the World (Jebel Fihrayn Escarpment).",
@@ -58570,7 +58644,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Diriyah At-Turaif (Birthplace of the Kingdom).",
@@ -58849,7 +58923,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Farasan Islands Red Sea Marine Sanctuary.",
@@ -59125,10 +59199,10 @@ export const destinationsData = [
     "description": "Registan Square & Shah-i-Zinda Samarkand is a renowned sanctuary in Uzbekistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Registan Square & Shah-i-Zinda Samarkand.",
@@ -59404,10 +59478,10 @@ export const destinationsData = [
     "description": "Historic Centre of Bukhara (Po-i-Kalyan & The Ark) is a renowned sanctuary in Uzbekistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Historic Centre of Bukhara (Po-i-Kalyan & The Ark).",
@@ -59683,10 +59757,10 @@ export const destinationsData = [
     "description": "Khiva Itchan Kala (Walled Silk Road Oasis) is a renowned sanctuary in Uzbekistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Khiva Itchan Kala (Walled Silk Road Oasis).",
@@ -59962,10 +60036,10 @@ export const destinationsData = [
     "description": "Chorsu Bazaar & Tashkent Metro Palaces is a renowned sanctuary in Uzbekistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Chorsu Bazaar & Tashkent Metro Palaces.",
@@ -60241,10 +60315,10 @@ export const destinationsData = [
     "description": "Shahrisabz Ak-Saray White Palace Ruins is a renowned sanctuary in Uzbekistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Shahrisabz Ak-Saray White Palace Ruins.",
@@ -60523,7 +60597,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1566296517249-31704259c7af?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1588598136853-a66986fc035a?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1588598136853-a66986fc035a?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Temple of the Sacred Tooth Relic (Kandy).",
@@ -60802,7 +60876,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1588598136853-a66986fc035a?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1588598136853-a66986fc035a?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Ella Nine Arch Bridge & Demodara Valley.",
@@ -61081,7 +61155,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1588598136853-a66986fc035a?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1588598136853-a66986fc035a?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Yala National Park Leopard & Elephant Reserve.",
@@ -61357,10 +61431,10 @@ export const destinationsData = [
     "description": "Kathmandu Durbar Square & Swayambhunath is a renowned sanctuary in Nepal celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Kathmandu Durbar Square & Swayambhunath.",
@@ -61636,10 +61710,10 @@ export const destinationsData = [
     "description": "Pokhara Phewa Lake & World Peace Pagoda is a renowned sanctuary in Nepal celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Pokhara Phewa Lake & World Peace Pagoda.",
@@ -61915,10 +61989,10 @@ export const destinationsData = [
     "description": "Chitwan National Park Rhino Safari is a renowned sanctuary in Nepal celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Chitwan National Park Rhino Safari.",
@@ -62194,10 +62268,10 @@ export const destinationsData = [
     "description": "Bhaktapur Ancient Kingdom (City of Devotees) is a renowned sanctuary in Nepal celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Bhaktapur Ancient Kingdom (City of Devotees).",
@@ -62473,10 +62547,10 @@ export const destinationsData = [
     "description": "Punakha Dzong (Palace of Great Happiness) is a renowned sanctuary in Bhutan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Punakha Dzong (Palace of Great Happiness).",
@@ -62752,10 +62826,10 @@ export const destinationsData = [
     "description": "Thimphu Buddha Dordenma Colossus is a renowned sanctuary in Bhutan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Thimphu Buddha Dordenma Colossus.",
@@ -63031,10 +63105,10 @@ export const destinationsData = [
     "description": "Phobjikha Valley Black-Necked Crane Reserve is a renowned sanctuary in Bhutan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Phobjikha Valley Black-Necked Crane Reserve.",
@@ -63310,10 +63384,10 @@ export const destinationsData = [
     "description": "Bumthang Sacred Valleys & Kurjey Lhakhang is a renowned sanctuary in Bhutan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Bumthang Sacred Valleys & Kurjey Lhakhang.",
@@ -63592,7 +63666,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Male City Grand Friday Mosque & Old Coral Mosque.",
@@ -63871,7 +63945,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of South Ari Atoll Whale Shark Marine Protected Area.",
@@ -64150,7 +64224,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Vaadhoo Island Sea of Stars (Bioluminescent Beach).",
@@ -64429,7 +64503,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Addu Atoll British Coral Naval Base & Gan Island.",
@@ -64708,7 +64782,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Hoi An Ancient Lantern Town (UNESCO).",
@@ -64987,7 +65061,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Phong Nha-Ke Bang Son Doong Cave Network.",
@@ -65266,7 +65340,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Sa Pa Terraced Rice Highlands & Mount Fansipan.",
@@ -65545,7 +65619,7 @@ export const destinationsData = [
       "url": "https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Imperial City of Hue (Citadel & Perfume River).",
@@ -65821,10 +65895,10 @@ export const destinationsData = [
     "description": "Bali Pura Ulun Danu Bratan & Ubud Monkey Forest is a renowned sanctuary in Indonesia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Bali Pura Ulun Danu Bratan & Ubud Monkey Forest.",
@@ -66100,10 +66174,10 @@ export const destinationsData = [
     "description": "Komodo Island & Pink Beach National Park is a renowned sanctuary in Indonesia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Komodo Island & Pink Beach National Park.",
@@ -66379,10 +66453,10 @@ export const destinationsData = [
     "description": "Prambanan Hindu Temple Complex (Trimurti) is a renowned sanctuary in Indonesia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Prambanan Hindu Temple Complex (Trimurti).",
@@ -66658,10 +66732,10 @@ export const destinationsData = [
     "description": "Raja Ampat Coral Archipelago (Misool & Wayag) is a renowned sanctuary in Indonesia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Raja Ampat Coral Archipelago (Misool & Wayag).",
@@ -66937,10 +67011,10 @@ export const destinationsData = [
     "description": "Bayon Temple (Smiling Stone Faces of Angkor) is a renowned sanctuary in Cambodia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Bayon Temple (Smiling Stone Faces of Angkor).",
@@ -67216,10 +67290,10 @@ export const destinationsData = [
     "description": "Ta Prohm (Tomb Raider Jungle Temple) is a renowned sanctuary in Cambodia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Ta Prohm (Tomb Raider Jungle Temple).",
@@ -67495,10 +67569,10 @@ export const destinationsData = [
     "description": "Phnom Penh Royal Palace & Silver Pagoda is a renowned sanctuary in Cambodia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Phnom Penh Royal Palace & Silver Pagoda.",
@@ -67774,10 +67848,10 @@ export const destinationsData = [
     "description": "Koh Rong Island Turquoise Coral Bays is a renowned sanctuary in Cambodia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Koh Rong Island Turquoise Coral Bays.",
@@ -68053,10 +68127,10 @@ export const destinationsData = [
     "description": "Ayutthaya Kingdom & Wat Mahathat is a renowned sanctuary in Thailand celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Ayutthaya Kingdom & Wat Mahathat.",
@@ -68332,10 +68406,10 @@ export const destinationsData = [
     "description": "Railay Beach & Krabi Limestone Karsts is a renowned sanctuary in Thailand celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
+      "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=800&q=75",
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To witness the timeless heritage, stunning architecture, and local traditions of Railay Beach & Krabi Limestone Karsts.",
@@ -70700,37 +70774,36 @@ export const virtualToursData = [
   {
     "id": "tour-meenakshi",
     "title": "Meenakshi Sundareswarar Temple Hall of 1,000 Pillars",
+    "locationName": "Madurai, Tamil Nadu, India",
     "coordinates": [
       9.9195,
       78.1193
     ],
-    "heritageId": "meenakshi-amman",
-    "locationName": "Madurai, Tamil Nadu, India",
     "panoramaUrl": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=2500&q=90",
-    "audioGuideText": "Welcome to the Meenakshi Sundareswarar Temple thousand-pillar hall. Notice how each granite pillar is sculpted from a single solid monolith, depicting mythical yalis, celestial musicians, and cosmic mandalas. Above you, vibrant cosmological mandalas represent the cosmic dance of Shiva.",
+    "audioGuideText": "Welcome to the Meenakshi Sundareswarar Temple thousand-pillar hall. Notice how each granite pillar is sculpted from a single solid monolith, depicting mythical yalis, celestial musicians, and cosmic mandalas.",
     "hotspots": [
       {
-        "id": "hs-1",
-        "title": "South Gopuram",
-        "description": "The tallest tower reaching 51.9 meters high, featuring over 1,511 colorful deities.",
+        "id": "h1",
+        "title": "South Gopuram (51.9m)",
+        "description": "The tallest tower featuring over 1,511 polychrome sculpted deities.",
         "coords": {
           "x": 30,
           "y": 40
         }
       },
       {
-        "id": "hs-2",
-        "title": "Golden Lotus Tank (Potramarai Kulam)",
-        "description": "Sacred pond where devotees bathe and Sangam academy tested classical Tamil poetry.",
+        "id": "h2",
+        "title": "Potramarai Kulam (Golden Lotus Tank)",
+        "description": "The sacred stepped stone pool where classical Tamil Sangam poetry was judged.",
         "coords": {
           "x": 60,
           "y": 70
         }
       },
       {
-        "id": "hs-3",
+        "id": "h3",
         "title": "Musical Granite Columns",
-        "description": "Carved pillars near the northern tower that ring with distinct musical pitches when gently struck.",
+        "description": "Granite columns carved from solid rock that resonate in musical tones when struck.",
         "coords": {
           "x": 75,
           "y": 35
@@ -70741,40 +70814,30 @@ export const virtualToursData = [
   {
     "id": "tour-taj-mahal",
     "title": "The Taj Mahal Charbagh & Marble Plinth",
+    "locationName": "Agra, Uttar Pradesh, India",
     "coordinates": [
       27.1751,
       78.0421
     ],
-    "heritageId": "taj-mahal",
-    "locationName": "Agra, Uttar Pradesh, India",
     "panoramaUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=2500&q=90",
-    "audioGuideText": "You are standing on the white marble plinth of the Taj Mahal. The symmetry is mathematically immaculate from every quadrant. Notice how the four surrounding minarets lean outward by a fraction of a degree—an intentional structural safeguard.",
+    "audioGuideText": "You stand before the ivory-white marble dome of the Taj Mahal. The symmetry is mathematically immaculate from every quadrant, symbolizing paradise on earth.",
     "hotspots": [
       {
-        "id": "hs-taj-1",
+        "id": "ht1",
         "title": "Central Marble Onion Dome",
-        "description": "Rising 35 meters with gilded lotus finial blending Hindu and Persian motifs.",
+        "description": "Reaching 35 meters with inlaid black marble calligraphy.",
         "coords": {
           "x": 50,
           "y": 25
         }
       },
       {
-        "id": "hs-taj-2",
-        "title": "Pietra Dura Inlay Panels",
-        "description": "Semi-precious lapis lazuli, turquoise, and carnelian fitted seamlessly into white Makrana marble.",
+        "id": "ht2",
+        "title": "Pietra Dura Gem Inlay",
+        "description": "Semi-precious lapis lazuli and carnelian fitted seamlessly into white Makrana marble.",
         "coords": {
           "x": 42,
           "y": 60
-        }
-      },
-      {
-        "id": "hs-taj-3",
-        "title": "Yamuna River Promenade",
-        "description": "The northern terrace overlooking the sacred Yamuna river.",
-        "coords": {
-          "x": 80,
-          "y": 55
         }
       }
     ]
@@ -70782,28 +70845,18 @@ export const virtualToursData = [
   {
     "id": "tour-fushimi-inari",
     "title": "Fushimi Inari Senbon Torii Corridor",
+    "locationName": "Kyoto, Kansai, Japan",
     "coordinates": [
       34.9671,
       135.7727
     ],
-    "heritageId": "fushimi-inari",
-    "locationName": "Kyoto, Kansai, Japan",
     "panoramaUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=2500&q=90",
-    "audioGuideText": "Step into the vermilion tunnel of Fushimi Inari-Taisha. The distinctive orange-red hue, shu-iro, is believed to repel evil spirits and honor the rice kami Inari. The black calligraphy on each pillar represents prayers for prosperity by dedicated pilgrims.",
+    "audioGuideText": "Step into the vermilion tunnel of Fushimi Inari-Taisha. The distinctive orange-red hue repels misfortune and honors the Shinto deity of harvest and prosperity.",
     "hotspots": [
       {
-        "id": "hs-fi-1",
-        "title": "Kitsune Fox Messenger",
-        "description": "Stone fox statues holding the key to the rice granary.",
-        "coords": {
-          "x": 25,
-          "y": 65
-        }
-      },
-      {
-        "id": "hs-fi-2",
-        "title": "Senbon Torii Archways",
-        "description": "Dense corridor of thousands of torii gates creating a magical tunnel of light.",
+        "id": "hfi1",
+        "title": "Senbon Torii Corridor",
+        "description": "Over 10,000 vermilion torii archways forming an enchanting sacred mountain path.",
         "coords": {
           "x": 50,
           "y": 40
@@ -70812,30 +70865,214 @@ export const virtualToursData = [
     ]
   },
   {
+    "id": "tour-shirakawa",
+    "title": "Shirakawa-go Gassho-zukuri Thatched Alpine Village",
+    "locationName": "Gifu Prefecture, Japan",
+    "coordinates": [
+      36.2562,
+      136.9066
+    ],
+    "panoramaUrl": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "Welcome to Shirakawa-go in the snowy Japanese Alps. You are surrounded by steep pitched Gassho-zukuri thatched farmhouses built without a single nail to shed heavy winter snows.",
+    "hotspots": [
+      {
+        "id": "hsk1",
+        "title": "Wada House Thatched Attic",
+        "description": "300-year-old wooden timber framing used for traditional silkworm farming.",
+        "coords": {
+          "x": 45,
+          "y": 35
+        }
+      },
+      {
+        "id": "hsk2",
+        "title": "Shiroyama Castle Overlook",
+        "description": "Postcard viewpoint commanding the panorama over the alpine village.",
+        "coords": {
+          "x": 65,
+          "y": 55
+        }
+      }
+    ]
+  },
+  {
+    "id": "tour-mount-fuji",
+    "title": "Mount Fuji & Chureito Pagoda Summit",
+    "locationName": "Fujiyoshida, Yamanashi, Japan",
+    "coordinates": [
+      35.5015,
+      138.8016
+    ],
+    "panoramaUrl": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "Look out across the red vermilion eaves of the Chureito Pagoda toward the snow-capped volcanic cone of Mount Fuji rising 3,776 meters into the sky.",
+    "hotspots": [
+      {
+        "id": "hmf1",
+        "title": "Mount Fuji Sacred Summit",
+        "description": "Active stratovolcano and sacred symbol of Japan.",
+        "coords": {
+          "x": 52,
+          "y": 30
+        }
+      },
+      {
+        "id": "hmf2",
+        "title": "Chureito Pagoda Eaves",
+        "description": "Peace monument built in 1962 overlooking Fujiyoshida city.",
+        "coords": {
+          "x": 35,
+          "y": 65
+        }
+      }
+    ]
+  },
+  {
     "id": "tour-angkor-wat",
     "title": "Angkor Wat Central Lotus Sanctuary & Moat",
+    "locationName": "Siem Reap, Cambodia",
     "coordinates": [
       13.4125,
       103.867
     ],
-    "heritageId": "angkor-wat-monument",
-    "locationName": "Siem Reap, Cambodia",
-    "panoramaUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2500&q=90",
-    "audioGuideText": "Welcome to Angkor Wat. As you cross the sandstone causeway spanning the sacred moat, you enter a microcosm of the Hindu cosmos: the moat represents the cosmic ocean, and the five central towers symbolize the peaks of holy Mount Meru.",
+    "panoramaUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "Welcome to Angkor Wat, the grandest religious monument on Earth. Built by King Suryavarman II in the 12th century, it symbolizes Mount Meru, the cosmic center of the universe.",
     "hotspots": [
       {
-        "id": "hs-aw-1",
-        "title": "Ocean of Milk Bas-Relief",
-        "description": "A 49-meter carving depicting 88 devas and 92 asuras churning the cosmic ocean.",
+        "id": "haw1",
+        "title": "Central Tower Lotus Spire",
+        "description": "Soaring 65 meters above the jungle floor representing Mount Meru.",
         "coords": {
-          "x": 35,
-          "y": 55
+          "x": 50,
+          "y": 35
         }
-      },
+      }
+    ]
+  },
+  {
+    "id": "tour-borobudur",
+    "title": "Borobudur Stupa Terraces Over Mount Merapi",
+    "locationName": "Central Java, Indonesia",
+    "coordinates": [
+      -7.6079,
+      110.2038
+    ],
+    "panoramaUrl": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "Stand among the 72 perforated stone stupas of Borobudur, each sheltering a seated Buddha statue overlooking active volcanic ridges.",
+    "hotspots": [
       {
-        "id": "hs-aw-2",
-        "title": "Central Lotus Sanctuary",
-        "description": "The supreme sanctum soaring 65 meters above ground level.",
+        "id": "hbb1",
+        "title": "Perforated Stupas",
+        "description": "Lattice stupas containing seated Buddha figures reaching enlightenment.",
+        "coords": {
+          "x": 55,
+          "y": 45
+        }
+      }
+    ]
+  },
+  {
+    "id": "tour-great-wall",
+    "title": "The Great Wall of China Watchtowers",
+    "locationName": "Mutianyu, Beijing, China",
+    "coordinates": [
+      40.4319,
+      116.5704
+    ],
+    "panoramaUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "You are looking out from the crenellated parapets of the Great Wall along the rugged ridges of Mutianyu. Built across dynasties, the stone fortress stretches over 21,000 kilometers.",
+    "hotspots": [
+      {
+        "id": "hgw1",
+        "title": "Ming Dynasty Watchtower",
+        "description": "Two-story granite tower designed for archers and beacon smoke signals.",
+        "coords": {
+          "x": 48,
+          "y": 35
+        }
+      }
+    ]
+  },
+  {
+    "id": "tour-forbidden-city",
+    "title": "The Forbidden City Imperial Dragon Throne",
+    "locationName": "Beijing, China",
+    "coordinates": [
+      39.9163,
+      116.3972
+    ],
+    "panoramaUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "Step into the Imperial Palace courtyard of the Forbidden City. For five centuries, this vast complex of 980 surviving buildings served as the political heart of China.",
+    "hotspots": [
+      {
+        "id": "hfc1",
+        "title": "Hall of Supreme Harmony",
+        "description": "The largest wooden palace structure in China with golden glazed roof tiles.",
+        "coords": {
+          "x": 50,
+          "y": 38
+        }
+      }
+    ]
+  },
+  {
+    "id": "tour-zhangjiajie",
+    "title": "Zhangjiajie Avatar Floating Hallelujah Mountain",
+    "locationName": "Wulingyuan, Hunan, China",
+    "coordinates": [
+      29.3567,
+      110.4483
+    ],
+    "panoramaUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "Behold the 1,000-meter quartzite sandstone pillars of Zhangjiajie rising through mountain mist, inspiring the floating Hallelujah Mountains of the movie Avatar.",
+    "hotspots": [
+      {
+        "id": "hzj1",
+        "title": "Pillar of Heaven Monolith",
+        "description": "Sheer vertical sandstone pinnacle carved by millennia of water erosion.",
+        "coords": {
+          "x": 48,
+          "y": 40
+        }
+      }
+    ]
+  },
+  {
+    "id": "tour-bagan",
+    "title": "Bagan Plain of 2,200 Ancient Pagodas",
+    "locationName": "Bagan Archaeological Zone, Myanmar",
+    "coordinates": [
+      21.1717,
+      94.8679
+    ],
+    "panoramaUrl": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "Behold the mystic morning mist of Bagan, where over 2,200 terracotta and gold spired temples rise dramatically from the plains of Myanmar.",
+    "hotspots": [
+      {
+        "id": "hbg1",
+        "title": "Ananda Phaya Spire",
+        "description": "Completed in 1105 CE under King Kyansittha, housing four 9-meter gilded standing Buddhas.",
+        "coords": {
+          "x": 52,
+          "y": 40
+        }
+      }
+    ]
+  },
+  {
+    "id": "tour-petra",
+    "title": "Al-Khazneh (The Treasury) Siq Entrance",
+    "locationName": "Petra, Ma'an, Jordan",
+    "coordinates": [
+      30.3285,
+      35.4444
+    ],
+    "panoramaUrl": "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "Emerging from the narrow 1.2-kilometer gorge of the Siq, the rose-red Hellenistic facade of the Treasury appears carved directly into the sheer sandstone cliff.",
+    "hotspots": [
+      {
+        "id": "hpt1",
+        "title": "Corinthian Sandstone Capitals",
+        "description": "Carved from sandstone in the 1st century BCE by the Nabataean Kingdom.",
         "coords": {
           "x": 50,
           "y": 30
@@ -70844,79 +71081,177 @@ export const virtualToursData = [
     ]
   },
   {
-    "id": "tour-borobudur",
-    "title": "Borobudur Stupa Terraces Over Mount Merapi",
+    "id": "tour-sigiriya",
+    "title": "Sigiriya Lion Rock Sky Fortress",
+    "locationName": "Cultural Triangle, Sri Lanka",
     "coordinates": [
-      -7.6079,
-      110.2038
+      7.957,
+      80.7603
     ],
-    "heritageId": "borobudur-monument",
-    "locationName": "Central Java, Indonesia",
-    "panoramaUrl": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=2500&q=90",
-    "audioGuideText": "You are standing on the circular highest terrace of Borobudur. Surrounding you are 72 perforated diamond-lattice stupas, each enshrining a seated Buddha meditating toward the volcanic horizon.",
+    "panoramaUrl": "https://images.unsplash.com/photo-1588598136853-a66986fc035a?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "Rise 200 meters above the central jungle atop the ancient volcanic rock citadel of King Kashyapa, featuring mirror walls and royal water gardens.",
     "hotspots": [
       {
-        "id": "hs-bb-1",
-        "title": "Perforated Diamond Stupa",
-        "description": "Lattice stone stupa symbolizing the formless realm of Arupadhatu.",
+        "id": "hsg1",
+        "title": "Lion Paw Terraces",
+        "description": "Massive carved stone paws framing the final stairway to the summit sky palace.",
+        "coords": {
+          "x": 50,
+          "y": 55
+        }
+      }
+    ]
+  },
+  {
+    "id": "tour-marina-bay",
+    "title": "Supertree Grove & Marina Bay Skyline",
+    "locationName": "Downtown Core, Singapore",
+    "coordinates": [
+      1.2816,
+      103.8636
+    ],
+    "panoramaUrl": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "Immerse yourself among the 50-meter Supertrees of Gardens by the Bay, fitted with vertical gardens, solar cells, and the OCBC Skyway.",
+    "hotspots": [
+      {
+        "id": "hmb1",
+        "title": "Supertree Solar Canopy",
+        "description": "Living vertical gardens hosting over 162,900 plants.",
         "coords": {
           "x": 45,
+          "y": 35
+        }
+      }
+    ]
+  },
+  {
+    "id": "tour-varanasi",
+    "title": "Varanasi Sacred Dashashwamedh Ganga Aarti",
+    "locationName": "Varanasi, Uttar Pradesh, India",
+    "coordinates": [
+      25.3076,
+      83.0104
+    ],
+    "panoramaUrl": "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "Step onto the sacred river steps of Kashi during the evening Ganga Aarti as bronze oil lamps are raised to the heavens in worship of the sacred river.",
+    "hotspots": [
+      {
+        "id": "hvn1",
+        "title": "Ganga Aarti Brass Lamps",
+        "description": "Multi-tiered ritual brass lamps waved rhythmically by saffron-robed priests.",
+        "coords": {
+          "x": 50,
           "y": 45
         }
-      },
+      }
+    ]
+  },
+  {
+    "id": "tour-thanjavur",
+    "title": "Brihadeeswarar Temple 1,000-Year Chola Vimana",
+    "locationName": "Thanjavur, Tamil Nadu, India",
+    "coordinates": [
+      10.7828,
+      79.1318
+    ],
+    "panoramaUrl": "https://images.unsplash.com/photo-1609766418204-94aae0ecfddc?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "Welcome to the Great Living Chola Temple of Thanjavur, dedicated to Lord Shiva in 1010 CE. The monumental 66-meter Vimana is carved completely from hard granite.",
+    "hotspots": [
       {
-        "id": "hs-bb-2",
-        "title": "Mount Merapi Volcano View",
-        "description": "Active volcanic cone framing the temple in sunrise mists.",
+        "id": "htj1",
+        "title": "80-Ton Monolithic Shikhara",
+        "description": "Carved from a single granite block hauled up a 6-kilometer earthen ramp.",
         "coords": {
-          "x": 80,
+          "x": 50,
           "y": 25
         }
       }
     ]
   },
   {
-    "id": "tour-great-wall",
-    "title": "Great Wall of China Watchtower Ridge",
+    "id": "tour-wat-arun",
+    "title": "Wat Arun (Temple of Dawn) Chao Phraya Spire",
+    "locationName": "Bangkok, Thailand",
     "coordinates": [
-      40.4319,
-      116.5704
+      13.7437,
+      100.4888
     ],
-    "heritageId": "beijing-forbidden-city",
-    "locationName": "Mutianyu, Beijing, China",
-    "panoramaUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=2500&q=90",
-    "audioGuideText": "Stand atop Watchtower 14 of the Great Wall at Mutianyu. Below you, the stone ramparts follow the knife-edge crests of the mountains, built by hundreds of thousands of soldiers and stonemasons over centuries.",
+    "panoramaUrl": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "Stand on the west bank of the Chao Phraya River beneath the 82-meter Khmer-style prang of Wat Arun encrusted with colorful Chinese porcelain shards.",
     "hotspots": [
       {
-        "id": "hs-gw-1",
-        "title": "Granite Parapet Watchtower",
-        "description": "Two-story fortified military watchtower with arrow slits and signal fire hearths.",
+        "id": "hwa1",
+        "title": "Central Porcelain Prang",
+        "description": "Steep terraced spire decorated with porcelain plates salvaged from ship ballast.",
         "coords": {
-          "x": 40,
-          "y": 50
+          "x": 50,
+          "y": 35
         }
       }
     ]
   },
   {
-    "id": "tour-petra",
-    "title": "Petra Siq Chasm & Treasury Facade",
+    "id": "tour-ha-long",
+    "title": "Ha Long Bay Emerald Waters & Karst Spires",
+    "locationName": "Quang Ninh, Vietnam",
     "coordinates": [
-      30.3285,
-      35.4444
+      20.9101,
+      107.1839
     ],
-    "heritageId": "petra-treasury",
-    "locationName": "Petra, Jordan",
-    "panoramaUrl": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=2500&q=90",
-    "audioGuideText": "Emerging from the shaded, towering sandstone cliffs of the Siq, the sunlit rose-red Corinthian columns and urn of Al-Khazneh appear. Notice how the Nabataeans carved this monument directly from the top down.",
+    "panoramaUrl": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "Drift through the serene emerald waters of Ha Long Bay where over 1,600 towering limestone karsts rise through the morning mist.",
     "hotspots": [
       {
-        "id": "hs-pt-1",
-        "title": "The Urn Finial",
-        "description": "Local legend claimed Bedouin raiders hid treasure in this top stone urn.",
+        "id": "hhl1",
+        "title": "Karst Limestone Towers",
+        "description": "Million-year-old weathered karsts sheltering hidden floating fishing villages.",
+        "coords": {
+          "x": 52,
+          "y": 40
+        }
+      }
+    ]
+  },
+  {
+    "id": "tour-sheikh-zayed",
+    "title": "Sheikh Zayed Grand Mosque Pure White Marble Domes",
+    "locationName": "Abu Dhabi, United Arab Emirates",
+    "coordinates": [
+      24.4128,
+      54.475
+    ],
+    "panoramaUrl": "https://images.unsplash.com/photo-1546412414-e1885259563a?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "Enter the courtyard of the Sheikh Zayed Grand Mosque in Abu Dhabi, adorned with Macedonian white marble, floral mosaic inlays, and 82 marble domes.",
+    "hotspots": [
+      {
+        "id": "hsz1",
+        "title": "Central White Marble Dome",
+        "description": "Rising 85 meters above the main prayer hall sheltering 40,000 worshippers.",
         "coords": {
           "x": 50,
-          "y": 20
+          "y": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "tour-hagia-sophia",
+    "title": "Hagia Sophia Grand Byzantine Dome & Seraphim",
+    "locationName": "Istanbul, Türkiye",
+    "coordinates": [
+      41.0086,
+      28.9802
+    ],
+    "panoramaUrl": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "Look up at the monumental 31-meter dome of Hagia Sophia, suspended as if by a golden chain from heaven, uniting 1,500 years of Christian and Islamic architectural heritage.",
+    "hotspots": [
+      {
+        "id": "hhs1",
+        "title": "Byzantine Floating Dome",
+        "description": "Supported on four massive pendentives constructed by Emperor Justinian in 537 CE.",
+        "coords": {
+          "x": 50,
+          "y": 25
         }
       }
     ]

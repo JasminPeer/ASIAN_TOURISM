@@ -15,6 +15,7 @@ import {
 } from 'recharts';
 import { Sparkles, ArrowRightLeft, Check, Calendar, Wallet, Landmark, Car, Utensils } from 'lucide-react';
 import { api } from '../services/api';
+import { optimizeImage } from '../utils/imageOptimizer';
 
 export const DestinationComparison = () => {
   const [destinations, setDestinations] = useState([]);
@@ -108,9 +109,10 @@ export const DestinationComparison = () => {
               <div>
                 <div className="relative h-44 rounded-2xl overflow-hidden mb-4">
                   <img
-                    src={destA.heroMedia?.url || destA.gallery?.[0]}
+                    src={optimizeImage(destA.heroMedia?.url || destA.gallery?.[0], { width: 450, quality: 70 })}
                     alt={destA.name}
                     className="w-full h-full object-cover"
+                    loading="lazy"
                   />
                   <div className="absolute top-3 left-3 px-2.5 py-1 rounded-full text-[10px] font-bold bg-ocean-950/80 text-ocean-300 border border-ocean-400/30">
                     {destA.country}
@@ -169,9 +171,10 @@ export const DestinationComparison = () => {
               <div>
                 <div className="relative h-44 rounded-2xl overflow-hidden mb-4">
                   <img
-                    src={destB.heroMedia?.url || destB.gallery?.[0]}
+                    src={optimizeImage(destB.heroMedia?.url || destB.gallery?.[0], { width: 450, quality: 70 })}
                     alt={destB.name}
                     className="w-full h-full object-cover"
+                    loading="lazy"
                   />
                   <div className="absolute top-3 left-3 px-2.5 py-1 rounded-full text-[10px] font-bold bg-amber-950/80 text-amber-300 border border-amber-400/30">
                     {destB.country}

@@ -4,12 +4,12 @@
  * Prevents slow network loading and broken image links.
  */
 
-export const optimizeImage = (url, { width = 600, quality = 75, height } = {}) => {
+export const optimizeImage = (url, { width = 500, quality = 70, height } = {}) => {
   if (!url || typeof url !== 'string') {
-    return 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=75';
+    return 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=500&q=70';
   }
 
-  // Optimize Unsplash images with exact viewport dimensions and compression
+  // Optimize Unsplash images with exact viewport dimensions and WebP compression
   if (url.includes('images.unsplash.com')) {
     try {
       const urlObj = new URL(url);
@@ -27,6 +27,15 @@ export const optimizeImage = (url, { width = 600, quality = 75, height } = {}) =
   }
 
   return url;
+};
+
+/**
+ * Preload high-priority images in the background to ensure instantaneous display
+ */
+export const preloadImage = (url, options = {}) => {
+  if (!url || typeof window === 'undefined') return;
+  const img = new Image();
+  img.src = optimizeImage(url, options);
 };
 
 /**

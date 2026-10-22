@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Sparkles, EyeOff, ArrowRight, ShieldCheck, Wallet, Calendar, Users } from 'lucide-react';
 import { api } from '../services/api';
+import { optimizeImage } from '../utils/imageOptimizer';
 
 export const SecretAsia = () => {
   const [gems, setGems] = useState([]);
@@ -57,7 +58,7 @@ export const SecretAsia = () => {
               {/* Media with Discovery % Pill */}
               <div className="relative h-64 overflow-hidden">
                 <img
-                  src={gem.heroMedia?.url || gem.gallery?.[0]}
+                  src={optimizeImage(gem.heroMedia?.url || gem.gallery?.[0], { width: 600, quality: 70 })}
                   alt={gem.name}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 filter brightness-[0.85]"
                   loading="lazy"

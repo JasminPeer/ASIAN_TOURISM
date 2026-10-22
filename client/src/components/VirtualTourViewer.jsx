@@ -27,6 +27,7 @@ import L from 'leaflet';
 import { usePassport } from '../context/PassportContext';
 import { getStreetViewEmbedUrl, setupFreeTileLayer } from '../config/maps';
 import { optimizeImage } from '../utils/imageOptimizer';
+import { virtualToursData } from '../data/seedData';
 
 // Waypoint marker for Sanctuary Trail
 const createSanctuaryMarker = (num, name, isSelected = false) => {
@@ -113,124 +114,7 @@ export const VirtualTourViewer = ({ tours = [], activeTourId, onTourChange }) =>
     }
   };
 
-  // Comprehensive virtual tours with exact coordinates & hotspot ways
-  const defaultTours = [
-    {
-      id: "tour-meenakshi",
-      title: "Meenakshi Sundareswarar Temple Hall of 1,000 Pillars",
-      locationName: "Madurai, Tamil Nadu, India",
-      coordinates: [9.9195, 78.1193],
-      panoramaUrl: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=2500&q=90",
-      audioGuideText: "Welcome to the Meenakshi Sundareswarar Temple thousand-pillar hall. Notice how each granite pillar is sculpted from a single solid monolith, depicting mythical yalis, celestial musicians, and cosmic mandalas.",
-      hotspots: [
-        { id: "h1", title: "South Gopuram (51.9m)", description: "The tallest tower featuring over 1,511 polychrome sculpted deities.", coords: { x: 30, y: 40 } },
-        { id: "h2", title: "Potramarai Kulam (Golden Lotus Tank)", description: "The sacred stepped stone pool where classical Tamil Sangam poetry was judged.", coords: { x: 60, y: 70 } },
-        { id: "h3", title: "Musical Granite Columns", description: "Granite columns carved from solid rock that resonate in musical tones when struck.", coords: { x: 75, y: 35 } }
-      ]
-    },
-    {
-      id: "tour-taj-mahal",
-      title: "The Taj Mahal Charbagh & Marble Plinth",
-      locationName: "Agra, Uttar Pradesh, India",
-      coordinates: [27.1751, 78.0421],
-      panoramaUrl: "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=2500&q=90",
-      audioGuideText: "You stand before the ivory-white marble dome of the Taj Mahal. The symmetry is mathematically immaculate from every quadrant, symbolizing paradise on earth.",
-      hotspots: [
-        { id: "ht1", title: "Central Marble Onion Dome", description: "Reaching 35 meters with inlaid black marble calligraphy.", coords: { x: 50, y: 25 } },
-        { id: "ht2", title: "Pietra Dura Gem Inlay", description: "Semi-precious lapis lazuli and carnelian fitted seamlessly into white Makrana marble.", coords: { x: 42, y: 60 } }
-      ]
-    },
-    {
-      id: "tour-fushimi-inari",
-      title: "Fushimi Inari Senbon Torii Corridor",
-      locationName: "Kyoto, Kansai, Japan",
-      coordinates: [34.9671, 135.7727],
-      panoramaUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=2500&q=90",
-      audioGuideText: "Step into the vermilion tunnel of Fushimi Inari-Taisha. The distinctive orange-red hue repels misfortune and honors the Shinto deity of harvest and prosperity.",
-      hotspots: [
-        { id: "hfi1", title: "Senbon Torii Corridor", description: "Over 10,000 vermilion torii archways forming an enchanting sacred mountain path.", coords: { x: 50, y: 40 } }
-      ]
-    },
-    {
-      id: "tour-angkor-wat",
-      title: "Angkor Wat Central Lotus Sanctuary & Moat",
-      locationName: "Siem Reap, Cambodia",
-      coordinates: [13.4125, 103.8670],
-      panoramaUrl: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=2500&q=90",
-      audioGuideText: "Welcome to Angkor Wat, the grandest religious monument on Earth. Built by King Suryavarman II in the 12th century, it symbolizes Mount Meru, the cosmic center of the universe.",
-      hotspots: [
-        { id: "haw1", title: "Central Tower Lotus Spire", description: "Soaring 65 meters above the jungle floor representing Mount Meru.", coords: { x: 50, y: 35 } }
-      ]
-    },
-    {
-      id: "tour-borobudur",
-      title: "Borobudur Stupa Terraces Over Mount Merapi",
-      locationName: "Central Java, Indonesia",
-      coordinates: [-7.6079, 110.2038],
-      panoramaUrl: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=2500&q=90",
-      audioGuideText: "Stand among the 72 perforated stone stupas of Borobudur, each sheltering a seated Buddha statue overlooking active volcanic ridges.",
-      hotspots: [
-        { id: "hbb1", title: "Perforated Stupas", description: "Lattice stupas containing seated Buddha figures reaching enlightenment.", coords: { x: 55, y: 45 } }
-      ]
-    },
-    {
-      id: "tour-great-wall",
-      title: "The Great Wall of China Watchtowers",
-      locationName: "Mutianyu, Beijing, China",
-      coordinates: [40.4319, 116.5704],
-      panoramaUrl: "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=2500&q=90",
-      audioGuideText: "You are looking out from the crenellated parapets of the Great Wall along the rugged ridges of Mutianyu. Built across dynasties, the stone fortress stretches over 21,000 kilometers.",
-      hotspots: [
-        { id: "hgw1", title: "Ming Dynasty Watchtower", description: "Two-story granite tower designed for archers and beacon smoke signals.", coords: { x: 48, y: 35 } }
-      ]
-    },
-    {
-      id: "tour-bagan",
-      title: "Bagan Plain of 2,200 Ancient Pagodas",
-      locationName: "Bagan Archaeological Zone, Myanmar",
-      coordinates: [21.1717, 94.8679],
-      panoramaUrl: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=2500&q=90",
-      audioGuideText: "Behold the mystic morning mist of Bagan, where over 2,200 terracotta and gold spired temples rise dramatically from the plains of Myanmar.",
-      hotspots: [
-        { id: "hbg1", title: "Ananda Phaya Spire", description: "Completed in 1105 CE under King Kyansittha, housing four 9-meter gilded standing Buddhas.", coords: { x: 52, y: 40 } }
-      ]
-    },
-    {
-      id: "tour-petra",
-      title: "Al-Khazneh (The Treasury) Siq Entrance",
-      locationName: "Petra, Ma'an, Jordan",
-      coordinates: [30.3285, 35.4444],
-      panoramaUrl: "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=2500&q=90",
-      audioGuideText: "Emerging from the narrow 1.2-kilometer gorge of the Siq, the rose-red Hellenistic facade of the Treasury appears carved directly into the sheer sandstone cliff.",
-      hotspots: [
-        { id: "hpt1", title: "Corinthian Sandstone Capitals", description: "Carved from sandstone in the 1st century BCE by the Nabataean Kingdom.", coords: { x: 50, y: 30 } }
-      ]
-    },
-    {
-      id: "tour-sigiriya",
-      title: "Sigiriya Lion Rock Sky Fortress",
-      locationName: "Cultural Triangle, Sri Lanka",
-      coordinates: [7.9570, 80.7603],
-      panoramaUrl: "https://images.unsplash.com/photo-1588598136853-a66986fc035a?auto=format&fit=crop&w=2500&q=90",
-      audioGuideText: "Rise 200 meters above the central jungle atop the ancient volcanic rock citadel of King Kashyapa, featuring mirror walls and royal water gardens.",
-      hotspots: [
-        { id: "hsg1", title: "Lion Paw Terraces", description: "Massive carved stone paws framing the final stairway to the summit sky palace.", coords: { x: 50, y: 55 } }
-      ]
-    },
-    {
-      id: "tour-marina-bay",
-      title: "Supertree Grove & Marina Bay Skyline",
-      locationName: "Downtown Core, Singapore",
-      coordinates: [1.2816, 103.8636],
-      panoramaUrl: "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=2500&q=90",
-      audioGuideText: "Immerse yourself among the 50-meter Supertrees of Gardens by the Bay, fitted with vertical gardens, solar cells, and the OCBC Skyway.",
-      hotspots: [
-        { id: "hmb1", title: "Supertree Solar Canopy", description: "Living vertical gardens hosting over 162,900 plants.", coords: { x: 45, y: 35 } }
-      ]
-    }
-  ];
-
-  const activeTours = tours.length > 0 ? tours : defaultTours;
+  const activeTours = (tours && tours.length > 0) ? tours : virtualToursData;
   const currentTour = activeTours[currentTourIndex] || activeTours[0];
   const tourCoords = currentTour.coordinates || [9.9195, 78.1193];
 
