@@ -122,11 +122,15 @@ export const DiscoverAsia = () => {
                   className="group relative rounded-3xl overflow-hidden glass-panel border border-white/10 hover:border-ocean-400/50 hover:shadow-glow-blue transition-all duration-500 flex flex-col justify-between"
                 >
                   {/* Media Thumbnail */}
-                  <div className="relative h-56 overflow-hidden">
+                  <div className="relative h-56 overflow-hidden bg-slate-900">
                     <img
-                      src={country.heroMedia?.poster || country.heroMedia?.url}
+                      src={country.heroMedia?.poster || country.heroMedia?.url || 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75'}
                       alt={country.name}
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 filter brightness-[0.85]"
+                      onError={(e) => {
+                        e.target.onerror = null;
+                        e.target.src = 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75';
+                      }}
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 filter brightness-[0.9]"
                       loading="lazy"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#07162c] via-[#07162c]/30 to-transparent" />

@@ -301,8 +301,12 @@ export const DestinationsPage = () => {
                 {/* Hero Media Container */}
                 <div className="relative h-60 overflow-hidden bg-slate-900">
                   <img
-                    src={dest.heroMedia?.url}
+                    src={dest.heroMedia?.url || 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75'}
                     alt={dest.name}
+                    onError={(e) => {
+                      e.target.onerror = null;
+                      e.target.src = 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75';
+                    }}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     loading="lazy"
                   />

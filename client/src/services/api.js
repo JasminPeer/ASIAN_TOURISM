@@ -428,11 +428,17 @@ export const api = {
     } catch {
       let list = [...heritageSitesData];
       if (params.era) {
-        const e = params.era.toLowerCase();
-        list = list.filter(h => 
-          (h.eraId || '').toLowerCase() === e || 
-          (h.historicalEra || '').toLowerCase().includes(e)
-        );
+        const e = params.era.toLowerCase().trim();
+        const baseEraWord = e.split('-')[0];
+        list = list.filter(h => {
+          const eraStr = (h.era || '').toLowerCase();
+          const hEraStr = (h.historicalEra || '').toLowerCase();
+          const eraIdStr = (h.eraId || '').toLowerCase();
+          return eraStr.includes(baseEraWord) || 
+                 hEraStr.includes(baseEraWord) || 
+                 eraIdStr === e || 
+                 eraStr.includes(e.replace('-', ' '));
+        });
       }
       if (params.country) {
         list = list.filter(h => h.country?.toLowerCase() === params.country.toLowerCase());

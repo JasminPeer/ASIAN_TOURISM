@@ -10,6 +10,56 @@ export const GOOGLE_GEOCODING_API_KEY =
   import.meta.env.VITE_GOOGLE_GEOCODING_API_KEY || 'AIzaSyB5QgS2nhvUQt-xDLo9V6hseAyvsyXvDg0';
 
 /**
+ * 100% Free Open Basemap Tile Providers (NO API Key required, Zero Watermark)
+ */
+export const FREE_MAP_TILES = {
+  dark: {
+    name: 'Dark Cyber',
+    baseUrl: 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}',
+    labelsUrl: 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}',
+    attribution: '&copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
+    maxZoom: 16
+  },
+  osm: {
+    name: 'OpenStreetMap Asia',
+    baseUrl: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    maxZoom: 19
+  },
+  satellite: {
+    name: 'Satellite 4K',
+    baseUrl: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+    attribution: '&copy; Esri World Imagery',
+    maxZoom: 18
+  }
+};
+
+/**
+ * Attaches clean free basemap layers to a Leaflet map instance
+ */
+export const setupFreeTileLayer = (map, L, type = 'dark') => {
+  if (!map || !L) return [];
+  const config = FREE_MAP_TILES[type] || FREE_MAP_TILES.dark;
+  const layers = [];
+
+  const baseLayer = L.tileLayer(config.baseUrl, {
+    maxZoom: config.maxZoom || 18,
+    attribution: config.attribution
+  }).addTo(map);
+  layers.push(baseLayer);
+
+  if (config.labelsUrl) {
+    const labelLayer = L.tileLayer(config.labelsUrl, {
+      maxZoom: config.maxZoom || 16,
+      pane: 'shadowPane'
+    }).addTo(map);
+    layers.push(labelLayer);
+  }
+
+  return layers;
+};
+
+/**
  * Returns a high-res Google Street View Embed iframe URL
  */
 export const getStreetViewEmbedUrl = (lat, lng, heading = 165, pitch = 10, fov = 85) => {
@@ -58,6 +108,10 @@ export const loadGoogleMapsSdk = () => {
     script.async = true;
     script.defer = true;
     script.onload = () => resolve(window.google.maps);
+    script.onerror = (e) => reject(e);
+    document.head.appendChild(script);
+  });
+};
     script.onerror = (e) => reject(e);
     document.head.appendChild(script);
   });

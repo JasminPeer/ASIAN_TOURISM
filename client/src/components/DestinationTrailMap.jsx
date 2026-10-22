@@ -19,8 +19,10 @@ import {
   GOOGLE_MAPS_API_KEY, 
   GOOGLE_STREETVIEW_API_KEY, 
   getStreetViewEmbedUrl, 
-  getGoogleRouteEmbedUrl 
+  getGoogleRouteEmbedUrl,
+  setupFreeTileLayer
 } from '../config/maps';
+import { fetchOSRMRoute, fetchWeatherOpenMeteo } from '../services/freeApis';
 
 // Helper to create numbered waypoint markers
 const createNumberedMarker = (num, name, isSelected = false) => {
@@ -150,10 +152,8 @@ export const DestinationTrailMap = ({ destination }) => {
         attributionControl: false
       });
 
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-        subdomains: 'abcd',
-        maxZoom: 19
-      }).addTo(map);
+      // 100% Free Open Basemap (Esri Dark Gray + Reference Labels - No Watermark)
+      setupFreeTileLayer(map, L, 'dark');
 
       markersGroupRef.current = L.layerGroup().addTo(map);
       mapInstanceRef.current = map;

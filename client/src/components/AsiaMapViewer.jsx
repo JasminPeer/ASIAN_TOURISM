@@ -18,6 +18,7 @@ import {
 } from 'lucide-react';
 import L from 'leaflet';
 import { api } from '../services/api';
+import { setupFreeTileLayer } from '../config/maps';
 
 // Custom Map Marker Icons
 const createCustomIcon = (color = '#38bdf8', isSelected = false) => {
@@ -50,11 +51,13 @@ export const AsiaMapViewer = ({ isFullPage = false }) => {
   const mapContainerRef = useRef(null);
   const mapInstanceRef = useRef(null);
   const markersGroupRef = useRef(null);
+  const tileLayersRef = useRef([]);
   const navigate = useNavigate();
 
   const [countries, setCountries] = useState([]);
   const [destinations, setDestinations] = useState([]);
   const [regions, setRegions] = useState([]);
+  const [basemapMode, setBasemapMode] = useState('dark'); // 'dark' | 'osm' | 'satellite'
   
   // Drill-down State Hierarchy: Asia -> Country -> Region -> Destination
   const [selectedCountry, setSelectedCountry] = useState(null);
@@ -90,16 +93,13 @@ export const AsiaMapViewer = ({ isFullPage = false }) => {
       center: [28, 85],
       zoom: 4,
       minZoom: 3,
-      maxZoom: 14,
+      maxZoom: 16,
       zoomControl: false,
       attributionControl: false
     });
 
-    // Dark high-contrast basemap with deep ocean blue and land distinction
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-      subdomains: 'abcd',
-      maxZoom: 19
-    }).addTo(map);
+    // 100% Free Open Basemap (Esri Dark Gray + Labels - No watermark, no key required)
+    tileLayersRef.current = setupFreeTileLayer(map, L, 'dark');
 
     markersGroupRef.current = L.layerGroup().addTo(map);
     mapInstanceRef.current = map;
@@ -109,6 +109,16 @@ export const AsiaMapViewer = ({ isFullPage = false }) => {
       mapInstanceRef.current = null;
     };
   }, []);
+
+  // Update Basemap Layer when basemapMode changes
+  useEffect(() => {
+    const map = mapInstanceRef.current;
+    if (!map) return;
+    tileLayersRef.current.forEach(layer => {
+      try { map.removeLayer(layer); } catch {}
+    });
+    tileLayersRef.current = setupFreeTileLayer(map, L, basemapMode);
+  }, [basemapMode]);
 
   // Update Markers based on current zoom / drilldown level
   useEffect(() => {
@@ -138,8 +148,15 @@ export const AsiaMapViewer = ({ isFullPage = false }) => {
       });
     } else {
       // Country Level: Render Country Regions & Destinations
-      const countryDests = destinations.filter(d => d.countryCode === selectedCountry.code);
-      const countryRegions = regions.filter(r => r.countryCode === selectedCountry.code);
+      const countryDests = destinations.filter(d => 
+        (d.countryCode && d.countryCode.toLowerCase() === selectedCountry.code?.toLowerCase()) ||
+        (d.countryId && d.countryId.toLowerCase() === selectedCountry.id?.toLowerCase()) ||
+        (d.country && d.country.toLowerCase() === selectedCountry.name?.toLowerCase())
+      );
+      const countryRegions = regions.filter(r => 
+        (r.countryCode && r.countryCode.toLowerCase() === selectedCountry.code?.toLowerCase()) ||
+        (r.countryId && r.countryId.toLowerCase() === selectedCountry.id?.toLowerCase())
+      );
 
       // Add Regional centers
       countryRegions.forEach(reg => {
@@ -294,29 +311,62 @@ export const AsiaMapViewer = ({ isFullPage = false }) => {
         )}
       </div>
 
-      {/* Map Controls */}
-      <div className="absolute top-4 right-4 z-20 flex flex-col gap-2">
-        <button
-          onClick={() => mapInstanceRef.current?.zoomIn()}
-          className="p-2.5 rounded-xl glass-panel hover:bg-white/20 text-white transition-colors"
-          title="Zoom In"
-        >
-          <ZoomIn className="w-4 h-4" />
-        </button>
-        <button
-          onClick={() => mapInstanceRef.current?.zoomOut()}
-          className="p-2.5 rounded-xl glass-panel hover:bg-white/20 text-white transition-colors"
-          title="Zoom Out"
-        >
-          <ZoomOut className="w-4 h-4" />
-        </button>
-        <button
-          onClick={resetToAsia}
-          className="p-2.5 rounded-xl glass-panel hover:bg-white/20 text-white transition-colors"
-          title="Reset View to All Asia"
-        >
-          <RotateCcw className="w-4 h-4 text-ocean-300" />
-        </button>
+      {/* Map Controls & Basemap Switcher */}
+      <div className="absolute top-4 right-4 z-20 flex flex-col items-end gap-2">
+        {/* Basemap Mode Selector */}
+        <div className="flex items-center gap-1 p-1 rounded-2xl glass-panel border border-white/15 bg-[#030c1b]/85 backdrop-blur-md shadow-glass">
+          <button
+            onClick={() => setBasemapMode('dark')}
+            className={`px-2.5 py-1 rounded-xl text-[10px] font-bold transition-all ${
+              basemapMode === 'dark' ? 'bg-ocean-600 text-white shadow-glow-blue' : 'text-slate-300 hover:text-white'
+            }`}
+            title="Dark Cyber Canvas (High Contrast)"
+          >
+            Dark Cyber
+          </button>
+          <button
+            onClick={() => setBasemapMode('osm')}
+            className={`px-2.5 py-1 rounded-xl text-[10px] font-bold transition-all ${
+              basemapMode === 'osm' ? 'bg-ocean-600 text-white shadow-glow-blue' : 'text-slate-300 hover:text-white'
+            }`}
+            title="OpenStreetMap Standard Asia"
+          >
+            OSM Asia
+          </button>
+          <button
+            onClick={() => setBasemapMode('satellite')}
+            className={`px-2.5 py-1 rounded-xl text-[10px] font-bold transition-all ${
+              basemapMode === 'satellite' ? 'bg-ocean-600 text-white shadow-glow-blue' : 'text-slate-300 hover:text-white'
+            }`}
+            title="Satellite 4K Imagery"
+          >
+            Satellite 4K
+          </button>
+        </div>
+
+        <div className="flex flex-col gap-1.5">
+          <button
+            onClick={() => mapInstanceRef.current?.zoomIn()}
+            className="p-2.5 rounded-xl glass-panel hover:bg-white/20 text-white transition-colors"
+            title="Zoom In"
+          >
+            <ZoomIn className="w-4 h-4" />
+          </button>
+          <button
+            onClick={() => mapInstanceRef.current?.zoomOut()}
+            className="p-2.5 rounded-xl glass-panel hover:bg-white/20 text-white transition-colors"
+            title="Zoom Out"
+          >
+            <ZoomOut className="w-4 h-4" />
+          </button>
+          <button
+            onClick={resetToAsia}
+            className="p-2.5 rounded-xl glass-panel hover:bg-white/20 text-white transition-colors"
+            title="Reset View to All Asia"
+          >
+            <RotateCcw className="w-4 h-4 text-ocean-300" />
+          </button>
+        </div>
       </div>
 
       {/* Interactive Entity Details Card (Popout Drawer) */}

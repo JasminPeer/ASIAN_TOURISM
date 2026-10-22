@@ -22,7 +22,7 @@ import {
 } from 'lucide-react';
 import L from 'leaflet';
 import { usePassport } from '../context/PassportContext';
-import { getStreetViewEmbedUrl } from '../config/maps';
+import { getStreetViewEmbedUrl, setupFreeTileLayer } from '../config/maps';
 
 // Waypoint marker for Sanctuary Trail
 const createSanctuaryMarker = (num, name, isSelected = false) => {
@@ -143,6 +143,61 @@ export const VirtualTourViewer = ({ tours = [], activeTourId, onTourChange }) =>
       hotspots: [
         { id: "hbb1", title: "Perforated Stupas", description: "Lattice stupas containing seated Buddha figures reaching enlightenment.", coords: { x: 55, y: 45 } }
       ]
+    },
+    {
+      id: "tour-great-wall",
+      title: "The Great Wall of China Watchtowers",
+      locationName: "Mutianyu, Beijing, China",
+      coordinates: [40.4319, 116.5704],
+      panoramaUrl: "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=2500&q=90",
+      audioGuideText: "You are looking out from the crenellated parapets of the Great Wall along the rugged ridges of Mutianyu. Built across dynasties, the stone fortress stretches over 21,000 kilometers.",
+      hotspots: [
+        { id: "hgw1", title: "Ming Dynasty Watchtower", description: "Two-story granite tower designed for archers and beacon smoke signals.", coords: { x: 48, y: 35 } }
+      ]
+    },
+    {
+      id: "tour-bagan",
+      title: "Bagan Plain of 2,200 Ancient Pagodas",
+      locationName: "Bagan Archaeological Zone, Myanmar",
+      coordinates: [21.1717, 94.8679],
+      panoramaUrl: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=2500&q=90",
+      audioGuideText: "Behold the mystic morning mist of Bagan, where over 2,200 terracotta and gold spired temples rise dramatically from the plains of Myanmar.",
+      hotspots: [
+        { id: "hbg1", title: "Ananda Phaya Spire", description: "Completed in 1105 CE under King Kyansittha, housing four 9-meter gilded standing Buddhas.", coords: { x: 52, y: 40 } }
+      ]
+    },
+    {
+      id: "tour-petra",
+      title: "Al-Khazneh (The Treasury) Siq Entrance",
+      locationName: "Petra, Ma'an, Jordan",
+      coordinates: [30.3285, 35.4444],
+      panoramaUrl: "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=2500&q=90",
+      audioGuideText: "Emerging from the narrow 1.2-kilometer gorge of the Siq, the rose-red Hellenistic facade of the Treasury appears carved directly into the sheer sandstone cliff.",
+      hotspots: [
+        { id: "hpt1", title: "Corinthian Sandstone Capitals", description: "Carved from sandstone in the 1st century BCE by the Nabataean Kingdom.", coords: { x: 50, y: 30 } }
+      ]
+    },
+    {
+      id: "tour-sigiriya",
+      title: "Sigiriya Lion Rock Sky Fortress",
+      locationName: "Cultural Triangle, Sri Lanka",
+      coordinates: [7.9570, 80.7603],
+      panoramaUrl: "https://images.unsplash.com/photo-1588598136853-a66986fc035a?auto=format&fit=crop&w=2500&q=90",
+      audioGuideText: "Rise 200 meters above the central jungle atop the ancient volcanic rock citadel of King Kashyapa, featuring mirror walls and royal water gardens.",
+      hotspots: [
+        { id: "hsg1", title: "Lion Paw Terraces", description: "Massive carved stone paws framing the final stairway to the summit sky palace.", coords: { x: 50, y: 55 } }
+      ]
+    },
+    {
+      id: "tour-marina-bay",
+      title: "Supertree Grove & Marina Bay Skyline",
+      locationName: "Downtown Core, Singapore",
+      coordinates: [1.2816, 103.8636],
+      panoramaUrl: "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=2500&q=90",
+      audioGuideText: "Immerse yourself among the 50-meter Supertrees of Gardens by the Bay, fitted with vertical gardens, solar cells, and the OCBC Skyway.",
+      hotspots: [
+        { id: "hmb1", title: "Supertree Solar Canopy", description: "Living vertical gardens hosting over 162,900 plants.", coords: { x: 45, y: 35 } }
+      ]
     }
   ];
 
@@ -179,6 +234,7 @@ export const VirtualTourViewer = ({ tours = [], activeTourId, onTourChange }) =>
     geometry.scale(-1, 1, 1);
 
     const textureLoader = new THREE.TextureLoader();
+    textureLoader.setCrossOrigin('anonymous');
     textureLoader.load(
       currentTour.panoramaUrl,
       (texture) => {
@@ -287,10 +343,8 @@ export const VirtualTourViewer = ({ tours = [], activeTourId, onTourChange }) =>
         attributionControl: false
       });
 
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-        subdomains: 'abcd',
-        maxZoom: 19
-      }).addTo(map);
+      // 100% Free Open Basemap (Esri Dark Gray + Reference Labels - No Watermark)
+      setupFreeTileLayer(map, L, 'dark');
 
       trailMapInstanceRef.current = map;
     }
@@ -432,8 +486,17 @@ export const VirtualTourViewer = ({ tours = [], activeTourId, onTourChange }) =>
           
           {/* TAB 1: Three.js 360 Sphere */}
           {viewMode === 'photosphere' && (
-            <div className="w-full h-full relative">
-              <div ref={containerRef} className="w-full h-full cursor-grab active:cursor-grabbing" />
+            <div 
+              className="w-full h-full relative bg-[#030c1b] bg-cover bg-center transition-all duration-500"
+              style={{ backgroundImage: `url(${currentTour.panoramaUrl})` }}
+            >
+              <div ref={containerRef} className="w-full h-full cursor-grab active:cursor-grabbing relative z-0" />
+
+              {/* 360 Drag Interaction Badge */}
+              <div className="absolute top-4 left-4 z-20 px-3.5 py-1.5 rounded-full bg-black/75 backdrop-blur-md border border-white/20 text-xs text-white flex items-center gap-2 pointer-events-none shadow-glass">
+                <RotateCw className={`w-3.5 h-3.5 text-ocean-400 ${isRotating ? 'animate-spin' : ''}`} />
+                <span className="font-medium">360° Interactive View &bull; Drag to explore</span>
+              </div>
 
               {/* Hotspots */}
               <div className="absolute inset-0 pointer-events-none z-10">

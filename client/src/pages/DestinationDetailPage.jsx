@@ -31,6 +31,7 @@ import { api } from '../services/api';
 import { usePassport } from '../context/PassportContext';
 import { Breadcrumbs } from '../components/Breadcrumbs';
 import { DestinationTrailMap } from '../components/DestinationTrailMap';
+import { fetchWeatherOpenMeteo } from '../services/freeApis';
 
 export const DestinationDetailPage = () => {
   const { id } = useParams();
@@ -41,6 +42,7 @@ export const DestinationDetailPage = () => {
   const [loading, setLoading] = useState(true);
   const [addedToTrip, setAddedToTrip] = useState(false);
   const [activeWeatherMonth, setActiveWeatherMonth] = useState(0);
+  const [openMeteoWeather, setOpenMeteoWeather] = useState(null);
 
   useEffect(() => {
     const fetchDest = async () => {
@@ -48,6 +50,13 @@ export const DestinationDetailPage = () => {
       try {
         const data = await api.getDestination(id);
         setDestination(data);
+        if (data?.coordinates) {
+          fetchWeatherOpenMeteo(data.coordinates[0], data.coordinates[1])
+            .then(wData => {
+              if (wData) setOpenMeteoWeather(wData);
+            })
+            .catch(() => {});
+        }
       } catch (err) {
         console.error("Failed to load destination:", err);
       } finally {
@@ -283,16 +292,26 @@ export const DestinationDetailPage = () => {
                 Live Climate & Crowd Status
               </span>
 
-              {destination.liveWeather && (
+              {(openMeteoWeather || destination.liveWeather) && (
                 <div className="space-y-4">
                   <div className="flex items-center justify-between">
                     <div>
-                      <span className="text-4xl font-extrabold text-white">
-                        {destination.liveWeather.temperature}°C
+                      <div className="flex items-center gap-2">
+                        <span className="text-4xl font-extrabold text-white">
+                          {openMeteoWeather ? openMeteoWeather.currentTemp : destination.liveWeather?.temperature}°C
+                        </span>
+                        {openMeteoWeather?.icon && (
+                          <span className="text-3xl">{openMeteoWeather.icon}</span>
+                        )}
+                      </div>
+                      <span className="text-xs text-slate-300 block mt-1">
+                        {openMeteoWeather ? `${openMeteoWeather.label} • ${openMeteoWeather.condition}` : destination.liveWeather?.condition}
                       </span>
-                      <span className="text-xs text-slate-400 block mt-1">
-                        {destination.liveWeather.condition}
-                      </span>
+                      {openMeteoWeather && (
+                        <span className="inline-block mt-1 px-2 py-0.5 rounded-full text-[9px] font-bold bg-emerald-950/80 text-emerald-300 border border-emerald-500/30">
+                          ⚡ Real-Time: Open-Meteo
+                        </span>
+                      )}
                     </div>
                     <div className="p-3 rounded-2xl bg-white/5 border border-white/10 text-amber-400">
                       <Thermometer className="w-8 h-8" />
@@ -302,11 +321,15 @@ export const DestinationDetailPage = () => {
                   <div className="grid grid-cols-2 gap-2 text-xs text-slate-300 pt-3 border-t border-white/10">
                     <div className="p-2.5 rounded-xl bg-white/5">
                       <span className="text-slate-400 block text-[10px]">Relative Humidity</span>
-                      <span className="font-bold text-white text-sm">{destination.liveWeather.humidity}%</span>
+                      <span className="font-bold text-white text-sm">
+                        {openMeteoWeather ? openMeteoWeather.humidity : destination.liveWeather?.humidity}%
+                      </span>
                     </div>
                     <div className="p-2.5 rounded-xl bg-white/5">
                       <span className="text-slate-400 block text-[10px]">Surface Wind</span>
-                      <span className="font-bold text-white text-sm">{destination.liveWeather.windSpeed}</span>
+                      <span className="font-bold text-white text-sm">
+                        {openMeteoWeather ? `${openMeteoWeather.windSpeed} km/h` : destination.liveWeather?.windSpeed}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -340,6 +363,71 @@ export const DestinationDetailPage = () => {
 
         {/* Interactive Waypoint Route & 360° Street View Trail ("Way Not Point") */}
         <DestinationTrailMap destination={destination} />
+
+        {/* Places Inside & Key Sanctuaries ("Waypoints Inside Destination") */}
+        {destination.placesInside?.length > 0 && (
+          <div className="space-y-6">
+            <div>
+              <span className="text-xs font-bold text-ocean-400 uppercase tracking-widest block mb-1">
+                Explore Inside
+              </span>
+              <h2 className="font-display font-bold text-2xl text-white flex items-center gap-2">
+                <Landmark className="w-6 h-6 text-ocean-400" />
+                <span>Places Inside & Key Sanctuaries in {destination.name}</span>
+              </h2>
+              <p className="text-xs text-slate-400 mt-1">
+                Must-visit monuments, inner chambers, scenic vantage points, and cultural spots inside the complex.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {destination.placesInside.map((place, idx) => (
+                <div 
+                  key={place.id || idx}
+                  className="rounded-3xl overflow-hidden glass-panel border border-white/10 hover:border-ocean-400/40 transition-all flex flex-col justify-between"
+                >
+                  <div className="relative h-48 bg-slate-900 overflow-hidden">
+                    <img 
+                      src={place.photo || destination.heroMedia?.url} 
+                      alt={place.name}
+                      onError={(e) => {
+                        e.target.onerror = null;
+                        e.target.src = 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75';
+                      }}
+                      className="w-full h-full object-cover"
+                      loading="lazy"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#030c1b] via-transparent to-transparent" />
+                    <span className="absolute top-3 left-3 px-2.5 py-1 rounded-full text-[10px] font-bold bg-black/70 backdrop-blur-md text-ocean-300 border border-ocean-400/30">
+                      {place.category || 'Historic Spot'}
+                    </span>
+                    {place.timeToSpend && (
+                      <span className="absolute bottom-3 right-3 px-2 py-0.5 rounded-lg text-[10px] font-bold bg-black/80 text-amber-300 border border-white/10 flex items-center gap-1">
+                        <Clock className="w-3 h-3 text-amber-400" />
+                        {place.timeToSpend}
+                      </span>
+                    )}
+                  </div>
+                  <div className="p-5 flex flex-col justify-between flex-grow">
+                    <div>
+                      <h4 className="font-display font-bold text-lg text-white mb-2">
+                        {place.name}
+                      </h4>
+                      <p className="text-xs text-slate-300 leading-relaxed mb-3">
+                        {place.description}
+                      </p>
+                    </div>
+                    {place.tips && (
+                      <div className="p-2.5 rounded-xl bg-white/5 border border-white/5 text-[11px] text-amber-300">
+                        💡 <strong>Traveler Tip:</strong> {place.tips}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* 12-Month Detailed Climate & Crowd Profile */}
         {destination.weatherByMonth?.length > 0 && (
