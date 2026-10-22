@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import * as THREE from 'three';
 import { 
   MapPin, 
   Navigation, 
@@ -227,6 +228,123 @@ export const DestinationTrailMap = ({ destination }) => {
     }
   };
 
+  const photosphereContainerRef = useRef(null);
+  const [streetViewMode, setStreetViewMode] = useState('google'); // 'google' | 'photosphere'
+  const [isPhotosphereRotating, setIsPhotosphereRotating] = useState(true);
+
+  // Three.js 360 Photosphere viewer for waypoint / destination
+  useEffect(() => {
+    if (activeTab !== 'streetview' || streetViewMode !== 'photosphere' || !photosphereContainerRef.current) return;
+
+    const container = photosphereContainerRef.current;
+    const width = container.clientWidth;
+    const height = container.clientHeight;
+
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
+    camera.position.set(0, 0, 0.1);
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+    renderer.setSize(width, height);
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+    container.innerHTML = '';
+    container.appendChild(renderer.domElement);
+
+    const geometry = new THREE.SphereGeometry(50, 60, 40);
+    geometry.scale(-1, 1, 1);
+
+    const textureLoader = new THREE.TextureLoader();
+    textureLoader.setCrossOrigin('anonymous');
+    const photoUrl = currentWp?.photo || destination.heroMedia?.url || 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=2500&q=90';
+
+    textureLoader.load(
+      photoUrl,
+      (texture) => {
+        texture.mapping = THREE.EquirectangularReflectionMapping;
+        const material = new THREE.MeshBasicMaterial({ map: texture });
+        const sphere = new THREE.Mesh(geometry, material);
+        scene.add(sphere);
+      },
+      undefined,
+      (err) => console.warn('Photosphere fallback:', err)
+    );
+
+    let isUserInteracting = false;
+    let onPointerDownMouseX = 0, onPointerDownMouseY = 0;
+    let lon = 0, onPointerDownLon = 0;
+    let lat = 0, onPointerDownLat = 0;
+    let phi = 0, theta = 0;
+    let reqId;
+
+    const onPointerDown = (e) => {
+      isUserInteracting = true;
+      setIsPhotosphereRotating(false);
+      onPointerDownMouseX = e.clientX || e.touches?.[0]?.clientX;
+      onPointerDownMouseY = e.clientY || e.touches?.[0]?.clientY;
+      onPointerDownLon = lon;
+      onPointerDownLat = lat;
+    };
+
+    const onPointerMove = (e) => {
+      if (!isUserInteracting) return;
+      const clientX = e.clientX || e.touches?.[0]?.clientX;
+      const clientY = e.clientY || e.touches?.[0]?.clientY;
+      lon = (onPointerDownMouseX - clientX) * 0.15 + onPointerDownLon;
+      lat = (clientY - onPointerDownMouseY) * 0.15 + onPointerDownLat;
+    };
+
+    const onPointerUp = () => {
+      isUserInteracting = false;
+    };
+
+    const dom = renderer.domElement;
+    dom.addEventListener('pointerdown', onPointerDown);
+    dom.addEventListener('pointermove', onPointerMove);
+    dom.addEventListener('pointerup', onPointerUp);
+    dom.addEventListener('touchstart', onPointerDown);
+    dom.addEventListener('touchmove', onPointerMove);
+    dom.addEventListener('touchend', onPointerUp);
+
+    const animate = () => {
+      reqId = requestAnimationFrame(animate);
+      if (!isUserInteracting && isPhotosphereRotating) {
+        lon += 0.05;
+      }
+      lat = Math.max(-85, Math.min(85, lat));
+      phi = THREE.MathUtils.degToRad(90 - lat);
+      theta = THREE.MathUtils.degToRad(lon);
+      camera.target = new THREE.Vector3(
+        500 * Math.sin(phi) * Math.cos(theta),
+        500 * Math.cos(phi),
+        500 * Math.sin(phi) * Math.sin(theta)
+      );
+      camera.lookAt(camera.target);
+      renderer.render(scene, camera);
+    };
+    animate();
+
+    const handleResize = () => {
+      if (!container || !renderer || !camera) return;
+      camera.aspect = container.clientWidth / container.clientHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(container.clientWidth, container.clientHeight);
+    };
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      cancelAnimationFrame(reqId);
+      window.removeEventListener('resize', handleResize);
+      dom.removeEventListener('pointerdown', onPointerDown);
+      dom.removeEventListener('pointermove', onPointerMove);
+      dom.removeEventListener('pointerup', onPointerUp);
+      dom.removeEventListener('touchstart', onPointerDown);
+      dom.removeEventListener('touchmove', onPointerMove);
+      dom.removeEventListener('touchend', onPointerUp);
+      renderer.dispose();
+    };
+  }, [activeTab, streetViewMode, currentWp, destination.heroMedia, isPhotosphereRotating]);
+
   return (
     <div className="glass-panel p-6 sm:p-8 rounded-3xl border border-white/10 space-y-6">
       
@@ -354,29 +472,67 @@ export const DestinationTrailMap = ({ destination }) => {
           </div>
         )}
 
-        {/* TAB 2: Google Street View 360° Panorama */}
+        {/* TAB 2: Street View 360° Panorama with Zero-Key Google + 360 Photosphere Switcher */}
         {activeTab === 'streetview' && (
           <div className="w-full h-full relative">
-            <iframe
-              title={`Google Street View - ${currentWp.name}`}
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              loading="lazy"
-              allowFullScreen
-              referrerPolicy="no-referrer-when-downgrade"
-              src={getStreetViewEmbedUrl(currentWp.coordinates[0], currentWp.coordinates[1])}
-            />
+            {streetViewMode === 'google' ? (
+              <iframe
+                title={`Google Street View - ${currentWp.name}`}
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                loading="lazy"
+                allowFullScreen
+                referrerPolicy="no-referrer-when-downgrade"
+                src={getStreetViewEmbedUrl(currentWp.coordinates[0], currentWp.coordinates[1])}
+              />
+            ) : (
+              <div className="w-full h-full relative bg-[#030c1b]">
+                <div ref={photosphereContainerRef} className="w-full h-full cursor-grab active:cursor-grabbing relative z-0" />
+                <div className="absolute top-16 left-4 z-20 px-3.5 py-1.5 rounded-full bg-black/75 backdrop-blur-md border border-white/20 text-xs text-white flex items-center gap-2 pointer-events-none">
+                  <RotateCw className={`w-3.5 h-3.5 text-ocean-400 ${isPhotosphereRotating ? 'animate-spin' : ''}`} />
+                  <span>360° Photosphere &bull; Drag mouse/touch to look around</span>
+                </div>
+              </div>
+            )}
 
             {/* Street View Control Badge */}
             <div className="absolute top-4 left-4 z-10 p-3 px-4 rounded-2xl glass-panel border border-white/10 text-xs text-white shadow-glass flex items-center gap-3">
               <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
               <div>
-                <strong className="block text-white text-xs">Live Google Street View 360° Panorama</strong>
+                <strong className="block text-white text-xs">
+                  {streetViewMode === 'google' ? 'Google 360° Street View' : 'Interactive 360° Photosphere'}
+                </strong>
                 <span className="text-[10px] text-slate-300">
                   Viewing: {currentWp.name} ({currentWp.coordinates[0].toFixed(4)}, {currentWp.coordinates[1].toFixed(4)})
                 </span>
               </div>
+            </div>
+
+            {/* Dual Mode Switcher Pill */}
+            <div className="absolute top-4 right-4 z-20 flex items-center gap-1.5 p-1 rounded-2xl bg-black/80 backdrop-blur-md border border-white/20 text-xs">
+              <button
+                onClick={() => setStreetViewMode('google')}
+                className={`px-3 py-1.5 rounded-xl font-bold flex items-center gap-1.5 transition-all ${
+                  streetViewMode === 'google'
+                    ? 'bg-heritage-500 text-slate-950 shadow-glow-gold'
+                    : 'text-slate-300 hover:text-white'
+                }`}
+              >
+                <Eye className="w-3.5 h-3.5" />
+                <span>Google 360°</span>
+              </button>
+              <button
+                onClick={() => setStreetViewMode('photosphere')}
+                className={`px-3 py-1.5 rounded-xl font-bold flex items-center gap-1.5 transition-all ${
+                  streetViewMode === 'photosphere'
+                    ? 'bg-ocean-600 text-white shadow-glow-blue'
+                    : 'text-slate-300 hover:text-white'
+                }`}
+              >
+                <Sparkles className="w-3.5 h-3.5" />
+                <span>Photosphere</span>
+              </button>
             </div>
 
             <div className="absolute bottom-4 right-4 z-10">
@@ -406,8 +562,7 @@ export const DestinationTrailMap = ({ destination }) => {
               referrerPolicy="no-referrer-when-downgrade"
               src={getGoogleRouteEmbedUrl(
                 waypoints[0].coordinates,
-                waypoints[waypoints.length - 1].coordinates,
-                waypoints.slice(1, -1).map(w => w.coordinates)
+                waypoints[waypoints.length - 1].coordinates
               )}
             />
 
@@ -416,6 +571,18 @@ export const DestinationTrailMap = ({ destination }) => {
               <span className="text-[10px] text-slate-300">
                 Connected route linking {waypoints.length} stops from start to finish
               </span>
+            </div>
+
+            <div className="absolute bottom-4 right-4 z-10">
+              <a
+                href={`https://www.google.com/maps/dir/?api=1&origin=${waypoints[0].coordinates[0]},${waypoints[0].coordinates[1]}&destination=${waypoints[waypoints.length - 1].coordinates[0]},${waypoints[waypoints.length - 1].coordinates[1]}&travelmode=walking`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-3.5 py-2 rounded-xl bg-black/80 hover:bg-black text-white text-xs font-semibold border border-white/20 flex items-center gap-1.5 shadow-glass"
+              >
+                <span>Open in Google Maps Navigation</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
             </div>
           </div>
         )}

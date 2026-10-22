@@ -60,29 +60,26 @@ export const setupFreeTileLayer = (map, L, type = 'dark') => {
 };
 
 /**
- * Returns a high-res Google Street View Embed iframe URL
+ * Returns a universal Google Street View Embed iframe URL (100% Free, Zero API Key rejection)
  */
 export const getStreetViewEmbedUrl = (lat, lng, heading = 165, pitch = 10, fov = 85) => {
-  return `https://www.google.com/maps/embed/v1/streetview?key=${GOOGLE_STREETVIEW_API_KEY}&location=${lat},${lng}&heading=${heading}&pitch=${pitch}&fov=${fov}`;
+  return `https://maps.google.com/maps?layer=c&cbll=${lat},${lng}&cbp=12,${heading},0,${pitch},0&output=svembed`;
 };
 
 /**
- * Returns a Google Maps directions route URL with waypoints (Trail / Way mode)
+ * Returns a universal Google Maps directions route URL (100% Free, Zero API Key rejection)
  */
 export const getGoogleRouteEmbedUrl = (origin, destination, waypoints = []) => {
   const originStr = `${origin[0]},${origin[1]}`;
   const destStr = `${destination[0]},${destination[1]}`;
-  const wpParam = waypoints.length > 0 
-    ? `&waypoints=${waypoints.map(w => `${w[0]},${w[1]}`).join('|')}` 
-    : '';
-  return `https://www.google.com/maps/embed/v1/directions?key=${GOOGLE_MAPS_API_KEY}&origin=${originStr}&destination=${destStr}${wpParam}&mode=walking`;
+  return `https://maps.google.com/maps?saddr=${originStr}&daddr=${destStr}&output=embed`;
 };
 
 /**
- * Returns a Google Maps Place Embed URL
+ * Returns a universal Google Maps Place Embed URL (100% Free, Zero API Key rejection)
  */
 export const getGooglePlaceEmbedUrl = (lat, lng, zoom = 15) => {
-  return `https://www.google.com/maps/embed/v1/place?key=${GOOGLE_MAPS_API_KEY}&q=${lat},${lng}&zoom=${zoom}`;
+  return `https://maps.google.com/maps?q=${lat},${lng}&z=${zoom}&output=embed`;
 };
 
 /**
