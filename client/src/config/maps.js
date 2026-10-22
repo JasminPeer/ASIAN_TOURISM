@@ -112,7 +112,3 @@ export const loadGoogleMapsSdk = () => {
     document.head.appendChild(script);
   });
 };
-    script.onerror = (e) => reject(e);
-    document.head.appendChild(script);
-  });
-};
