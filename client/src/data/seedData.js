@@ -1,1984 +1,4 @@
-// ASIA EXPLORA - Comprehensive Production Tourism Master Dataset
-// Full Coverage: 48 Asian Countries, 200+ Destinations, 5 Historical Eras, 360 Virtual Tours
-
-export const countriesData = [
-  {
-    "id": "india",
-    "name": "India",
-    "code": "IN",
-    "continentRegion": "South Asia",
-    "capital": "New Delhi",
-    "description": "A land of epic civilizational heritage, sacred rivers, vibrant regional cultures, Himalayan peaks, and thousands of years of living architectural traditions.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇮🇳",
-    "coordinates": [
-      20.5937,
-      78.9629
-    ],
-    "zoom": 5,
-    "bestSeason": "October to March",
-    "currency": "INR (₹)",
-    "languages": [
-      "Hindi",
-      "English",
-      "Tamil",
-      "Bengali",
-      "Telugu",
-      "22 Official"
-    ],
-    "heritageCount": 42,
-    "popularActivities": [
-      "Temple Trails",
-      "Spiritual Pilgrimages",
-      "Tiger Safaris",
-      "Culinary Exploration",
-      "Himalayan Treks",
-      "Backwater Cruising"
-    ],
-    "estimatedDailyBudget": "$30 - $110 / day",
-    "journeyScore": 96,
-    "cultureOverview": "Vibrant confluence of Hinduism, Buddhism, Jainism, Sikhism, and Islam with thousands of distinct regional culinary, musical, and artisanal traditions.",
-    "festivals": [
-      {
-        "name": "Diwali (Festival of Lights)",
-        "timing": "October / November",
-        "desc": "Illuminating houses, temples, and ghats with earthen lamps and fireworks across the subcontinent."
-      },
-      {
-        "name": "Holi (Festival of Colors)",
-        "timing": "March",
-        "desc": "Joyful celebration of spring with organic colored powders, music, and festive sweets."
-      },
-      {
-        "name": "Pongal / Makar Sankranti",
-        "timing": "Mid-January",
-        "desc": "Harvest thanksgiving celebrated with fervor in Tamil Nadu and across India."
-      },
-      {
-        "name": "Chithirai Festival",
-        "timing": "April / May",
-        "desc": "Grand celestial wedding of Goddess Meenakshi in Madurai pulling golden chariots."
-      }
-    ],
-    "travelTips": [
-      "Dress modestly with shoulders and knees covered when visiting temples and mosques.",
-      "Book AC train tickets in advance via IRCTC for scenic, authentic overland travel.",
-      "Drink bottled or purified water and enjoy freshly prepared hot street cuisine."
-    ]
-  },
-  {
-    "id": "sri-lanka",
-    "name": "Sri Lanka",
-    "code": "LK",
-    "continentRegion": "South Asia",
-    "capital": "Colombo / Sri Jayawardenepura Kotte",
-    "description": "The Pearl of the Indian Ocean, rich in ancient rock citadels, emerald tea plantations, wild leopard reserves, and coastal colonial ramparts.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1588598136853-a66986fc035a?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1588598136853-a66986fc035a?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇱🇰",
-    "coordinates": [
-      7.8731,
-      80.7718
-    ],
-    "zoom": 7,
-    "bestSeason": "December to April",
-    "currency": "LKR (Rs)",
-    "languages": [
-      "Sinhala",
-      "Tamil",
-      "English"
-    ],
-    "heritageCount": 8,
-    "popularActivities": [
-      "Sigiriya Rock Fortress Climb",
-      "Kandy to Ella Scenic Train",
-      "Yala Leopard Safari",
-      "Galle Dutch Fort Walks",
-      "Mirissa Whale Watching"
-    ],
-    "estimatedDailyBudget": "$30 - $90 / day",
-    "journeyScore": 92,
-    "festivals": [
-      {
-        "name": "Kandy Esala Perahera",
-        "timing": "July / August",
-        "desc": "Ten-day procession of sacred tooth relic with illuminated dancers and drummers."
-      },
-      {
-        "name": "Sinhala & Tamil New Year",
-        "timing": "April 13–14",
-        "desc": "Traditional agrarian celebration with sweetmeats and auspicious rites."
-      }
-    ]
-  },
-  {
-    "id": "nepal",
-    "name": "Nepal",
-    "code": "NP",
-    "continentRegion": "South Asia",
-    "capital": "Kathmandu",
-    "description": "The rooftop of the world, home to Mount Everest, medieval pagoda squares, sacred Himalayan river confluences, and ancient meditation retreats.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇳🇵",
-    "coordinates": [
-      28.3949,
-      84.124
-    ],
-    "zoom": 7,
-    "bestSeason": "October to November & March to April",
-    "currency": "NPR (Rs)",
-    "languages": [
-      "Nepali",
-      "Newari"
-    ],
-    "heritageCount": 4,
-    "popularActivities": [
-      "Everest Base Camp Trek",
-      "Kathmandu Durbar Squares",
-      "Pokhara Lake Reflection Views",
-      "Chitwan Wildlife Safaris",
-      "Lumbini Birthplace of Buddha"
-    ],
-    "estimatedDailyBudget": "$25 - $75 / day",
-    "journeyScore": 93,
-    "festivals": [
-      {
-        "name": "Dashain",
-        "timing": "September / October",
-        "desc": "Longest Hindu festival celebrating victory of good over evil with family reunions."
-      },
-      {
-        "name": "Tihar (Deepavali)",
-        "timing": "October / November",
-        "desc": "Honoring crows, dogs, cows, and Goddess Lakshmi with butter lamps."
-      }
-    ]
-  },
-  {
-    "id": "bhutan",
-    "name": "Bhutan",
-    "code": "BT",
-    "continentRegion": "South Asia",
-    "capital": "Thimphu",
-    "description": "The mystical Land of the Thunder Dragon, where Gross National Happiness, cliffside monasteries, and pristine Himalayan forests preserve timeless tranquility.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇧🇹",
-    "coordinates": [
-      27.5142,
-      90.4336
-    ],
-    "zoom": 8,
-    "bestSeason": "March to May & September to November",
-    "currency": "BTN (Nu.) / INR",
-    "languages": [
-      "Dzongkha"
-    ],
-    "heritageCount": 1,
-    "popularActivities": [
-      "Tiger's Nest (Paro Taktsang) Hike",
-      "Punakha Dzong Architectural Tour",
-      "Tshechu Mask Dance Festivals",
-      "Dochula Pass Vistas"
-    ],
-    "estimatedDailyBudget": "$180 - $350 / day (Sustainable Development Fee)",
-    "journeyScore": 95,
-    "festivals": [
-      {
-        "name": "Paro Tshechu",
-        "timing": "March / April",
-        "desc": "Sacred costumed cham dances and unfurling of the giant silk Thongdrel."
-      }
-    ]
-  },
-  {
-    "id": "maldives",
-    "name": "Maldives",
-    "code": "MV",
-    "continentRegion": "South Asia",
-    "capital": "Malé",
-    "description": "An ethereal constellation of tropical atolls and sapphire coral lagoons, world-famous for overwater villas, whale shark nurseries, and bioluminescent beaches.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇲🇻",
-    "coordinates": [
-      3.2028,
-      73.2207
-    ],
-    "zoom": 7,
-    "bestSeason": "November to April",
-    "currency": "MVR (Rf) / USD",
-    "languages": [
-      "Dhivehi",
-      "English"
-    ],
-    "heritageCount": 1,
-    "popularActivities": [
-      "Overwater Bungalow Retreats",
-      "Manta Ray & Whale Shark Diving",
-      "Sandbank Picnics",
-      "Bioluminescent Night Swims"
-    ],
-    "estimatedDailyBudget": "$120 - $500 / day",
-    "journeyScore": 94
-  },
-  {
-    "id": "pakistan",
-    "name": "Pakistan",
-    "code": "PK",
-    "continentRegion": "South Asia",
-    "capital": "Islamabad",
-    "description": "Cradle of the ancient Indus Valley Civilization, featuring the towering Karakoram Highway, Mughal marvels of Lahore, and majestic Hunza valleys.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇵🇰",
-    "coordinates": [
-      30.3753,
-      69.3451
-    ],
-    "zoom": 5,
-    "bestSeason": "April to October (North) & November to March (South)",
-    "currency": "PKR (Rs)",
-    "languages": [
-      "Urdu",
-      "English",
-      "Punjabi",
-      "Sindhi"
-    ],
-    "heritageCount": 6,
-    "popularActivities": [
-      "Hunza & Skardu Mountain Treks",
-      "Lahore Fort & Badshahi Mosque",
-      "Mohenjo-daro Ruins",
-      "Karakoram Highway Road Trips"
-    ],
-    "estimatedDailyBudget": "$25 - $70 / day",
-    "journeyScore": 90
-  },
-  {
-    "id": "bangladesh",
-    "name": "Bangladesh",
-    "code": "BD",
-    "continentRegion": "South Asia",
-    "capital": "Dhaka",
-    "description": "A land of green rivers, the world's largest mangrove forest of the Sundarbans, home of the Royal Bengal Tiger, and continuous stretches of Cox's Bazar beach.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇧🇩",
-    "coordinates": [
-      23.685,
-      90.3563
-    ],
-    "zoom": 6,
-    "bestSeason": "October to March",
-    "currency": "BDT (৳)",
-    "languages": [
-      "Bengali"
-    ],
-    "heritageCount": 3,
-    "popularActivities": [
-      "Sundarbans Mangrove Boat Safari",
-      "Srimangal Tea Valley Cycling",
-      "Paharpur Buddhist Vihara",
-      "Cox's Bazar 120km Beach"
-    ],
-    "estimatedDailyBudget": "$20 - $65 / day",
-    "journeyScore": 88
-  },
-  {
-    "id": "afghanistan",
-    "name": "Afghanistan",
-    "code": "AF",
-    "continentRegion": "South Asia",
-    "capital": "Kabul",
-    "description": "An ancient crossroads of the Silk Road bordered by the rugged Hindu Kush, known for the Minaret of Jam, lapis lazuli mines, and the sapphire lakes of Band-e Amir.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇦🇫",
-    "coordinates": [
-      33.9391,
-      67.71
-    ],
-    "zoom": 5,
-    "bestSeason": "April to June & September to October",
-    "currency": "AFN (؋)",
-    "languages": [
-      "Dari",
-      "Pashto"
-    ],
-    "heritageCount": 2,
-    "popularActivities": [
-      "Band-e Amir National Park",
-      "Herat Citadel Exploration",
-      "Silk Road Archaeological Relics"
-    ],
-    "estimatedDailyBudget": "$30 - $70 / day",
-    "journeyScore": 82
-  },
-  {
-    "id": "japan",
-    "name": "Japan",
-    "code": "JP",
-    "continentRegion": "East Asia",
-    "capital": "Tokyo",
-    "description": "A seamless synthesis of futuristic hyper-speed technology and thousand-year-old Zen tranquility, shinto mountain shrines, hot spring onsens, and culinary perfection.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇯🇵",
-    "coordinates": [
-      36.2048,
-      138.2529
-    ],
-    "zoom": 5,
-    "bestSeason": "March to May (Sakura) & October to November (Momiji)",
-    "currency": "JPY (¥)",
-    "languages": [
-      "Japanese"
-    ],
-    "heritageCount": 25,
-    "popularActivities": [
-      "Cherry Blossom Picnics",
-      "Shinkansen Bullet Train Trails",
-      "Kyoto Geisha Quarter Walks",
-      "Mount Fuji Ascents",
-      "Traditional Ryokan Stays"
-    ],
-    "estimatedDailyBudget": "$80 - $250 / day",
-    "journeyScore": 97,
-    "festivals": [
-      {
-        "name": "Gion Matsuri (Kyoto)",
-        "timing": "July",
-        "desc": "Japan's most famous month-long festival with grand wooden yamaboko floats."
-      },
-      {
-        "name": "Aomori Nebuta Matsuri",
-        "timing": "August 2–7",
-        "desc": "Gigantic illuminated papier-mâché warrior floats parades."
-      },
-      {
-        "name": "Sapporo Snow Festival",
-        "timing": "Early February",
-        "desc": "Hundreds of colossal ice and snow sculptures in Hokkaido."
-      }
-    ]
-  },
-  {
-    "id": "china",
-    "name": "China",
-    "code": "CN",
-    "continentRegion": "East Asia",
-    "capital": "Beijing",
-    "description": "One of civilization's cradle lands, boasting the monumental Great Wall, mystical karst spires of Guilin, the Terracotta Army, and futuristic metropolises.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇨🇳",
-    "coordinates": [
-      35.8617,
-      104.1954
-    ],
-    "zoom": 4,
-    "bestSeason": "April to May & September to October",
-    "currency": "CNY (¥)",
-    "languages": [
-      "Mandarin",
-      "Cantonese"
-    ],
-    "heritageCount": 57,
-    "popularActivities": [
-      "Great Wall Hiking",
-      "Forbidden City Exploration",
-      "Li River Karst Cruises",
-      "Terracotta Warriors in Xi'an",
-      "Zhangjiajie Avatar Mountains"
-    ],
-    "estimatedDailyBudget": "$50 - $170 / day",
-    "journeyScore": 95,
-    "festivals": [
-      {
-        "name": "Spring Festival (Chinese New Year)",
-        "timing": "January / February",
-        "desc": "Dragon dances, reunion dumplings, red lanterns, and nationwide festivities."
-      },
-      {
-        "name": "Mid-Autumn Festival",
-        "timing": "September / October",
-        "desc": "Mooncakes and lantern festivals celebrating harmony and full moon."
-      },
-      {
-        "name": "Harbin Ice & Snow Festival",
-        "timing": "January to February",
-        "desc": "An entire fairytale city carved from frozen Songhua river blocks."
-      }
-    ]
-  },
-  {
-    "id": "south-korea",
-    "name": "South Korea",
-    "code": "KR",
-    "continentRegion": "East Asia",
-    "capital": "Seoul",
-    "description": "A dynamic cultural powerhouse where centuries-old Joseon royal palaces and Hanok timber villages contrast with K-wave pop culture and smart cities.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1538485399081-7191377e8241?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1538485399081-7191377e8241?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇰🇷",
-    "coordinates": [
-      35.9078,
-      127.7669
-    ],
-    "zoom": 6,
-    "bestSeason": "September to November & April to June",
-    "currency": "KRW (₩)",
-    "languages": [
-      "Korean"
-    ],
-    "heritageCount": 16,
-    "popularActivities": [
-      "Gyeongbokgung Palace Strolls in Hanbok",
-      "Bukchon Hanok Village Walk",
-      "Jeju Island Lava Tubes & Hallasan",
-      "Busan Coastal Haeundae Beach"
-    ],
-    "estimatedDailyBudget": "$70 - $200 / day",
-    "journeyScore": 93,
-    "festivals": [
-      {
-        "name": "Chuseok (Korean Thanksgiving)",
-        "timing": "September / October",
-        "desc": "Three-day autumn harvest holiday with songpyeon rice cakes."
-      },
-      {
-        "name": "Boryeong Mud Festival",
-        "timing": "July",
-        "desc": "High-energy festival celebrating mineral-rich cosmetic sea mud."
-      }
-    ]
-  },
-  {
-    "id": "north-korea",
-    "name": "North Korea",
-    "code": "KP",
-    "continentRegion": "East Asia",
-    "capital": "Pyongyang",
-    "description": "The Democratic People's Republic of Korea, featuring grand socialist neoclassical monuments, Mount Paektu's crater lake, and Mount Kumgang's granite peaks.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇰🇵",
-    "coordinates": [
-      40.3399,
-      127.5101
-    ],
-    "zoom": 6,
-    "bestSeason": "May to June & September to October",
-    "currency": "KPW (₩)",
-    "languages": [
-      "Korean"
-    ],
-    "heritageCount": 2,
-    "popularActivities": [
-      "Pyongyang Grand Monument Tour",
-      "Mount Paektu Heaven Lake",
-      "Kaesong Historic Monuments"
-    ],
-    "estimatedDailyBudget": "$150 - $250 / day (Guided tour mandatory)",
-    "journeyScore": 80
-  },
-  {
-    "id": "mongolia",
-    "name": "Mongolia",
-    "code": "MN",
-    "continentRegion": "East Asia",
-    "capital": "Ulaanbaatar",
-    "description": "The eternal blue sky realm of nomadic horsemen, colossal Gobi desert sand dunes, dinosaur fossil beds, and pristine alpine lakes.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇲🇳",
-    "coordinates": [
-      46.8625,
-      103.8467
-    ],
-    "zoom": 5,
-    "bestSeason": "June to September",
-    "currency": "MNT (₮)",
-    "languages": [
-      "Mongolian"
-    ],
-    "heritageCount": 5,
-    "popularActivities": [
-      "Naadam Festival Wrestling & Archery",
-      "Gobi Desert Camel Treks",
-      "Lake Khovsgol Horseback Riding",
-      "Sleeping in Traditional Yurt Gers"
-    ],
-    "estimatedDailyBudget": "$40 - $120 / day",
-    "journeyScore": 91,
-    "festivals": [
-      {
-        "name": "Naadam Festival",
-        "timing": "July 11–15",
-        "desc": "The three manly sports: archery, wrestling, and long-distance horse racing."
-      }
-    ]
-  },
-  {
-    "id": "thailand",
-    "name": "Thailand",
-    "code": "TH",
-    "continentRegion": "Southeast Asia",
-    "capital": "Bangkok",
-    "description": "The Kingdom of Smiles, famed for gilded Buddhist wats, turquoise Andaman islands, aromatic street food night markets, and ancient kingdoms.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇹🇭",
-    "coordinates": [
-      15.87,
-      100.9925
-    ],
-    "zoom": 6,
-    "bestSeason": "November to February",
-    "currency": "THB (฿)",
-    "languages": [
-      "Thai"
-    ],
-    "heritageCount": 7,
-    "popularActivities": [
-      "Grand Palace & Wat Pho",
-      "Chiang Mai Cooking & Mountain Wats",
-      "Phi Phi & Krabi Island Hopping",
-      "Ayutthaya Ruins Cycling"
-    ],
-    "estimatedDailyBudget": "$30 - $110 / day",
-    "journeyScore": 94,
-    "festivals": [
-      {
-        "name": "Songkran (Water Festival)",
-        "timing": "April 13–15",
-        "desc": "Nationwide water-splashing celebration marking traditional Thai New Year."
-      },
-      {
-        "name": "Loy Krathong & Yi Peng",
-        "timing": "November (Full Moon)",
-        "desc": "Floating flower baskets on rivers and launching thousands of paper lanterns into Chiang Mai night sky."
-      }
-    ]
-  },
-  {
-    "id": "vietnam",
-    "name": "Vietnam",
-    "code": "VN",
-    "continentRegion": "Southeast Asia",
-    "capital": "Hanoi",
-    "description": "Emerald rice terraces in Sapa, limestone karsts soaring from Ha Long Bay, lantern-lit trading ports of Hoi An, and intoxicating street coffee culture.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇻🇳",
-    "coordinates": [
-      14.0583,
-      108.2772
-    ],
-    "zoom": 6,
-    "bestSeason": "February to April & August to October",
-    "currency": "VND (₫)",
-    "languages": [
-      "Vietnamese"
-    ],
-    "heritageCount": 8,
-    "popularActivities": [
-      "Ha Long Bay Overnight Junk Boat Cruise",
-      "Hoi An Ancient Lantern Town Walks",
-      "Phong Nha World's Largest Caves",
-      "Hanoi Old Quarter Street Food Crawls"
-    ],
-    "estimatedDailyBudget": "$25 - $85 / day",
-    "journeyScore": 93,
-    "festivals": [
-      {
-        "name": "Tet Nguyen Dan",
-        "timing": "January / February",
-        "desc": "Vietnamese Lunar New Year with peach blossoms and banh chung cakes."
-      }
-    ]
-  },
-  {
-    "id": "indonesia",
-    "name": "Indonesia",
-    "code": "ID",
-    "continentRegion": "Southeast Asia",
-    "capital": "Jakarta / Nusantara",
-    "description": "An archipelago of over 17,000 islands straddling the equator, featuring sacred volcanic peaks, ancient stone stupas, Komodo dragons, and Balinese spirituality.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇮🇩",
-    "coordinates": [
-      -0.7893,
-      113.9213
-    ],
-    "zoom": 5,
-    "bestSeason": "May to September",
-    "currency": "IDR (Rp)",
-    "languages": [
-      "Indonesian",
-      "Balinese",
-      "Javanese"
-    ],
-    "heritageCount": 10,
-    "popularActivities": [
-      "Borobudur Sunrise Stupa Climb",
-      "Ubud Sacred Monkey Forest & Rice Terraces",
-      "Mount Bromo Sunrise Over Caldera",
-      "Komodo Island Wildlife Cruises"
-    ],
-    "estimatedDailyBudget": "$25 - $95 / day",
-    "journeyScore": 93,
-    "festivals": [
-      {
-        "name": "Nyepi (Day of Absolute Silence)",
-        "timing": "March",
-        "desc": "Balinese New Year where the entire island halts electricity, flights, and noise for 24 hours of meditation."
-      },
-      {
-        "name": "Waisak at Borobudur",
-        "timing": "May",
-        "desc": "Buddha's enlightenment celebrated with thousand sky lanterns over Borobudur stupas."
-      }
-    ]
-  },
-  {
-    "id": "cambodia",
-    "name": "Cambodia",
-    "code": "KH",
-    "continentRegion": "Southeast Asia",
-    "capital": "Phnom Penh",
-    "description": "Heart of the ancient Khmer Empire, home to Angkor Wat, jungle-strangled stone faces of Bayon, and the tranquil waters of the Mekong and Tonle Sap.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇰🇭",
-    "coordinates": [
-      12.5657,
-      104.991
-    ],
-    "zoom": 7,
-    "bestSeason": "November to March",
-    "currency": "KHR (៛) / USD",
-    "languages": [
-      "Khmer"
-    ],
-    "heritageCount": 4,
-    "popularActivities": [
-      "Angkor Wat Sunrise Photography",
-      "Ta Prohm Giant Tree Roots Tour",
-      "Tonle Sap Floating Villages",
-      "Phnom Penh Royal Palace & Silver Pagoda"
-    ],
-    "estimatedDailyBudget": "$25 - $80 / day",
-    "journeyScore": 94,
-    "festivals": [
-      {
-        "name": "Water Festival (Bon Om Touk)",
-        "timing": "November",
-        "desc": "Dragon boat races on the Tonle Sap river reversing direction."
-      },
-      {
-        "name": "Khmer New Year (Chaul Chnam Thmey)",
-        "timing": "Mid-April",
-        "desc": "Three-day family games, temple offerings, and joyful water blessings."
-      }
-    ]
-  },
-  {
-    "id": "singapore",
-    "name": "Singapore",
-    "code": "SG",
-    "continentRegion": "Southeast Asia",
-    "capital": "Singapore",
-    "description": "A visionary Garden City where futuristic Supertree Groves, Cloud Forest glass domes, Michelin-starred street hawker stalls, and heritage shophouses unite.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇸🇬",
-    "coordinates": [
-      1.3521,
-      103.8198
-    ],
-    "zoom": 11,
-    "bestSeason": "Year-Round (Best Nov–Jan & Jun–Aug)",
-    "currency": "SGD ($)",
-    "languages": [
-      "English",
-      "Mandarin",
-      "Malay",
-      "Tamil"
-    ],
-    "heritageCount": 1,
-    "popularActivities": [
-      "Gardens by the Bay Light & Sound Show",
-      "Marina Bay Sands SkyPark Vistas",
-      "Chinatown & Little India Cultural Food Trails",
-      "Night Safari Wildlife Tram"
-    ],
-    "estimatedDailyBudget": "$90 - $280 / day",
-    "journeyScore": 94
-  },
-  {
-    "id": "malaysia",
-    "name": "Malaysia",
-    "code": "MY",
-    "continentRegion": "Southeast Asia",
-    "capital": "Kuala Lumpur",
-    "description": "A harmonious multicultural tapestry of Malay, Chinese, and Indian heritage, soaring Petronas Towers, ancient Borneo rainforests, and food capitals like Penang.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇲🇾",
-    "coordinates": [
-      4.2105,
-      101.9758
-    ],
-    "zoom": 6,
-    "bestSeason": "March to October",
-    "currency": "MYR (RM)",
-    "languages": [
-      "Malay",
-      "English",
-      "Mandarin",
-      "Tamil"
-    ],
-    "heritageCount": 5,
-    "popularActivities": [
-      "Batu Caves Rainbow Steps & Murugan Statue",
-      "Penang UNESCO George Town Street Food",
-      "Borneo Orangutan Encounters",
-      "Langkawi Cable Car & Sky Bridge"
-    ],
-    "estimatedDailyBudget": "$35 - $110 / day",
-    "journeyScore": 91
-  },
-  {
-    "id": "philippines",
-    "name": "Philippines",
-    "code": "PH",
-    "continentRegion": "Southeast Asia",
-    "capital": "Manila",
-    "description": "An archipelago of 7,641 emerald islands boasting crystalline lagoons in El Nido, ancient 2,000-year-old Ifugao rice terraces, and Spanish baroque cathedrals.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇵🇭",
-    "coordinates": [
-      12.8797,
-      121.774
-    ],
-    "zoom": 6,
-    "bestSeason": "December to April",
-    "currency": "PHP (₱)",
-    "languages": [
-      "Filipino",
-      "English"
-    ],
-    "heritageCount": 6,
-    "popularActivities": [
-      "El Nido & Coron Island Hopping",
-      "Banaue Rice Terraces Treks",
-      "Boracay White Beach Sunsets",
-      "Intramuros Walled City Walks"
-    ],
-    "estimatedDailyBudget": "$30 - $100 / day",
-    "journeyScore": 92
-  },
-  {
-    "id": "laos",
-    "name": "Laos",
-    "code": "LA",
-    "continentRegion": "Southeast Asia",
-    "capital": "Vientiane",
-    "description": "The quiet heart of Indochina, where saffron-robed monks collect morning alms in UNESCO Luang Prabang, Kuang Si turquoise waterfalls cascade, and karst mountains rise.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1540611025311-01df3cef54b5?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1540611025311-01df3cef54b5?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇱🇦",
-    "coordinates": [
-      19.8563,
-      102.4955
-    ],
-    "zoom": 6,
-    "bestSeason": "November to March",
-    "currency": "LAK (₭)",
-    "languages": [
-      "Lao",
-      "French"
-    ],
-    "heritageCount": 3,
-    "popularActivities": [
-      "Luang Prabang Morning Alms Giving",
-      "Kuang Si Multi-Tiered Waterfall Swims",
-      "Vang Vieng Hot Air Balloon Over Karsts",
-      "Plain of Jars Megalithic Exploration"
-    ],
-    "estimatedDailyBudget": "$25 - $75 / day",
-    "journeyScore": 91
-  },
-  {
-    "id": "myanmar",
-    "name": "Myanmar",
-    "code": "MM",
-    "continentRegion": "Southeast Asia",
-    "capital": "Naypyidaw",
-    "description": "The Golden Land, renowned for the plains of Bagan with over 2,000 ancient brick pagodas, the shimmering Shwedagon Pagoda, and leg-rowing fishermen on Inle Lake.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇲🇲",
-    "coordinates": [
-      21.9162,
-      95.956
-    ],
-    "zoom": 6,
-    "bestSeason": "November to February",
-    "currency": "MMK (K)",
-    "languages": [
-      "Burmese"
-    ],
-    "heritageCount": 2,
-    "popularActivities": [
-      "Sunrise Hot Air Balloon Over Bagan Temples",
-      "Shwedagon Pagoda Gilded Stupa Walk",
-      "Inle Lake Floating Gardens",
-      "Mandalay U Bein Teak Bridge"
-    ],
-    "estimatedDailyBudget": "$25 - $75 / day",
-    "journeyScore": 88
-  },
-  {
-    "id": "brunei",
-    "name": "Brunei",
-    "code": "BN",
-    "continentRegion": "Southeast Asia",
-    "capital": "Bandar Seri Begawan",
-    "description": "A peaceful sultanate in Borneo surrounded by pristine virgin rainforests, opulent gold-domed mosques, and Kampong Ayer—the Venice of the East.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇧🇳",
-    "coordinates": [
-      4.5353,
-      114.7277
-    ],
-    "zoom": 8,
-    "bestSeason": "January to May",
-    "currency": "BND ($)",
-    "languages": [
-      "Malay",
-      "English"
-    ],
-    "heritageCount": 1,
-    "popularActivities": [
-      "Omar Ali Saifuddien Mosque Viewing",
-      "Kampong Ayer Stilt Village Boat Tour",
-      "Ulu Temburong National Park Canopy Walk"
-    ],
-    "estimatedDailyBudget": "$45 - $130 / day",
-    "journeyScore": 87
-  },
-  {
-    "id": "timor-leste",
-    "name": "Timor-Leste",
-    "code": "TL",
-    "continentRegion": "Southeast Asia",
-    "capital": "Dili",
-    "description": "Asia's newest nation, boasting untouched Coral Triangle reefs around Atauro Island, Portuguese colonial remnants, and mist-cloaked mountain trails.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇹🇱",
-    "coordinates": [
-      -8.8742,
-      125.7275
-    ],
-    "zoom": 8,
-    "bestSeason": "May to November",
-    "currency": "USD ($)",
-    "languages": [
-      "Tetum",
-      "Portuguese"
-    ],
-    "heritageCount": 1,
-    "popularActivities": [
-      "Atauro Island World-Class Coral Diving",
-      "Cristo Rei Panoramic Coastal Hike",
-      "Mount Ramelau Summit Sunrise"
-    ],
-    "estimatedDailyBudget": "$40 - $110 / day",
-    "journeyScore": 85
-  },
-  {
-    "id": "uae",
-    "name": "United Arab Emirates",
-    "code": "AE",
-    "continentRegion": "West Asia",
-    "capital": "Abu Dhabi",
-    "description": "A visionary desert oasis of superlative modern architecture, pure white marble mosques, historic Bedouin desert forts, and artificial archipelago wonders.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇦🇪",
-    "coordinates": [
-      23.4241,
-      53.8478
-    ],
-    "zoom": 7,
-    "bestSeason": "November to March",
-    "currency": "AED (د.إ)",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "heritageCount": 1,
-    "popularActivities": [
-      "Burj Khalifa Sky Deck Observation",
-      "Sheikh Zayed Grand Mosque Pilgrimage",
-      "Desert Dune Bashing & Arabian Camps",
-      "Louvre Abu Dhabi Floating Dome"
-    ],
-    "estimatedDailyBudget": "$100 - $350 / day",
-    "journeyScore": 93
-  },
-  {
-    "id": "saudi-arabia",
-    "name": "Saudi Arabia",
-    "code": "SA",
-    "continentRegion": "West Asia",
-    "capital": "Riyadh",
-    "description": "The historic cradle of Arabia featuring ancient Nabataean rock-cut monumental tombs of Hegra, Al-Ula canyons, sacred pilgrimage sites, and Red Sea reefs.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇸🇦",
-    "coordinates": [
-      23.8859,
-      45.0792
-    ],
-    "zoom": 5,
-    "bestSeason": "November to March",
-    "currency": "SAR (﷼)",
-    "languages": [
-      "Arabic"
-    ],
-    "heritageCount": 7,
-    "popularActivities": [
-      "Al-Ula & Hegra Monumental Tombs",
-      "Historic Jeddah Al-Balad Coral Architecture",
-      "Diriyah UNESCO Birthplace of the First Saudi State",
-      "Edge of the World Desert Cliffs"
-    ],
-    "estimatedDailyBudget": "$80 - $260 / day",
-    "journeyScore": 91
-  },
-  {
-    "id": "turkey",
-    "name": "Türkiye",
-    "code": "TR",
-    "continentRegion": "West Asia",
-    "capital": "Ankara",
-    "description": "The timeless bridge between East and West, home to Byzantine domes of Hagia Sophia, fairy chimneys and hot air balloons of Cappadocia, and Ottoman bazaars.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇹🇷",
-    "coordinates": [
-      38.9637,
-      35.2433
-    ],
-    "zoom": 6,
-    "bestSeason": "April to May & September to November",
-    "currency": "TRY (₺)",
-    "languages": [
-      "Turkish"
-    ],
-    "heritageCount": 21,
-    "popularActivities": [
-      "Cappadocia Sunrise Hot Air Ballooning",
-      "Hagia Sophia & Blue Mosque Historical Tour",
-      "Pamukkale Thermal White Travertines",
-      "Grand Bazaar & Spice Market"
-    ],
-    "estimatedDailyBudget": "$45 - $150 / day",
-    "journeyScore": 95
-  },
-  {
-    "id": "jordan",
-    "name": "Jordan",
-    "code": "JO",
-    "continentRegion": "West Asia",
-    "capital": "Amman",
-    "description": "Ancient land of biblical history, where the rose-red stone city of Petra stands hidden within narrow desert canyons and the Dead Sea offers weightless floating.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇯🇴",
-    "coordinates": [
-      30.5852,
-      36.2384
-    ],
-    "zoom": 7,
-    "bestSeason": "March to May & September to November",
-    "currency": "JOD (JD)",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "heritageCount": 6,
-    "popularActivities": [
-      "Petra Treasury (Al-Khazneh) Gorge Walk",
-      "Wadi Rum Martian Desert Jeep Safaris",
-      "Dead Sea Mineral Floating",
-      "Jerash Roman Ruins"
-    ],
-    "estimatedDailyBudget": "$60 - $180 / day",
-    "journeyScore": 94
-  },
-  {
-    "id": "oman",
-    "name": "Oman",
-    "code": "OM",
-    "continentRegion": "West Asia",
-    "capital": "Muscat",
-    "description": "A land of peaceful Arabian authenticity with magnificent coastal forts, emerald desert wadis, frankincense trees, and the dramatic fjords of Musandam.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇴🇲",
-    "coordinates": [
-      21.5126,
-      55.9233
-    ],
-    "zoom": 6,
-    "bestSeason": "October to April",
-    "currency": "OMR (ر.ع.)",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "heritageCount": 5,
-    "popularActivities": [
-      "Wadi Shab Canyon Hike & Cave Swimming",
-      "Sultan Qaboos Grand Mosque",
-      "Nizwa Historic Fort & Friday Cattle Market",
-      "Wahiba Sands Desert Dunes"
-    ],
-    "estimatedDailyBudget": "$70 - $200 / day",
-    "journeyScore": 92
-  },
-  {
-    "id": "qatar",
-    "name": "Qatar",
-    "code": "QA",
-    "continentRegion": "West Asia",
-    "capital": "Doha",
-    "description": "Where world-class contemporary art institutions like the Museum of Islamic Art and National Museum rise along the Persian Gulf alongside Souq Waqif.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇶🇦",
-    "coordinates": [
-      25.3548,
-      51.1839
-    ],
-    "zoom": 8,
-    "bestSeason": "November to March",
-    "currency": "QAR (ر.ق)",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "heritageCount": 1,
-    "popularActivities": [
-      "Museum of Islamic Art Architecture",
-      "Souq Waqif Falcon Market & Spices",
-      "Inland Sea (Khor Al Adaid) Dune Drives"
-    ],
-    "estimatedDailyBudget": "$90 - $280 / day",
-    "journeyScore": 90
-  },
-  {
-    "id": "kuwait",
-    "name": "Kuwait",
-    "code": "KW",
-    "continentRegion": "West Asia",
-    "capital": "Kuwait City",
-    "description": "A maritime trading hub celebrated for the iconic blue-tiled Kuwait Towers, the Grand Mosque, and Tareq Rajab Museum of Islamic Calligraphy.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇰🇼",
-    "coordinates": [
-      29.3117,
-      47.4818
-    ],
-    "zoom": 8,
-    "bestSeason": "November to March",
-    "currency": "KWD (د.ك)",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "heritageCount": 1,
-    "popularActivities": [
-      "Kuwait Towers Panoramic Deck",
-      "Grand Mosque Guided Tour",
-      "Souq Al-Mubarakiya Traditional Heritage Strolls"
-    ],
-    "estimatedDailyBudget": "$80 - $220 / day",
-    "journeyScore": 86
-  },
-  {
-    "id": "bahrain",
-    "name": "Bahrain",
-    "code": "BH",
-    "continentRegion": "West Asia",
-    "capital": "Manama",
-    "description": "The ancient Dilmun civilization island, world-famed for historical pearling trails, Portuguese Qal'at al-Bahrain fort, and Bahrain National Museum.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇧🇭",
-    "coordinates": [
-      26.0667,
-      50.5577
-    ],
-    "zoom": 9,
-    "bestSeason": "November to March",
-    "currency": "BHD (.د.ب)",
-    "languages": [
-      "Arabic",
-      "English"
-    ],
-    "heritageCount": 3,
-    "popularActivities": [
-      "Qal'at al-Bahrain Ancient Fort Exploration",
-      "Pearling Path UNESCO Trail",
-      "Bab Al Bahrain Heritage Market"
-    ],
-    "estimatedDailyBudget": "$75 - $210 / day",
-    "journeyScore": 88
-  },
-  {
-    "id": "lebanon",
-    "name": "Lebanon",
-    "code": "LB",
-    "continentRegion": "West Asia",
-    "capital": "Beirut",
-    "description": "A Mediterranean treasure of Phoenician ports, colossal Roman temples of Baalbek, ancient cedar forests, and legendary Levantine gastronomy.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇱🇧",
-    "coordinates": [
-      33.8547,
-      35.8623
-    ],
-    "zoom": 8,
-    "bestSeason": "April to June & September to November",
-    "currency": "LBP (ل.ل) / USD",
-    "languages": [
-      "Arabic",
-      "French",
-      "English"
-    ],
-    "heritageCount": 5,
-    "popularActivities": [
-      "Baalbek Colossal Roman Temple Complex",
-      "Byblos 7,000-Year-Old Phoenician Port",
-      "Jeita Grotto Limestone Caves",
-      "Beirut Corniche Strolls"
-    ],
-    "estimatedDailyBudget": "$45 - $140 / day",
-    "journeyScore": 89
-  },
-  {
-    "id": "iran",
-    "name": "Iran",
-    "code": "IR",
-    "continentRegion": "West Asia",
-    "capital": "Tehran",
-    "description": "Home of ancient Persia, boasting Persepolis, the turquoise-tiled masterpiece mosques of Isfahan, desert windcatchers of Yazd, and Persian gardens.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇮🇷",
-    "coordinates": [
-      32.4279,
-      53.688
-    ],
-    "zoom": 5,
-    "bestSeason": "March to May & September to November",
-    "currency": "IRR (﷼)",
-    "languages": [
-      "Persian (Farsi)"
-    ],
-    "heritageCount": 27,
-    "popularActivities": [
-      "Persepolis Ceremonial Capital of Darius",
-      "Naqsh-e Jahan Square in Isfahan",
-      "Yazd Adobe Desert Windcatchers",
-      "Shiraz Hafez Tomb & Pink Mosque"
-    ],
-    "estimatedDailyBudget": "$35 - $100 / day",
-    "journeyScore": 92
-  },
-  {
-    "id": "iraq",
-    "name": "Iraq",
-    "code": "IQ",
-    "continentRegion": "West Asia",
-    "capital": "Baghdad",
-    "description": "The historical cradle of Mesopotamia between Tigris and Euphrates, where writing was born, featuring ancient Babylon, Ur Ziggurat, and Erbil Citadel.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇮🇶",
-    "coordinates": [
-      33.2232,
-      43.6793
-    ],
-    "zoom": 6,
-    "bestSeason": "November to April",
-    "currency": "IQD (ع.د)",
-    "languages": [
-      "Arabic",
-      "Kurdish"
-    ],
-    "heritageCount": 6,
-    "popularActivities": [
-      "Great Ziggurat of Ur Sumerian Ruins",
-      "Babylon Ancient Gate of Ishtar Site",
-      "Erbil Citadel Continuous Settlement",
-      "Iraqi Marshlands Boat Tours"
-    ],
-    "estimatedDailyBudget": "$35 - $90 / day",
-    "journeyScore": 84
-  },
-  {
-    "id": "armenia",
-    "name": "Armenia",
-    "code": "AM",
-    "continentRegion": "West Asia",
-    "capital": "Yerevan",
-    "description": "The world's earliest officially Christian nation, famed for cliff-hanging stone monasteries of Tatev and Geghard framing snow-capped Mount Ararat.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇦🇲",
-    "coordinates": [
-      40.0691,
-      45.0382
-    ],
-    "zoom": 7,
-    "bestSeason": "May to June & September to October",
-    "currency": "AMD (֏)",
-    "languages": [
-      "Armenian",
-      "Russian"
-    ],
-    "heritageCount": 3,
-    "popularActivities": [
-      "Khor Virap Monastery Views of Ararat",
-      "Geghard Cave Monastery Chants",
-      "Lake Sevan Alpine Blue Waters",
-      "Wings of Tatev World's Longest Cable Car"
-    ],
-    "estimatedDailyBudget": "$30 - $90 / day",
-    "journeyScore": 91
-  },
-  {
-    "id": "azerbaijan",
-    "name": "Azerbaijan",
-    "code": "AZ",
-    "continentRegion": "West Asia",
-    "capital": "Baku",
-    "description": "The Land of Fire on the Caspian Sea, where futuristic Flame Towers illuminate the UNESCO medieval Maiden Tower and Gobustan mud volcanoes.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇦🇿",
-    "coordinates": [
-      40.1431,
-      47.5769
-    ],
-    "zoom": 7,
-    "bestSeason": "April to June & September to October",
-    "currency": "AZN (₼)",
-    "languages": [
-      "Azerbaijani"
-    ],
-    "heritageCount": 5,
-    "popularActivities": [
-      "Baku Icherisheher Old Walled City",
-      "Gobustan Rock Petroglyphs & Mud Volcanoes",
-      "Ateshgah Fire Temple of Baku",
-      "Heydar Aliyev Center Architecture"
-    ],
-    "estimatedDailyBudget": "$35 - $110 / day",
-    "journeyScore": 90
-  },
-  {
-    "id": "georgia",
-    "name": "Georgia",
-    "code": "GE",
-    "continentRegion": "West Asia",
-    "capital": "Tbilisi",
-    "description": "Birthplace of 8,000-year-old qvevri winemaking traditions in the high Caucasus, celebrated for Stepantsminda mountain churches and sulphur baths.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇬🇪",
-    "coordinates": [
-      42.3154,
-      43.3569
-    ],
-    "zoom": 7,
-    "bestSeason": "May to June & September to October",
-    "currency": "GEL (₾)",
-    "languages": [
-      "Georgian"
-    ],
-    "heritageCount": 4,
-    "popularActivities": [
-      "Gergeti Trinity Church Under Mount Kazbek",
-      "Tbilisi Old Town Wooden Balconies & Baths",
-      "Kakheti Ancient Clay Amphora Wine Tours",
-      "Uplistsikhe Cave City Exploration"
-    ],
-    "estimatedDailyBudget": "$30 - $95 / day",
-    "journeyScore": 93
-  },
-  {
-    "id": "uzbekistan",
-    "name": "Uzbekistan",
-    "code": "UZ",
-    "continentRegion": "Central Asia",
-    "capital": "Tashkent",
-    "description": "The heart of the Silk Road glittering with turquoise-tiled madrasahs, azure domes, and monumental minarets across Samarkand, Bukhara, and Khiva.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇺🇿",
-    "coordinates": [
-      41.3775,
-      64.5853
-    ],
-    "zoom": 6,
-    "bestSeason": "April to June & September to October",
-    "currency": "UZS (soʻm)",
-    "languages": [
-      "Uzbek",
-      "Russian",
-      "Tajik"
-    ],
-    "heritageCount": 5,
-    "popularActivities": [
-      "Registan Square at Sunset",
-      "Bukhara Ark Ancient Desert Citadel",
-      "Khiva Walled Open-Air Museum City",
-      "Shah-i-Zinda Tilework Necropolis"
-    ],
-    "estimatedDailyBudget": "$30 - $90 / day",
-    "journeyScore": 94,
-    "festivals": [
-      {
-        "name": "Navruz (Central Asian New Year)",
-        "timing": "March 21",
-        "desc": "Spring equinox celebration with sumalak sprouted wheat sweet."
-      },
-      {
-        "name": "Silk and Spices Festival",
-        "timing": "May in Bukhara",
-        "desc": "Silk weavers, folk music, miniature painters, and spice caravans."
-      }
-    ]
-  },
-  {
-    "id": "kazakhstan",
-    "name": "Kazakhstan",
-    "code": "KZ",
-    "continentRegion": "Central Asia",
-    "capital": "Astana",
-    "description": "The world's largest landlocked nation, featuring dramatic Charyn Canyon, singing sand dunes, Kaindy submerged birch lake, and Tien Shan peaks.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇰🇿",
-    "coordinates": [
-      48.0196,
-      66.9237
-    ],
-    "zoom": 5,
-    "bestSeason": "May to September",
-    "currency": "KZT (₸)",
-    "languages": [
-      "Kazakh",
-      "Russian"
-    ],
-    "heritageCount": 5,
-    "popularActivities": [
-      "Charyn Canyon Red Rock Trail Hike",
-      "Kaindy Lake Submerged Forest",
-      "Almaty Medeu Ice Skating & Shymbulak",
-      "Turkistan Mausoleum of Khoja Ahmed Yasawi"
-    ],
-    "estimatedDailyBudget": "$35 - $110 / day",
-    "journeyScore": 91
-  },
-  {
-    "id": "kyrgyzstan",
-    "name": "Kyrgyzstan",
-    "code": "KG",
-    "continentRegion": "Central Asia",
-    "capital": "Bishkek",
-    "description": "Celestial mountain jewel of nomadic horsemen and alpine yurt camps ringing the massive warm waters of Issyk-Kul Lake under snow-capped peaks.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇰🇬",
-    "coordinates": [
-      41.2044,
-      74.7661
-    ],
-    "zoom": 7,
-    "bestSeason": "June to September",
-    "currency": "KGS (с)",
-    "languages": [
-      "Kyrgyz",
-      "Russian"
-    ],
-    "heritageCount": 3,
-    "popularActivities": [
-      "Song-Kul Alpine Yurt Stays & Horse Treks",
-      "Issyk-Kul Lake Relaxation & Petroglyphs",
-      "Ala-Archa National Park Glacial Valley Hikes",
-      "Tash Rabat Ancient Silk Road Caravanserai"
-    ],
-    "estimatedDailyBudget": "$25 - $75 / day",
-    "journeyScore": 92
-  },
-  {
-    "id": "tajikistan",
-    "name": "Tajikistan",
-    "code": "TJ",
-    "continentRegion": "Central Asia",
-    "capital": "Dushanbe",
-    "description": "The Roof of the World, traversed by the legendary Pamir Highway through high mountain passes over 4,600 meters and turquoise Fann Mountain lakes.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇹🇯",
-    "coordinates": [
-      38.861,
-      71.2761
-    ],
-    "zoom": 7,
-    "bestSeason": "June to September",
-    "currency": "TJS (SM)",
-    "languages": [
-      "Tajik",
-      "Russian"
-    ],
-    "heritageCount": 4,
-    "popularActivities": [
-      "Pamir Highway (M41) High-Altitude Expedition",
-      "Fann Mountains Iskanderkul Lake",
-      "Wakhan Corridor Afghan Border Vistas"
-    ],
-    "estimatedDailyBudget": "$30 - $80 / day",
-    "journeyScore": 89
-  },
-  {
-    "id": "turkmenistan",
-    "name": "Turkmenistan",
-    "code": "TM",
-    "continentRegion": "Central Asia",
-    "capital": "Ashgabat",
-    "description": "A desert realm featuring the fiery Darvaza 'Door to Hell' gas crater burning in the Karakum, ancient ruins of Merv, and Ashgabat's white marble monuments.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇹🇲",
-    "coordinates": [
-      38.9697,
-      59.5563
-    ],
-    "zoom": 6,
-    "bestSeason": "April to May & September to October",
-    "currency": "TMT (m)",
-    "languages": [
-      "Turkmen",
-      "Russian"
-    ],
-    "heritageCount": 5,
-    "popularActivities": [
-      "Darvaza Gas Crater Night Campfire",
-      "Ancient Merv Oasis Silk Road Metropolis",
-      "Ashgabat White Marble Palace Architecture"
-    ],
-    "estimatedDailyBudget": "$60 - $160 / day",
-    "journeyScore": 86
-  },
-  {
-    "id": "russia",
-    "name": "Russia (Siberia & Far East)",
-    "code": "RU",
-    "continentRegion": "North / Central Asia",
-    "capital": "Moscow / Vladivostok",
-    "description": "The vast Asian expanse of the Russian continent, featuring Lake Baikal—the world's deepest freshwater lake—and Kamchatka's Pacific volcanic ring.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇷🇺",
-    "coordinates": [
-      55.7558,
-      37.6173
-    ],
-    "zoom": 3,
-    "bestSeason": "June to August (Summer) & January to March (Winter Ice)",
-    "currency": "RUB (₽)",
-    "languages": [
-      "Russian",
-      "Buryat"
-    ],
-    "heritageCount": 11,
-    "popularActivities": [
-      "Trans-Siberian Overland Railway",
-      "Lake Baikal Winter Clear Ice Walking",
-      "Kamchatka Valley of Geysers"
-    ],
-    "estimatedDailyBudget": "$45 - $130 / day",
-    "journeyScore": 89
-  },
-  {
-    "id": "syria",
-    "name": "Syria",
-    "code": "SY",
-    "continentRegion": "West Asia",
-    "capital": "Damascus",
-    "description": "An ancient civilizational crossroads, home to ancient Palmyra Roman colonnades, Krak des Chevaliers crusader fort, and Damascus Old City.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇸🇾",
-    "coordinates": [
-      34.8021,
-      38.9968
-    ],
-    "zoom": 6,
-    "bestSeason": "April to May & September to October",
-    "currency": "SYP (£S)",
-    "languages": [
-      "Arabic"
-    ],
-    "heritageCount": 6,
-    "popularActivities": [
-      "Palmyra Ancient Colonnades",
-      "Krak des Chevaliers Castle",
-      "Damascus Umayyad Mosque"
-    ],
-    "estimatedDailyBudget": "$30 - $80 / day",
-    "journeyScore": 81
-  },
-  {
-    "id": "yemen",
-    "name": "Yemen",
-    "code": "YE",
-    "continentRegion": "West Asia",
-    "capital": "Sana'a",
-    "description": "Land of the Queen of Sheba, famed for the fairytale mud-brick skyscrapers of Shibam—the 'Manhattan of the Desert'—and alien dragon's blood trees of Socotra.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇾🇪",
-    "coordinates": [
-      15.5527,
-      48.5164
-    ],
-    "zoom": 6,
-    "bestSeason": "October to April (Socotra & Highlands)",
-    "currency": "YER (﷼)",
-    "languages": [
-      "Arabic",
-      "Soqotri"
-    ],
-    "heritageCount": 4,
-    "popularActivities": [
-      "Socotra Island Dragon Blood Tree Treks",
-      "Shibam Ancient Mud Skyscraper Walks",
-      "Old Walled City of Sana'a"
-    ],
-    "estimatedDailyBudget": "$40 - $110 / day",
-    "journeyScore": 83
-  },
-  {
-    "id": "israel",
-    "name": "Israel",
-    "code": "IL",
-    "continentRegion": "West Asia",
-    "capital": "Jerusalem",
-    "description": "A sacred meeting ground of world faiths, boasting the ancient stone ramparts of Jerusalem's Old City, buoyant waters of the Dead Sea, and Mediterranean Tel Aviv.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇮🇱",
-    "coordinates": [
-      31.0461,
-      34.8516
-    ],
-    "zoom": 7,
-    "bestSeason": "March to May & October to November",
-    "currency": "ILS (₪)",
-    "languages": [
-      "Hebrew",
-      "Arabic",
-      "English"
-    ],
-    "heritageCount": 9,
-    "popularActivities": [
-      "Jerusalem Old City Western Wall & Holy Sepulchre",
-      "Dead Sea Floating",
-      "Masada Desert Fortress Sunrise",
-      "Tel Aviv Mediterranean Beaches"
-    ],
-    "estimatedDailyBudget": "$90 - $260 / day",
-    "journeyScore": 92
-  },
-  {
-    "id": "palestine",
-    "name": "Palestine",
-    "code": "PS",
-    "continentRegion": "West Asia",
-    "capital": "Ramallah / East Jerusalem",
-    "description": "An ancient land deeply rooted in millennia of olive harvest heritage, Church of the Nativity in Bethlehem, the ancient springs of Jericho, and vibrant souqs of Hebron.",
-    "heroMedia": {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75",
-      "poster": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75"
-    },
-    "flag": "🇵🇸",
-    "coordinates": [
-      31.9522,
-      35.2332
-    ],
-    "zoom": 8,
-    "bestSeason": "March to May & September to November",
-    "currency": "ILS (₪) / JOD",
-    "languages": [
-      "Arabic"
-    ],
-    "heritageCount": 4,
-    "popularActivities": [
-      "Bethlehem Church of the Nativity Pilgrimage",
-      "Jericho World's Oldest City Ruins",
-      "Hebron Glass & Pottery Artisan Workshops"
-    ],
-    "estimatedDailyBudget": "$35 - $95 / day",
-    "journeyScore": 86
-  }
-];
-
-export const regionsData = [
-  {
-    "id": "tamil-nadu",
-    "countryCode": "IN",
-    "countryId": "india",
-    "name": "Tamil Nadu",
-    "capital": "Chennai",
-    "description": "The civilizational cradle of Dravidian arts, famed for thousand-pillar granite temples, Nilgiri hill stations, classical Bharatanatyam, and Coromandel coastal shores.",
-    "media": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75",
-    "coordinates": [
-      11.1271,
-      78.6569
-    ],
-    "destinationsCount": 8
-  },
-  {
-    "id": "kerala",
-    "countryCode": "IN",
-    "countryId": "india",
-    "name": "Kerala",
-    "capital": "Thiruvananthapuram",
-    "description": "God's Own Country, famed for emerald palm-fringed backwaters, Ayurvedic wellness retreats, Arabian Sea cliffs, and misty tea plantations of Munnar.",
-    "media": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=75",
-    "coordinates": [
-      10.8505,
-      76.2711
-    ],
-    "destinationsCount": 5
-  },
-  {
-    "id": "rajasthan",
-    "countryCode": "IN",
-    "countryId": "india",
-    "name": "Rajasthan",
-    "capital": "Jaipur",
-    "description": "The land of Rajput kings, colossal desert hill forts, opulent mirrored palaces, sand dunes of the Thar, and kaleidoscopic folk festivals.",
-    "media": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1200&q=75",
-    "coordinates": [
-      27.0238,
-      74.2179
-    ],
-    "destinationsCount": 6
-  },
-  {
-    "id": "uttar-pradesh",
-    "countryCode": "IN",
-    "countryId": "india",
-    "name": "Uttar Pradesh",
-    "capital": "Lucknow",
-    "description": "Heartland of northern heritage, home to the ivory-white Taj Mahal, the 3,000-year-old sacred river ghats of Varanasi, and Nawabi culinary grandeur.",
-    "media": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=75",
-    "coordinates": [
-      26.8467,
-      80.9462
-    ],
-    "destinationsCount": 4
-  },
-  {
-    "id": "maharashtra",
-    "countryCode": "IN",
-    "countryId": "india",
-    "name": "Maharashtra",
-    "capital": "Mumbai",
-    "description": "From the electrifying coastal skyline and Bollywood energy of Mumbai to the rock-cut Buddhist & Hindu caves of Ajanta and Ellora.",
-    "media": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=1200&q=75",
-    "coordinates": [
-      19.7515,
-      75.7139
-    ],
-    "destinationsCount": 3
-  },
-  {
-    "id": "karnataka",
-    "countryCode": "IN",
-    "countryId": "india",
-    "name": "Karnataka",
-    "capital": "Bengaluru",
-    "description": "Ancient stone kingdoms of Hampi, royal Mysore Palace, coffee estates of Coorg, and pristine Western Ghats rainforests.",
-    "media": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=75",
-    "coordinates": [
-      15.3173,
-      75.7139
-    ],
-    "destinationsCount": 3
-  },
-  {
-    "id": "goa",
-    "countryCode": "IN",
-    "countryId": "india",
-    "name": "Goa",
-    "capital": "Panaji",
-    "description": "Golden palm beaches, Portuguese colonial baroque churches, spice plantations, and vibrant coastal shacks.",
-    "media": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=75",
-    "coordinates": [
-      15.2993,
-      74.124
-    ],
-    "destinationsCount": 2
-  },
-  {
-    "id": "kansai",
-    "countryCode": "JP",
-    "countryId": "japan",
-    "name": "Kansai (Kyoto, Osaka, Nara)",
-    "capital": "Kyoto / Osaka",
-    "description": "Japan's thousand-year imperial cultural epicenter, housing thousands of Shinto shrines, Zen rock gardens, historic geisha districts, and UNESCO castles.",
-    "media": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=75",
-    "coordinates": [
-      35.0116,
-      135.7681
-    ],
-    "destinationsCount": 5
-  },
-  {
-    "id": "kanto",
-    "countryCode": "JP",
-    "countryId": "japan",
-    "name": "Kanto (Tokyo & Mount Fuji Area)",
-    "capital": "Tokyo",
-    "description": "The cybernetic metropolis of Tokyo framed by sacred Mount Fuji, historic Asakusa, and hot spring ryokans of Hakone.",
-    "media": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1200&q=75",
-    "coordinates": [
-      35.6762,
-      139.6503
-    ],
-    "destinationsCount": 4
-  },
-  {
-    "id": "chubu",
-    "countryCode": "JP",
-    "countryId": "japan",
-    "name": "Chubu (Japanese Alps & Shirakawa-go)",
-    "capital": "Nagoya / Takayama",
-    "description": "The snow-covered roof of Japan, home to the UNESCO thatched farmhouses of Shirakawa-go and historic samurai towns.",
-    "media": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
-    "coordinates": [
-      36.2562,
-      136.9066
-    ],
-    "destinationsCount": 3
-  },
-  {
-    "id": "northern-thailand",
-    "countryCode": "TH",
-    "countryId": "thailand",
-    "name": "Northern Thailand (Chiang Mai & Chiang Rai)",
-    "capital": "Chiang Mai",
-    "description": "Misty mountain jungles, sacred teak Lanna Kingdom wats, ethical elephant reserves, and artisanal hill-tribe culture.",
-    "media": "https://images.unsplash.com/photo-1512553353684-82a6abac253b?auto=format&fit=crop&w=1200&q=75",
-    "coordinates": [
-      18.7883,
-      98.9853
-    ],
-    "destinationsCount": 4
-  },
-  {
-    "id": "central-thailand",
-    "countryCode": "TH",
-    "countryId": "thailand",
-    "name": "Central Thailand (Bangkok & Ayutthaya)",
-    "capital": "Bangkok",
-    "description": "Gilded Grand Palace courtyards, Chao Phraya river transport, floating markets, and ancient royal capitals.",
-    "media": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
-    "coordinates": [
-      13.7563,
-      100.5018
-    ],
-    "destinationsCount": 3
-  },
-  {
-    "id": "southern-thailand",
-    "countryCode": "TH",
-    "countryId": "thailand",
-    "name": "Southern Islands (Phuket & Krabi)",
-    "capital": "Phuket",
-    "description": "Limestone karsts soaring out of the emerald Andaman Sea, coral reefs, and world-renowned tropical beaches.",
-    "media": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
-    "coordinates": [
-      7.8804,
-      98.3923
-    ],
-    "destinationsCount": 3
-  }
-];
-
+// Generated enriched dataset for ASIA EXPLORA
 export const destinationsData = [
   {
     "id": "baa-atoll",
@@ -1996,10 +16,11 @@ export const destinationsData = [
     "description": "Designated a UNESCO World Biosphere Reserve, Baa Atoll supports one of the richest coral reef ecosystems on the planet, featuring Hanifaru Bay where hundreds of giant reef manta rays gather for synchronous filter-feeding.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
-      "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=800&q=75"
+      "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=800&q=75",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75"
     ],
     "whyVisit": "To snorkel alongside dozens of gentle manta rays, sleep in overwater wooden bungalows, and dive untouched outer coral walls.",
     "bestTime": "November to April (Dry Season) / June to November (Manta Peak)",
@@ -2265,7 +286,7 @@ export const destinationsData = [
     "description": "A UNESCO World Heritage marvel in northeast Vietnam, Ha Long Bay ('Descending Dragon') is renowned for emerald waters, colossal karst limestone pinnacles draped in tropical rainforest, and hidden cavern grottos.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=75",
@@ -3116,7 +1137,7 @@ export const destinationsData = [
     "description": "Perched at 1,041 meters in the central highlands, Ella is famed for the iconic colonial Nine Arch Bridge curved amidst green tea plantations, panoramic hikes up Ella Rock and Little Adam's Peak, and Ravana Falls.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1546708973-b339540b5162?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1588598136853-a66986fc035a?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1546708973-b339540b5162?auto=format&fit=crop&w=800&q=75",
@@ -3411,7 +1432,7 @@ export const destinationsData = [
     "description": "Built by King Kashyapa in 477 CE, Sigiriya is a masterpiece of ancient urban planning, hydraulic water gardens, mirror-polished walls, and vivid 1,500-year-old celestial maiden frescoes.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1546708973-b339540b5162?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?auto=format&fit=crop&w=800&q=75",
@@ -3932,7 +1953,61 @@ export const destinationsData = [
     ],
     "virtualTourId": "tour-gokarna",
     "isHiddenGem": true,
-    "hiddenGemDiscoveryPct": 16
+    "hiddenGemDiscoveryPct": 16,
+    "placesInside": [
+      {
+        "id": "gokarna-gate",
+        "name": "Gokarna Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          14.5449,
+          74.3168
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Gokarna.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "gokarna-core",
+        "name": "Gokarna Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          14.5479,
+          74.3188
+        ],
+        "description": "An authentic, peaceful counterpoint to Goa. Gokarna blends millennia-old Shaivite pilgrimage shrines with pristine crescent-shaped bays named Om Beach, Kudle Beach, and Half Moon Beach bordered by dramatic laterite cliffs.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "gokarna-vista",
+        "name": "Gokarna Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          14.5519,
+          74.3218
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "gokarna-bazaar",
+        "name": "Gokarna Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          14.549900000000001,
+          74.31479999999999
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "shirakawa-go",
@@ -4170,7 +2245,74 @@ export const destinationsData = [
     ],
     "virtualTourId": "tour-shirakawa",
     "isHiddenGem": true,
-    "hiddenGemDiscoveryPct": 14
+    "hiddenGemDiscoveryPct": 14,
+    "placesInside": [
+      {
+        "id": "wp-wada",
+        "name": "Wada House (Wada-ke Gassho-zukuri)",
+        "category": "Historic Residence",
+        "coordinates": [
+          36.258,
+          136.906
+        ],
+        "description": "The largest and most prestigious thatched residence in Ogimachi, built in 1800 with an intact top-floor silkworm cultivation attic.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=600&q=75",
+        "tips": "Climb up to the 3rd floor attic to see the original wooden beam framing assembled without a single nail."
+      },
+      {
+        "id": "wp-shiroyama",
+        "name": "Shiroyama Viewpoint (Ogimachi Castle Site)",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          36.261,
+          136.9075
+        ],
+        "description": "The premier elevated scenic overlook commanding the iconic postcard view over all 114 thatched farmhouses in the alpine valley.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=75",
+        "tips": "Arrive during golden hour or early morning for mist rising between the snow-laden roofs."
+      },
+      {
+        "id": "wp-myozenji",
+        "name": "Myozenji Temple & Thatched Belfry",
+        "category": "Sacred Temple",
+        "coordinates": [
+          36.257,
+          136.905
+        ],
+        "description": "A rare five-story Jodo Shinshu Buddhist temple featuring a towering thatched-roof bell tower and historic monk quarters.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=75",
+        "tips": "Notice the massive curved zelkova timber columns supporting the central shrine."
+      },
+      {
+        "id": "wp-hachiman",
+        "name": "Shirakawa Hachiman Shrine",
+        "category": "Shinto Shrine",
+        "coordinates": [
+          36.253,
+          136.903
+        ],
+        "description": "Sacred Shinto sanctuary nestled at the base of cedar-clad slopes where the sacred Doburoku unrefined sake festival is held.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=600&q=75",
+        "tips": "Walk along the ancient mossy stone lanterns leading to the torii gate."
+      },
+      {
+        "id": "wp-deaibashi",
+        "name": "Deai-bashi Suspension Bridge",
+        "category": "River Crossing",
+        "coordinates": [
+          36.255,
+          136.902
+        ],
+        "description": "A 107-meter wooden suspension footbridge spanning the crystal turquoise waters of the Shogawa River into the heritage hamlet.",
+        "timeToSpend": "20 mins",
+        "photo": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=600&q=75",
+        "tips": "Pause halfway across the river for breathtaking reflections of the Northern Alps."
+      }
+    ]
   },
   {
     "id": "ziro-valley",
@@ -4408,7 +2550,61 @@ export const destinationsData = [
     ],
     "virtualTourId": "tour-ziro",
     "isHiddenGem": true,
-    "hiddenGemDiscoveryPct": 8
+    "hiddenGemDiscoveryPct": 8,
+    "placesInside": [
+      {
+        "id": "ziro-valley-gate",
+        "name": "Ziro Valley Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          27.5926,
+          93.83200000000001
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Ziro Valley.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "ziro-valley-core",
+        "name": "Ziro Valley Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          27.5956,
+          93.834
+        ],
+        "description": "Nestled in the lower sub-Himalayan ranges of Arunachal Pradesh, Ziro is a UNESCO tentative heritage landscape famed for its ingenious wet-rice fish agricultural systems, bamboo groves, misty pine hills, and tranquil tribal villages.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "ziro-valley-vista",
+        "name": "Ziro Valley Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          27.599600000000002,
+          93.837
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "ziro-valley-bazaar",
+        "name": "Ziro Valley Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          27.5976,
+          93.83
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "madurai",
@@ -4690,7 +2886,48 @@ export const destinationsData = [
       }
     ],
     "virtualTourId": "tour-meenakshi",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "wp-meenakshi-sanctum",
+        "name": "Meenakshi Sundareswarar Central Shrines",
+        "category": "Dravidian Sanctum",
+        "coordinates": [
+          9.9195,
+          78.1193
+        ],
+        "description": "Living spiritual heart dedicated to Goddess Meenakshi (Parvati) and Lord Sundareswarar (Shiva), dating back 2,500 years.",
+        "timeToSpend": "2 hours",
+        "photo": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=75",
+        "tips": "Witness the sacred night palanquin procession held every evening at 9 PM."
+      },
+      {
+        "id": "wp-thousand-pillars",
+        "name": "Hall of 1,000 Carved Granite Pillars",
+        "category": "Architectural Marvel",
+        "coordinates": [
+          9.9198,
+          78.1197
+        ],
+        "description": "Renaissance of Nayak architecture with 985 exquisitely sculpted monolithic pillars depicting celestial yalis and deities.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=75",
+        "tips": "Test the resonant acoustic musical columns near the northern entrance."
+      },
+      {
+        "id": "wp-nayakkar-palace",
+        "name": "Thirumalai Nayakkar Mahal",
+        "category": "Royal Indo-Saracenic Palace",
+        "coordinates": [
+          9.9147,
+          78.1238
+        ],
+        "description": "17th-century palace built by King Thirumalai Nayak, featuring 82-foot-high ornate stuccoed arches and massive circular pillars.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=75",
+        "tips": "Attend the evening light and sound show chronicling the history of Silapathikaram."
+      }
+    ]
   },
   {
     "id": "chennai",
@@ -4945,7 +3182,61 @@ export const destinationsData = [
       }
     ],
     "virtualTourId": "tour-meenakshi",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "chennai-gate",
+        "name": "Chennai Coastal Capital & Kapaleeshwarar Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          13.0797,
+          80.26870000000001
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Chennai Coastal Capital & Kapaleeshwarar.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "chennai-core",
+        "name": "Chennai Coastal Capital & Kapaleeshwarar Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          13.0827,
+          80.2707
+        ],
+        "description": "The cosmopolitan capital of Tamil Nadu, renowned for Marina Beach—the world's second-longest urban beach—Mylapore's 7th-century Kapaleeshwarar Temple, and the Carnatic Music Season.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "chennai-vista",
+        "name": "Chennai Coastal Capital & Kapaleeshwarar Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          13.0867,
+          80.2737
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "chennai-bazaar",
+        "name": "Chennai Coastal Capital & Kapaleeshwarar Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          13.084700000000002,
+          80.2667
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "thanjavur",
@@ -5196,7 +3487,48 @@ export const destinationsData = [
       }
     ],
     "virtualTourId": "tour-meenakshi",
-    "isHiddenGem": true
+    "isHiddenGem": true,
+    "placesInside": [
+      {
+        "id": "wp-brihadeeswarar",
+        "name": "Brihadeeswarar Vimana Tower (66m)",
+        "category": "Great Living Chola Temple",
+        "coordinates": [
+          10.7828,
+          79.1318
+        ],
+        "description": "World Heritage granite monolith built in 1010 CE by Emperor Raja Raja Chola I, topped by an 80-ton single granite dome.",
+        "timeToSpend": "2 hours",
+        "photo": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=75",
+        "tips": "Observe how the central vimana casts no shadow on the ground at noon during certain seasons."
+      },
+      {
+        "id": "wp-nandi",
+        "name": "Monolithic Nandi Bull Pavilion",
+        "category": "Sacred Sculpture",
+        "coordinates": [
+          10.7826,
+          79.1325
+        ],
+        "description": "Carved from a single massive granite boulder measuring 6 meters long and 3.7 meters high, guarding the sanctum.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=75",
+        "tips": "Anointed with sandalwood paste and fresh milk during sacred pradosham rituals."
+      },
+      {
+        "id": "wp-maratha",
+        "name": "Thanjavur Maratha Palace & Saraswathi Mahal",
+        "category": "Royal Complex",
+        "coordinates": [
+          10.7925,
+          79.1378
+        ],
+        "description": "Royal residence housing one of the oldest manuscript libraries in Asia with over 60,000 palm-leaf manuscripts.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=75",
+        "tips": "Visit the bronze gallery to see original Chola bronzes including Nataraja."
+      }
+    ]
   },
   {
     "id": "mahabalipuram",
@@ -5447,7 +3779,61 @@ export const destinationsData = [
       }
     ],
     "virtualTourId": "tour-meenakshi",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "mahabalipuram-gate",
+        "name": "Mahabalipuram Shore Temples & Rock Reliefs Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          12.623899999999999,
+          80.1907
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Mahabalipuram Shore Temples & Rock Reliefs.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "mahabalipuram-core",
+        "name": "Mahabalipuram Shore Temples & Rock Reliefs Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          12.6269,
+          80.1927
+        ],
+        "description": "UNESCO World Heritage ancient port city of the Pallava kings, celebrated for the Shore Temple braving sea waves, the monolithic Pancha Rathas, and Arjuna's Penance—the world's largest open-air rock bas-relief.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "mahabalipuram-vista",
+        "name": "Mahabalipuram Shore Temples & Rock Reliefs Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          12.630899999999999,
+          80.1957
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "mahabalipuram-bazaar",
+        "name": "Mahabalipuram Shore Temples & Rock Reliefs Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          12.6289,
+          80.1887
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "ooty",
@@ -5698,7 +4084,61 @@ export const destinationsData = [
       }
     ],
     "virtualTourId": "tour-meenakshi",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "ooty-gate",
+        "name": "Ooty & Nilgiri Mountain Railway Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          11.4072,
+          76.693
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Ooty & Nilgiri Mountain Railway.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "ooty-core",
+        "name": "Ooty & Nilgiri Mountain Railway Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          11.4102,
+          76.695
+        ],
+        "description": "Nestled at 2,240 meters amidst the Blue Mountains (Nilgiris), featuring the UNESCO steam-powered rack-and-pinion Nilgiri Mountain Toy Train, rolling tea estates, and botanical gardens.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "ooty-vista",
+        "name": "Ooty & Nilgiri Mountain Railway Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          11.4142,
+          76.698
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "ooty-bazaar",
+        "name": "Ooty & Nilgiri Mountain Railway Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          11.4122,
+          76.69099999999999
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "kodaikanal",
@@ -5950,7 +4390,61 @@ export const destinationsData = [
       }
     ],
     "virtualTourId": "tour-meenakshi",
-    "isHiddenGem": true
+    "isHiddenGem": true,
+    "placesInside": [
+      {
+        "id": "kodaikanal-gate",
+        "name": "Kodaikanal Star Lake & Pine Forests Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          10.2351,
+          77.4872
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Kodaikanal Star Lake & Pine Forests.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "kodaikanal-core",
+        "name": "Kodaikanal Star Lake & Pine Forests Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          10.2381,
+          77.4892
+        ],
+        "description": "Perched at 2,133 meters, famed for its star-shaped central lake, dense pine forest canopies, mist-veiled Pillar Rocks cliffs, and the rare Kurinji flower blooming once every 12 years.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "kodaikanal-vista",
+        "name": "Kodaikanal Star Lake & Pine Forests Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          10.242099999999999,
+          77.4922
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "kodaikanal-bazaar",
+        "name": "Kodaikanal Star Lake & Pine Forests Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          10.2401,
+          77.48519999999999
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "rameswaram",
@@ -6200,7 +4694,61 @@ export const destinationsData = [
       }
     ],
     "virtualTourId": "tour-meenakshi",
-    "isHiddenGem": true
+    "isHiddenGem": true,
+    "placesInside": [
+      {
+        "id": "rameswaram-gate",
+        "name": "Rameswaram Island & Ramanathaswamy Temple Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          9.2846,
+          79.3109
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Rameswaram Island & Ramanathaswamy Temple.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "rameswaram-core",
+        "name": "Rameswaram Island & Ramanathaswamy Temple Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          9.2876,
+          79.3129
+        ],
+        "description": "Located on Pamban Island connected to mainland India by the historic marine railway bridge, renowned for the world's longest temple corridor with 1,212 carved pillars and 22 sacred teertham bathing wells.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "rameswaram-vista",
+        "name": "Rameswaram Island & Ramanathaswamy Temple Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          9.291599999999999,
+          79.3159
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "rameswaram-bazaar",
+        "name": "Rameswaram Island & Ramanathaswamy Temple Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          9.2896,
+          79.3089
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "kanyakumari",
@@ -6452,7 +5000,61 @@ export const destinationsData = [
       }
     ],
     "virtualTourId": "tour-meenakshi",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "kanyakumari-gate",
+        "name": "Kanyakumari Land's End & Vivekananda Rock Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          8.0853,
+          77.5365
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Kanyakumari Land's End & Vivekananda Rock.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "kanyakumari-core",
+        "name": "Kanyakumari Land's End & Vivekananda Rock Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          8.0883,
+          77.5385
+        ],
+        "description": "The dramatic convergence of three oceans: the Arabian Sea, Indian Ocean, and Bay of Bengal, famous for simultaneous sunset and moonrise over the water, and the 133-foot Thiruvalluvar stone colossus.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "kanyakumari-vista",
+        "name": "Kanyakumari Land's End & Vivekananda Rock Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          8.0923,
+          77.5415
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "kanyakumari-bazaar",
+        "name": "Kanyakumari Land's End & Vivekananda Rock Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          8.090300000000001,
+          77.5345
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "taj-mahal-agra",
@@ -6705,7 +5307,61 @@ export const destinationsData = [
       }
     ],
     "virtualTourId": "tour-taj-mahal",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "taj-mahal-agra-gate",
+        "name": "Agra & The Taj Mahal Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          27.1721,
+          78.04010000000001
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Agra & The Taj Mahal.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "taj-mahal-agra-core",
+        "name": "Agra & The Taj Mahal Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          27.1751,
+          78.0421
+        ],
+        "description": "Commissioned in 1632 by Mughal Emperor Shah Jahan, it stands as the jewel of Muslim art in India, with pietra dura gemstone inlays and symmetric Mughal charbagh gardens.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "taj-mahal-agra-vista",
+        "name": "Agra & The Taj Mahal Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          27.179100000000002,
+          78.0451
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "taj-mahal-agra-bazaar",
+        "name": "Agra & The Taj Mahal Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          27.1771,
+          78.0381
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "jaipur",
@@ -6960,7 +5616,61 @@ export const destinationsData = [
       }
     ],
     "virtualTourId": "tour-taj-mahal",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "jaipur-gate",
+        "name": "Jaipur Pink City & Amer Fort Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          26.9094,
+          75.7853
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Jaipur Pink City & Amer Fort.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "jaipur-core",
+        "name": "Jaipur Pink City & Amer Fort Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          26.9124,
+          75.7873
+        ],
+        "description": "Capital of Rajasthan, famed for the honeycomb façade of Hawa Mahal, the lakeside hilltop Amer Fort with its mirrored Sheesh Mahal, and UNESCO Jantar Mantar.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=800&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "jaipur-vista",
+        "name": "Jaipur Pink City & Amer Fort Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          26.916400000000003,
+          75.7903
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "jaipur-bazaar",
+        "name": "Jaipur Pink City & Amer Fort Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          26.9144,
+          75.7833
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "varanasi",
@@ -7212,7 +5922,61 @@ export const destinationsData = [
       }
     ],
     "virtualTourId": "tour-taj-mahal",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "varanasi-gate",
+        "name": "Varanasi Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          25.3146,
+          82.9719
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Varanasi.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "varanasi-core",
+        "name": "Varanasi Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          25.3176,
+          82.9739
+        ],
+        "description": "One of the oldest living cities in the world, sacred to Shiva, where 88 stone ghats meet the holy Ganga, illuminated each evening by the synchronized brass lamps of the Ganga Aarti.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "varanasi-vista",
+        "name": "Varanasi Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          25.3216,
+          82.9769
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "varanasi-bazaar",
+        "name": "Varanasi Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          25.319599999999998,
+          82.9699
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "kyoto-temples",
@@ -7463,7 +6227,61 @@ export const destinationsData = [
       }
     ],
     "virtualTourId": "tour-fushimi-inari",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "kyoto-temples-gate",
+        "name": "Kyoto Imperial Temples & Zen Gardens Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          35.0086,
+          135.7661
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Kyoto Imperial Temples & Zen Gardens.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "kyoto-temples-core",
+        "name": "Kyoto Imperial Temples & Zen Gardens Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          35.0116,
+          135.7681
+        ],
+        "description": "Former imperial capital of Japan for over a millennium, housing over 2,000 temples and shrines, including the shimmering Kinkaku-ji and 10,000 vermilion gates of Fushimi Inari.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "kyoto-temples-vista",
+        "name": "Kyoto Imperial Temples & Zen Gardens Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          35.0156,
+          135.7711
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "kyoto-temples-bazaar",
+        "name": "Kyoto Imperial Temples & Zen Gardens Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          35.013600000000004,
+          135.7641
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "tokyo",
@@ -7715,7 +6533,61 @@ export const destinationsData = [
       }
     ],
     "virtualTourId": "tour-fushimi-inari",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "wp-sensoji",
+        "name": "Senso-ji & Kaminarimon Thunder Gate",
+        "category": "Ancient Temple",
+        "coordinates": [
+          35.7148,
+          139.7967
+        ],
+        "description": "Tokyo's oldest Buddhist temple founded in 645 CE, entered through the giant red paper lantern gate into Nakamise shopping street.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=75",
+        "tips": "Draw an omikuji fortune paper at the main incense burner."
+      },
+      {
+        "id": "wp-meiji",
+        "name": "Meiji Jingu Sacred Forest Shrine",
+        "category": "Imperial Shrine",
+        "coordinates": [
+          35.6764,
+          139.6993
+        ],
+        "description": "Monumental wooden torii gates leading into a peaceful 170-acre evergreen forest in the heart of Shibuya.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?auto=format&fit=crop&w=600&q=75",
+        "tips": "Admire the towering wall of decorated sake barrels donated to the deities."
+      },
+      {
+        "id": "wp-shibuya",
+        "name": "Shibuya Crossing & Hachiko Plaza",
+        "category": "Urban Landmark",
+        "coordinates": [
+          35.6595,
+          139.7005
+        ],
+        "description": "The world's busiest pedestrian scramble crossing where up to 3,000 people cross simultaneously with neon video walls.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=600&q=75",
+        "tips": "Watch the kinetic flow from the upper floor glass lounges overlooking the junction."
+      },
+      {
+        "id": "wp-skytree",
+        "name": "Tokyo Skytree Tembo Deck (634m)",
+        "category": "Modern Wonder",
+        "coordinates": [
+          35.7101,
+          139.8107
+        ],
+        "description": "The tallest freestanding broadcasting tower in the world, giving panoramic 360-degree vistas out to Mount Fuji.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=75",
+        "tips": "Book sunset admission to watch Tokyo transform into a sparkling neon grid."
+      }
+    ]
   },
   {
     "id": "mount-fuji",
@@ -7956,7 +6828,48 @@ export const destinationsData = [
       }
     ],
     "virtualTourId": "tour-fushimi-inari",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "wp-chureito",
+        "name": "Chureito Pagoda Fuji Vista",
+        "category": "Iconic Vista",
+        "coordinates": [
+          35.5015,
+          138.8016
+        ],
+        "description": "Five-story red vermilion pagoda perched on a hillside framing the snowy symmetric peak of Mount Fuji.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&w=600&q=75",
+        "tips": "Climb the 398 stone steps early morning for crystal clear sky reflections."
+      },
+      {
+        "id": "wp-kawaguchiko",
+        "name": "Lake Kawaguchiko Lakeside Trail",
+        "category": "Alpine Lake",
+        "coordinates": [
+          35.5171,
+          138.7518
+        ],
+        "description": "Serene lakeside promenade famous for upside-down Fuji reflections ('Sakasa-Fuji') on calm mornings.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=75",
+        "tips": "Rent a swan paddle boat or bicycle along the northern shore."
+      },
+      {
+        "id": "wp-oshino",
+        "name": "Oshino Hakkai Eight Sacred Springs",
+        "category": "Natural Springs",
+        "coordinates": [
+          35.4601,
+          138.8327
+        ],
+        "description": "Eight crystal-clear volcanic spring ponds fed by snowmelt filtered through underground lava layers for 80 years.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=600&q=75",
+        "tips": "Sample the chilled mineral spring water poured directly from dragon spouts."
+      }
+    ]
   },
   {
     "id": "angkor-wat",
@@ -8207,7 +7120,61 @@ export const destinationsData = [
       }
     ],
     "virtualTourId": "tour-angkor-wat",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "angkor-wat-gate",
+        "name": "Angkor Wat Archaeological Park Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          13.4095,
+          103.86500000000001
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Angkor Wat Archaeological Park.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "angkor-wat-core",
+        "name": "Angkor Wat Archaeological Park Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          13.4125,
+          103.867
+        ],
+        "description": "Built in the early 12th century by King Suryavarman II as the state temple and capital city, Angkor Wat symbolizes Mount Meru—the home of the gods—surrounded by a 5-kilometer-long moat and adorned with bas-relief apsara dancers.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "angkor-wat-vista",
+        "name": "Angkor Wat Archaeological Park Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          13.4165,
+          103.87
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "angkor-wat-bazaar",
+        "name": "Angkor Wat Archaeological Park Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          13.4145,
+          103.863
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "borobudur",
@@ -8449,7 +7416,61 @@ export const destinationsData = [
       }
     ],
     "virtualTourId": "tour-borobudur",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "borobudur-gate",
+        "name": "Borobudur & Prambanan Temple Compounds Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          -7.6109,
+          110.2018
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Borobudur & Prambanan Temple Compounds.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "borobudur-core",
+        "name": "Borobudur & Prambanan Temple Compounds Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          -7.6079,
+          110.2038
+        ],
+        "description": "Constructed in the 9th century by the Sailendra Dynasty, Borobudur rises in nine stacked stone terraces crowned by 72 perforated stupas, with 504 Buddha statues gazing across the volcanic valley of Kedu.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "borobudur-vista",
+        "name": "Borobudur & Prambanan Temple Compounds Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          -7.6039,
+          110.2068
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "borobudur-bazaar",
+        "name": "Borobudur & Prambanan Temple Compounds Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          -7.6059,
+          110.1998
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "beijing-forbidden-city",
@@ -8699,7 +7720,61 @@ export const destinationsData = [
       }
     ],
     "virtualTourId": "tour-great-wall",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "beijing-forbidden-city-gate",
+        "name": "Beijing & The Imperial Forbidden City Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          39.9133,
+          116.3952
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Beijing & The Imperial Forbidden City.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "beijing-forbidden-city-core",
+        "name": "Beijing & The Imperial Forbidden City Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          39.9163,
+          116.3972
+        ],
+        "description": "The world's largest palatial complex spanning 980 surviving wooden buildings and 8,700 bays, housing 24 emperors, crowned by golden glazed roof tiles and vermilion walls.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=800&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "beijing-forbidden-city-vista",
+        "name": "Beijing & The Imperial Forbidden City Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          39.9203,
+          116.4002
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "beijing-forbidden-city-bazaar",
+        "name": "Beijing & The Imperial Forbidden City Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          39.9183,
+          116.3932
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "great-wall",
@@ -8930,7 +8005,61 @@ export const destinationsData = [
       }
     ],
     "virtualTourId": "tour-great-wall",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "great-wall-gate",
+        "name": "The Great Wall of China Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          40.4289,
+          116.56840000000001
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of The Great Wall of China.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "great-wall-core",
+        "name": "The Great Wall of China Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          40.4319,
+          116.5704
+        ],
+        "description": "One of the greatest engineering wonders of civilization, the Mutianyu section features 22 watchtowers winding through lush pine forests, accessible by cable car and thrilling alpine toboggan.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=800&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "great-wall-vista",
+        "name": "The Great Wall of China Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          40.4359,
+          116.5734
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "great-wall-bazaar",
+        "name": "The Great Wall of China Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          40.4339,
+          116.5664
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "petra",
@@ -9173,7 +8302,61 @@ export const destinationsData = [
       }
     ],
     "virtualTourId": "tour-petra",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "petra-gate",
+        "name": "Petra & The Treasury Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          30.325499999999998,
+          35.4424
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Petra & The Treasury.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "petra-core",
+        "name": "Petra & The Treasury Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          30.3285,
+          35.4444
+        ],
+        "description": "Carved directly into the vibrant pink sandstone cliffs by the Nabataean civilization over 2,000 years ago, hidden at the end of the narrow Siq canyon chasm.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "petra-vista",
+        "name": "Petra & The Treasury Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          30.3325,
+          35.4474
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "petra-bazaar",
+        "name": "Petra & The Treasury Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          30.330499999999997,
+          35.440400000000004
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "delhi",
@@ -9416,7 +8599,61 @@ export const destinationsData = [
       ]
     },
     "virtualTourId": "tour-taj-mahal",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "delhi-gate",
+        "name": "Delhi Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          28.6109,
+          77.20700000000001
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Delhi.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "delhi-core",
+        "name": "Delhi Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          28.6139,
+          77.209
+        ],
+        "description": "India's vibrant capital, where ancient minarets like Qutub Minar, Mughal sandstone masterpieces like Humayun's Tomb, and colonial Lutyens boulevards meet world-class street food.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "delhi-vista",
+        "name": "Delhi Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          28.617900000000002,
+          77.212
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "delhi-bazaar",
+        "name": "Delhi Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          28.6159,
+          77.205
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "kerala-backwaters",
@@ -9658,7 +8895,61 @@ export const destinationsData = [
       ]
     },
     "virtualTourId": "tour-meenakshi",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "kerala-backwaters-gate",
+        "name": "Kerala Backwaters & Munnar Hills Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          9.4951,
+          76.33680000000001
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Kerala Backwaters & Munnar Hills.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "kerala-backwaters-core",
+        "name": "Kerala Backwaters & Munnar Hills Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          9.4981,
+          76.3388
+        ],
+        "description": "Glide on traditional thatched Kettuvallam houseboats along emerald backwater canals in Alleppey, and ascend into the cool, misty tea estates of Munnar.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "kerala-backwaters-vista",
+        "name": "Kerala Backwaters & Munnar Hills Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          9.5021,
+          76.3418
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "kerala-backwaters-bazaar",
+        "name": "Kerala Backwaters & Munnar Hills Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          9.500100000000002,
+          76.3348
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "goa",
@@ -9899,7 +9190,61 @@ export const destinationsData = [
       ]
     },
     "virtualTourId": "tour-meenakshi",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "goa-gate",
+        "name": "Goa Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          15.2963,
+          74.122
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Goa.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "goa-core",
+        "name": "Goa Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          15.2993,
+          74.124
+        ],
+        "description": "India's beach paradise, featuring golden coconut-fringed sands, Portuguese colonial villas of Fontainhas, and UNESCO baroque churches of Old Goa.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "goa-vista",
+        "name": "Goa Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          15.3033,
+          74.127
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "goa-bazaar",
+        "name": "Goa Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          15.301300000000001,
+          74.11999999999999
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "mumbai",
@@ -10130,7 +9475,61 @@ export const destinationsData = [
       ]
     },
     "virtualTourId": "tour-meenakshi",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "mumbai-gate",
+        "name": "Mumbai Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          18.919,
+          72.8327
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Mumbai.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "mumbai-core",
+        "name": "Mumbai Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          18.922,
+          72.8347
+        ],
+        "description": "A pulsating coastal metropolis housing the UNESCO Victorian Gothic & Art Deco ensemble, the historic Gateway of India, Marine Drive's Queen's Necklace, and Bollywood.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "mumbai-vista",
+        "name": "Mumbai Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          18.926000000000002,
+          72.8377
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "mumbai-bazaar",
+        "name": "Mumbai Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          18.924,
+          72.8307
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "kashmir-valley",
@@ -10375,7 +9774,61 @@ export const destinationsData = [
       ]
     },
     "virtualTourId": "tour-meenakshi",
-    "isHiddenGem": true
+    "isHiddenGem": true,
+    "placesInside": [
+      {
+        "id": "kashmir-valley-gate",
+        "name": "Kashmir Valley & Dal Lake Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          34.0807,
+          74.79530000000001
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Kashmir Valley & Dal Lake.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "kashmir-valley-core",
+        "name": "Kashmir Valley & Dal Lake Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          34.0837,
+          74.7973
+        ],
+        "description": "Framed by snow-capped Himalayan peaks, featuring intricately carved wooden houseboats on Dal Lake, floating vegetable markets, and Gulmarg's high-altitude gondola.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "kashmir-valley-vista",
+        "name": "Kashmir Valley & Dal Lake Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          34.0877,
+          74.80030000000001
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "kashmir-valley-bazaar",
+        "name": "Kashmir Valley & Dal Lake Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          34.0857,
+          74.7933
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "osaka",
@@ -10615,7 +10068,61 @@ export const destinationsData = [
       ]
     },
     "virtualTourId": "tour-fushimi-inari",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "osaka-gate",
+        "name": "Osaka Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          34.6907,
+          135.50029999999998
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Osaka.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1590559899731-a3f07b743759?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "osaka-core",
+        "name": "Osaka Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          34.6937,
+          135.5023
+        ],
+        "description": "Famed for its motto 'kuidaore' (eat until you drop), the neon Glico Man over Dotonbori canal, five-story Osaka Castle, and warm outgoing local culture.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1590559899731-a3f07b743759?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "osaka-vista",
+        "name": "Osaka Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          34.6977,
+          135.50529999999998
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1590559899731-a3f07b743759?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "osaka-bazaar",
+        "name": "Osaka Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          34.6957,
+          135.4983
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1590559899731-a3f07b743759?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "nara",
@@ -10834,7 +10341,61 @@ export const destinationsData = [
       ]
     },
     "virtualTourId": "tour-fushimi-inari",
-    "isHiddenGem": true
+    "isHiddenGem": true,
+    "placesInside": [
+      {
+        "id": "nara-gate",
+        "name": "Nara Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          34.6821,
+          135.8028
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Nara.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "nara-core",
+        "name": "Nara Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          34.6851,
+          135.8048
+        ],
+        "description": "Home to Todai-ji—the world's largest wooden building housing a colossal 15-meter bronze Buddha—and over 1,200 free-roaming sacred Shinto deer in Nara Park.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "nara-vista",
+        "name": "Nara Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          34.689099999999996,
+          135.8078
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "nara-bazaar",
+        "name": "Nara Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          34.6871,
+          135.8008
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "hiroshima",
@@ -11052,7 +10613,61 @@ export const destinationsData = [
       ]
     },
     "virtualTourId": "tour-fushimi-inari",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "hiroshima-gate",
+        "name": "Hiroshima & Miyajima Floating Torii Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          34.3823,
+          132.45329999999998
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Hiroshima & Miyajima Floating Torii.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "hiroshima-core",
+        "name": "Hiroshima & Miyajima Floating Torii Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          34.3853,
+          132.4553
+        ],
+        "description": "From the solemn Atomic Bomb Dome and Peace Memorial Park in Hiroshima to the vermilion Grand Torii Gate of Itsukushima Shrine rising majestically from the Seto Inland Sea.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "hiroshima-vista",
+        "name": "Hiroshima & Miyajima Floating Torii Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          34.3893,
+          132.45829999999998
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "hiroshima-bazaar",
+        "name": "Hiroshima & Miyajima Floating Torii Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          34.3873,
+          132.4513
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "hokkaido",
@@ -11273,7 +10888,61 @@ export const destinationsData = [
       ]
     },
     "virtualTourId": "tour-fushimi-inari",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "hokkaido-gate",
+        "name": "Hokkaido Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          43.0612,
+          141.3449
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Hokkaido.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "hokkaido-core",
+        "name": "Hokkaido Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          43.0642,
+          141.3469
+        ],
+        "description": "Japan's northern wilderness, famed for powdery Niseko ski slopes, Sapporo Snow Festival giant ice sculptures, Furano's rolling purple lavender hills, and steaming volcanic onsens.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "hokkaido-vista",
+        "name": "Hokkaido Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          43.0682,
+          141.3499
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "hokkaido-bazaar",
+        "name": "Hokkaido Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          43.0662,
+          141.34290000000001
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "shanghai",
@@ -11495,7 +11164,61 @@ export const destinationsData = [
       ]
     },
     "virtualTourId": "tour-great-wall",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "shanghai-gate",
+        "name": "Shanghai Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          31.2274,
+          121.4717
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Shanghai.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "shanghai-core",
+        "name": "Shanghai Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          31.2304,
+          121.4737
+        ],
+        "description": "A breathtaking contrast between colonial neoclassical architecture along The Bund and the sci-fi supertall towers of Pudong, classical Ming Dynasty Yu Garden, and French Concession lanes.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "shanghai-vista",
+        "name": "Shanghai Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          31.2344,
+          121.4767
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "shanghai-bazaar",
+        "name": "Shanghai Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          31.2324,
+          121.46969999999999
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "xian",
@@ -11715,7 +11438,61 @@ export const destinationsData = [
       ]
     },
     "virtualTourId": "tour-great-wall",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "xian-gate",
+        "name": "Xi'an Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          34.3386,
+          108.93780000000001
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Xi'an.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "xian-core",
+        "name": "Xi'an Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          34.3416,
+          108.9398
+        ],
+        "description": "The ancient eastern terminus of the Silk Road, guarded by the 8,000-man Terracotta Army of Qin Shi Huang, a fully intact 14-kilometer Ming city wall, and vibrant Muslim Quarter.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "xian-vista",
+        "name": "Xi'an Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          34.3456,
+          108.9428
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "xian-bazaar",
+        "name": "Xi'an Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          34.3436,
+          108.9358
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "guilin",
@@ -11935,7 +11712,61 @@ export const destinationsData = [
       ]
     },
     "virtualTourId": "tour-great-wall",
-    "isHiddenGem": true
+    "isHiddenGem": true,
+    "placesInside": [
+      {
+        "id": "guilin-gate",
+        "name": "Guilin & Yangshuo Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          25.270599999999998,
+          110.2882
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Guilin & Yangshuo.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "guilin-core",
+        "name": "Guilin & Yangshuo Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          25.2736,
+          110.2902
+        ],
+        "description": "Celebrated in Chinese scrolls as 'the finest scenery under heaven' (桂林山水甲天下), featuring jade-green Li River waters winding past thousands of limestone karst pillars and cormorant fishermen.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "guilin-vista",
+        "name": "Guilin & Yangshuo Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          25.2776,
+          110.2932
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "guilin-bazaar",
+        "name": "Guilin & Yangshuo Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          25.275599999999997,
+          110.2862
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "zhangjiajie",
@@ -12154,7 +11985,61 @@ export const destinationsData = [
       ]
     },
     "virtualTourId": "tour-great-wall",
-    "isHiddenGem": true
+    "isHiddenGem": true,
+    "placesInside": [
+      {
+        "id": "zhangjiajie-gate",
+        "name": "Zhangjiajie Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          29.114,
+          110.477
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Zhangjiajie.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "zhangjiajie-core",
+        "name": "Zhangjiajie Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          29.117,
+          110.479
+        ],
+        "description": "Over 3,000 towering quartz-sandstone pillars soaring into sea of clouds, inspiration for the floating Hallelujah Mountains in James Cameron's Avatar, featuring the Bailong Glass Elevator.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "zhangjiajie-vista",
+        "name": "Zhangjiajie Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          29.121000000000002,
+          110.482
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "zhangjiajie-bazaar",
+        "name": "Zhangjiajie Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          29.119,
+          110.475
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "bangkok",
@@ -12393,7 +12278,61 @@ export const destinationsData = [
       ]
     },
     "virtualTourId": "tour-meenakshi",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "bangkok-gate",
+        "name": "Bangkok Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          13.7533,
+          100.49980000000001
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Bangkok.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "bangkok-core",
+        "name": "Bangkok Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          13.7563,
+          100.5018
+        ],
+        "description": "Thailand's electrifying capital: the shimmering golden chedis of the Grand Palace and Wat Phra Kaew (Emerald Buddha), porcelain spires of Wat Arun, and Chao Phraya river express boats.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "bangkok-vista",
+        "name": "Bangkok Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          13.760299999999999,
+          100.5048
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "bangkok-bazaar",
+        "name": "Bangkok Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          13.7583,
+          100.4978
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "phuket",
@@ -12624,7 +12563,61 @@ export const destinationsData = [
       ]
     },
     "virtualTourId": "tour-meenakshi",
-    "isHiddenGem": false
+    "isHiddenGem": false,
+    "placesInside": [
+      {
+        "id": "phuket-gate",
+        "name": "Phuket & Phi Phi Islands Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          7.8774,
+          98.39030000000001
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Phuket & Phi Phi Islands.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "phuket-core",
+        "name": "Phuket & Phi Phi Islands Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          7.8804,
+          98.3923
+        ],
+        "description": "Thailand's largest island, boasting white sandy coves (Kata, Nai Harn), colorful Sino-Portuguese heritage shophouses in Old Phuket Town, and day trips to Phi Phi Islands.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "phuket-vista",
+        "name": "Phuket & Phi Phi Islands Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          7.884399999999999,
+          98.3953
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "phuket-bazaar",
+        "name": "Phuket & Phi Phi Islands Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          7.8824,
+          98.3883
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "ayutthaya",
@@ -12842,7 +12835,61 @@ export const destinationsData = [
       ]
     },
     "virtualTourId": "tour-meenakshi",
-    "isHiddenGem": true
+    "isHiddenGem": true,
+    "placesInside": [
+      {
+        "id": "ayutthaya-gate",
+        "name": "Ayutthaya Monumental Gateway",
+        "category": "Historic Gate & Entrance",
+        "coordinates": [
+          14.3502,
+          100.5664
+        ],
+        "description": "Grand entry portal welcoming travelers into the sacred heritage precinct of Ayutthaya.",
+        "timeToSpend": "30 mins",
+        "photo": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Pick up local heritage trail maps and regional cultural guides here."
+      },
+      {
+        "id": "ayutthaya-core",
+        "name": "Ayutthaya Core Sanctuary",
+        "category": "Main Attraction",
+        "coordinates": [
+          14.3532,
+          100.5684
+        ],
+        "description": "An island city bounded by three rivers, home to the atmospheric red-brick ruins of royal monasteries, the iconic Buddha head entwined in banyan tree roots at Wat Mahathat, and Wat Chaiwatthanaram.",
+        "timeToSpend": "1.5 hours",
+        "photo": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Prime vantage point offering breathtaking architectural views."
+      },
+      {
+        "id": "ayutthaya-vista",
+        "name": "Ayutthaya Overlook & High Terrace",
+        "category": "Panoramic Vista",
+        "coordinates": [
+          14.357199999999999,
+          100.5714
+        ],
+        "description": "Elevated vantage point offering 360-degree vistas across the surrounding valleys and landscapes.",
+        "timeToSpend": "45 mins",
+        "photo": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Ideal spot for golden hour and sunset panorama photography."
+      },
+      {
+        "id": "ayutthaya-bazaar",
+        "name": "Ayutthaya Heritage Artisan Bazaar",
+        "category": "Cultural Market",
+        "coordinates": [
+          14.3552,
+          100.56439999999999
+        ],
+        "description": "Historic marketplace bustling with local generational craftsmen, traditional delicacies, and spices.",
+        "timeToSpend": "1 hour",
+        "photo": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
+        "tips": "Support authentic generational craftspeople directly."
+      }
+    ]
   },
   {
     "id": "turkey-1",
@@ -52103,7 +52150,7 @@ export const destinationsData = [
     "description": "Badshahi Mosque & Lahore Fort (UNESCO Citadel) is a renowned sanctuary in Pakistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=1200&q=75",
@@ -52382,7 +52429,7 @@ export const destinationsData = [
     "description": "Hunza Valley & Rakaposhi Peak (Karakoram) is a renowned sanctuary in Pakistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=1200&q=75",
@@ -52661,7 +52708,7 @@ export const destinationsData = [
     "description": "Mohenjo-daro (Mound of the Dead) is a renowned sanctuary in Pakistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=1200&q=75",
@@ -52940,7 +52987,7 @@ export const destinationsData = [
     "description": "Taxila Ancient Buddhist University & Stupas is a renowned sanctuary in Pakistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=1200&q=75",
@@ -53219,7 +53266,7 @@ export const destinationsData = [
     "description": "Fairy Meadows & Nanga Parbat Base Camp is a renowned sanctuary in Pakistan celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=1200&q=75",
@@ -53498,7 +53545,7 @@ export const destinationsData = [
     "description": "Sundarbans National Mangrove Tiger Sanctuary is a renowned sanctuary in Bangladesh celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1585135497273-1a86b09fe70e?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=1200&q=75",
@@ -53777,7 +53824,7 @@ export const destinationsData = [
     "description": "Ahsan Manzil (Pink Palace) & Lalbagh Fort is a renowned sanctuary in Bangladesh celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=1200&q=75",
@@ -54056,7 +54103,7 @@ export const destinationsData = [
     "description": "Srimangal (Tea Capital & Lawachara Forest) is a renowned sanctuary in Bangladesh celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=1200&q=75",
@@ -54335,7 +54382,7 @@ export const destinationsData = [
     "description": "Sixty Dome Mosque (Shait Gumbad Bagerhat) is a renowned sanctuary in Bangladesh celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=1200&q=75",
@@ -54614,7 +54661,7 @@ export const destinationsData = [
     "description": "Cox's Bazar (World's Longest Natural Sea Beach) is a renowned sanctuary in Bangladesh celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=1200&q=75",
@@ -56288,7 +56335,7 @@ export const destinationsData = [
     "description": "Burj Khalifa & Downtown Dubai Marina is a renowned sanctuary in United Arab Emirates celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=75",
@@ -56567,7 +56614,7 @@ export const destinationsData = [
     "description": "Sheikh Zayed Grand Mosque Abu Dhabi is a renowned sanctuary in United Arab Emirates celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1546412414-e1885259563a?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=75",
@@ -56846,7 +56893,7 @@ export const destinationsData = [
     "description": "Louvre Abu Dhabi (Saadiyat Cultural District) is a renowned sanctuary in United Arab Emirates celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=75",
@@ -57125,7 +57172,7 @@ export const destinationsData = [
     "description": "Al Ain Oasis & Jebel Hafeet (UNESCO) is a renowned sanctuary in United Arab Emirates celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=75",
@@ -57404,7 +57451,7 @@ export const destinationsData = [
     "description": "Hatta Mountains & Turquoise Dam Reservoir is a renowned sanctuary in United Arab Emirates celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1578895101408-1a36b834405b?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=75",
@@ -57683,7 +57730,7 @@ export const destinationsData = [
     "description": "AlUla Hegra (Mada'in Salih UNESCO Tombs) is a renowned sanctuary in Saudi Arabia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=1200&q=75",
@@ -57962,7 +58009,7 @@ export const destinationsData = [
     "description": "Historic Al-Balad (Old Jeddah UNESCO District) is a renowned sanctuary in Saudi Arabia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1578895101408-1a36b834405b?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=1200&q=75",
@@ -58241,7 +58288,7 @@ export const destinationsData = [
     "description": "Edge of the World (Jebel Fihrayn Escarpment) is a renowned sanctuary in Saudi Arabia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=1200&q=75",
@@ -58520,7 +58567,7 @@ export const destinationsData = [
     "description": "Diriyah At-Turaif (Birthplace of the Kingdom) is a renowned sanctuary in Saudi Arabia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=1200&q=75",
@@ -58799,7 +58846,7 @@ export const destinationsData = [
     "description": "Farasan Islands Red Sea Marine Sanctuary is a renowned sanctuary in Saudi Arabia celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=1200&q=75",
@@ -60473,7 +60520,7 @@ export const destinationsData = [
     "description": "Temple of the Sacred Tooth Relic (Kandy) is a renowned sanctuary in Sri Lanka celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1588598136853-a66986fc035a?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1566296517249-31704259c7af?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1588598136853-a66986fc035a?auto=format&fit=crop&w=1200&q=75",
@@ -60752,7 +60799,7 @@ export const destinationsData = [
     "description": "Ella Nine Arch Bridge & Demodara Valley is a renowned sanctuary in Sri Lanka celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1588598136853-a66986fc035a?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1588598136853-a66986fc035a?auto=format&fit=crop&w=1200&q=75",
@@ -61031,7 +61078,7 @@ export const destinationsData = [
     "description": "Yala National Park Leopard & Elephant Reserve is a renowned sanctuary in Sri Lanka celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1588598136853-a66986fc035a?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1588598136853-a66986fc035a?auto=format&fit=crop&w=1200&q=75",
@@ -63542,7 +63589,7 @@ export const destinationsData = [
     "description": "Male City Grand Friday Mosque & Old Coral Mosque is a renowned sanctuary in Maldives celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=75",
@@ -63821,7 +63868,7 @@ export const destinationsData = [
     "description": "South Ari Atoll Whale Shark Marine Protected Area is a renowned sanctuary in Maldives celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=75",
@@ -64100,7 +64147,7 @@ export const destinationsData = [
     "description": "Vaadhoo Island Sea of Stars (Bioluminescent Beach) is a renowned sanctuary in Maldives celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=75",
@@ -64379,7 +64426,7 @@ export const destinationsData = [
     "description": "Addu Atoll British Coral Naval Base & Gan Island is a renowned sanctuary in Maldives celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=75",
@@ -64658,7 +64705,7 @@ export const destinationsData = [
     "description": "Hoi An Ancient Lantern Town (UNESCO) is a renowned sanctuary in Vietnam celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75",
@@ -64937,7 +64984,7 @@ export const destinationsData = [
     "description": "Phong Nha-Ke Bang Son Doong Cave Network is a renowned sanctuary in Vietnam celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75",
@@ -65216,7 +65263,7 @@ export const destinationsData = [
     "description": "Sa Pa Terraced Rice Highlands & Mount Fansipan is a renowned sanctuary in Vietnam celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75",
@@ -65495,7 +65542,7 @@ export const destinationsData = [
     "description": "Imperial City of Hue (Citadel & Perfume River) is a renowned sanctuary in Vietnam celebrated for its architectural beauty, deep history, and natural grandeur.",
     "heroMedia": {
       "type": "image",
-      "url": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75"
+      "url": "https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=800&q=75"
     },
     "gallery": [
       "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75",
@@ -68548,7 +68595,2707 @@ export const destinationsData = [
     "isHiddenGem": false
   }
 ];
-
+export const countriesData = [
+  {
+    "id": "india",
+    "name": "India",
+    "code": "IN",
+    "continentRegion": "South Asia",
+    "capital": "New Delhi",
+    "description": "A land of epic civilizational heritage, sacred rivers, vibrant regional cultures, Himalayan peaks, and thousands of years of living architectural traditions.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇮🇳",
+    "coordinates": [
+      20.5937,
+      78.9629
+    ],
+    "zoom": 5,
+    "bestSeason": "October to March",
+    "currency": "INR (₹)",
+    "languages": [
+      "Hindi",
+      "English",
+      "Tamil",
+      "Bengali",
+      "Telugu",
+      "22 Official"
+    ],
+    "heritageCount": 42,
+    "popularActivities": [
+      "Temple Trails",
+      "Spiritual Pilgrimages",
+      "Tiger Safaris",
+      "Culinary Exploration",
+      "Himalayan Treks",
+      "Backwater Cruising"
+    ],
+    "estimatedDailyBudget": "$30 - $110 / day",
+    "journeyScore": 96,
+    "cultureOverview": "Vibrant confluence of Hinduism, Buddhism, Jainism, Sikhism, and Islam with thousands of distinct regional culinary, musical, and artisanal traditions.",
+    "festivals": [
+      {
+        "name": "Diwali (Festival of Lights)",
+        "timing": "October / November",
+        "desc": "Illuminating houses, temples, and ghats with earthen lamps and fireworks across the subcontinent."
+      },
+      {
+        "name": "Holi (Festival of Colors)",
+        "timing": "March",
+        "desc": "Joyful celebration of spring with organic colored powders, music, and festive sweets."
+      },
+      {
+        "name": "Pongal / Makar Sankranti",
+        "timing": "Mid-January",
+        "desc": "Harvest thanksgiving celebrated with fervor in Tamil Nadu and across India."
+      },
+      {
+        "name": "Chithirai Festival",
+        "timing": "April / May",
+        "desc": "Grand celestial wedding of Goddess Meenakshi in Madurai pulling golden chariots."
+      }
+    ],
+    "travelTips": [
+      "Dress modestly with shoulders and knees covered when visiting temples and mosques.",
+      "Book AC train tickets in advance via IRCTC for scenic, authentic overland travel.",
+      "Drink bottled or purified water and enjoy freshly prepared hot street cuisine."
+    ]
+  },
+  {
+    "id": "sri-lanka",
+    "name": "Sri Lanka",
+    "code": "LK",
+    "continentRegion": "South Asia",
+    "capital": "Colombo / Sri Jayawardenepura Kotte",
+    "description": "The Pearl of the Indian Ocean, rich in ancient rock citadels, emerald tea plantations, wild leopard reserves, and coastal colonial ramparts.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1588598136853-a66986fc035a?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1588598136853-a66986fc035a?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇱🇰",
+    "coordinates": [
+      7.8731,
+      80.7718
+    ],
+    "zoom": 7,
+    "bestSeason": "December to April",
+    "currency": "LKR (Rs)",
+    "languages": [
+      "Sinhala",
+      "Tamil",
+      "English"
+    ],
+    "heritageCount": 8,
+    "popularActivities": [
+      "Sigiriya Rock Fortress Climb",
+      "Kandy to Ella Scenic Train",
+      "Yala Leopard Safari",
+      "Galle Dutch Fort Walks",
+      "Mirissa Whale Watching"
+    ],
+    "estimatedDailyBudget": "$30 - $90 / day",
+    "journeyScore": 92,
+    "festivals": [
+      {
+        "name": "Kandy Esala Perahera",
+        "timing": "July / August",
+        "desc": "Ten-day procession of sacred tooth relic with illuminated dancers and drummers."
+      },
+      {
+        "name": "Sinhala & Tamil New Year",
+        "timing": "April 13–14",
+        "desc": "Traditional agrarian celebration with sweetmeats and auspicious rites."
+      }
+    ]
+  },
+  {
+    "id": "nepal",
+    "name": "Nepal",
+    "code": "NP",
+    "continentRegion": "South Asia",
+    "capital": "Kathmandu",
+    "description": "The rooftop of the world, home to Mount Everest, medieval pagoda squares, sacred Himalayan river confluences, and ancient meditation retreats.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇳🇵",
+    "coordinates": [
+      28.3949,
+      84.124
+    ],
+    "zoom": 7,
+    "bestSeason": "October to November & March to April",
+    "currency": "NPR (Rs)",
+    "languages": [
+      "Nepali",
+      "Newari"
+    ],
+    "heritageCount": 4,
+    "popularActivities": [
+      "Everest Base Camp Trek",
+      "Kathmandu Durbar Squares",
+      "Pokhara Lake Reflection Views",
+      "Chitwan Wildlife Safaris",
+      "Lumbini Birthplace of Buddha"
+    ],
+    "estimatedDailyBudget": "$25 - $75 / day",
+    "journeyScore": 93,
+    "festivals": [
+      {
+        "name": "Dashain",
+        "timing": "September / October",
+        "desc": "Longest Hindu festival celebrating victory of good over evil with family reunions."
+      },
+      {
+        "name": "Tihar (Deepavali)",
+        "timing": "October / November",
+        "desc": "Honoring crows, dogs, cows, and Goddess Lakshmi with butter lamps."
+      }
+    ]
+  },
+  {
+    "id": "bhutan",
+    "name": "Bhutan",
+    "code": "BT",
+    "continentRegion": "South Asia",
+    "capital": "Thimphu",
+    "description": "The mystical Land of the Thunder Dragon, where Gross National Happiness, cliffside monasteries, and pristine Himalayan forests preserve timeless tranquility.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇧🇹",
+    "coordinates": [
+      27.5142,
+      90.4336
+    ],
+    "zoom": 8,
+    "bestSeason": "March to May & September to November",
+    "currency": "BTN (Nu.) / INR",
+    "languages": [
+      "Dzongkha"
+    ],
+    "heritageCount": 1,
+    "popularActivities": [
+      "Tiger's Nest (Paro Taktsang) Hike",
+      "Punakha Dzong Architectural Tour",
+      "Tshechu Mask Dance Festivals",
+      "Dochula Pass Vistas"
+    ],
+    "estimatedDailyBudget": "$180 - $350 / day (Sustainable Development Fee)",
+    "journeyScore": 95,
+    "festivals": [
+      {
+        "name": "Paro Tshechu",
+        "timing": "March / April",
+        "desc": "Sacred costumed cham dances and unfurling of the giant silk Thongdrel."
+      }
+    ]
+  },
+  {
+    "id": "maldives",
+    "name": "Maldives",
+    "code": "MV",
+    "continentRegion": "South Asia",
+    "capital": "Malé",
+    "description": "An ethereal constellation of tropical atolls and sapphire coral lagoons, world-famous for overwater villas, whale shark nurseries, and bioluminescent beaches.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇲🇻",
+    "coordinates": [
+      3.2028,
+      73.2207
+    ],
+    "zoom": 7,
+    "bestSeason": "November to April",
+    "currency": "MVR (Rf) / USD",
+    "languages": [
+      "Dhivehi",
+      "English"
+    ],
+    "heritageCount": 1,
+    "popularActivities": [
+      "Overwater Bungalow Retreats",
+      "Manta Ray & Whale Shark Diving",
+      "Sandbank Picnics",
+      "Bioluminescent Night Swims"
+    ],
+    "estimatedDailyBudget": "$120 - $500 / day",
+    "journeyScore": 94
+  },
+  {
+    "id": "pakistan",
+    "name": "Pakistan",
+    "code": "PK",
+    "continentRegion": "South Asia",
+    "capital": "Islamabad",
+    "description": "Cradle of the ancient Indus Valley Civilization, featuring the towering Karakoram Highway, Mughal marvels of Lahore, and majestic Hunza valleys.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇵🇰",
+    "coordinates": [
+      30.3753,
+      69.3451
+    ],
+    "zoom": 5,
+    "bestSeason": "April to October (North) & November to March (South)",
+    "currency": "PKR (Rs)",
+    "languages": [
+      "Urdu",
+      "English",
+      "Punjabi",
+      "Sindhi"
+    ],
+    "heritageCount": 6,
+    "popularActivities": [
+      "Hunza & Skardu Mountain Treks",
+      "Lahore Fort & Badshahi Mosque",
+      "Mohenjo-daro Ruins",
+      "Karakoram Highway Road Trips"
+    ],
+    "estimatedDailyBudget": "$25 - $70 / day",
+    "journeyScore": 90
+  },
+  {
+    "id": "bangladesh",
+    "name": "Bangladesh",
+    "code": "BD",
+    "continentRegion": "South Asia",
+    "capital": "Dhaka",
+    "description": "A land of green rivers, the world's largest mangrove forest of the Sundarbans, home of the Royal Bengal Tiger, and continuous stretches of Cox's Bazar beach.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇧🇩",
+    "coordinates": [
+      23.685,
+      90.3563
+    ],
+    "zoom": 6,
+    "bestSeason": "October to March",
+    "currency": "BDT (৳)",
+    "languages": [
+      "Bengali"
+    ],
+    "heritageCount": 3,
+    "popularActivities": [
+      "Sundarbans Mangrove Boat Safari",
+      "Srimangal Tea Valley Cycling",
+      "Paharpur Buddhist Vihara",
+      "Cox's Bazar 120km Beach"
+    ],
+    "estimatedDailyBudget": "$20 - $65 / day",
+    "journeyScore": 88
+  },
+  {
+    "id": "afghanistan",
+    "name": "Afghanistan",
+    "code": "AF",
+    "continentRegion": "South Asia",
+    "capital": "Kabul",
+    "description": "An ancient crossroads of the Silk Road bordered by the rugged Hindu Kush, known for the Minaret of Jam, lapis lazuli mines, and the sapphire lakes of Band-e Amir.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇦🇫",
+    "coordinates": [
+      33.9391,
+      67.71
+    ],
+    "zoom": 5,
+    "bestSeason": "April to June & September to October",
+    "currency": "AFN (؋)",
+    "languages": [
+      "Dari",
+      "Pashto"
+    ],
+    "heritageCount": 2,
+    "popularActivities": [
+      "Band-e Amir National Park",
+      "Herat Citadel Exploration",
+      "Silk Road Archaeological Relics"
+    ],
+    "estimatedDailyBudget": "$30 - $70 / day",
+    "journeyScore": 82
+  },
+  {
+    "id": "japan",
+    "name": "Japan",
+    "code": "JP",
+    "continentRegion": "East Asia",
+    "capital": "Tokyo",
+    "description": "A seamless synthesis of futuristic hyper-speed technology and thousand-year-old Zen tranquility, shinto mountain shrines, hot spring onsens, and culinary perfection.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇯🇵",
+    "coordinates": [
+      36.2048,
+      138.2529
+    ],
+    "zoom": 5,
+    "bestSeason": "March to May (Sakura) & October to November (Momiji)",
+    "currency": "JPY (¥)",
+    "languages": [
+      "Japanese"
+    ],
+    "heritageCount": 25,
+    "popularActivities": [
+      "Cherry Blossom Picnics",
+      "Shinkansen Bullet Train Trails",
+      "Kyoto Geisha Quarter Walks",
+      "Mount Fuji Ascents",
+      "Traditional Ryokan Stays"
+    ],
+    "estimatedDailyBudget": "$80 - $250 / day",
+    "journeyScore": 97,
+    "festivals": [
+      {
+        "name": "Gion Matsuri (Kyoto)",
+        "timing": "July",
+        "desc": "Japan's most famous month-long festival with grand wooden yamaboko floats."
+      },
+      {
+        "name": "Aomori Nebuta Matsuri",
+        "timing": "August 2–7",
+        "desc": "Gigantic illuminated papier-mâché warrior floats parades."
+      },
+      {
+        "name": "Sapporo Snow Festival",
+        "timing": "Early February",
+        "desc": "Hundreds of colossal ice and snow sculptures in Hokkaido."
+      }
+    ]
+  },
+  {
+    "id": "china",
+    "name": "China",
+    "code": "CN",
+    "continentRegion": "East Asia",
+    "capital": "Beijing",
+    "description": "One of civilization's cradle lands, boasting the monumental Great Wall, mystical karst spires of Guilin, the Terracotta Army, and futuristic metropolises.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇨🇳",
+    "coordinates": [
+      35.8617,
+      104.1954
+    ],
+    "zoom": 4,
+    "bestSeason": "April to May & September to October",
+    "currency": "CNY (¥)",
+    "languages": [
+      "Mandarin",
+      "Cantonese"
+    ],
+    "heritageCount": 57,
+    "popularActivities": [
+      "Great Wall Hiking",
+      "Forbidden City Exploration",
+      "Li River Karst Cruises",
+      "Terracotta Warriors in Xi'an",
+      "Zhangjiajie Avatar Mountains"
+    ],
+    "estimatedDailyBudget": "$50 - $170 / day",
+    "journeyScore": 95,
+    "festivals": [
+      {
+        "name": "Spring Festival (Chinese New Year)",
+        "timing": "January / February",
+        "desc": "Dragon dances, reunion dumplings, red lanterns, and nationwide festivities."
+      },
+      {
+        "name": "Mid-Autumn Festival",
+        "timing": "September / October",
+        "desc": "Mooncakes and lantern festivals celebrating harmony and full moon."
+      },
+      {
+        "name": "Harbin Ice & Snow Festival",
+        "timing": "January to February",
+        "desc": "An entire fairytale city carved from frozen Songhua river blocks."
+      }
+    ]
+  },
+  {
+    "id": "south-korea",
+    "name": "South Korea",
+    "code": "KR",
+    "continentRegion": "East Asia",
+    "capital": "Seoul",
+    "description": "A dynamic cultural powerhouse where centuries-old Joseon royal palaces and Hanok timber villages contrast with K-wave pop culture and smart cities.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1538485399081-7191377e8241?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1538485399081-7191377e8241?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇰🇷",
+    "coordinates": [
+      35.9078,
+      127.7669
+    ],
+    "zoom": 6,
+    "bestSeason": "September to November & April to June",
+    "currency": "KRW (₩)",
+    "languages": [
+      "Korean"
+    ],
+    "heritageCount": 16,
+    "popularActivities": [
+      "Gyeongbokgung Palace Strolls in Hanbok",
+      "Bukchon Hanok Village Walk",
+      "Jeju Island Lava Tubes & Hallasan",
+      "Busan Coastal Haeundae Beach"
+    ],
+    "estimatedDailyBudget": "$70 - $200 / day",
+    "journeyScore": 93,
+    "festivals": [
+      {
+        "name": "Chuseok (Korean Thanksgiving)",
+        "timing": "September / October",
+        "desc": "Three-day autumn harvest holiday with songpyeon rice cakes."
+      },
+      {
+        "name": "Boryeong Mud Festival",
+        "timing": "July",
+        "desc": "High-energy festival celebrating mineral-rich cosmetic sea mud."
+      }
+    ]
+  },
+  {
+    "id": "north-korea",
+    "name": "North Korea",
+    "code": "KP",
+    "continentRegion": "East Asia",
+    "capital": "Pyongyang",
+    "description": "The Democratic People's Republic of Korea, featuring grand socialist neoclassical monuments, Mount Paektu's crater lake, and Mount Kumgang's granite peaks.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇰🇵",
+    "coordinates": [
+      40.3399,
+      127.5101
+    ],
+    "zoom": 6,
+    "bestSeason": "May to June & September to October",
+    "currency": "KPW (₩)",
+    "languages": [
+      "Korean"
+    ],
+    "heritageCount": 2,
+    "popularActivities": [
+      "Pyongyang Grand Monument Tour",
+      "Mount Paektu Heaven Lake",
+      "Kaesong Historic Monuments"
+    ],
+    "estimatedDailyBudget": "$150 - $250 / day (Guided tour mandatory)",
+    "journeyScore": 80
+  },
+  {
+    "id": "mongolia",
+    "name": "Mongolia",
+    "code": "MN",
+    "continentRegion": "East Asia",
+    "capital": "Ulaanbaatar",
+    "description": "The eternal blue sky realm of nomadic horsemen, colossal Gobi desert sand dunes, dinosaur fossil beds, and pristine alpine lakes.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇲🇳",
+    "coordinates": [
+      46.8625,
+      103.8467
+    ],
+    "zoom": 5,
+    "bestSeason": "June to September",
+    "currency": "MNT (₮)",
+    "languages": [
+      "Mongolian"
+    ],
+    "heritageCount": 5,
+    "popularActivities": [
+      "Naadam Festival Wrestling & Archery",
+      "Gobi Desert Camel Treks",
+      "Lake Khovsgol Horseback Riding",
+      "Sleeping in Traditional Yurt Gers"
+    ],
+    "estimatedDailyBudget": "$40 - $120 / day",
+    "journeyScore": 91,
+    "festivals": [
+      {
+        "name": "Naadam Festival",
+        "timing": "July 11–15",
+        "desc": "The three manly sports: archery, wrestling, and long-distance horse racing."
+      }
+    ]
+  },
+  {
+    "id": "thailand",
+    "name": "Thailand",
+    "code": "TH",
+    "continentRegion": "Southeast Asia",
+    "capital": "Bangkok",
+    "description": "The Kingdom of Smiles, famed for gilded Buddhist wats, turquoise Andaman islands, aromatic street food night markets, and ancient kingdoms.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇹🇭",
+    "coordinates": [
+      15.87,
+      100.9925
+    ],
+    "zoom": 6,
+    "bestSeason": "November to February",
+    "currency": "THB (฿)",
+    "languages": [
+      "Thai"
+    ],
+    "heritageCount": 7,
+    "popularActivities": [
+      "Grand Palace & Wat Pho",
+      "Chiang Mai Cooking & Mountain Wats",
+      "Phi Phi & Krabi Island Hopping",
+      "Ayutthaya Ruins Cycling"
+    ],
+    "estimatedDailyBudget": "$30 - $110 / day",
+    "journeyScore": 94,
+    "festivals": [
+      {
+        "name": "Songkran (Water Festival)",
+        "timing": "April 13–15",
+        "desc": "Nationwide water-splashing celebration marking traditional Thai New Year."
+      },
+      {
+        "name": "Loy Krathong & Yi Peng",
+        "timing": "November (Full Moon)",
+        "desc": "Floating flower baskets on rivers and launching thousands of paper lanterns into Chiang Mai night sky."
+      }
+    ]
+  },
+  {
+    "id": "vietnam",
+    "name": "Vietnam",
+    "code": "VN",
+    "continentRegion": "Southeast Asia",
+    "capital": "Hanoi",
+    "description": "Emerald rice terraces in Sapa, limestone karsts soaring from Ha Long Bay, lantern-lit trading ports of Hoi An, and intoxicating street coffee culture.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇻🇳",
+    "coordinates": [
+      14.0583,
+      108.2772
+    ],
+    "zoom": 6,
+    "bestSeason": "February to April & August to October",
+    "currency": "VND (₫)",
+    "languages": [
+      "Vietnamese"
+    ],
+    "heritageCount": 8,
+    "popularActivities": [
+      "Ha Long Bay Overnight Junk Boat Cruise",
+      "Hoi An Ancient Lantern Town Walks",
+      "Phong Nha World's Largest Caves",
+      "Hanoi Old Quarter Street Food Crawls"
+    ],
+    "estimatedDailyBudget": "$25 - $85 / day",
+    "journeyScore": 93,
+    "festivals": [
+      {
+        "name": "Tet Nguyen Dan",
+        "timing": "January / February",
+        "desc": "Vietnamese Lunar New Year with peach blossoms and banh chung cakes."
+      }
+    ]
+  },
+  {
+    "id": "indonesia",
+    "name": "Indonesia",
+    "code": "ID",
+    "continentRegion": "Southeast Asia",
+    "capital": "Jakarta / Nusantara",
+    "description": "An archipelago of over 17,000 islands straddling the equator, featuring sacred volcanic peaks, ancient stone stupas, Komodo dragons, and Balinese spirituality.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇮🇩",
+    "coordinates": [
+      -0.7893,
+      113.9213
+    ],
+    "zoom": 5,
+    "bestSeason": "May to September",
+    "currency": "IDR (Rp)",
+    "languages": [
+      "Indonesian",
+      "Balinese",
+      "Javanese"
+    ],
+    "heritageCount": 10,
+    "popularActivities": [
+      "Borobudur Sunrise Stupa Climb",
+      "Ubud Sacred Monkey Forest & Rice Terraces",
+      "Mount Bromo Sunrise Over Caldera",
+      "Komodo Island Wildlife Cruises"
+    ],
+    "estimatedDailyBudget": "$25 - $95 / day",
+    "journeyScore": 93,
+    "festivals": [
+      {
+        "name": "Nyepi (Day of Absolute Silence)",
+        "timing": "March",
+        "desc": "Balinese New Year where the entire island halts electricity, flights, and noise for 24 hours of meditation."
+      },
+      {
+        "name": "Waisak at Borobudur",
+        "timing": "May",
+        "desc": "Buddha's enlightenment celebrated with thousand sky lanterns over Borobudur stupas."
+      }
+    ]
+  },
+  {
+    "id": "cambodia",
+    "name": "Cambodia",
+    "code": "KH",
+    "continentRegion": "Southeast Asia",
+    "capital": "Phnom Penh",
+    "description": "Heart of the ancient Khmer Empire, home to Angkor Wat, jungle-strangled stone faces of Bayon, and the tranquil waters of the Mekong and Tonle Sap.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇰🇭",
+    "coordinates": [
+      12.5657,
+      104.991
+    ],
+    "zoom": 7,
+    "bestSeason": "November to March",
+    "currency": "KHR (៛) / USD",
+    "languages": [
+      "Khmer"
+    ],
+    "heritageCount": 4,
+    "popularActivities": [
+      "Angkor Wat Sunrise Photography",
+      "Ta Prohm Giant Tree Roots Tour",
+      "Tonle Sap Floating Villages",
+      "Phnom Penh Royal Palace & Silver Pagoda"
+    ],
+    "estimatedDailyBudget": "$25 - $80 / day",
+    "journeyScore": 94,
+    "festivals": [
+      {
+        "name": "Water Festival (Bon Om Touk)",
+        "timing": "November",
+        "desc": "Dragon boat races on the Tonle Sap river reversing direction."
+      },
+      {
+        "name": "Khmer New Year (Chaul Chnam Thmey)",
+        "timing": "Mid-April",
+        "desc": "Three-day family games, temple offerings, and joyful water blessings."
+      }
+    ]
+  },
+  {
+    "id": "singapore",
+    "name": "Singapore",
+    "code": "SG",
+    "continentRegion": "Southeast Asia",
+    "capital": "Singapore",
+    "description": "A visionary Garden City where futuristic Supertree Groves, Cloud Forest glass domes, Michelin-starred street hawker stalls, and heritage shophouses unite.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇸🇬",
+    "coordinates": [
+      1.3521,
+      103.8198
+    ],
+    "zoom": 11,
+    "bestSeason": "Year-Round (Best Nov–Jan & Jun–Aug)",
+    "currency": "SGD ($)",
+    "languages": [
+      "English",
+      "Mandarin",
+      "Malay",
+      "Tamil"
+    ],
+    "heritageCount": 1,
+    "popularActivities": [
+      "Gardens by the Bay Light & Sound Show",
+      "Marina Bay Sands SkyPark Vistas",
+      "Chinatown & Little India Cultural Food Trails",
+      "Night Safari Wildlife Tram"
+    ],
+    "estimatedDailyBudget": "$90 - $280 / day",
+    "journeyScore": 94
+  },
+  {
+    "id": "malaysia",
+    "name": "Malaysia",
+    "code": "MY",
+    "continentRegion": "Southeast Asia",
+    "capital": "Kuala Lumpur",
+    "description": "A harmonious multicultural tapestry of Malay, Chinese, and Indian heritage, soaring Petronas Towers, ancient Borneo rainforests, and food capitals like Penang.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇲🇾",
+    "coordinates": [
+      4.2105,
+      101.9758
+    ],
+    "zoom": 6,
+    "bestSeason": "March to October",
+    "currency": "MYR (RM)",
+    "languages": [
+      "Malay",
+      "English",
+      "Mandarin",
+      "Tamil"
+    ],
+    "heritageCount": 5,
+    "popularActivities": [
+      "Batu Caves Rainbow Steps & Murugan Statue",
+      "Penang UNESCO George Town Street Food",
+      "Borneo Orangutan Encounters",
+      "Langkawi Cable Car & Sky Bridge"
+    ],
+    "estimatedDailyBudget": "$35 - $110 / day",
+    "journeyScore": 91
+  },
+  {
+    "id": "philippines",
+    "name": "Philippines",
+    "code": "PH",
+    "continentRegion": "Southeast Asia",
+    "capital": "Manila",
+    "description": "An archipelago of 7,641 emerald islands boasting crystalline lagoons in El Nido, ancient 2,000-year-old Ifugao rice terraces, and Spanish baroque cathedrals.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇵🇭",
+    "coordinates": [
+      12.8797,
+      121.774
+    ],
+    "zoom": 6,
+    "bestSeason": "December to April",
+    "currency": "PHP (₱)",
+    "languages": [
+      "Filipino",
+      "English"
+    ],
+    "heritageCount": 6,
+    "popularActivities": [
+      "El Nido & Coron Island Hopping",
+      "Banaue Rice Terraces Treks",
+      "Boracay White Beach Sunsets",
+      "Intramuros Walled City Walks"
+    ],
+    "estimatedDailyBudget": "$30 - $100 / day",
+    "journeyScore": 92
+  },
+  {
+    "id": "laos",
+    "name": "Laos",
+    "code": "LA",
+    "continentRegion": "Southeast Asia",
+    "capital": "Vientiane",
+    "description": "The quiet heart of Indochina, where saffron-robed monks collect morning alms in UNESCO Luang Prabang, Kuang Si turquoise waterfalls cascade, and karst mountains rise.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1540611025311-01df3cef54b5?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1540611025311-01df3cef54b5?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇱🇦",
+    "coordinates": [
+      19.8563,
+      102.4955
+    ],
+    "zoom": 6,
+    "bestSeason": "November to March",
+    "currency": "LAK (₭)",
+    "languages": [
+      "Lao",
+      "French"
+    ],
+    "heritageCount": 3,
+    "popularActivities": [
+      "Luang Prabang Morning Alms Giving",
+      "Kuang Si Multi-Tiered Waterfall Swims",
+      "Vang Vieng Hot Air Balloon Over Karsts",
+      "Plain of Jars Megalithic Exploration"
+    ],
+    "estimatedDailyBudget": "$25 - $75 / day",
+    "journeyScore": 91
+  },
+  {
+    "id": "myanmar",
+    "name": "Myanmar",
+    "code": "MM",
+    "continentRegion": "Southeast Asia",
+    "capital": "Naypyidaw",
+    "description": "The Golden Land, renowned for the plains of Bagan with over 2,000 ancient brick pagodas, the shimmering Shwedagon Pagoda, and leg-rowing fishermen on Inle Lake.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇲🇲",
+    "coordinates": [
+      21.9162,
+      95.956
+    ],
+    "zoom": 6,
+    "bestSeason": "November to February",
+    "currency": "MMK (K)",
+    "languages": [
+      "Burmese"
+    ],
+    "heritageCount": 2,
+    "popularActivities": [
+      "Sunrise Hot Air Balloon Over Bagan Temples",
+      "Shwedagon Pagoda Gilded Stupa Walk",
+      "Inle Lake Floating Gardens",
+      "Mandalay U Bein Teak Bridge"
+    ],
+    "estimatedDailyBudget": "$25 - $75 / day",
+    "journeyScore": 88
+  },
+  {
+    "id": "brunei",
+    "name": "Brunei",
+    "code": "BN",
+    "continentRegion": "Southeast Asia",
+    "capital": "Bandar Seri Begawan",
+    "description": "A peaceful sultanate in Borneo surrounded by pristine virgin rainforests, opulent gold-domed mosques, and Kampong Ayer—the Venice of the East.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇧🇳",
+    "coordinates": [
+      4.5353,
+      114.7277
+    ],
+    "zoom": 8,
+    "bestSeason": "January to May",
+    "currency": "BND ($)",
+    "languages": [
+      "Malay",
+      "English"
+    ],
+    "heritageCount": 1,
+    "popularActivities": [
+      "Omar Ali Saifuddien Mosque Viewing",
+      "Kampong Ayer Stilt Village Boat Tour",
+      "Ulu Temburong National Park Canopy Walk"
+    ],
+    "estimatedDailyBudget": "$45 - $130 / day",
+    "journeyScore": 87
+  },
+  {
+    "id": "timor-leste",
+    "name": "Timor-Leste",
+    "code": "TL",
+    "continentRegion": "Southeast Asia",
+    "capital": "Dili",
+    "description": "Asia's newest nation, boasting untouched Coral Triangle reefs around Atauro Island, Portuguese colonial remnants, and mist-cloaked mountain trails.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇹🇱",
+    "coordinates": [
+      -8.8742,
+      125.7275
+    ],
+    "zoom": 8,
+    "bestSeason": "May to November",
+    "currency": "USD ($)",
+    "languages": [
+      "Tetum",
+      "Portuguese"
+    ],
+    "heritageCount": 1,
+    "popularActivities": [
+      "Atauro Island World-Class Coral Diving",
+      "Cristo Rei Panoramic Coastal Hike",
+      "Mount Ramelau Summit Sunrise"
+    ],
+    "estimatedDailyBudget": "$40 - $110 / day",
+    "journeyScore": 85
+  },
+  {
+    "id": "uae",
+    "name": "United Arab Emirates",
+    "code": "AE",
+    "continentRegion": "West Asia",
+    "capital": "Abu Dhabi",
+    "description": "A visionary desert oasis of superlative modern architecture, pure white marble mosques, historic Bedouin desert forts, and artificial archipelago wonders.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇦🇪",
+    "coordinates": [
+      23.4241,
+      53.8478
+    ],
+    "zoom": 7,
+    "bestSeason": "November to March",
+    "currency": "AED (د.إ)",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "heritageCount": 1,
+    "popularActivities": [
+      "Burj Khalifa Sky Deck Observation",
+      "Sheikh Zayed Grand Mosque Pilgrimage",
+      "Desert Dune Bashing & Arabian Camps",
+      "Louvre Abu Dhabi Floating Dome"
+    ],
+    "estimatedDailyBudget": "$100 - $350 / day",
+    "journeyScore": 93
+  },
+  {
+    "id": "saudi-arabia",
+    "name": "Saudi Arabia",
+    "code": "SA",
+    "continentRegion": "West Asia",
+    "capital": "Riyadh",
+    "description": "The historic cradle of Arabia featuring ancient Nabataean rock-cut monumental tombs of Hegra, Al-Ula canyons, sacred pilgrimage sites, and Red Sea reefs.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1578895210405-907db486c111?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇸🇦",
+    "coordinates": [
+      23.8859,
+      45.0792
+    ],
+    "zoom": 5,
+    "bestSeason": "November to March",
+    "currency": "SAR (﷼)",
+    "languages": [
+      "Arabic"
+    ],
+    "heritageCount": 7,
+    "popularActivities": [
+      "Al-Ula & Hegra Monumental Tombs",
+      "Historic Jeddah Al-Balad Coral Architecture",
+      "Diriyah UNESCO Birthplace of the First Saudi State",
+      "Edge of the World Desert Cliffs"
+    ],
+    "estimatedDailyBudget": "$80 - $260 / day",
+    "journeyScore": 91
+  },
+  {
+    "id": "turkey",
+    "name": "Türkiye",
+    "code": "TR",
+    "continentRegion": "West Asia",
+    "capital": "Ankara",
+    "description": "The timeless bridge between East and West, home to Byzantine domes of Hagia Sophia, fairy chimneys and hot air balloons of Cappadocia, and Ottoman bazaars.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇹🇷",
+    "coordinates": [
+      38.9637,
+      35.2433
+    ],
+    "zoom": 6,
+    "bestSeason": "April to May & September to November",
+    "currency": "TRY (₺)",
+    "languages": [
+      "Turkish"
+    ],
+    "heritageCount": 21,
+    "popularActivities": [
+      "Cappadocia Sunrise Hot Air Ballooning",
+      "Hagia Sophia & Blue Mosque Historical Tour",
+      "Pamukkale Thermal White Travertines",
+      "Grand Bazaar & Spice Market"
+    ],
+    "estimatedDailyBudget": "$45 - $150 / day",
+    "journeyScore": 95
+  },
+  {
+    "id": "jordan",
+    "name": "Jordan",
+    "code": "JO",
+    "continentRegion": "West Asia",
+    "capital": "Amman",
+    "description": "Ancient land of biblical history, where the rose-red stone city of Petra stands hidden within narrow desert canyons and the Dead Sea offers weightless floating.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1579606032834-de00b1a0e5a6?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇯🇴",
+    "coordinates": [
+      30.5852,
+      36.2384
+    ],
+    "zoom": 7,
+    "bestSeason": "March to May & September to November",
+    "currency": "JOD (JD)",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "heritageCount": 6,
+    "popularActivities": [
+      "Petra Treasury (Al-Khazneh) Gorge Walk",
+      "Wadi Rum Martian Desert Jeep Safaris",
+      "Dead Sea Mineral Floating",
+      "Jerash Roman Ruins"
+    ],
+    "estimatedDailyBudget": "$60 - $180 / day",
+    "journeyScore": 94
+  },
+  {
+    "id": "oman",
+    "name": "Oman",
+    "code": "OM",
+    "continentRegion": "West Asia",
+    "capital": "Muscat",
+    "description": "A land of peaceful Arabian authenticity with magnificent coastal forts, emerald desert wadis, frankincense trees, and the dramatic fjords of Musandam.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇴🇲",
+    "coordinates": [
+      21.5126,
+      55.9233
+    ],
+    "zoom": 6,
+    "bestSeason": "October to April",
+    "currency": "OMR (ر.ع.)",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "heritageCount": 5,
+    "popularActivities": [
+      "Wadi Shab Canyon Hike & Cave Swimming",
+      "Sultan Qaboos Grand Mosque",
+      "Nizwa Historic Fort & Friday Cattle Market",
+      "Wahiba Sands Desert Dunes"
+    ],
+    "estimatedDailyBudget": "$70 - $200 / day",
+    "journeyScore": 92
+  },
+  {
+    "id": "qatar",
+    "name": "Qatar",
+    "code": "QA",
+    "continentRegion": "West Asia",
+    "capital": "Doha",
+    "description": "Where world-class contemporary art institutions like the Museum of Islamic Art and National Museum rise along the Persian Gulf alongside Souq Waqif.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇶🇦",
+    "coordinates": [
+      25.3548,
+      51.1839
+    ],
+    "zoom": 8,
+    "bestSeason": "November to March",
+    "currency": "QAR (ر.ق)",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "heritageCount": 1,
+    "popularActivities": [
+      "Museum of Islamic Art Architecture",
+      "Souq Waqif Falcon Market & Spices",
+      "Inland Sea (Khor Al Adaid) Dune Drives"
+    ],
+    "estimatedDailyBudget": "$90 - $280 / day",
+    "journeyScore": 90
+  },
+  {
+    "id": "kuwait",
+    "name": "Kuwait",
+    "code": "KW",
+    "continentRegion": "West Asia",
+    "capital": "Kuwait City",
+    "description": "A maritime trading hub celebrated for the iconic blue-tiled Kuwait Towers, the Grand Mosque, and Tareq Rajab Museum of Islamic Calligraphy.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇰🇼",
+    "coordinates": [
+      29.3117,
+      47.4818
+    ],
+    "zoom": 8,
+    "bestSeason": "November to March",
+    "currency": "KWD (د.ك)",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "heritageCount": 1,
+    "popularActivities": [
+      "Kuwait Towers Panoramic Deck",
+      "Grand Mosque Guided Tour",
+      "Souq Al-Mubarakiya Traditional Heritage Strolls"
+    ],
+    "estimatedDailyBudget": "$80 - $220 / day",
+    "journeyScore": 86
+  },
+  {
+    "id": "bahrain",
+    "name": "Bahrain",
+    "code": "BH",
+    "continentRegion": "West Asia",
+    "capital": "Manama",
+    "description": "The ancient Dilmun civilization island, world-famed for historical pearling trails, Portuguese Qal'at al-Bahrain fort, and Bahrain National Museum.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇧🇭",
+    "coordinates": [
+      26.0667,
+      50.5577
+    ],
+    "zoom": 9,
+    "bestSeason": "November to March",
+    "currency": "BHD (.د.ب)",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "heritageCount": 3,
+    "popularActivities": [
+      "Qal'at al-Bahrain Ancient Fort Exploration",
+      "Pearling Path UNESCO Trail",
+      "Bab Al Bahrain Heritage Market"
+    ],
+    "estimatedDailyBudget": "$75 - $210 / day",
+    "journeyScore": 88
+  },
+  {
+    "id": "lebanon",
+    "name": "Lebanon",
+    "code": "LB",
+    "continentRegion": "West Asia",
+    "capital": "Beirut",
+    "description": "A Mediterranean treasure of Phoenician ports, colossal Roman temples of Baalbek, ancient cedar forests, and legendary Levantine gastronomy.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇱🇧",
+    "coordinates": [
+      33.8547,
+      35.8623
+    ],
+    "zoom": 8,
+    "bestSeason": "April to June & September to November",
+    "currency": "LBP (ل.ل) / USD",
+    "languages": [
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "heritageCount": 5,
+    "popularActivities": [
+      "Baalbek Colossal Roman Temple Complex",
+      "Byblos 7,000-Year-Old Phoenician Port",
+      "Jeita Grotto Limestone Caves",
+      "Beirut Corniche Strolls"
+    ],
+    "estimatedDailyBudget": "$45 - $140 / day",
+    "journeyScore": 89
+  },
+  {
+    "id": "iran",
+    "name": "Iran",
+    "code": "IR",
+    "continentRegion": "West Asia",
+    "capital": "Tehran",
+    "description": "Home of ancient Persia, boasting Persepolis, the turquoise-tiled masterpiece mosques of Isfahan, desert windcatchers of Yazd, and Persian gardens.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇮🇷",
+    "coordinates": [
+      32.4279,
+      53.688
+    ],
+    "zoom": 5,
+    "bestSeason": "March to May & September to November",
+    "currency": "IRR (﷼)",
+    "languages": [
+      "Persian (Farsi)"
+    ],
+    "heritageCount": 27,
+    "popularActivities": [
+      "Persepolis Ceremonial Capital of Darius",
+      "Naqsh-e Jahan Square in Isfahan",
+      "Yazd Adobe Desert Windcatchers",
+      "Shiraz Hafez Tomb & Pink Mosque"
+    ],
+    "estimatedDailyBudget": "$35 - $100 / day",
+    "journeyScore": 92
+  },
+  {
+    "id": "iraq",
+    "name": "Iraq",
+    "code": "IQ",
+    "continentRegion": "West Asia",
+    "capital": "Baghdad",
+    "description": "The historical cradle of Mesopotamia between Tigris and Euphrates, where writing was born, featuring ancient Babylon, Ur Ziggurat, and Erbil Citadel.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇮🇶",
+    "coordinates": [
+      33.2232,
+      43.6793
+    ],
+    "zoom": 6,
+    "bestSeason": "November to April",
+    "currency": "IQD (ع.د)",
+    "languages": [
+      "Arabic",
+      "Kurdish"
+    ],
+    "heritageCount": 6,
+    "popularActivities": [
+      "Great Ziggurat of Ur Sumerian Ruins",
+      "Babylon Ancient Gate of Ishtar Site",
+      "Erbil Citadel Continuous Settlement",
+      "Iraqi Marshlands Boat Tours"
+    ],
+    "estimatedDailyBudget": "$35 - $90 / day",
+    "journeyScore": 84
+  },
+  {
+    "id": "armenia",
+    "name": "Armenia",
+    "code": "AM",
+    "continentRegion": "West Asia",
+    "capital": "Yerevan",
+    "description": "The world's earliest officially Christian nation, famed for cliff-hanging stone monasteries of Tatev and Geghard framing snow-capped Mount Ararat.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇦🇲",
+    "coordinates": [
+      40.0691,
+      45.0382
+    ],
+    "zoom": 7,
+    "bestSeason": "May to June & September to October",
+    "currency": "AMD (֏)",
+    "languages": [
+      "Armenian",
+      "Russian"
+    ],
+    "heritageCount": 3,
+    "popularActivities": [
+      "Khor Virap Monastery Views of Ararat",
+      "Geghard Cave Monastery Chants",
+      "Lake Sevan Alpine Blue Waters",
+      "Wings of Tatev World's Longest Cable Car"
+    ],
+    "estimatedDailyBudget": "$30 - $90 / day",
+    "journeyScore": 91
+  },
+  {
+    "id": "azerbaijan",
+    "name": "Azerbaijan",
+    "code": "AZ",
+    "continentRegion": "West Asia",
+    "capital": "Baku",
+    "description": "The Land of Fire on the Caspian Sea, where futuristic Flame Towers illuminate the UNESCO medieval Maiden Tower and Gobustan mud volcanoes.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1572455044327-7348c1be7267?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇦🇿",
+    "coordinates": [
+      40.1431,
+      47.5769
+    ],
+    "zoom": 7,
+    "bestSeason": "April to June & September to October",
+    "currency": "AZN (₼)",
+    "languages": [
+      "Azerbaijani"
+    ],
+    "heritageCount": 5,
+    "popularActivities": [
+      "Baku Icherisheher Old Walled City",
+      "Gobustan Rock Petroglyphs & Mud Volcanoes",
+      "Ateshgah Fire Temple of Baku",
+      "Heydar Aliyev Center Architecture"
+    ],
+    "estimatedDailyBudget": "$35 - $110 / day",
+    "journeyScore": 90
+  },
+  {
+    "id": "georgia",
+    "name": "Georgia",
+    "code": "GE",
+    "continentRegion": "West Asia",
+    "capital": "Tbilisi",
+    "description": "Birthplace of 8,000-year-old qvevri winemaking traditions in the high Caucasus, celebrated for Stepantsminda mountain churches and sulphur baths.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇬🇪",
+    "coordinates": [
+      42.3154,
+      43.3569
+    ],
+    "zoom": 7,
+    "bestSeason": "May to June & September to October",
+    "currency": "GEL (₾)",
+    "languages": [
+      "Georgian"
+    ],
+    "heritageCount": 4,
+    "popularActivities": [
+      "Gergeti Trinity Church Under Mount Kazbek",
+      "Tbilisi Old Town Wooden Balconies & Baths",
+      "Kakheti Ancient Clay Amphora Wine Tours",
+      "Uplistsikhe Cave City Exploration"
+    ],
+    "estimatedDailyBudget": "$30 - $95 / day",
+    "journeyScore": 93
+  },
+  {
+    "id": "uzbekistan",
+    "name": "Uzbekistan",
+    "code": "UZ",
+    "continentRegion": "Central Asia",
+    "capital": "Tashkent",
+    "description": "The heart of the Silk Road glittering with turquoise-tiled madrasahs, azure domes, and monumental minarets across Samarkand, Bukhara, and Khiva.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇺🇿",
+    "coordinates": [
+      41.3775,
+      64.5853
+    ],
+    "zoom": 6,
+    "bestSeason": "April to June & September to October",
+    "currency": "UZS (soʻm)",
+    "languages": [
+      "Uzbek",
+      "Russian",
+      "Tajik"
+    ],
+    "heritageCount": 5,
+    "popularActivities": [
+      "Registan Square at Sunset",
+      "Bukhara Ark Ancient Desert Citadel",
+      "Khiva Walled Open-Air Museum City",
+      "Shah-i-Zinda Tilework Necropolis"
+    ],
+    "estimatedDailyBudget": "$30 - $90 / day",
+    "journeyScore": 94,
+    "festivals": [
+      {
+        "name": "Navruz (Central Asian New Year)",
+        "timing": "March 21",
+        "desc": "Spring equinox celebration with sumalak sprouted wheat sweet."
+      },
+      {
+        "name": "Silk and Spices Festival",
+        "timing": "May in Bukhara",
+        "desc": "Silk weavers, folk music, miniature painters, and spice caravans."
+      }
+    ]
+  },
+  {
+    "id": "kazakhstan",
+    "name": "Kazakhstan",
+    "code": "KZ",
+    "continentRegion": "Central Asia",
+    "capital": "Astana",
+    "description": "The world's largest landlocked nation, featuring dramatic Charyn Canyon, singing sand dunes, Kaindy submerged birch lake, and Tien Shan peaks.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇰🇿",
+    "coordinates": [
+      48.0196,
+      66.9237
+    ],
+    "zoom": 5,
+    "bestSeason": "May to September",
+    "currency": "KZT (₸)",
+    "languages": [
+      "Kazakh",
+      "Russian"
+    ],
+    "heritageCount": 5,
+    "popularActivities": [
+      "Charyn Canyon Red Rock Trail Hike",
+      "Kaindy Lake Submerged Forest",
+      "Almaty Medeu Ice Skating & Shymbulak",
+      "Turkistan Mausoleum of Khoja Ahmed Yasawi"
+    ],
+    "estimatedDailyBudget": "$35 - $110 / day",
+    "journeyScore": 91
+  },
+  {
+    "id": "kyrgyzstan",
+    "name": "Kyrgyzstan",
+    "code": "KG",
+    "continentRegion": "Central Asia",
+    "capital": "Bishkek",
+    "description": "Celestial mountain jewel of nomadic horsemen and alpine yurt camps ringing the massive warm waters of Issyk-Kul Lake under snow-capped peaks.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇰🇬",
+    "coordinates": [
+      41.2044,
+      74.7661
+    ],
+    "zoom": 7,
+    "bestSeason": "June to September",
+    "currency": "KGS (с)",
+    "languages": [
+      "Kyrgyz",
+      "Russian"
+    ],
+    "heritageCount": 3,
+    "popularActivities": [
+      "Song-Kul Alpine Yurt Stays & Horse Treks",
+      "Issyk-Kul Lake Relaxation & Petroglyphs",
+      "Ala-Archa National Park Glacial Valley Hikes",
+      "Tash Rabat Ancient Silk Road Caravanserai"
+    ],
+    "estimatedDailyBudget": "$25 - $75 / day",
+    "journeyScore": 92
+  },
+  {
+    "id": "tajikistan",
+    "name": "Tajikistan",
+    "code": "TJ",
+    "continentRegion": "Central Asia",
+    "capital": "Dushanbe",
+    "description": "The Roof of the World, traversed by the legendary Pamir Highway through high mountain passes over 4,600 meters and turquoise Fann Mountain lakes.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇹🇯",
+    "coordinates": [
+      38.861,
+      71.2761
+    ],
+    "zoom": 7,
+    "bestSeason": "June to September",
+    "currency": "TJS (SM)",
+    "languages": [
+      "Tajik",
+      "Russian"
+    ],
+    "heritageCount": 4,
+    "popularActivities": [
+      "Pamir Highway (M41) High-Altitude Expedition",
+      "Fann Mountains Iskanderkul Lake",
+      "Wakhan Corridor Afghan Border Vistas"
+    ],
+    "estimatedDailyBudget": "$30 - $80 / day",
+    "journeyScore": 89
+  },
+  {
+    "id": "turkmenistan",
+    "name": "Turkmenistan",
+    "code": "TM",
+    "continentRegion": "Central Asia",
+    "capital": "Ashgabat",
+    "description": "A desert realm featuring the fiery Darvaza 'Door to Hell' gas crater burning in the Karakum, ancient ruins of Merv, and Ashgabat's white marble monuments.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇹🇲",
+    "coordinates": [
+      38.9697,
+      59.5563
+    ],
+    "zoom": 6,
+    "bestSeason": "April to May & September to October",
+    "currency": "TMT (m)",
+    "languages": [
+      "Turkmen",
+      "Russian"
+    ],
+    "heritageCount": 5,
+    "popularActivities": [
+      "Darvaza Gas Crater Night Campfire",
+      "Ancient Merv Oasis Silk Road Metropolis",
+      "Ashgabat White Marble Palace Architecture"
+    ],
+    "estimatedDailyBudget": "$60 - $160 / day",
+    "journeyScore": 86
+  },
+  {
+    "id": "russia",
+    "name": "Russia (Siberia & Far East)",
+    "code": "RU",
+    "continentRegion": "North / Central Asia",
+    "capital": "Moscow / Vladivostok",
+    "description": "The vast Asian expanse of the Russian continent, featuring Lake Baikal—the world's deepest freshwater lake—and Kamchatka's Pacific volcanic ring.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇷🇺",
+    "coordinates": [
+      55.7558,
+      37.6173
+    ],
+    "zoom": 3,
+    "bestSeason": "June to August (Summer) & January to March (Winter Ice)",
+    "currency": "RUB (₽)",
+    "languages": [
+      "Russian",
+      "Buryat"
+    ],
+    "heritageCount": 11,
+    "popularActivities": [
+      "Trans-Siberian Overland Railway",
+      "Lake Baikal Winter Clear Ice Walking",
+      "Kamchatka Valley of Geysers"
+    ],
+    "estimatedDailyBudget": "$45 - $130 / day",
+    "journeyScore": 89
+  },
+  {
+    "id": "syria",
+    "name": "Syria",
+    "code": "SY",
+    "continentRegion": "West Asia",
+    "capital": "Damascus",
+    "description": "An ancient civilizational crossroads, home to ancient Palmyra Roman colonnades, Krak des Chevaliers crusader fort, and Damascus Old City.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇸🇾",
+    "coordinates": [
+      34.8021,
+      38.9968
+    ],
+    "zoom": 6,
+    "bestSeason": "April to May & September to October",
+    "currency": "SYP (£S)",
+    "languages": [
+      "Arabic"
+    ],
+    "heritageCount": 6,
+    "popularActivities": [
+      "Palmyra Ancient Colonnades",
+      "Krak des Chevaliers Castle",
+      "Damascus Umayyad Mosque"
+    ],
+    "estimatedDailyBudget": "$30 - $80 / day",
+    "journeyScore": 81
+  },
+  {
+    "id": "yemen",
+    "name": "Yemen",
+    "code": "YE",
+    "continentRegion": "West Asia",
+    "capital": "Sana'a",
+    "description": "Land of the Queen of Sheba, famed for the fairytale mud-brick skyscrapers of Shibam—the 'Manhattan of the Desert'—and alien dragon's blood trees of Socotra.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇾🇪",
+    "coordinates": [
+      15.5527,
+      48.5164
+    ],
+    "zoom": 6,
+    "bestSeason": "October to April (Socotra & Highlands)",
+    "currency": "YER (﷼)",
+    "languages": [
+      "Arabic",
+      "Soqotri"
+    ],
+    "heritageCount": 4,
+    "popularActivities": [
+      "Socotra Island Dragon Blood Tree Treks",
+      "Shibam Ancient Mud Skyscraper Walks",
+      "Old Walled City of Sana'a"
+    ],
+    "estimatedDailyBudget": "$40 - $110 / day",
+    "journeyScore": 83
+  },
+  {
+    "id": "israel",
+    "name": "Israel",
+    "code": "IL",
+    "continentRegion": "West Asia",
+    "capital": "Jerusalem",
+    "description": "A sacred meeting ground of world faiths, boasting the ancient stone ramparts of Jerusalem's Old City, buoyant waters of the Dead Sea, and Mediterranean Tel Aviv.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1544830206-8147d3c0fb29?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇮🇱",
+    "coordinates": [
+      31.0461,
+      34.8516
+    ],
+    "zoom": 7,
+    "bestSeason": "March to May & October to November",
+    "currency": "ILS (₪)",
+    "languages": [
+      "Hebrew",
+      "Arabic",
+      "English"
+    ],
+    "heritageCount": 9,
+    "popularActivities": [
+      "Jerusalem Old City Western Wall & Holy Sepulchre",
+      "Dead Sea Floating",
+      "Masada Desert Fortress Sunrise",
+      "Tel Aviv Mediterranean Beaches"
+    ],
+    "estimatedDailyBudget": "$90 - $260 / day",
+    "journeyScore": 92
+  },
+  {
+    "id": "palestine",
+    "name": "Palestine",
+    "code": "PS",
+    "continentRegion": "West Asia",
+    "capital": "Ramallah / East Jerusalem",
+    "description": "An ancient land deeply rooted in millennia of olive harvest heritage, Church of the Nativity in Bethlehem, the ancient springs of Jericho, and vibrant souqs of Hebron.",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75",
+      "poster": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=75"
+    },
+    "flag": "🇵🇸",
+    "coordinates": [
+      31.9522,
+      35.2332
+    ],
+    "zoom": 8,
+    "bestSeason": "March to May & September to November",
+    "currency": "ILS (₪) / JOD",
+    "languages": [
+      "Arabic"
+    ],
+    "heritageCount": 4,
+    "popularActivities": [
+      "Bethlehem Church of the Nativity Pilgrimage",
+      "Jericho World's Oldest City Ruins",
+      "Hebron Glass & Pottery Artisan Workshops"
+    ],
+    "estimatedDailyBudget": "$35 - $95 / day",
+    "journeyScore": 86
+  }
+];
+export const regionsData = [
+  {
+    "id": "tamil-nadu",
+    "countryCode": "IN",
+    "countryId": "india",
+    "name": "Tamil Nadu",
+    "capital": "Chennai",
+    "description": "The civilizational cradle of Dravidian arts, famed for thousand-pillar granite temples, Nilgiri hill stations, classical Bharatanatyam, and Coromandel coastal shores.",
+    "media": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=75",
+    "coordinates": [
+      11.1271,
+      78.6569
+    ],
+    "destinationsCount": 8
+  },
+  {
+    "id": "kerala",
+    "countryCode": "IN",
+    "countryId": "india",
+    "name": "Kerala",
+    "capital": "Thiruvananthapuram",
+    "description": "God's Own Country, famed for emerald palm-fringed backwaters, Ayurvedic wellness retreats, Arabian Sea cliffs, and misty tea plantations of Munnar.",
+    "media": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=75",
+    "coordinates": [
+      10.8505,
+      76.2711
+    ],
+    "destinationsCount": 5
+  },
+  {
+    "id": "rajasthan",
+    "countryCode": "IN",
+    "countryId": "india",
+    "name": "Rajasthan",
+    "capital": "Jaipur",
+    "description": "The land of Rajput kings, colossal desert hill forts, opulent mirrored palaces, sand dunes of the Thar, and kaleidoscopic folk festivals.",
+    "media": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1200&q=75",
+    "coordinates": [
+      27.0238,
+      74.2179
+    ],
+    "destinationsCount": 6
+  },
+  {
+    "id": "uttar-pradesh",
+    "countryCode": "IN",
+    "countryId": "india",
+    "name": "Uttar Pradesh",
+    "capital": "Lucknow",
+    "description": "Heartland of northern heritage, home to the ivory-white Taj Mahal, the 3,000-year-old sacred river ghats of Varanasi, and Nawabi culinary grandeur.",
+    "media": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=75",
+    "coordinates": [
+      26.8467,
+      80.9462
+    ],
+    "destinationsCount": 4
+  },
+  {
+    "id": "maharashtra",
+    "countryCode": "IN",
+    "countryId": "india",
+    "name": "Maharashtra",
+    "capital": "Mumbai",
+    "description": "From the electrifying coastal skyline and Bollywood energy of Mumbai to the rock-cut Buddhist & Hindu caves of Ajanta and Ellora.",
+    "media": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=1200&q=75",
+    "coordinates": [
+      19.7515,
+      75.7139
+    ],
+    "destinationsCount": 3
+  },
+  {
+    "id": "karnataka",
+    "countryCode": "IN",
+    "countryId": "india",
+    "name": "Karnataka",
+    "capital": "Bengaluru",
+    "description": "Ancient stone kingdoms of Hampi, royal Mysore Palace, coffee estates of Coorg, and pristine Western Ghats rainforests.",
+    "media": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=75",
+    "coordinates": [
+      15.3173,
+      75.7139
+    ],
+    "destinationsCount": 3
+  },
+  {
+    "id": "goa",
+    "countryCode": "IN",
+    "countryId": "india",
+    "name": "Goa",
+    "capital": "Panaji",
+    "description": "Golden palm beaches, Portuguese colonial baroque churches, spice plantations, and vibrant coastal shacks.",
+    "media": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=75",
+    "coordinates": [
+      15.2993,
+      74.124
+    ],
+    "destinationsCount": 2
+  },
+  {
+    "id": "kansai",
+    "countryCode": "JP",
+    "countryId": "japan",
+    "name": "Kansai (Kyoto, Osaka, Nara)",
+    "capital": "Kyoto / Osaka",
+    "description": "Japan's thousand-year imperial cultural epicenter, housing thousands of Shinto shrines, Zen rock gardens, historic geisha districts, and UNESCO castles.",
+    "media": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=75",
+    "coordinates": [
+      35.0116,
+      135.7681
+    ],
+    "destinationsCount": 5
+  },
+  {
+    "id": "kanto",
+    "countryCode": "JP",
+    "countryId": "japan",
+    "name": "Kanto (Tokyo & Mount Fuji Area)",
+    "capital": "Tokyo",
+    "description": "The cybernetic metropolis of Tokyo framed by sacred Mount Fuji, historic Asakusa, and hot spring ryokans of Hakone.",
+    "media": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1200&q=75",
+    "coordinates": [
+      35.6762,
+      139.6503
+    ],
+    "destinationsCount": 4
+  },
+  {
+    "id": "chubu",
+    "countryCode": "JP",
+    "countryId": "japan",
+    "name": "Chubu (Japanese Alps & Shirakawa-go)",
+    "capital": "Nagoya / Takayama",
+    "description": "The snow-covered roof of Japan, home to the UNESCO thatched farmhouses of Shirakawa-go and historic samurai towns.",
+    "media": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
+    "coordinates": [
+      36.2562,
+      136.9066
+    ],
+    "destinationsCount": 3
+  },
+  {
+    "id": "northern-thailand",
+    "countryCode": "TH",
+    "countryId": "thailand",
+    "name": "Northern Thailand (Chiang Mai & Chiang Rai)",
+    "capital": "Chiang Mai",
+    "description": "Misty mountain jungles, sacred teak Lanna Kingdom wats, ethical elephant reserves, and artisanal hill-tribe culture.",
+    "media": "https://images.unsplash.com/photo-1512553353684-82a6abac253b?auto=format&fit=crop&w=1200&q=75",
+    "coordinates": [
+      18.7883,
+      98.9853
+    ],
+    "destinationsCount": 4
+  },
+  {
+    "id": "central-thailand",
+    "countryCode": "TH",
+    "countryId": "thailand",
+    "name": "Central Thailand (Bangkok & Ayutthaya)",
+    "capital": "Bangkok",
+    "description": "Gilded Grand Palace courtyards, Chao Phraya river transport, floating markets, and ancient royal capitals.",
+    "media": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
+    "coordinates": [
+      13.7563,
+      100.5018
+    ],
+    "destinationsCount": 3
+  },
+  {
+    "id": "southern-thailand",
+    "countryCode": "TH",
+    "countryId": "thailand",
+    "name": "Southern Islands (Phuket & Krabi)",
+    "capital": "Phuket",
+    "description": "Limestone karsts soaring out of the emerald Andaman Sea, coral reefs, and world-renowned tropical beaches.",
+    "media": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=75",
+    "coordinates": [
+      7.8804,
+      98.3923
+    ],
+    "destinationsCount": 3
+  }
+];
+export const historicalErasData = [
+  {
+    "id": "ancient",
+    "name": "Ancient Era",
+    "subtitle": "Pre-500 CE",
+    "description": "The dawn of Asian civilizations: Indus Valley, early Vedic settlements, Maurya Empire, Qin & Han Dynasties, and early Buddhist & Shinto sanctuaries.",
+    "timeline": "c. 3000 BCE – 500 CE",
+    "associatedCountries": [
+      "India",
+      "China",
+      "Japan",
+      "Jordan",
+      "Iran",
+      "Iraq"
+    ],
+    "historicalFacts": [
+      "Indus Valley cities like Mohenjo-daro possessed the world's earliest planned urban grids and covered brick sewers.",
+      "Emperor Ashoka erected polished sandstone pillars across the subcontinent inscribed with edicts of non-violence in 250 BCE.",
+      "The first unified Chinese imperial dynasty constructed the early Great Wall under Qin Shi Huang."
+    ],
+    "representativeDestinations": [
+      "varanasi",
+      "mount-fuji",
+      "petra"
+    ]
+  },
+  {
+    "id": "classical",
+    "name": "Classical Era",
+    "subtitle": "500–1200 CE",
+    "description": "The golden age of stone temple architecture, philosophy, and classical arts across the Chola, Pallava, Tang/Song, Khmer, and Sailendra dynasties.",
+    "timeline": "500 CE – 1200 CE",
+    "associatedCountries": [
+      "India",
+      "Cambodia",
+      "Indonesia",
+      "Japan",
+      "China",
+      "Sri Lanka"
+    ],
+    "historicalFacts": [
+      "The Chola emperors built Brihadeeswarar Temple in Thanjavur, crowning a 66-meter monolithic granite vimana with an 80-tonne granite dome block.",
+      "Angkor Wat was constructed in Cambodia using over 5 million tonnes of sandstone transported via water canals.",
+      "Borobudur in Java was assembled from 2 million volcanic andesite stone blocks without mortar."
+    ],
+    "representativeDestinations": [
+      "madurai",
+      "thanjavur",
+      "mahabalipuram",
+      "kyoto-temples",
+      "angkor-wat",
+      "borobudur"
+    ]
+  },
+  {
+    "id": "medieval",
+    "name": "Medieval Era",
+    "subtitle": "1200–1600 CE",
+    "description": "An era of colossal forts, imperial capitals, Islamic and Persian architectural synthesis, Samurai castle builders, and the height of the Silk Road.",
+    "timeline": "1200 CE – 1600 CE",
+    "associatedCountries": [
+      "India",
+      "China",
+      "Japan",
+      "Uzbekistan",
+      "Turkey",
+      "Iran"
+    ],
+    "historicalFacts": [
+      "The Ming Dynasty moved the Chinese capital to Beijing and completed the Forbidden City with 980 surviving wooden buildings in 1420.",
+      "Mughal Emperor Shah Jahan commissioned the white marble Taj Mahal in 1632, combining Persian, Islamic, and Indian architectural craftsmanship."
+    ],
+    "representativeDestinations": [
+      "taj-mahal-agra",
+      "beijing-forbidden-city",
+      "great-wall",
+      "rameswaram"
+    ]
+  },
+  {
+    "id": "early-modern",
+    "name": "Early Modern Era",
+    "subtitle": "1600–1940 CE",
+    "description": "The age of maritime trading posts, Rajput planned pink cities, Edo period peaceful seclusion in Japan, and mountain hill-station railways.",
+    "timeline": "1600 CE – 1940 CE",
+    "associatedCountries": [
+      "India",
+      "Japan",
+      "Sri Lanka",
+      "Vietnam",
+      "Malaysia"
+    ],
+    "historicalFacts": [
+      "Maharaja Sawai Jai Singh II founded the planned Pink City of Jaipur in 1727 based on ancient Vastu Shastra principles.",
+      "The British engineered the Nilgiri Mountain Railway toy train in Ooty using Swiss rack-and-pinion systems to conquer steep mountain gradients."
+    ],
+    "representativeDestinations": [
+      "jaipur",
+      "ooty",
+      "kodaikanal"
+    ]
+  },
+  {
+    "id": "modern",
+    "name": "Modern Heritage",
+    "subtitle": "1940 CE – Present",
+    "description": "Post-independence cultural preservation, colossal maritime sculptures, sustainable modern icons, and visionary architectural masterpieces.",
+    "timeline": "1940 CE – Present",
+    "associatedCountries": [
+      "India",
+      "Singapore",
+      "UAE",
+      "Japan",
+      "South Korea"
+    ],
+    "historicalFacts": [
+      "Kanyakumari erected the 133-foot Thiruvalluvar stone colossus on rock reefs where three oceans meet.",
+      "Singapore engineered Gardens by the Bay, blending 18 Supertrees with biophilic architecture and sustainable solar harvesting."
+    ],
+    "representativeDestinations": [
+      "kanyakumari",
+      "tokyo"
+    ]
+  }
+];
+export const virtualToursData = [
+  {
+    "id": "tour-meenakshi",
+    "title": "Meenakshi Sundareswarar Temple Hall of 1,000 Pillars",
+    "coordinates": [
+      9.9195,
+      78.1193
+    ],
+    "heritageId": "meenakshi-amman",
+    "locationName": "Madurai, Tamil Nadu, India",
+    "panoramaUrl": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "Welcome to the Meenakshi Sundareswarar Temple thousand-pillar hall. Notice how each granite pillar is sculpted from a single solid monolith, depicting mythical yalis, celestial musicians, and cosmic mandalas. Above you, vibrant cosmological mandalas represent the cosmic dance of Shiva.",
+    "hotspots": [
+      {
+        "id": "hs-1",
+        "title": "South Gopuram",
+        "description": "The tallest tower reaching 51.9 meters high, featuring over 1,511 colorful deities.",
+        "coords": {
+          "x": 30,
+          "y": 40
+        }
+      },
+      {
+        "id": "hs-2",
+        "title": "Golden Lotus Tank (Potramarai Kulam)",
+        "description": "Sacred pond where devotees bathe and Sangam academy tested classical Tamil poetry.",
+        "coords": {
+          "x": 60,
+          "y": 70
+        }
+      },
+      {
+        "id": "hs-3",
+        "title": "Musical Granite Columns",
+        "description": "Carved pillars near the northern tower that ring with distinct musical pitches when gently struck.",
+        "coords": {
+          "x": 75,
+          "y": 35
+        }
+      }
+    ]
+  },
+  {
+    "id": "tour-taj-mahal",
+    "title": "The Taj Mahal Charbagh & Marble Plinth",
+    "coordinates": [
+      27.1751,
+      78.0421
+    ],
+    "heritageId": "taj-mahal",
+    "locationName": "Agra, Uttar Pradesh, India",
+    "panoramaUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "You are standing on the white marble plinth of the Taj Mahal. The symmetry is mathematically immaculate from every quadrant. Notice how the four surrounding minarets lean outward by a fraction of a degree—an intentional structural safeguard.",
+    "hotspots": [
+      {
+        "id": "hs-taj-1",
+        "title": "Central Marble Onion Dome",
+        "description": "Rising 35 meters with gilded lotus finial blending Hindu and Persian motifs.",
+        "coords": {
+          "x": 50,
+          "y": 25
+        }
+      },
+      {
+        "id": "hs-taj-2",
+        "title": "Pietra Dura Inlay Panels",
+        "description": "Semi-precious lapis lazuli, turquoise, and carnelian fitted seamlessly into white Makrana marble.",
+        "coords": {
+          "x": 42,
+          "y": 60
+        }
+      },
+      {
+        "id": "hs-taj-3",
+        "title": "Yamuna River Promenade",
+        "description": "The northern terrace overlooking the sacred Yamuna river.",
+        "coords": {
+          "x": 80,
+          "y": 55
+        }
+      }
+    ]
+  },
+  {
+    "id": "tour-fushimi-inari",
+    "title": "Fushimi Inari Senbon Torii Corridor",
+    "coordinates": [
+      34.9671,
+      135.7727
+    ],
+    "heritageId": "fushimi-inari",
+    "locationName": "Kyoto, Kansai, Japan",
+    "panoramaUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "Step into the vermilion tunnel of Fushimi Inari-Taisha. The distinctive orange-red hue, shu-iro, is believed to repel evil spirits and honor the rice kami Inari. The black calligraphy on each pillar represents prayers for prosperity by dedicated pilgrims.",
+    "hotspots": [
+      {
+        "id": "hs-fi-1",
+        "title": "Kitsune Fox Messenger",
+        "description": "Stone fox statues holding the key to the rice granary.",
+        "coords": {
+          "x": 25,
+          "y": 65
+        }
+      },
+      {
+        "id": "hs-fi-2",
+        "title": "Senbon Torii Archways",
+        "description": "Dense corridor of thousands of torii gates creating a magical tunnel of light.",
+        "coords": {
+          "x": 50,
+          "y": 40
+        }
+      }
+    ]
+  },
+  {
+    "id": "tour-angkor-wat",
+    "title": "Angkor Wat Central Lotus Sanctuary & Moat",
+    "coordinates": [
+      13.4125,
+      103.867
+    ],
+    "heritageId": "angkor-wat-monument",
+    "locationName": "Siem Reap, Cambodia",
+    "panoramaUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "Welcome to Angkor Wat. As you cross the sandstone causeway spanning the sacred moat, you enter a microcosm of the Hindu cosmos: the moat represents the cosmic ocean, and the five central towers symbolize the peaks of holy Mount Meru.",
+    "hotspots": [
+      {
+        "id": "hs-aw-1",
+        "title": "Ocean of Milk Bas-Relief",
+        "description": "A 49-meter carving depicting 88 devas and 92 asuras churning the cosmic ocean.",
+        "coords": {
+          "x": 35,
+          "y": 55
+        }
+      },
+      {
+        "id": "hs-aw-2",
+        "title": "Central Lotus Sanctuary",
+        "description": "The supreme sanctum soaring 65 meters above ground level.",
+        "coords": {
+          "x": 50,
+          "y": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "tour-borobudur",
+    "title": "Borobudur Stupa Terraces Over Mount Merapi",
+    "coordinates": [
+      -7.6079,
+      110.2038
+    ],
+    "heritageId": "borobudur-monument",
+    "locationName": "Central Java, Indonesia",
+    "panoramaUrl": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "You are standing on the circular highest terrace of Borobudur. Surrounding you are 72 perforated diamond-lattice stupas, each enshrining a seated Buddha meditating toward the volcanic horizon.",
+    "hotspots": [
+      {
+        "id": "hs-bb-1",
+        "title": "Perforated Diamond Stupa",
+        "description": "Lattice stone stupa symbolizing the formless realm of Arupadhatu.",
+        "coords": {
+          "x": 45,
+          "y": 45
+        }
+      },
+      {
+        "id": "hs-bb-2",
+        "title": "Mount Merapi Volcano View",
+        "description": "Active volcanic cone framing the temple in sunrise mists.",
+        "coords": {
+          "x": 80,
+          "y": 25
+        }
+      }
+    ]
+  },
+  {
+    "id": "tour-great-wall",
+    "title": "Great Wall of China Watchtower Ridge",
+    "coordinates": [
+      40.4319,
+      116.5704
+    ],
+    "heritageId": "beijing-forbidden-city",
+    "locationName": "Mutianyu, Beijing, China",
+    "panoramaUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "Stand atop Watchtower 14 of the Great Wall at Mutianyu. Below you, the stone ramparts follow the knife-edge crests of the mountains, built by hundreds of thousands of soldiers and stonemasons over centuries.",
+    "hotspots": [
+      {
+        "id": "hs-gw-1",
+        "title": "Granite Parapet Watchtower",
+        "description": "Two-story fortified military watchtower with arrow slits and signal fire hearths.",
+        "coords": {
+          "x": 40,
+          "y": 50
+        }
+      }
+    ]
+  },
+  {
+    "id": "tour-petra",
+    "title": "Petra Siq Chasm & Treasury Facade",
+    "coordinates": [
+      30.3285,
+      35.4444
+    ],
+    "heritageId": "petra-treasury",
+    "locationName": "Petra, Jordan",
+    "panoramaUrl": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=2500&q=90",
+    "audioGuideText": "Emerging from the shaded, towering sandstone cliffs of the Siq, the sunlit rose-red Corinthian columns and urn of Al-Khazneh appear. Notice how the Nabataeans carved this monument directly from the top down.",
+    "hotspots": [
+      {
+        "id": "hs-pt-1",
+        "title": "The Urn Finial",
+        "description": "Local legend claimed Bedouin raiders hid treasure in this top stone urn.",
+        "coords": {
+          "x": 50,
+          "y": 20
+        }
+      }
+    ]
+  }
+];
+export const gamificationBadges = [];
+export const monthlyRecommendations = {
+  "january": {
+    "month": "January",
+    "categoryA": [
+      {
+        "country": "Thailand",
+        "destination": "Phuket & Krabi",
+        "reason": "Dry sunny season, crystal clear Andaman Sea, calm waters."
+      },
+      {
+        "country": "Sri Lanka",
+        "destination": "Galle & South Coast",
+        "reason": "Mild humidity, sunny beaches, and ideal blue whale watching."
+      },
+      {
+        "country": "India",
+        "destination": "Tamil Nadu & Kerala",
+        "reason": "Crisp comfortable winter weather (22°C–28°C), low rain."
+      }
+    ],
+    "categoryB": [
+      {
+        "name": "Pongal Harvest Festival",
+        "country": "India",
+        "destination": "Madurai & Tamil Nadu",
+        "timing": "Mid-January",
+        "whyVisit": "Traditional harvest cooking, decorated oxen, and temple celebrations."
+      },
+      {
+        "name": "Harbin Ice & Snow Festival",
+        "country": "China",
+        "destination": "Harbin",
+        "timing": "All Month",
+        "whyVisit": "Colossal illuminated neon ice palaces carved from frozen rivers."
+      }
+    ]
+  },
+  "february": {
+    "month": "February",
+    "categoryA": [
+      {
+        "country": "Cambodia",
+        "destination": "Angkor Wat",
+        "reason": "Pleasant mornings, dry paths, clear golden sunrise visibility."
+      },
+      {
+        "country": "India",
+        "destination": "Agra & Rajasthan",
+        "reason": "Cool breezy days, Taj Mahotsav cultural events, comfortable fort walks."
+      }
+    ],
+    "categoryB": [
+      {
+        "name": "Chinese Spring Festival",
+        "country": "China / Singapore",
+        "destination": "Beijing & Singapore Chinatown",
+        "timing": "Late Jan / Feb",
+        "whyVisit": "Dragon dances, lantern streets, and street food banquets."
+      },
+      {
+        "name": "Sapporo Snow Festival",
+        "country": "Japan",
+        "destination": "Hokkaido",
+        "timing": "Early February",
+        "whyVisit": "Giant snow sculptures and Hokkaido winter ramen."
+      }
+    ]
+  },
+  "march": {
+    "month": "March",
+    "categoryA": [
+      {
+        "country": "Vietnam",
+        "destination": "Hanoi & Ha Long Bay",
+        "reason": "Mild springtime temperatures, low rain, and pleasant bay cruising."
+      },
+      {
+        "country": "Nepal",
+        "destination": "Pokhara & Kathmandu",
+        "reason": "Rhododendron forests blooming across Himalayan trails."
+      }
+    ],
+    "categoryB": [
+      {
+        "name": "Holi (Festival of Colors)",
+        "country": "India",
+        "destination": "Jaipur & Mathura",
+        "timing": "Mid-March",
+        "whyVisit": "Spectacular communal celebration with organic colors and sweets."
+      },
+      {
+        "name": "Nyepi (Day of Silence)",
+        "country": "Indonesia",
+        "destination": "Bali",
+        "timing": "Late March",
+        "whyVisit": "Ogoh-ogoh demon monster parades followed by a day of absolute island meditation."
+      }
+    ]
+  },
+  "april": {
+    "month": "April",
+    "categoryA": [
+      {
+        "country": "Japan",
+        "destination": "Kyoto & Tokyo",
+        "reason": "Peak Sakura cherry blossom canopies arching over rivers and shrines."
+      },
+      {
+        "country": "Uzbekistan",
+        "destination": "Samarkand & Bukhara",
+        "reason": "Warm spring days on the Silk Road before summer heat sets in."
+      }
+    ],
+    "categoryB": [
+      {
+        "name": "Songkran Water Festival",
+        "country": "Thailand",
+        "destination": "Chiang Mai & Bangkok",
+        "timing": "April 13–15",
+        "whyVisit": "Joyous nationwide water-splashing celebration for Thai New Year."
+      },
+      {
+        "name": "Chithirai Festival",
+        "country": "India",
+        "destination": "Madurai",
+        "timing": "Mid-April",
+        "whyVisit": "A million devotees gather for the celestial wedding of Goddess Meenakshi."
+      }
+    ]
+  },
+  "may": {
+    "month": "May",
+    "categoryA": [
+      {
+        "country": "Indonesia",
+        "destination": "Bali & Borobudur",
+        "reason": "Start of the dry season, low rain, crisp sunrise over volcanic calderas."
+      },
+      {
+        "country": "Bhutan",
+        "destination": "Paro & Punakha",
+        "reason": "Clear Himalayan mountain passes and blooming valleys."
+      }
+    ],
+    "categoryB": [
+      {
+        "name": "Waisak at Borobudur",
+        "country": "Indonesia",
+        "destination": "Borobudur",
+        "timing": "May Full Moon",
+        "whyVisit": "Thousands of meditating monks releasing glowing paper lanterns over stupas."
+      }
+    ]
+  },
+  "june": {
+    "month": "June",
+    "categoryA": [
+      {
+        "country": "Mongolia",
+        "destination": "Ulaanbaatar & Gobi",
+        "reason": "Warm summer days, green steppes, and ideal nomadic horseback yurt stays."
+      },
+      {
+        "country": "Indonesia",
+        "destination": "Komodo & Flores",
+        "reason": "Calm tropical seas, prime diving, and sunny savannah dragon treks."
+      }
+    ],
+    "categoryB": [
+      {
+        "name": "Dragon Boat Festival",
+        "country": "China",
+        "destination": "Hangzhou & Hong Kong",
+        "timing": "June",
+        "whyVisit": "Rhythmic drum-beat dragon boat races and sticky rice zongzi."
+      }
+    ]
+  },
+  "july": {
+    "month": "July",
+    "categoryA": [
+      {
+        "country": "India (Himalayas)",
+        "destination": "Ladakh & Spiti",
+        "reason": "High mountain passes open, crystal clear Pangong Tso Lake under sunny skies."
+      },
+      {
+        "country": "Kyrgyzstan",
+        "destination": "Song-Kul Lake",
+        "reason": "Lush alpine meadows, nomadic horse festivals, and comfortable yurt camping."
+      }
+    ],
+    "categoryB": [
+      {
+        "name": "Gion Matsuri",
+        "country": "Japan",
+        "destination": "Kyoto",
+        "timing": "Entire Month",
+        "whyVisit": "Gigantic multi-ton wooden yamaboko floats parading through historic Kyoto."
+      },
+      {
+        "name": "Naadam Festival",
+        "country": "Mongolia",
+        "destination": "Ulaanbaatar",
+        "timing": "July 11–15",
+        "whyVisit": "Nomadic mastery of wrestling, horse racing, and archery."
+      }
+    ]
+  },
+  "august": {
+    "month": "August",
+    "categoryA": [
+      {
+        "country": "Indonesia",
+        "destination": "Raja Ampat & Bali",
+        "reason": "Dry sunny trade winds, ideal surf and marine reef visibility."
+      },
+      {
+        "country": "Japan",
+        "destination": "Hokkaido",
+        "reason": "Cooler climate, endless lavender and sunflower fields in Furano."
+      }
+    ],
+    "categoryB": [
+      {
+        "name": "Esala Perahera",
+        "country": "Sri Lanka",
+        "destination": "Kandy",
+        "timing": "August",
+        "whyVisit": "Spectacular nighttime procession of the sacred tooth relic with fire dancers."
+      },
+      {
+        "name": "Aomori Nebuta Matsuri",
+        "timing": "Early August",
+        "country": "Japan",
+        "destination": "Aomori",
+        "whyVisit": "Enormous glowing paper warrior floats pulled through vibrant streets."
+      }
+    ]
+  },
+  "september": {
+    "month": "September",
+    "categoryA": [
+      {
+        "country": "China",
+        "destination": "Beijing & Great Wall",
+        "reason": "Autumn air, brilliant golden light, pleasant hiking temperatures."
+      },
+      {
+        "country": "South Korea",
+        "destination": "Seoul & Jeju Island",
+        "reason": "Clear blue skies, low rainfall, comfortable city and crater hiking."
+      }
+    ],
+    "categoryB": [
+      {
+        "name": "Mid-Autumn Mooncake Festival",
+        "country": "China / Vietnam",
+        "destination": "Hoi An & Beijing",
+        "timing": "September Full Moon",
+        "whyVisit": "Streets filled with glowing lanterns, family banquets, and sweet mooncakes."
+      },
+      {
+        "name": "Ziro Music Festival",
+        "country": "India",
+        "destination": "Ziro Valley, Arunachal",
+        "timing": "Late September",
+        "whyVisit": "Eco-friendly open-air music festival in bamboo-clad Apatani tribal valleys."
+      }
+    ]
+  },
+  "october": {
+    "month": "October",
+    "categoryA": [
+      {
+        "country": "Nepal",
+        "destination": "Everest & Annapurna",
+        "reason": "Peak trekking season, crystalline mountain panoramas with zero haze."
+      },
+      {
+        "country": "Jordan",
+        "destination": "Petra & Wadi Rum",
+        "reason": "Pleasant desert days (24°C), comfortable hiking through the Siq."
+      },
+      {
+        "country": "India",
+        "destination": "Rajasthan & Golden Triangle",
+        "reason": "Start of the pleasant winter season, royal palaces illuminated."
+      }
+    ],
+    "categoryB": [
+      {
+        "name": "Diwali (Festival of Lights)",
+        "country": "India",
+        "destination": "Varanasi, Jaipur, Delhi",
+        "timing": "October / November",
+        "whyVisit": "Thousands of earthen lamps glowing on temples and river ghats."
+      }
+    ]
+  },
+  "november": {
+    "month": "November",
+    "categoryA": [
+      {
+        "country": "Japan",
+        "destination": "Kyoto & Nara",
+        "reason": "Fiery red Japanese maple leaves (Momiji) draping Zen rock gardens."
+      },
+      {
+        "country": "Thailand",
+        "destination": "Chiang Mai & Bangkok",
+        "reason": "Pleasant cool breeze, dry weather, and festival season."
+      },
+      {
+        "country": "India",
+        "destination": "Tamil Nadu, Kerala, Agra",
+        "reason": "Sunny daylight, cool evenings, prime monument photography."
+      }
+    ],
+    "categoryB": [
+      {
+        "name": "Loy Krathong & Yi Peng",
+        "country": "Thailand",
+        "destination": "Chiang Mai",
+        "timing": "November Full Moon",
+        "whyVisit": "Thousands of glowing lanterns floating simultaneously into the night sky."
+      },
+      {
+        "name": "Dev Deepawali",
+        "country": "India",
+        "destination": "Varanasi",
+        "timing": "November",
+        "whyVisit": "All 88 stone ghats illuminated by over one million oil lamps."
+      }
+    ]
+  },
+  "december": {
+    "month": "December",
+    "categoryA": [
+      {
+        "country": "Maldives",
+        "destination": "Ari & Baa Atolls",
+        "reason": "Calm turquoise lagoons, zero rainfall, perfect coral visibility."
+      },
+      {
+        "country": "India",
+        "destination": "Goa & Kerala",
+        "reason": "Warm beaches, backwater houseboat cruises, vibrant coastal nightlife."
+      },
+      {
+        "country": "UAE",
+        "destination": "Dubai & Abu Dhabi",
+        "reason": "Ideal desert camping, comfortable 24°C weather, outdoor exploration."
+      }
+    ],
+    "categoryB": [
+      {
+        "name": "Madras Music Season",
+        "country": "India",
+        "destination": "Chennai, Tamil Nadu",
+        "timing": "Mid-December to January",
+        "whyVisit": "World's largest classical Carnatic music and Bharatanatyam dance festival."
+      },
+      {
+        "name": "Shirakawa-go Winter Snowfall",
+        "country": "Japan",
+        "destination": "Gifu",
+        "timing": "Late December",
+        "whyVisit": "Fairytale thatched farmhouses under pure white snow."
+      }
+    ]
+  }
+};
 export const heritageSitesData = [
   {
     "id": "meenakshi-amman",
@@ -69232,732 +71979,3 @@ export const heritageSitesData = [
     "unesco": false
   }
 ];
-
-export const virtualToursData = [
-  {
-    "id": "tour-meenakshi",
-    "title": "Meenakshi Sundareswarar Temple Hall of 1,000 Pillars",
-    "coordinates": [
-      9.9195,
-      78.1193
-    ],
-    "heritageId": "meenakshi-amman",
-    "locationName": "Madurai, Tamil Nadu, India",
-    "panoramaUrl": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=2500&q=90",
-    "audioGuideText": "Welcome to the Meenakshi Sundareswarar Temple thousand-pillar hall. Notice how each granite pillar is sculpted from a single solid monolith, depicting mythical yalis, celestial musicians, and cosmic mandalas. Above you, vibrant cosmological mandalas represent the cosmic dance of Shiva.",
-    "hotspots": [
-      {
-        "id": "hs-1",
-        "title": "South Gopuram",
-        "description": "The tallest tower reaching 51.9 meters high, featuring over 1,511 colorful deities.",
-        "coords": {
-          "x": 30,
-          "y": 40
-        }
-      },
-      {
-        "id": "hs-2",
-        "title": "Golden Lotus Tank (Potramarai Kulam)",
-        "description": "Sacred pond where devotees bathe and Sangam academy tested classical Tamil poetry.",
-        "coords": {
-          "x": 60,
-          "y": 70
-        }
-      },
-      {
-        "id": "hs-3",
-        "title": "Musical Granite Columns",
-        "description": "Carved pillars near the northern tower that ring with distinct musical pitches when gently struck.",
-        "coords": {
-          "x": 75,
-          "y": 35
-        }
-      }
-    ]
-  },
-  {
-    "id": "tour-taj-mahal",
-    "title": "The Taj Mahal Charbagh & Marble Plinth",
-    "coordinates": [
-      27.1751,
-      78.0421
-    ],
-    "heritageId": "taj-mahal",
-    "locationName": "Agra, Uttar Pradesh, India",
-    "panoramaUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=2500&q=90",
-    "audioGuideText": "You are standing on the white marble plinth of the Taj Mahal. The symmetry is mathematically immaculate from every quadrant. Notice how the four surrounding minarets lean outward by a fraction of a degree—an intentional structural safeguard.",
-    "hotspots": [
-      {
-        "id": "hs-taj-1",
-        "title": "Central Marble Onion Dome",
-        "description": "Rising 35 meters with gilded lotus finial blending Hindu and Persian motifs.",
-        "coords": {
-          "x": 50,
-          "y": 25
-        }
-      },
-      {
-        "id": "hs-taj-2",
-        "title": "Pietra Dura Inlay Panels",
-        "description": "Semi-precious lapis lazuli, turquoise, and carnelian fitted seamlessly into white Makrana marble.",
-        "coords": {
-          "x": 42,
-          "y": 60
-        }
-      },
-      {
-        "id": "hs-taj-3",
-        "title": "Yamuna River Promenade",
-        "description": "The northern terrace overlooking the sacred Yamuna river.",
-        "coords": {
-          "x": 80,
-          "y": 55
-        }
-      }
-    ]
-  },
-  {
-    "id": "tour-fushimi-inari",
-    "title": "Fushimi Inari Senbon Torii Corridor",
-    "coordinates": [
-      34.9671,
-      135.7727
-    ],
-    "heritageId": "fushimi-inari",
-    "locationName": "Kyoto, Kansai, Japan",
-    "panoramaUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=2500&q=90",
-    "audioGuideText": "Step into the vermilion tunnel of Fushimi Inari-Taisha. The distinctive orange-red hue, shu-iro, is believed to repel evil spirits and honor the rice kami Inari. The black calligraphy on each pillar represents prayers for prosperity by dedicated pilgrims.",
-    "hotspots": [
-      {
-        "id": "hs-fi-1",
-        "title": "Kitsune Fox Messenger",
-        "description": "Stone fox statues holding the key to the rice granary.",
-        "coords": {
-          "x": 25,
-          "y": 65
-        }
-      },
-      {
-        "id": "hs-fi-2",
-        "title": "Senbon Torii Archways",
-        "description": "Dense corridor of thousands of torii gates creating a magical tunnel of light.",
-        "coords": {
-          "x": 50,
-          "y": 40
-        }
-      }
-    ]
-  },
-  {
-    "id": "tour-angkor-wat",
-    "title": "Angkor Wat Central Lotus Sanctuary & Moat",
-    "coordinates": [
-      13.4125,
-      103.867
-    ],
-    "heritageId": "angkor-wat-monument",
-    "locationName": "Siem Reap, Cambodia",
-    "panoramaUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2500&q=90",
-    "audioGuideText": "Welcome to Angkor Wat. As you cross the sandstone causeway spanning the sacred moat, you enter a microcosm of the Hindu cosmos: the moat represents the cosmic ocean, and the five central towers symbolize the peaks of holy Mount Meru.",
-    "hotspots": [
-      {
-        "id": "hs-aw-1",
-        "title": "Ocean of Milk Bas-Relief",
-        "description": "A 49-meter carving depicting 88 devas and 92 asuras churning the cosmic ocean.",
-        "coords": {
-          "x": 35,
-          "y": 55
-        }
-      },
-      {
-        "id": "hs-aw-2",
-        "title": "Central Lotus Sanctuary",
-        "description": "The supreme sanctum soaring 65 meters above ground level.",
-        "coords": {
-          "x": 50,
-          "y": 30
-        }
-      }
-    ]
-  },
-  {
-    "id": "tour-borobudur",
-    "title": "Borobudur Stupa Terraces Over Mount Merapi",
-    "coordinates": [
-      -7.6079,
-      110.2038
-    ],
-    "heritageId": "borobudur-monument",
-    "locationName": "Central Java, Indonesia",
-    "panoramaUrl": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=2500&q=90",
-    "audioGuideText": "You are standing on the circular highest terrace of Borobudur. Surrounding you are 72 perforated diamond-lattice stupas, each enshrining a seated Buddha meditating toward the volcanic horizon.",
-    "hotspots": [
-      {
-        "id": "hs-bb-1",
-        "title": "Perforated Diamond Stupa",
-        "description": "Lattice stone stupa symbolizing the formless realm of Arupadhatu.",
-        "coords": {
-          "x": 45,
-          "y": 45
-        }
-      },
-      {
-        "id": "hs-bb-2",
-        "title": "Mount Merapi Volcano View",
-        "description": "Active volcanic cone framing the temple in sunrise mists.",
-        "coords": {
-          "x": 80,
-          "y": 25
-        }
-      }
-    ]
-  },
-  {
-    "id": "tour-great-wall",
-    "title": "Great Wall of China Watchtower Ridge",
-    "coordinates": [
-      40.4319,
-      116.5704
-    ],
-    "heritageId": "beijing-forbidden-city",
-    "locationName": "Mutianyu, Beijing, China",
-    "panoramaUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=2500&q=90",
-    "audioGuideText": "Stand atop Watchtower 14 of the Great Wall at Mutianyu. Below you, the stone ramparts follow the knife-edge crests of the mountains, built by hundreds of thousands of soldiers and stonemasons over centuries.",
-    "hotspots": [
-      {
-        "id": "hs-gw-1",
-        "title": "Granite Parapet Watchtower",
-        "description": "Two-story fortified military watchtower with arrow slits and signal fire hearths.",
-        "coords": {
-          "x": 40,
-          "y": 50
-        }
-      }
-    ]
-  },
-  {
-    "id": "tour-petra",
-    "title": "Petra Siq Chasm & Treasury Facade",
-    "coordinates": [
-      30.3285,
-      35.4444
-    ],
-    "heritageId": "petra-treasury",
-    "locationName": "Petra, Jordan",
-    "panoramaUrl": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=2500&q=90",
-    "audioGuideText": "Emerging from the shaded, towering sandstone cliffs of the Siq, the sunlit rose-red Corinthian columns and urn of Al-Khazneh appear. Notice how the Nabataeans carved this monument directly from the top down.",
-    "hotspots": [
-      {
-        "id": "hs-pt-1",
-        "title": "The Urn Finial",
-        "description": "Local legend claimed Bedouin raiders hid treasure in this top stone urn.",
-        "coords": {
-          "x": 50,
-          "y": 20
-        }
-      }
-    ]
-  }
-];
-
-export const historicalErasData = [
-  {
-    "id": "ancient",
-    "name": "Ancient Era",
-    "subtitle": "Pre-500 CE",
-    "description": "The dawn of Asian civilizations: Indus Valley, early Vedic settlements, Maurya Empire, Qin & Han Dynasties, and early Buddhist & Shinto sanctuaries.",
-    "timeline": "c. 3000 BCE – 500 CE",
-    "associatedCountries": [
-      "India",
-      "China",
-      "Japan",
-      "Jordan",
-      "Iran",
-      "Iraq"
-    ],
-    "historicalFacts": [
-      "Indus Valley cities like Mohenjo-daro possessed the world's earliest planned urban grids and covered brick sewers.",
-      "Emperor Ashoka erected polished sandstone pillars across the subcontinent inscribed with edicts of non-violence in 250 BCE.",
-      "The first unified Chinese imperial dynasty constructed the early Great Wall under Qin Shi Huang."
-    ],
-    "representativeDestinations": [
-      "varanasi",
-      "mount-fuji",
-      "petra"
-    ]
-  },
-  {
-    "id": "classical",
-    "name": "Classical Era",
-    "subtitle": "500–1200 CE",
-    "description": "The golden age of stone temple architecture, philosophy, and classical arts across the Chola, Pallava, Tang/Song, Khmer, and Sailendra dynasties.",
-    "timeline": "500 CE – 1200 CE",
-    "associatedCountries": [
-      "India",
-      "Cambodia",
-      "Indonesia",
-      "Japan",
-      "China",
-      "Sri Lanka"
-    ],
-    "historicalFacts": [
-      "The Chola emperors built Brihadeeswarar Temple in Thanjavur, crowning a 66-meter monolithic granite vimana with an 80-tonne granite dome block.",
-      "Angkor Wat was constructed in Cambodia using over 5 million tonnes of sandstone transported via water canals.",
-      "Borobudur in Java was assembled from 2 million volcanic andesite stone blocks without mortar."
-    ],
-    "representativeDestinations": [
-      "madurai",
-      "thanjavur",
-      "mahabalipuram",
-      "kyoto-temples",
-      "angkor-wat",
-      "borobudur"
-    ]
-  },
-  {
-    "id": "medieval",
-    "name": "Medieval Era",
-    "subtitle": "1200–1600 CE",
-    "description": "An era of colossal forts, imperial capitals, Islamic and Persian architectural synthesis, Samurai castle builders, and the height of the Silk Road.",
-    "timeline": "1200 CE – 1600 CE",
-    "associatedCountries": [
-      "India",
-      "China",
-      "Japan",
-      "Uzbekistan",
-      "Turkey",
-      "Iran"
-    ],
-    "historicalFacts": [
-      "The Ming Dynasty moved the Chinese capital to Beijing and completed the Forbidden City with 980 surviving wooden buildings in 1420.",
-      "Mughal Emperor Shah Jahan commissioned the white marble Taj Mahal in 1632, combining Persian, Islamic, and Indian architectural craftsmanship."
-    ],
-    "representativeDestinations": [
-      "taj-mahal-agra",
-      "beijing-forbidden-city",
-      "great-wall",
-      "rameswaram"
-    ]
-  },
-  {
-    "id": "early-modern",
-    "name": "Early Modern Era",
-    "subtitle": "1600–1940 CE",
-    "description": "The age of maritime trading posts, Rajput planned pink cities, Edo period peaceful seclusion in Japan, and mountain hill-station railways.",
-    "timeline": "1600 CE – 1940 CE",
-    "associatedCountries": [
-      "India",
-      "Japan",
-      "Sri Lanka",
-      "Vietnam",
-      "Malaysia"
-    ],
-    "historicalFacts": [
-      "Maharaja Sawai Jai Singh II founded the planned Pink City of Jaipur in 1727 based on ancient Vastu Shastra principles.",
-      "The British engineered the Nilgiri Mountain Railway toy train in Ooty using Swiss rack-and-pinion systems to conquer steep mountain gradients."
-    ],
-    "representativeDestinations": [
-      "jaipur",
-      "ooty",
-      "kodaikanal"
-    ]
-  },
-  {
-    "id": "modern",
-    "name": "Modern Heritage",
-    "subtitle": "1940 CE – Present",
-    "description": "Post-independence cultural preservation, colossal maritime sculptures, sustainable modern icons, and visionary architectural masterpieces.",
-    "timeline": "1940 CE – Present",
-    "associatedCountries": [
-      "India",
-      "Singapore",
-      "UAE",
-      "Japan",
-      "South Korea"
-    ],
-    "historicalFacts": [
-      "Kanyakumari erected the 133-foot Thiruvalluvar stone colossus on rock reefs where three oceans meet.",
-      "Singapore engineered Gardens by the Bay, blending 18 Supertrees with biophilic architecture and sustainable solar harvesting."
-    ],
-    "representativeDestinations": [
-      "kanyakumari",
-      "tokyo"
-    ]
-  }
-];
-
-export const monthlyRecommendations = {
-  "january": {
-    "month": "January",
-    "categoryA": [
-      {
-        "country": "Thailand",
-        "destination": "Phuket & Krabi",
-        "reason": "Dry sunny season, crystal clear Andaman Sea, calm waters."
-      },
-      {
-        "country": "Sri Lanka",
-        "destination": "Galle & South Coast",
-        "reason": "Mild humidity, sunny beaches, and ideal blue whale watching."
-      },
-      {
-        "country": "India",
-        "destination": "Tamil Nadu & Kerala",
-        "reason": "Crisp comfortable winter weather (22°C–28°C), low rain."
-      }
-    ],
-    "categoryB": [
-      {
-        "name": "Pongal Harvest Festival",
-        "country": "India",
-        "destination": "Madurai & Tamil Nadu",
-        "timing": "Mid-January",
-        "whyVisit": "Traditional harvest cooking, decorated oxen, and temple celebrations."
-      },
-      {
-        "name": "Harbin Ice & Snow Festival",
-        "country": "China",
-        "destination": "Harbin",
-        "timing": "All Month",
-        "whyVisit": "Colossal illuminated neon ice palaces carved from frozen rivers."
-      }
-    ]
-  },
-  "february": {
-    "month": "February",
-    "categoryA": [
-      {
-        "country": "Cambodia",
-        "destination": "Angkor Wat",
-        "reason": "Pleasant mornings, dry paths, clear golden sunrise visibility."
-      },
-      {
-        "country": "India",
-        "destination": "Agra & Rajasthan",
-        "reason": "Cool breezy days, Taj Mahotsav cultural events, comfortable fort walks."
-      }
-    ],
-    "categoryB": [
-      {
-        "name": "Chinese Spring Festival",
-        "country": "China / Singapore",
-        "destination": "Beijing & Singapore Chinatown",
-        "timing": "Late Jan / Feb",
-        "whyVisit": "Dragon dances, lantern streets, and street food banquets."
-      },
-      {
-        "name": "Sapporo Snow Festival",
-        "country": "Japan",
-        "destination": "Hokkaido",
-        "timing": "Early February",
-        "whyVisit": "Giant snow sculptures and Hokkaido winter ramen."
-      }
-    ]
-  },
-  "march": {
-    "month": "March",
-    "categoryA": [
-      {
-        "country": "Vietnam",
-        "destination": "Hanoi & Ha Long Bay",
-        "reason": "Mild springtime temperatures, low rain, and pleasant bay cruising."
-      },
-      {
-        "country": "Nepal",
-        "destination": "Pokhara & Kathmandu",
-        "reason": "Rhododendron forests blooming across Himalayan trails."
-      }
-    ],
-    "categoryB": [
-      {
-        "name": "Holi (Festival of Colors)",
-        "country": "India",
-        "destination": "Jaipur & Mathura",
-        "timing": "Mid-March",
-        "whyVisit": "Spectacular communal celebration with organic colors and sweets."
-      },
-      {
-        "name": "Nyepi (Day of Silence)",
-        "country": "Indonesia",
-        "destination": "Bali",
-        "timing": "Late March",
-        "whyVisit": "Ogoh-ogoh demon monster parades followed by a day of absolute island meditation."
-      }
-    ]
-  },
-  "april": {
-    "month": "April",
-    "categoryA": [
-      {
-        "country": "Japan",
-        "destination": "Kyoto & Tokyo",
-        "reason": "Peak Sakura cherry blossom canopies arching over rivers and shrines."
-      },
-      {
-        "country": "Uzbekistan",
-        "destination": "Samarkand & Bukhara",
-        "reason": "Warm spring days on the Silk Road before summer heat sets in."
-      }
-    ],
-    "categoryB": [
-      {
-        "name": "Songkran Water Festival",
-        "country": "Thailand",
-        "destination": "Chiang Mai & Bangkok",
-        "timing": "April 13–15",
-        "whyVisit": "Joyous nationwide water-splashing celebration for Thai New Year."
-      },
-      {
-        "name": "Chithirai Festival",
-        "country": "India",
-        "destination": "Madurai",
-        "timing": "Mid-April",
-        "whyVisit": "A million devotees gather for the celestial wedding of Goddess Meenakshi."
-      }
-    ]
-  },
-  "may": {
-    "month": "May",
-    "categoryA": [
-      {
-        "country": "Indonesia",
-        "destination": "Bali & Borobudur",
-        "reason": "Start of the dry season, low rain, crisp sunrise over volcanic calderas."
-      },
-      {
-        "country": "Bhutan",
-        "destination": "Paro & Punakha",
-        "reason": "Clear Himalayan mountain passes and blooming valleys."
-      }
-    ],
-    "categoryB": [
-      {
-        "name": "Waisak at Borobudur",
-        "country": "Indonesia",
-        "destination": "Borobudur",
-        "timing": "May Full Moon",
-        "whyVisit": "Thousands of meditating monks releasing glowing paper lanterns over stupas."
-      }
-    ]
-  },
-  "june": {
-    "month": "June",
-    "categoryA": [
-      {
-        "country": "Mongolia",
-        "destination": "Ulaanbaatar & Gobi",
-        "reason": "Warm summer days, green steppes, and ideal nomadic horseback yurt stays."
-      },
-      {
-        "country": "Indonesia",
-        "destination": "Komodo & Flores",
-        "reason": "Calm tropical seas, prime diving, and sunny savannah dragon treks."
-      }
-    ],
-    "categoryB": [
-      {
-        "name": "Dragon Boat Festival",
-        "country": "China",
-        "destination": "Hangzhou & Hong Kong",
-        "timing": "June",
-        "whyVisit": "Rhythmic drum-beat dragon boat races and sticky rice zongzi."
-      }
-    ]
-  },
-  "july": {
-    "month": "July",
-    "categoryA": [
-      {
-        "country": "India (Himalayas)",
-        "destination": "Ladakh & Spiti",
-        "reason": "High mountain passes open, crystal clear Pangong Tso Lake under sunny skies."
-      },
-      {
-        "country": "Kyrgyzstan",
-        "destination": "Song-Kul Lake",
-        "reason": "Lush alpine meadows, nomadic horse festivals, and comfortable yurt camping."
-      }
-    ],
-    "categoryB": [
-      {
-        "name": "Gion Matsuri",
-        "country": "Japan",
-        "destination": "Kyoto",
-        "timing": "Entire Month",
-        "whyVisit": "Gigantic multi-ton wooden yamaboko floats parading through historic Kyoto."
-      },
-      {
-        "name": "Naadam Festival",
-        "country": "Mongolia",
-        "destination": "Ulaanbaatar",
-        "timing": "July 11–15",
-        "whyVisit": "Nomadic mastery of wrestling, horse racing, and archery."
-      }
-    ]
-  },
-  "august": {
-    "month": "August",
-    "categoryA": [
-      {
-        "country": "Indonesia",
-        "destination": "Raja Ampat & Bali",
-        "reason": "Dry sunny trade winds, ideal surf and marine reef visibility."
-      },
-      {
-        "country": "Japan",
-        "destination": "Hokkaido",
-        "reason": "Cooler climate, endless lavender and sunflower fields in Furano."
-      }
-    ],
-    "categoryB": [
-      {
-        "name": "Esala Perahera",
-        "country": "Sri Lanka",
-        "destination": "Kandy",
-        "timing": "August",
-        "whyVisit": "Spectacular nighttime procession of the sacred tooth relic with fire dancers."
-      },
-      {
-        "name": "Aomori Nebuta Matsuri",
-        "timing": "Early August",
-        "country": "Japan",
-        "destination": "Aomori",
-        "whyVisit": "Enormous glowing paper warrior floats pulled through vibrant streets."
-      }
-    ]
-  },
-  "september": {
-    "month": "September",
-    "categoryA": [
-      {
-        "country": "China",
-        "destination": "Beijing & Great Wall",
-        "reason": "Autumn air, brilliant golden light, pleasant hiking temperatures."
-      },
-      {
-        "country": "South Korea",
-        "destination": "Seoul & Jeju Island",
-        "reason": "Clear blue skies, low rainfall, comfortable city and crater hiking."
-      }
-    ],
-    "categoryB": [
-      {
-        "name": "Mid-Autumn Mooncake Festival",
-        "country": "China / Vietnam",
-        "destination": "Hoi An & Beijing",
-        "timing": "September Full Moon",
-        "whyVisit": "Streets filled with glowing lanterns, family banquets, and sweet mooncakes."
-      },
-      {
-        "name": "Ziro Music Festival",
-        "country": "India",
-        "destination": "Ziro Valley, Arunachal",
-        "timing": "Late September",
-        "whyVisit": "Eco-friendly open-air music festival in bamboo-clad Apatani tribal valleys."
-      }
-    ]
-  },
-  "october": {
-    "month": "October",
-    "categoryA": [
-      {
-        "country": "Nepal",
-        "destination": "Everest & Annapurna",
-        "reason": "Peak trekking season, crystalline mountain panoramas with zero haze."
-      },
-      {
-        "country": "Jordan",
-        "destination": "Petra & Wadi Rum",
-        "reason": "Pleasant desert days (24°C), comfortable hiking through the Siq."
-      },
-      {
-        "country": "India",
-        "destination": "Rajasthan & Golden Triangle",
-        "reason": "Start of the pleasant winter season, royal palaces illuminated."
-      }
-    ],
-    "categoryB": [
-      {
-        "name": "Diwali (Festival of Lights)",
-        "country": "India",
-        "destination": "Varanasi, Jaipur, Delhi",
-        "timing": "October / November",
-        "whyVisit": "Thousands of earthen lamps glowing on temples and river ghats."
-      }
-    ]
-  },
-  "november": {
-    "month": "November",
-    "categoryA": [
-      {
-        "country": "Japan",
-        "destination": "Kyoto & Nara",
-        "reason": "Fiery red Japanese maple leaves (Momiji) draping Zen rock gardens."
-      },
-      {
-        "country": "Thailand",
-        "destination": "Chiang Mai & Bangkok",
-        "reason": "Pleasant cool breeze, dry weather, and festival season."
-      },
-      {
-        "country": "India",
-        "destination": "Tamil Nadu, Kerala, Agra",
-        "reason": "Sunny daylight, cool evenings, prime monument photography."
-      }
-    ],
-    "categoryB": [
-      {
-        "name": "Loy Krathong & Yi Peng",
-        "country": "Thailand",
-        "destination": "Chiang Mai",
-        "timing": "November Full Moon",
-        "whyVisit": "Thousands of glowing lanterns floating simultaneously into the night sky."
-      },
-      {
-        "name": "Dev Deepawali",
-        "country": "India",
-        "destination": "Varanasi",
-        "timing": "November",
-        "whyVisit": "All 88 stone ghats illuminated by over one million oil lamps."
-      }
-    ]
-  },
-  "december": {
-    "month": "December",
-    "categoryA": [
-      {
-        "country": "Maldives",
-        "destination": "Ari & Baa Atolls",
-        "reason": "Calm turquoise lagoons, zero rainfall, perfect coral visibility."
-      },
-      {
-        "country": "India",
-        "destination": "Goa & Kerala",
-        "reason": "Warm beaches, backwater houseboat cruises, vibrant coastal nightlife."
-      },
-      {
-        "country": "UAE",
-        "destination": "Dubai & Abu Dhabi",
-        "reason": "Ideal desert camping, comfortable 24°C weather, outdoor exploration."
-      }
-    ],
-    "categoryB": [
-      {
-        "name": "Madras Music Season",
-        "country": "India",
-        "destination": "Chennai, Tamil Nadu",
-        "timing": "Mid-December to January",
-        "whyVisit": "World's largest classical Carnatic music and Bharatanatyam dance festival."
-      },
-      {
-        "name": "Shirakawa-go Winter Snowfall",
-        "country": "Japan",
-        "destination": "Gifu",
-        "timing": "Late December",
-        "whyVisit": "Fairytale thatched farmhouses under pure white snow."
-      }
-    ]
-  }
-};
-
-export const gamificationBadges = [];

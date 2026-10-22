@@ -16,6 +16,7 @@ import {
 } from 'lucide-react';
 import { Breadcrumbs } from '../components/Breadcrumbs';
 import { api } from '../services/api';
+import { optimizeImage, getCountryFallback } from '../utils/imageOptimizer';
 
 export const DestinationsPage = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -301,11 +302,11 @@ export const DestinationsPage = () => {
                 {/* Hero Media Container */}
                 <div className="relative h-60 overflow-hidden bg-slate-900">
                   <img
-                    src={dest.heroMedia?.url || 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75'}
+                    src={optimizeImage(dest.heroMedia?.url, { width: 500, quality: 75 })}
                     alt={dest.name}
                     onError={(e) => {
                       e.target.onerror = null;
-                      e.target.src = 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75';
+                      e.target.src = getCountryFallback(dest.countryCode);
                     }}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     loading="lazy"

@@ -6,6 +6,9 @@ import {
   VolumeX, 
   RotateCw, 
   Maximize2, 
+  Minimize2,
+  ZoomIn,
+  ZoomOut,
   Compass, 
   Sparkles, 
   ChevronLeft, 
@@ -23,6 +26,7 @@ import {
 import L from 'leaflet';
 import { usePassport } from '../context/PassportContext';
 import { getStreetViewEmbedUrl, setupFreeTileLayer } from '../config/maps';
+import { optimizeImage } from '../utils/imageOptimizer';
 
 // Waypoint marker for Sanctuary Trail
 const createSanctuaryMarker = (num, name, isSelected = false) => {
@@ -75,6 +79,7 @@ export const VirtualTourViewer = ({ tours = [], activeTourId, onTourChange }) =>
   const animationFrameIdRef = useRef(null);
   const trailMapContainerRef = useRef(null);
   const trailMapInstanceRef = useRef(null);
+  const shellRef = useRef(null);
 
   const { addXp, triggerCelebration } = usePassport();
 
@@ -82,7 +87,31 @@ export const VirtualTourViewer = ({ tours = [], activeTourId, onTourChange }) =>
   const [selectedHotspot, setSelectedHotspot] = useState(null);
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);
   const [isRotating, setIsRotating] = useState(true);
+  const [isFullscreen, setIsFullscreen] = useState(false);
   const [viewMode, setViewMode] = useState('photosphere'); // 'photosphere' | 'streetview' | 'trail'
+
+  const handleZoomIn = () => {
+    if (cameraRef.current) {
+      cameraRef.current.fov = Math.max(30, cameraRef.current.fov - 12);
+      cameraRef.current.updateProjectionMatrix();
+    }
+  };
+
+  const handleZoomOut = () => {
+    if (cameraRef.current) {
+      cameraRef.current.fov = Math.min(100, cameraRef.current.fov + 12);
+      cameraRef.current.updateProjectionMatrix();
+    }
+  };
+
+  const toggleFullscreen = () => {
+    if (!shellRef.current) return;
+    if (!document.fullscreenElement) {
+      shellRef.current.requestFullscreen().then(() => setIsFullscreen(true)).catch(() => {});
+    } else {
+      document.exitFullscreen().then(() => setIsFullscreen(false)).catch(() => {});
+    }
+  };
 
   // Comprehensive virtual tours with exact coordinates & hotspot ways
   const defaultTours = [
@@ -278,6 +307,12 @@ export const VirtualTourViewer = ({ tours = [], activeTourId, onTourChange }) =>
       isUserInteracting = false;
     };
 
+    const onWheel = (event) => {
+      event.preventDefault();
+      camera.fov = Math.max(30, Math.min(100, camera.fov + event.deltaY * 0.05));
+      camera.updateProjectionMatrix();
+    };
+
     const domElement = renderer.domElement;
     domElement.addEventListener('pointerdown', onPointerDown);
     domElement.addEventListener('pointermove', onPointerMove);
@@ -285,6 +320,7 @@ export const VirtualTourViewer = ({ tours = [], activeTourId, onTourChange }) =>
     domElement.addEventListener('touchstart', onPointerDown);
     domElement.addEventListener('touchmove', onPointerMove);
     domElement.addEventListener('touchend', onPointerUp);
+    domElement.addEventListener('wheel', onWheel, { passive: false });
 
     // Animation Loop
     const animate = () => {
@@ -327,6 +363,10 @@ export const VirtualTourViewer = ({ tours = [], activeTourId, onTourChange }) =>
       domElement.removeEventListener('pointerdown', onPointerDown);
       domElement.removeEventListener('pointermove', onPointerMove);
       domElement.removeEventListener('pointerup', onPointerUp);
+      domElement.removeEventListener('touchstart', onPointerDown);
+      domElement.removeEventListener('touchmove', onPointerMove);
+      domElement.removeEventListener('touchend', onPointerUp);
+      domElement.removeEventListener('wheel', onWheel);
       renderer.dispose();
     };
   }, [currentTourIndex, viewMode]);
@@ -482,77 +522,71 @@ export const VirtualTourViewer = ({ tours = [], activeTourId, onTourChange }) =>
         </div>
 
         {/* 360 Viewer Shell */}
-        <div className="relative w-full h-[520px] sm:h-[620px] rounded-3xl overflow-hidden glass-panel border border-white/20 shadow-glass bg-black">
+        <div ref={shellRef} className="relative w-full h-[520px] sm:h-[620px] rounded-3xl overflow-hidden glass-panel border border-white/20 shadow-glass bg-black">
           
           {/* TAB 1: Three.js 360 Sphere */}
-          {viewMode === 'photosphere' && (
-            <div 
-              className="w-full h-full relative bg-[#030c1b] bg-cover bg-center transition-all duration-500"
-              style={{ backgroundImage: `url(${currentTour.panoramaUrl})` }}
-            >
-              <div ref={containerRef} className="w-full h-full cursor-grab active:cursor-grabbing relative z-0" />
+          <div 
+            className={`w-full h-full relative bg-[#030c1b] bg-cover bg-center transition-all duration-500 ${viewMode === 'photosphere' ? 'block' : 'hidden'}`}
+            style={{ backgroundImage: `url(${currentTour.panoramaUrl})` }}
+          >
+            <div ref={containerRef} className="w-full h-full cursor-grab active:cursor-grabbing relative z-0" />
 
-              {/* 360 Drag Interaction Badge */}
-              <div className="absolute top-4 left-4 z-20 px-3.5 py-1.5 rounded-full bg-black/75 backdrop-blur-md border border-white/20 text-xs text-white flex items-center gap-2 pointer-events-none shadow-glass">
-                <RotateCw className={`w-3.5 h-3.5 text-ocean-400 ${isRotating ? 'animate-spin' : ''}`} />
-                <span className="font-medium">360° Interactive View &bull; Drag to explore</span>
-              </div>
-
-              {/* Hotspots */}
-              <div className="absolute inset-0 pointer-events-none z-10">
-                {currentTour.hotspots?.map((hs) => (
-                  <button
-                    key={hs.id}
-                    onClick={() => setSelectedHotspot(hs)}
-                    style={{ left: `${hs.coords.x}%`, top: `${hs.coords.y}%` }}
-                    className="pointer-events-auto absolute p-2 rounded-full bg-ocean-500/80 hover:bg-ocean-400 text-white border-2 border-white shadow-glow-blue transition-all duration-300 hover:scale-125 animate-bounce-slow"
-                    title={hs.title}
-                  >
-                    <Info className="w-4 h-4" />
-                  </button>
-                ))}
-              </div>
+            {/* 360 Drag Interaction Badge */}
+            <div className="absolute top-4 left-4 z-20 px-3.5 py-1.5 rounded-full bg-black/75 backdrop-blur-md border border-white/20 text-xs text-white flex items-center gap-2 pointer-events-none shadow-glass">
+              <RotateCw className={`w-3.5 h-3.5 text-ocean-400 ${isRotating ? 'animate-spin' : ''}`} />
+              <span className="font-medium">360° Interactive View &bull; Drag to explore &bull; Scroll to zoom</span>
             </div>
-          )}
+
+            {/* Hotspots */}
+            <div className="absolute inset-0 pointer-events-none z-10">
+              {currentTour.hotspots?.map((hs) => (
+                <button
+                  key={hs.id}
+                  onClick={() => setSelectedHotspot(hs)}
+                  style={{ left: `${hs.coords.x}%`, top: `${hs.coords.y}%` }}
+                  className="pointer-events-auto absolute p-2 rounded-full bg-ocean-500/80 hover:bg-ocean-400 text-white border-2 border-white shadow-glow-blue transition-all duration-300 hover:scale-125 animate-bounce-slow"
+                  title={hs.title}
+                >
+                  <Info className="w-4 h-4" />
+                </button>
+              ))}
+            </div>
+          </div>
 
           {/* TAB 2: Google Street View 360° */}
-          {viewMode === 'streetview' && (
-            <div className="w-full h-full relative">
-              <iframe
-                title={`Google Street View - ${currentTour.title}`}
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                loading="lazy"
-                allowFullScreen
-                referrerPolicy="no-referrer-when-downgrade"
-                src={getStreetViewEmbedUrl(tourCoords[0], tourCoords[1])}
-              />
+          <div className={`w-full h-full relative ${viewMode === 'streetview' ? 'block' : 'hidden'}`}>
+            <iframe
+              title={`Google Street View - ${currentTour.title}`}
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              loading="lazy"
+              allowFullScreen
+              referrerPolicy="no-referrer-when-downgrade"
+              src={getStreetViewEmbedUrl(tourCoords[0], tourCoords[1])}
+            />
 
-              <div className="absolute bottom-4 right-4 z-20">
-                <a
-                  href={`https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${tourCoords[0]},${tourCoords[1]}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-3.5 py-2 rounded-xl bg-black/80 hover:bg-black text-white text-xs font-semibold border border-white/20 flex items-center gap-1.5 shadow-glass"
-                >
-                  <span>Open in Google Maps</span>
-                  <ExternalLink className="w-3.5 h-3.5" />
-                </a>
-              </div>
+            <div className="absolute bottom-4 right-4 z-20">
+              <a
+                href={`https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${tourCoords[0]},${tourCoords[1]}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-3.5 py-2 rounded-xl bg-black/80 hover:bg-black text-white text-xs font-semibold border border-white/20 flex items-center gap-1.5 shadow-glass"
+              >
+                <span>Open in Google Maps</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
             </div>
-          )}
+          </div>
 
           {/* TAB 3: Connected Sanctuary Trail ("Way not point") */}
-          {viewMode === 'trail' && (
-            <div className="w-full h-full relative">
-              <div ref={trailMapContainerRef} className="w-full h-full z-0" />
-              <div className="absolute top-4 left-4 z-20 p-3 px-4 rounded-2xl glass-panel border border-white/10 text-xs text-white shadow-glass flex items-center gap-2">
-                <Footprints className="w-4 h-4 text-amber-400" />
-                <span>Sanctuary Walkway: 4 Connected Courtyards & Inner Shrines</span>
-              </div>
+          <div className={`w-full h-full relative ${viewMode === 'trail' ? 'block' : 'hidden'}`}>
+            <div ref={trailMapContainerRef} className="w-full h-full z-0" />
+            <div className="absolute top-4 left-4 z-20 p-3 px-4 rounded-2xl glass-panel border border-white/10 text-xs text-white shadow-glass flex items-center gap-2">
+              <Footprints className="w-4 h-4 text-amber-400" />
+              <span>Sanctuary Walkway: 4 Connected Courtyards & Inner Shrines</span>
             </div>
-          )}
+          </div>
 
           {/* Top Bar Overlay */}
           <div className="absolute top-5 left-5 right-5 z-20 flex items-center justify-between pointer-events-none">
@@ -567,33 +601,59 @@ export const VirtualTourViewer = ({ tours = [], activeTourId, onTourChange }) =>
               </h3>
             </div>
 
-            {/* Audio Guide & Rotate Controls */}
-            {viewMode === 'photosphere' && (
-              <div className="pointer-events-auto flex items-center gap-2">
-                <button
-                  onClick={toggleAudioGuide}
-                  className={`p-3 rounded-2xl glass-panel border transition-all flex items-center gap-2 text-xs font-bold ${
-                    isPlayingAudio
-                      ? 'bg-heritage-500/40 border-heritage-400 text-white shadow-glow-gold animate-pulse'
-                      : 'hover:bg-white/20 text-slate-200 border-white/15'
-                  }`}
-                  title="Toggle Audio Guide Narration"
-                >
-                  {isPlayingAudio ? <Volume2 className="w-4 h-4 text-heritage-300" /> : <VolumeX className="w-4 h-4" />}
-                  <span className="hidden sm:inline">{isPlayingAudio ? "Playing Audio Guide..." : "Audio Guide"}</span>
-                </button>
+            {/* Audio Guide, Zoom & Fullscreen Controls */}
+            <div className="pointer-events-auto flex items-center gap-2">
+              {viewMode === 'photosphere' && (
+                <>
+                  <button
+                    onClick={toggleAudioGuide}
+                    className={`p-3 rounded-2xl glass-panel border transition-all flex items-center gap-2 text-xs font-bold ${
+                      isPlayingAudio
+                        ? 'bg-heritage-500/40 border-heritage-400 text-white shadow-glow-gold animate-pulse'
+                        : 'hover:bg-white/20 text-slate-200 border-white/15'
+                    }`}
+                    title="Toggle Audio Guide Narration"
+                  >
+                    {isPlayingAudio ? <Volume2 className="w-4 h-4 text-heritage-300" /> : <VolumeX className="w-4 h-4" />}
+                    <span className="hidden sm:inline">{isPlayingAudio ? "Playing Audio Guide..." : "Audio Guide"}</span>
+                  </button>
 
-                <button
-                  onClick={() => setIsRotating(!isRotating)}
-                  className={`p-3 rounded-2xl glass-panel border text-white transition-colors ${
-                    isRotating ? 'border-ocean-400 text-ocean-300' : 'border-white/15 hover:bg-white/20'
-                  }`}
-                  title="Toggle 360 Auto-Rotation"
-                >
-                  <RotateCw className={`w-4 h-4 ${isRotating ? 'animate-spin-slow' : ''}`} />
-                </button>
-              </div>
-            )}
+                  <button
+                    onClick={handleZoomIn}
+                    className="p-3 rounded-2xl glass-panel border text-white border-white/15 hover:bg-white/20 transition-colors"
+                    title="Zoom In (+)"
+                  >
+                    <ZoomIn className="w-4 h-4" />
+                  </button>
+
+                  <button
+                    onClick={handleZoomOut}
+                    className="p-3 rounded-2xl glass-panel border text-white border-white/15 hover:bg-white/20 transition-colors"
+                    title="Zoom Out (-)"
+                  >
+                    <ZoomOut className="w-4 h-4" />
+                  </button>
+
+                  <button
+                    onClick={() => setIsRotating(!isRotating)}
+                    className={`p-3 rounded-2xl glass-panel border text-white transition-colors ${
+                      isRotating ? 'border-ocean-400 text-ocean-300' : 'border-white/15 hover:bg-white/20'
+                    }`}
+                    title="Toggle 360 Auto-Rotation"
+                  >
+                    <RotateCw className={`w-4 h-4 ${isRotating ? 'animate-spin-slow' : ''}`} />
+                  </button>
+                </>
+              )}
+
+              <button
+                onClick={toggleFullscreen}
+                className="p-3 rounded-2xl glass-panel border text-white border-white/15 hover:bg-white/20 transition-colors"
+                title="Toggle Fullscreen"
+              >
+                {isFullscreen ? <Minimize2 className="w-4 h-4" /> : <Maximize2 className="w-4 h-4" />}
+              </button>
+            </div>
           </div>
 
           {/* Selected Hotspot Modal Card */}
@@ -642,6 +702,49 @@ export const VirtualTourViewer = ({ tours = [], activeTourId, onTourChange }) =>
             </div>
           </div>
 
+        </div>
+
+        {/* Asian Heritage Virtual Tour Interactive Selector Strip */}
+        <div className="mt-6 pt-6 border-t border-white/10">
+          <div className="flex items-center justify-between mb-3">
+            <span className="text-xs font-bold text-slate-400 uppercase tracking-widest flex items-center gap-2">
+              <Sparkles className="w-3.5 h-3.5 text-heritage-400" />
+              <span>Interactive Asian Heritage Tours (Click to Explore):</span>
+            </span>
+            <span className="text-xs text-ocean-400 font-semibold">
+              {activeTours.length} Hand-Curated 360° Landmarks
+            </span>
+          </div>
+
+          <div className="flex items-center gap-3 overflow-x-auto pb-2 scrollbar-thin">
+            {activeTours.map((t, idx) => (
+              <button
+                key={t.id || idx}
+                onClick={() => {
+                  window.speechSynthesis?.cancel();
+                  setIsPlayingAudio(false);
+                  setCurrentTourIndex(idx);
+                  setSelectedHotspot(null);
+                  addXp(30, `Selected virtual tour: ${t.title}`);
+                }}
+                className={`flex-shrink-0 flex items-center gap-3 p-2.5 pr-4 rounded-2xl border transition-all text-left ${
+                  currentTourIndex === idx
+                    ? 'bg-ocean-950/90 border-ocean-400 shadow-glow-blue scale-[1.02]'
+                    : 'bg-white/5 border-white/10 hover:bg-white/10 text-slate-300'
+                }`}
+              >
+                <img
+                  src={optimizeImage(t.panoramaUrl, { width: 120, quality: 75 })}
+                  alt={t.title}
+                  className="w-12 h-12 rounded-xl object-cover border border-white/15 bg-slate-800"
+                />
+                <div className="max-w-[170px]">
+                  <h5 className="font-bold text-xs text-white truncate">{t.title}</h5>
+                  <span className="text-[10px] text-slate-400 truncate block mt-0.5">{t.locationName.split(',')[0]}</span>
+                </div>
+              </button>
+            ))}
+          </div>
         </div>
 
       </div>

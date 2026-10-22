@@ -24,6 +24,7 @@ import {
   setupFreeTileLayer
 } from '../config/maps';
 import { fetchOSRMRoute, fetchWeatherOpenMeteo } from '../services/freeApis';
+import { optimizeImage, getCountryFallback } from '../utils/imageOptimizer';
 
 // Helper to create numbered waypoint markers
 const createNumberedMarker = (num, name, isSelected = false) => {
@@ -229,16 +230,26 @@ export const DestinationTrailMap = ({ destination }) => {
   };
 
   const photosphereContainerRef = useRef(null);
-  const [streetViewMode, setStreetViewMode] = useState('google'); // 'google' | 'photosphere'
+  const [streetViewMode, setStreetViewMode] = useState('photosphere'); // 'photosphere' | 'google'
   const [isPhotosphereRotating, setIsPhotosphereRotating] = useState(true);
 
-  // Three.js 360 Photosphere viewer for waypoint / destination
+  // Auto-resize Leaflet map when tab becomes active to prevent black/grey tile rendering
+  useEffect(() => {
+    if (activeTab === 'trail' && mapInstanceRef.current) {
+      const timer = setTimeout(() => {
+        mapInstanceRef.current?.invalidateSize();
+      }, 50);
+      return () => clearTimeout(timer);
+    }
+  }, [activeTab]);
+
+  // Three.js 360 Photosphere viewer for waypoint / destination with wheel zoom
   useEffect(() => {
     if (activeTab !== 'streetview' || streetViewMode !== 'photosphere' || !photosphereContainerRef.current) return;
 
     const container = photosphereContainerRef.current;
-    const width = container.clientWidth;
-    const height = container.clientHeight;
+    const width = container.clientWidth || 800;
+    const height = container.clientHeight || 500;
 
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
@@ -256,7 +267,7 @@ export const DestinationTrailMap = ({ destination }) => {
 
     const textureLoader = new THREE.TextureLoader();
     textureLoader.setCrossOrigin('anonymous');
-    const photoUrl = currentWp?.photo || destination.heroMedia?.url || 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=2500&q=90';
+    const photoUrl = currentWp?.photo || destination.heroMedia?.url || getCountryFallback(destination.countryCode);
 
     textureLoader.load(
       photoUrl,
@@ -298,6 +309,12 @@ export const DestinationTrailMap = ({ destination }) => {
       isUserInteracting = false;
     };
 
+    const onWheel = (e) => {
+      e.preventDefault();
+      camera.fov = Math.max(30, Math.min(100, camera.fov + e.deltaY * 0.05));
+      camera.updateProjectionMatrix();
+    };
+
     const dom = renderer.domElement;
     dom.addEventListener('pointerdown', onPointerDown);
     dom.addEventListener('pointermove', onPointerMove);
@@ -305,6 +322,7 @@ export const DestinationTrailMap = ({ destination }) => {
     dom.addEventListener('touchstart', onPointerDown);
     dom.addEventListener('touchmove', onPointerMove);
     dom.addEventListener('touchend', onPointerUp);
+    dom.addEventListener('wheel', onWheel, { passive: false });
 
     const animate = () => {
       reqId = requestAnimationFrame(animate);
@@ -341,9 +359,10 @@ export const DestinationTrailMap = ({ destination }) => {
       dom.removeEventListener('touchstart', onPointerDown);
       dom.removeEventListener('touchmove', onPointerMove);
       dom.removeEventListener('touchend', onPointerUp);
+      dom.removeEventListener('wheel', onWheel);
       renderer.dispose();
     };
-  }, [activeTab, streetViewMode, currentWp, destination.heroMedia, isPhotosphereRotating]);
+  }, [activeTab, streetViewMode, currentWp, destination.heroMedia, isPhotosphereRotating, destination.countryCode]);
 
   return (
     <div className="glass-panel p-6 sm:p-8 rounded-3xl border border-white/10 space-y-6">
@@ -406,186 +425,185 @@ export const DestinationTrailMap = ({ destination }) => {
       {/* Main Display Stage */}
       <div className="relative w-full h-[450px] sm:h-[520px] rounded-2xl overflow-hidden border border-white/10 bg-slate-950 shadow-inner">
         
-        {/* TAB 1: Leaflet Custom Trail Way Map */}
-        {activeTab === 'trail' && (
-          <div className="w-full h-full relative">
-            <div ref={mapContainerRef} className="w-full h-full z-0" />
-            
-            {/* Trail Stats Overlay Badge */}
-            <div className="absolute top-4 left-4 z-10 p-3 px-4 rounded-2xl glass-panel border border-white/10 text-xs text-slate-200 flex items-center gap-3 shadow-glass">
-              <div className="flex items-center gap-1.5">
-                <Footprints className="w-4 h-4 text-emerald-400" />
-                <span>Trail Distance: <strong className="text-white">~3.8 km</strong></span>
-              </div>
-              <span className="text-slate-600">•</span>
-              <div className="flex items-center gap-1.5">
-                <Clock className="w-4 h-4 text-ocean-400" />
-                <span>Est. Time: <strong className="text-white">2.5 hours</strong></span>
-              </div>
-              <span className="text-slate-600">•</span>
-              <span className="px-2 py-0.5 rounded bg-emerald-950/80 text-emerald-300 font-bold border border-emerald-400/30">
-                {waypoints.length} Connected Stops
-              </span>
+        {/* TAB 1: Leaflet Custom Trail Way Map (Kept persistent in DOM to eliminate blank/black tile reloads) */}
+        <div className={`w-full h-full relative ${activeTab === 'trail' ? 'block' : 'hidden'}`}>
+          <div ref={mapContainerRef} className="w-full h-full z-0" />
+          
+          {/* Trail Stats Overlay Badge */}
+          <div className="absolute top-4 left-4 z-10 p-3 px-4 rounded-2xl glass-panel border border-white/10 text-xs text-slate-200 flex items-center gap-3 shadow-glass">
+            <div className="flex items-center gap-1.5">
+              <Footprints className="w-4 h-4 text-emerald-400" />
+              <span>Trail Distance: <strong className="text-white">~3.8 km</strong></span>
             </div>
+            <span className="text-slate-600">•</span>
+            <div className="flex items-center gap-1.5">
+              <Clock className="w-4 h-4 text-ocean-400" />
+              <span>Est. Time: <strong className="text-white">2.5 hours</strong></span>
+            </div>
+            <span className="text-slate-600">•</span>
+            <span className="px-2 py-0.5 rounded bg-emerald-950/80 text-emerald-300 font-bold border border-emerald-400/30">
+              {waypoints.length} Connected Stops
+            </span>
+          </div>
 
-            {/* Current Active Waypoint Card Floating Overlay */}
-            {currentWp && (
-              <div className="absolute bottom-4 left-4 right-4 sm:right-auto sm:max-w-md z-10 p-4 rounded-2xl glass-panel border border-emerald-500/40 bg-black/85 shadow-glow-green animate-in fade-in duration-200">
-                <div className="flex items-start gap-3">
-                  <img
-                    src={currentWp.photo}
-                    alt={currentWp.name}
-                    className="w-16 h-16 rounded-xl object-cover border border-white/15 flex-shrink-0"
-                  />
-                  <div className="flex-1 min-w-0">
-                    <div className="flex items-center justify-between gap-2 mb-1">
-                      <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-emerald-950 text-emerald-300 border border-emerald-400/30">
-                        Stop #{selectedWaypointIndex + 1} • {currentWp.category}
-                      </span>
-                      <span className="text-[10px] text-slate-400 flex items-center gap-1">
-                        <Clock className="w-3 h-3" />
-                        {currentWp.timeToSpend}
-                      </span>
-                    </div>
-                    <h4 className="font-bold text-sm text-white truncate">
-                      {currentWp.name}
-                    </h4>
-                    <p className="text-xs text-slate-300 line-clamp-2 mt-0.5">
-                      {currentWp.description}
-                    </p>
-                    <div className="mt-2 flex items-center justify-between">
-                      <span className="text-[10px] text-emerald-400 font-medium">
-                        💡 {currentWp.tips}
-                      </span>
-                      <button
-                        onClick={() => setActiveTab('streetview')}
-                        className="px-2.5 py-1 rounded-lg bg-heritage-500 hover:bg-heritage-400 text-slate-950 font-bold text-[10px] flex items-center gap-1 transition-colors"
-                      >
-                        <Eye className="w-3 h-3" />
-                        <span>360° Street View</span>
-                      </button>
-                    </div>
+          {/* Current Active Waypoint Card Floating Overlay */}
+          {currentWp && (
+            <div className="absolute bottom-4 left-4 right-4 sm:right-auto sm:max-w-md z-10 p-4 rounded-2xl glass-panel border border-emerald-500/40 bg-black/85 shadow-glow-green animate-in fade-in duration-200">
+              <div className="flex items-start gap-3">
+                <img
+                  src={optimizeImage(currentWp.photo || destination.heroMedia?.url, { width: 160, quality: 75 })}
+                  alt={currentWp.name}
+                  loading="lazy"
+                  onError={(e) => {
+                    e.target.onerror = null;
+                    e.target.src = getCountryFallback(destination.countryCode);
+                  }}
+                  className="w-16 h-16 rounded-xl object-cover border border-white/15 flex-shrink-0 bg-slate-800"
+                />
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center justify-between gap-2 mb-1">
+                    <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-emerald-950 text-emerald-300 border border-emerald-400/30">
+                      Stop #{selectedWaypointIndex + 1} • {currentWp.category}
+                    </span>
+                    <span className="text-[10px] text-slate-400 flex items-center gap-1">
+                      <Clock className="w-3 h-3" />
+                      {currentWp.timeToSpend}
+                    </span>
+                  </div>
+                  <h4 className="font-bold text-sm text-white truncate">
+                    {currentWp.name}
+                  </h4>
+                  <p className="text-xs text-slate-300 line-clamp-2 mt-0.5">
+                    {currentWp.description}
+                  </p>
+                  <div className="mt-2 flex items-center justify-between">
+                    <span className="text-[10px] text-emerald-400 font-medium">
+                      💡 {currentWp.tips}
+                    </span>
+                    <button
+                      onClick={() => setActiveTab('streetview')}
+                      className="px-2.5 py-1 rounded-lg bg-heritage-500 hover:bg-heritage-400 text-slate-950 font-bold text-[10px] flex items-center gap-1 transition-colors"
+                    >
+                      <Eye className="w-3 h-3" />
+                      <span>360° Street View</span>
+                    </button>
                   </div>
                 </div>
               </div>
-            )}
-          </div>
-        )}
+            </div>
+          )}
+        </div>
 
         {/* TAB 2: Street View 360° Panorama with Zero-Key Google + 360 Photosphere Switcher */}
-        {activeTab === 'streetview' && (
-          <div className="w-full h-full relative">
-            {streetViewMode === 'google' ? (
-              <iframe
-                title={`Google Street View - ${currentWp.name}`}
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                loading="lazy"
-                allowFullScreen
-                referrerPolicy="no-referrer-when-downgrade"
-                src={getStreetViewEmbedUrl(currentWp.coordinates[0], currentWp.coordinates[1])}
-              />
-            ) : (
-              <div className="w-full h-full relative bg-[#030c1b]">
-                <div ref={photosphereContainerRef} className="w-full h-full cursor-grab active:cursor-grabbing relative z-0" />
-                <div className="absolute top-16 left-4 z-20 px-3.5 py-1.5 rounded-full bg-black/75 backdrop-blur-md border border-white/20 text-xs text-white flex items-center gap-2 pointer-events-none">
-                  <RotateCw className={`w-3.5 h-3.5 text-ocean-400 ${isPhotosphereRotating ? 'animate-spin' : ''}`} />
-                  <span>360° Photosphere &bull; Drag mouse/touch to look around</span>
-                </div>
-              </div>
-            )}
-
-            {/* Street View Control Badge */}
-            <div className="absolute top-4 left-4 z-10 p-3 px-4 rounded-2xl glass-panel border border-white/10 text-xs text-white shadow-glass flex items-center gap-3">
-              <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
-              <div>
-                <strong className="block text-white text-xs">
-                  {streetViewMode === 'google' ? 'Google 360° Street View' : 'Interactive 360° Photosphere'}
-                </strong>
-                <span className="text-[10px] text-slate-300">
-                  Viewing: {currentWp.name} ({currentWp.coordinates[0].toFixed(4)}, {currentWp.coordinates[1].toFixed(4)})
-                </span>
-              </div>
-            </div>
-
-            {/* Dual Mode Switcher Pill */}
-            <div className="absolute top-4 right-4 z-20 flex items-center gap-1.5 p-1 rounded-2xl bg-black/80 backdrop-blur-md border border-white/20 text-xs">
-              <button
-                onClick={() => setStreetViewMode('google')}
-                className={`px-3 py-1.5 rounded-xl font-bold flex items-center gap-1.5 transition-all ${
-                  streetViewMode === 'google'
-                    ? 'bg-heritage-500 text-slate-950 shadow-glow-gold'
-                    : 'text-slate-300 hover:text-white'
-                }`}
-              >
-                <Eye className="w-3.5 h-3.5" />
-                <span>Google 360°</span>
-              </button>
-              <button
-                onClick={() => setStreetViewMode('photosphere')}
-                className={`px-3 py-1.5 rounded-xl font-bold flex items-center gap-1.5 transition-all ${
-                  streetViewMode === 'photosphere'
-                    ? 'bg-ocean-600 text-white shadow-glow-blue'
-                    : 'text-slate-300 hover:text-white'
-                }`}
-              >
-                <Sparkles className="w-3.5 h-3.5" />
-                <span>Photosphere</span>
-              </button>
-            </div>
-
-            <div className="absolute bottom-4 right-4 z-10">
-              <a
-                href={`https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${currentWp.coordinates[0]},${currentWp.coordinates[1]}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-3.5 py-2 rounded-xl bg-black/80 hover:bg-black text-white text-xs font-semibold border border-white/20 flex items-center gap-1.5 shadow-glass"
-              >
-                <span>Full Screen in Google Maps</span>
-                <ExternalLink className="w-3.5 h-3.5" />
-              </a>
-            </div>
-          </div>
-        )}
-
-        {/* TAB 3: Google Maps Walking Directions Route ("Way") */}
-        {activeTab === 'google-route' && (
-          <div className="w-full h-full relative">
+        <div className={`w-full h-full relative ${activeTab === 'streetview' ? 'block' : 'hidden'}`}>
+          {streetViewMode === 'google' ? (
             <iframe
-              title={`Google Directions Route - ${destination.name}`}
+              title={`Google Street View - ${currentWp.name}`}
               width="100%"
               height="100%"
               style={{ border: 0 }}
               loading="lazy"
               allowFullScreen
               referrerPolicy="no-referrer-when-downgrade"
-              src={getGoogleRouteEmbedUrl(
-                waypoints[0].coordinates,
-                waypoints[waypoints.length - 1].coordinates
-              )}
+              src={getStreetViewEmbedUrl(currentWp.coordinates[0], currentWp.coordinates[1])}
             />
+          ) : (
+            <div className="w-full h-full relative bg-[#030c1b]">
+              <div ref={photosphereContainerRef} className="w-full h-full cursor-grab active:cursor-grabbing relative z-0" />
+              <div className="absolute top-16 left-4 z-20 px-3.5 py-1.5 rounded-full bg-black/75 backdrop-blur-md border border-white/20 text-xs text-white flex items-center gap-2 pointer-events-none">
+                <RotateCw className={`w-3.5 h-3.5 text-ocean-400 ${isPhotosphereRotating ? 'animate-spin' : ''}`} />
+                <span>360° Photosphere &bull; Drag to look around &bull; Scroll wheel to zoom</span>
+              </div>
+            </div>
+          )}
 
-            <div className="absolute top-4 left-4 z-10 p-3 px-4 rounded-2xl glass-panel border border-white/10 text-xs text-white shadow-glass">
-              <strong className="block text-white text-xs">Google Maps Walking Route Navigation</strong>
+          {/* Street View Control Badge */}
+          <div className="absolute top-4 left-4 z-10 p-3 px-4 rounded-2xl glass-panel border border-white/10 text-xs text-white shadow-glass flex items-center gap-3">
+            <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
+            <div>
+              <strong className="block text-white text-xs">
+                {streetViewMode === 'google' ? 'Google 360° Street View' : 'Interactive 360° Photosphere'}
+              </strong>
               <span className="text-[10px] text-slate-300">
-                Connected route linking {waypoints.length} stops from start to finish
+                Viewing: {currentWp.name} ({currentWp.coordinates[0].toFixed(4)}, {currentWp.coordinates[1].toFixed(4)})
               </span>
             </div>
-
-            <div className="absolute bottom-4 right-4 z-10">
-              <a
-                href={`https://www.google.com/maps/dir/?api=1&origin=${waypoints[0].coordinates[0]},${waypoints[0].coordinates[1]}&destination=${waypoints[waypoints.length - 1].coordinates[0]},${waypoints[waypoints.length - 1].coordinates[1]}&travelmode=walking`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-3.5 py-2 rounded-xl bg-black/80 hover:bg-black text-white text-xs font-semibold border border-white/20 flex items-center gap-1.5 shadow-glass"
-              >
-                <span>Open in Google Maps Navigation</span>
-                <ExternalLink className="w-3.5 h-3.5" />
-              </a>
-            </div>
           </div>
-        )}
+
+          {/* Dual Mode Switcher Pill */}
+          <div className="absolute top-4 right-4 z-20 flex items-center gap-1.5 p-1 rounded-2xl bg-black/80 backdrop-blur-md border border-white/20 text-xs">
+            <button
+              onClick={() => setStreetViewMode('photosphere')}
+              className={`px-3 py-1.5 rounded-xl font-bold flex items-center gap-1.5 transition-all ${
+                streetViewMode === 'photosphere'
+                  ? 'bg-ocean-600 text-white shadow-glow-blue'
+                  : 'text-slate-300 hover:text-white'
+              }`}
+            >
+              <Sparkles className="w-3.5 h-3.5" />
+              <span>360° Photosphere</span>
+            </button>
+            <button
+              onClick={() => setStreetViewMode('google')}
+              className={`px-3 py-1.5 rounded-xl font-bold flex items-center gap-1.5 transition-all ${
+                streetViewMode === 'google'
+                  ? 'bg-heritage-500 text-slate-950 shadow-glow-gold'
+                  : 'text-slate-300 hover:text-white'
+              }`}
+            >
+              <Eye className="w-3.5 h-3.5" />
+              <span>Google 360°</span>
+            </button>
+          </div>
+
+          <div className="absolute bottom-4 right-4 z-10">
+            <a
+              href={`https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${currentWp.coordinates[0]},${currentWp.coordinates[1]}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-3.5 py-2 rounded-xl bg-black/80 hover:bg-black text-white text-xs font-semibold border border-white/20 flex items-center gap-1.5 shadow-glass"
+            >
+              <span>Full Screen in Google Maps</span>
+              <ExternalLink className="w-3.5 h-3.5" />
+            </a>
+          </div>
+        </div>
+
+        {/* TAB 3: Google Maps Walking Directions Route ("Way") */}
+        <div className={`w-full h-full relative ${activeTab === 'google-route' ? 'block' : 'hidden'}`}>
+          <iframe
+            title={`Google Directions Route - ${destination.name}`}
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            loading="lazy"
+            allowFullScreen
+            referrerPolicy="no-referrer-when-downgrade"
+            src={getGoogleRouteEmbedUrl(
+              waypoints[0].coordinates,
+              waypoints[waypoints.length - 1].coordinates
+            )}
+          />
+
+          <div className="absolute top-4 left-4 z-10 p-3 px-4 rounded-2xl glass-panel border border-white/10 text-xs text-white shadow-glass">
+            <strong className="block text-white text-xs">Google Maps Walking Route Navigation</strong>
+            <span className="text-[10px] text-slate-300">
+              Connected route linking {waypoints.length} stops from start to finish
+            </span>
+          </div>
+
+          <div className="absolute bottom-4 right-4 z-10">
+            <a
+              href={`https://www.google.com/maps/dir/?api=1&origin=${waypoints[0].coordinates[0]},${waypoints[0].coordinates[1]}&destination=${waypoints[waypoints.length - 1].coordinates[0]},${waypoints[waypoints.length - 1].coordinates[1]}&travelmode=walking`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-3.5 py-2 rounded-xl bg-black/80 hover:bg-black text-white text-xs font-semibold border border-white/20 flex items-center gap-1.5 shadow-glass"
+            >
+              <span>Open in Google Maps Navigation</span>
+              <ExternalLink className="w-3.5 h-3.5" />
+            </a>
+          </div>
+        </div>
 
       </div>
 
@@ -649,9 +667,14 @@ export const DestinationTrailMap = ({ destination }) => {
               className="p-5 rounded-2xl bg-white/5 border border-white/10 hover:border-white/20 transition-all flex flex-col sm:flex-row gap-4 group"
             >
               <img
-                src={wp.photo}
+                src={optimizeImage(wp.photo || destination.heroMedia?.url, { width: 320, quality: 75 })}
                 alt={wp.name}
-                className="w-full sm:w-32 h-32 rounded-xl object-cover border border-white/10 flex-shrink-0 group-hover:scale-105 transition-transform duration-300"
+                loading="lazy"
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src = getCountryFallback(destination.countryCode);
+                }}
+                className="w-full sm:w-32 h-32 rounded-xl object-cover border border-white/10 flex-shrink-0 group-hover:scale-105 transition-transform duration-300 bg-slate-800"
               />
               <div className="flex-1 flex flex-col justify-between">
                 <div>

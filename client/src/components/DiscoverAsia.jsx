@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import { api } from '../services/api';
 import { usePassport } from '../context/PassportContext';
+import { optimizeImage, getCountryFallback } from '../utils/imageOptimizer';
 
 export const DiscoverAsia = () => {
   const [countries, setCountries] = useState([]);
@@ -124,11 +125,11 @@ export const DiscoverAsia = () => {
                   {/* Media Thumbnail */}
                   <div className="relative h-56 overflow-hidden bg-slate-900">
                     <img
-                      src={country.heroMedia?.poster || country.heroMedia?.url || 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75'}
+                      src={optimizeImage(country.heroMedia?.poster || country.heroMedia?.url, { width: 500, quality: 75 })}
                       alt={country.name}
                       onError={(e) => {
                         e.target.onerror = null;
-                        e.target.src = 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75';
+                        e.target.src = getCountryFallback(country.code);
                       }}
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 filter brightness-[0.9]"
                       loading="lazy"

@@ -32,6 +32,7 @@ import { usePassport } from '../context/PassportContext';
 import { Breadcrumbs } from '../components/Breadcrumbs';
 import { DestinationTrailMap } from '../components/DestinationTrailMap';
 import { fetchWeatherOpenMeteo } from '../services/freeApis';
+import { optimizeImage, getCountryFallback } from '../utils/imageOptimizer';
 
 export const DestinationDetailPage = () => {
   const { id } = useParams();
@@ -132,9 +133,13 @@ export const DestinationDetailPage = () => {
           </video>
         ) : (
           <img
-            src={destination.heroMedia?.url || destination.gallery?.[0]}
+            src={optimizeImage(destination.heroMedia?.url || destination.gallery?.[0], { width: 1400, quality: 80 })}
             alt={destination.name}
-            className="absolute inset-0 w-full h-full object-cover filter brightness-[0.7]"
+            onError={(e) => {
+              e.target.onerror = null;
+              e.target.src = getCountryFallback(destination.countryCode);
+            }}
+            className="absolute inset-0 w-full h-full object-cover filter brightness-[0.7] bg-slate-950"
           />
         )}
 
@@ -388,11 +393,11 @@ export const DestinationDetailPage = () => {
                 >
                   <div className="relative h-48 bg-slate-900 overflow-hidden">
                     <img 
-                      src={place.photo || destination.heroMedia?.url} 
+                      src={optimizeImage(place.photo || destination.heroMedia?.url, { width: 500, quality: 75 })} 
                       alt={place.name}
                       onError={(e) => {
                         e.target.onerror = null;
-                        e.target.src = 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=75';
+                        e.target.src = getCountryFallback(destination.countryCode);
                       }}
                       className="w-full h-full object-cover"
                       loading="lazy"

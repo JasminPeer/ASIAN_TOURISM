@@ -19,6 +19,7 @@ import {
 import { api } from '../services/api';
 import { usePassport } from '../context/PassportContext';
 import { Breadcrumbs } from '../components/Breadcrumbs';
+import { optimizeImage, getCountryFallback } from '../utils/imageOptimizer';
 
 export const CountryDetailPage = () => {
   const { id } = useParams();
@@ -263,10 +264,15 @@ export const CountryDetailPage = () => {
                   key={dest.id}
                   className="group rounded-3xl overflow-hidden glass-panel border border-white/10 hover:border-ocean-400/40 transition-all duration-300 flex flex-col justify-between"
                 >
-                  <div className="relative h-52 overflow-hidden">
+                  <div className="relative h-52 overflow-hidden bg-slate-900">
                     <img
-                      src={dest.heroMedia?.url || dest.gallery?.[0]}
+                      src={optimizeImage(dest.heroMedia?.url || dest.gallery?.[0], { width: 500, quality: 75 })}
                       alt={dest.name}
+                      loading="lazy"
+                      onError={(e) => {
+                        e.target.onerror = null;
+                        e.target.src = getCountryFallback(country?.code || country?.countryCode);
+                      }}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                     <div className="absolute top-3 left-3 px-2.5 py-1 rounded-full text-[10px] font-bold bg-black/60 backdrop-blur-md text-emerald-300 border border-emerald-400/30">
